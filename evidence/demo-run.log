@@ -1,0 +1,10 @@
+{
+  "status": "OFFLINE_DEMO_PASSED",
+  "output": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo",
+  "checkpoint_commits": [
+    "e4b112a7ef62934594079b139ea19d86c3f31d8f",
+    "3d809e8deeea732bdeaf1a69f0555900bb5289d0"
+  ],
+  "github_transfer": false,
+  "source_unchanged_by_tool": true
+}

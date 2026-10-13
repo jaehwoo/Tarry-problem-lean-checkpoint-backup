@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "max_file_bytes": 99614720,
+  "inputs": [
+    {
+      "name": "project",
+      "role": "project",
+      "path": "/ABSOLUTE/PATH/TO/PaperILean",
+      "exclude": [],
+      "required": ["lean-toolchain", "lake-manifest.json"]
+    },
+    {
+      "name": "authoritative-paper.tex",
+      "role": "manuscript",
+      "path": "/ABSOLUTE/PATH/TO/authoritative-paper.tex",
+      "expected_sha256": null
+    },
+    {
+      "name": "correspondence",
+      "role": "correspondence",
+      "path": "/ABSOLUTE/PATH/TO/correspondence-reports",
+      "required": ["correspondence.json", "main-dependency-chain.json"]
+    },
+    {
+      "name": "verification",
+      "role": "verification",
+      "path": "/ABSOLUTE/PATH/TO/verification-logs",
+      "required": ["build.log", "axioms.log"]
+    },
+    {
+      "name": "MasterChecklist.json",
+      "role": "checklist",
+      "path": "/ABSOLUTE/PATH/TO/MasterChecklist.json"
+    }
+  ]
+}

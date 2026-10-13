@@ -1,0 +1,85 @@
+{
+  "actual_github_transfer": false,
+  "first_checkpoint": {
+    "checkpoint": 1,
+    "commit": "e4b112a7ef62934594079b139ea19d86c3f31d8f",
+    "files": 15,
+    "manifest_sha256": "4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41",
+    "receipt": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-08f5a7380ef9475f830f608ca6c01433.json",
+    "remote_verified": false,
+    "status": "LOCAL_VERIFIED"
+  },
+  "first_restore": {
+    "checkpoint": 1,
+    "commit": "e4b112a7ef62934594079b139ea19d86c3f31d8f",
+    "destination": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-v1",
+    "files": 15,
+    "manifest_sha256": "4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41",
+    "receipt": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-38c572db10464323a26940f1bedb67e6.json",
+    "status": "RESTORE_VERIFIED"
+  },
+  "git_version": "git version 2.51.1",
+  "lean_compilation_executed": false,
+  "local_transport_recovery": {
+    "checkpoint": 2,
+    "commit": "3d809e8deeea732bdeaf1a69f0555900bb5289d0",
+    "remote_verified": true,
+    "status": "REMOTE_RECOVERY_VERIFIED",
+    "vault": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/recovered-vault.git"
+  },
+  "local_transport_simulation": {
+    "commit": "3d809e8deeea732bdeaf1a69f0555900bb5289d0",
+    "receipt": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141658-c7d1ac05756a4da39daff1f4667aee76.json",
+    "remote": {
+      "after_privacy": {
+        "github_repository": "synthetic/private-demo",
+        "private": true,
+        "repository_id": 1
+      },
+      "before_privacy": {
+        "github_repository": "synthetic/private-demo",
+        "private": true,
+        "repository_id": 1
+      },
+      "commit": "3d809e8deeea732bdeaf1a69f0555900bb5289d0",
+      "fresh_restore_verified": true,
+      "github_repository": "synthetic/private-demo",
+      "repository_id": 1,
+      "verified_at": "2026-10-13T14:16:58.148505+00:00"
+    },
+    "remote_verified": true,
+    "status": "REMOTE_VERIFIED"
+  },
+  "original_fixture_unchanged_by_tool": true,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "remote_fixture_restore": {
+    "checkpoint": 1,
+    "commit": "e4b112a7ef62934594079b139ea19d86c3f31d8f",
+    "destination": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-from-simulated-remote",
+    "files": 15,
+    "manifest_sha256": "4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41",
+    "receipt": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/recovered-vault.git/receipts/20261013T141658-25657f8609564ce7aad0b5557b8deaba.json",
+    "status": "RESTORE_VERIFIED"
+  },
+  "run_at": "2026-10-13T14:16:58.447013+00:00",
+  "second_checkpoint": {
+    "checkpoint": 2,
+    "commit": "3d809e8deeea732bdeaf1a69f0555900bb5289d0",
+    "files": 15,
+    "manifest_sha256": "ce6ca678e2352671818225bf659560cd557f17784a91bc5c239d83309f712ef9",
+    "receipt": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-a6d2ffea9e1b4f1dbd6f2d1901c77174.json",
+    "remote_verified": false,
+    "status": "LOCAL_VERIFIED"
+  },
+  "second_restore": {
+    "checkpoint": 2,
+    "commit": "3d809e8deeea732bdeaf1a69f0555900bb5289d0",
+    "destination": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-v2",
+    "files": 15,
+    "manifest_sha256": "ce6ca678e2352671818225bf659560cd557f17784a91bc5c239d83309f712ef9",
+    "receipt": "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-7fee2c9193a04affb8f1440a5b7a1bd4.json",
+    "status": "RESTORE_VERIFIED"
+  },
+  "source_tool_sha256": "dbfa5a7016f3ef0fe60db477fc0532d405f742514f271ba2ec7e6aaa2f4089e7",
+  "synthetic_only": true
+}

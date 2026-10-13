@@ -1,0 +1,116 @@
+[
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "init",
+      "--config",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/config.json",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"remote\": null,\n  \"status\": \"INITIALIZED_NO_CHECKPOINT\",\n  \"vault\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git\"\n}\n"
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "checkpoint",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git",
+      "--id",
+      "1"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"checkpoint\": 1,\n  \"commit\": \"e4b112a7ef62934594079b139ea19d86c3f31d8f\",\n  \"files\": 15,\n  \"manifest_sha256\": \"4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41\",\n  \"receipt\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-08f5a7380ef9475f830f608ca6c01433.json\",\n  \"remote_verified\": false,\n  \"status\": \"LOCAL_VERIFIED\"\n}\n"
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "checkpoint",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git",
+      "--id",
+      "2"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"checkpoint\": 2,\n  \"commit\": \"3d809e8deeea732bdeaf1a69f0555900bb5289d0\",\n  \"files\": 15,\n  \"manifest_sha256\": \"ce6ca678e2352671818225bf659560cd557f17784a91bc5c239d83309f712ef9\",\n  \"receipt\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-a6d2ffea9e1b4f1dbd6f2d1901c77174.json\",\n  \"remote_verified\": false,\n  \"status\": \"LOCAL_VERIFIED\"\n}\n"
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "restore",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git",
+      "--id",
+      "1",
+      "--destination",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-v1"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"checkpoint\": 1,\n  \"commit\": \"e4b112a7ef62934594079b139ea19d86c3f31d8f\",\n  \"destination\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-v1\",\n  \"files\": 15,\n  \"manifest_sha256\": \"4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41\",\n  \"receipt\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-38c572db10464323a26940f1bedb67e6.json\",\n  \"status\": \"RESTORE_VERIFIED\"\n}\n"
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "restore",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git",
+      "--id",
+      "2",
+      "--destination",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-v2"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"checkpoint\": 2,\n  \"commit\": \"3d809e8deeea732bdeaf1a69f0555900bb5289d0\",\n  \"destination\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-v2\",\n  \"files\": 15,\n  \"manifest_sha256\": \"ce6ca678e2352671818225bf659560cd557f17784a91bc5c239d83309f712ef9\",\n  \"receipt\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-7fee2c9193a04affb8f1440a5b7a1bd4.json\",\n  \"status\": \"RESTORE_VERIFIED\"\n}\n"
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "verify",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"checkpoints\": [\n    {\n      \"commit\": \"e4b112a7ef62934594079b139ea19d86c3f31d8f\",\n      \"id\": 1,\n      \"manifest_sha256\": \"4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41\"\n    },\n    {\n      \"commit\": \"3d809e8deeea732bdeaf1a69f0555900bb5289d0\",\n      \"id\": 2,\n      \"manifest_sha256\": \"ce6ca678e2352671818225bf659560cd557f17784a91bc5c239d83309f712ef9\"\n    }\n  ],\n  \"missing_before_first\": null,\n  \"receipt\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-4d26536a859c47ecb6e73633f12291a4.json\",\n  \"remote_verified\": false,\n  \"sequence_gaps\": [],\n  \"status\": \"LOCAL_VERIFIED\",\n  \"tip\": \"3d809e8deeea732bdeaf1a69f0555900bb5289d0\"\n}\n"
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "list",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"checkpoints\": [\n    {\n      \"commit\": \"e4b112a7ef62934594079b139ea19d86c3f31d8f\",\n      \"id\": 1,\n      \"manifest_sha256\": \"4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41\"\n    },\n    {\n      \"commit\": \"3d809e8deeea732bdeaf1a69f0555900bb5289d0\",\n      \"id\": 2,\n      \"manifest_sha256\": \"ce6ca678e2352671818225bf659560cd557f17784a91bc5c239d83309f712ef9\"\n    }\n  ],\n  \"missing_before_first\": null,\n  \"receipt\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/vault.git/receipts/20261013T141657-9abb98970e6847039f3da51c7e55545d.json\",\n  \"remote_verified\": false,\n  \"sequence_gaps\": [],\n  \"status\": \"LOCAL_VERIFIED\",\n  \"tip\": \"3d809e8deeea732bdeaf1a69f0555900bb5289d0\"\n}\n"
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/lean_backup.py",
+      "restore",
+      "--vault",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/recovered-vault.git",
+      "--id",
+      "1",
+      "--destination",
+      "/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-from-simulated-remote"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"checkpoint\": 1,\n  \"commit\": \"e4b112a7ef62934594079b139ea19d86c3f31d8f\",\n  \"destination\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/restored-from-simulated-remote\",\n  \"files\": 15,\n  \"manifest_sha256\": \"4683c130d6ce5d7334215254dd7e7c11a2ee3b8e2a2af1d240e8be9834b33d41\",\n  \"receipt\": \"/workspace/scratch/28e01c8372d3/lean-checkpoint-backup/evidence/demo/recovered-vault.git/receipts/20261013T141658-25657f8609564ce7aad0b5557b8deaba.json\",\n  \"status\": \"RESTORE_VERIFIED\"\n}\n"
+  }
+]

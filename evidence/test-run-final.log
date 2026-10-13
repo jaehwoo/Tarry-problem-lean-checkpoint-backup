@@ -1,0 +1,38 @@
+test_active_source_change_aborts_before_refs (test_backup.BackupTests.test_active_source_change_aborts_before_refs) ... ok
+test_atomic_ref_conflict_does_not_advance_branch (test_backup.BackupTests.test_atomic_ref_conflict_does_not_advance_branch) ... ok
+test_catalog_corruption_is_detected (test_backup.BackupTests.test_catalog_corruption_is_detected) ... ok
+test_deleted_all_refs_and_rollback_cannot_erase_confirmed_history (test_backup.BackupTests.test_deleted_all_refs_and_rollback_cannot_erase_confirmed_history) ... ok
+test_destination_overlap_and_existing_restore_are_rejected (test_backup.BackupTests.test_destination_overlap_and_existing_restore_are_rejected) ... ok
+test_duplicate_id_cannot_overwrite (test_backup.BackupTests.test_duplicate_id_cannot_overwrite) ... ok
+test_empty_evidence_is_rejected (test_backup.BackupTests.test_empty_evidence_is_rejected) ... ok
+test_empty_vault_is_not_reported_as_a_checkpoint (test_backup.BackupTests.test_empty_vault_is_not_reported_as_a_checkpoint) ... ok
+test_explicit_exclusion_is_recorded (test_backup.BackupTests.test_explicit_exclusion_is_recorded) ... ok
+test_first_snapshot_pin_mismatch_is_rejected (test_backup.BackupTests.test_first_snapshot_pin_mismatch_is_rejected) ... ok
+test_global_git_rewrite_filters_and_gitattributes_do_not_change_bytes (test_backup.BackupTests.test_global_git_rewrite_filters_and_gitattributes_do_not_change_bytes) ... ok
+test_lfs_pointer_and_size_limit_fail_closed (test_backup.BackupTests.test_lfs_pointer_and_size_limit_fail_closed) ... ok
+test_local_url_redirect_configuration_is_rejected (test_backup.BackupTests.test_local_url_redirect_configuration_is_rejected) ... ok
+test_lock_conflict_does_not_publish (test_backup.BackupTests.test_lock_conflict_does_not_publish) ... ok
+test_manuscript_hash_and_immutable_baseline (test_backup.BackupTests.test_manuscript_hash_and_immutable_baseline) ... ok
+test_manuscript_immutable_even_without_initial_hash (test_backup.BackupTests.test_manuscript_immutable_even_without_initial_hash) ... ok
+test_missing_and_corrupted_git_object_fail (test_backup.BackupTests.test_missing_and_corrupted_git_object_fail) ... ok
+test_missing_axioms_log_and_pinned_file_block_backup (test_backup.BackupTests.test_missing_axioms_log_and_pinned_file_block_backup) ... ok
+test_missing_checkpoint_ref_is_detected (test_backup.BackupTests.test_missing_checkpoint_ref_is_detected) ... ok
+test_missing_evidence_role_is_rejected (test_backup.BackupTests.test_missing_evidence_role_is_rejected) ... ok
+test_numbering_gap_is_explicit (test_backup.BackupTests.test_numbering_gap_is_explicit) ... ok
+test_restore_does_not_require_sources_to_survive (test_backup.BackupTests.test_restore_does_not_require_sources_to_survive) ... ok
+test_symlink_and_fifo_are_rejected (test_backup.BackupTests.test_symlink_and_fifo_are_rejected) ... ok
+test_two_versions_and_exact_restore_without_source_changes (test_backup.BackupTests.test_two_versions_and_exact_restore_without_source_changes) ... ok
+test_valid_git_tree_with_wrong_manifest_hash_fails (test_backup.BackupTests.test_valid_git_tree_with_wrong_manifest_hash_fails) ... ok
+test_remote_roundtrip_and_recovery_use_fresh_objects (test_backup.RemoteTests.test_remote_roundtrip_and_recovery_use_fresh_objects) ... ok
+test_public_or_unavailable_privacy_never_attempts_git_transfer (test_backup.RemoteTests.test_public_or_unavailable_privacy_never_attempts_git_transfer) ... ok
+test_github_visibility_and_repository_id_are_verified (test_backup.RemoteTests.test_github_visibility_and_repository_id_are_verified) ... ok
+test_push_failure_preserves_local_checkpoint_and_exit_three (test_backup.RemoteTests.test_push_failure_preserves_local_checkpoint_and_exit_three) ... ok
+test_real_git_receive_rejection_is_not_reported_as_saved (test_backup.RemoteTests.test_real_git_receive_rejection_is_not_reported_as_saved) ... ok
+test_successful_push_exit_without_remote_data_does_not_count (test_backup.RemoteTests.test_successful_push_exit_without_remote_data_does_not_count) ... ok
+test_remote_ref_mismatch_is_never_force_pushed (test_backup.RemoteTests.test_remote_ref_mismatch_is_never_force_pushed) ... ok
+test_readback_failure_and_privacy_change_do_not_count_as_success (test_backup.RemoteTests.test_readback_failure_and_privacy_change_do_not_count_as_success) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 6.603s
+
+OK
