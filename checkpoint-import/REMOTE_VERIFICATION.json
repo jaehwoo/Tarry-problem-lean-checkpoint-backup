@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "status": "PRIVATE_RELEASE_ASSETS_READBACK_AND_RESTORE_VERIFIED",
+  "recorded_at_utc": "2026-10-13T22:35:54.903536+00:00",
+  "repository": {
+    "full_name": "jaehwoo/lean-checkpoint-backup",
+    "id": 1417233863,
+    "visibility_observed": "private",
+    "observed_via": "GitHub get_repo before catalog commit",
+    "base_commit": "018e977fc8bcd9d4addee133d7b0e3a2741172e7"
+  },
+  "release": {
+    "list_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases",
+    "title": "Paper I Lean checkpoints through 93 — private archive",
+    "state_observed": "draft",
+    "asset_count": 7
+  },
+  "downloaded_assets": [
+    {
+      "name": "Paper_I_Lean_Checkpoint_93.zip",
+      "bytes": 508328846,
+      "sha256": "3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5",
+      "kind": "original_zip",
+      "readback_sha256_matched": true
+    },
+    {
+      "name": "Paper_I_Lean_History_Through_82.zip",
+      "bytes": 528211115,
+      "sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+      "kind": "original_zip",
+      "readback_sha256_matched": true
+    },
+    {
+      "name": "Paper_I_Lean_Working_Checkpoint_93.zip",
+      "bytes": 508160539,
+      "sha256": "065889ea6e0b74b9e1a2e004dd918180278a01c7b619fbc5689e4bbbac064c92",
+      "kind": "original_zip",
+      "readback_sha256_matched": true
+    },
+    {
+      "name": "Paper_I_Lean_Originals_Part_01.zip",
+      "bytes": 652216163,
+      "sha256": "df59a77dff6c9dc1c81f2d9afce7629cd7dc1563d309a1871ff10c01a6d098f0",
+      "kind": "container_of_unchanged_original_files",
+      "readback_sha256_matched": true
+    },
+    {
+      "name": "Paper_I_Lean_Originals_Part_02.zip",
+      "bytes": 692389112,
+      "sha256": "4cd9899faf2f85d11143e571819580de7d86356b4c4a65682c7f16993c62cca1",
+      "kind": "container_of_unchanged_original_files",
+      "readback_sha256_matched": true
+    },
+    {
+      "name": "Paper_I_Lean_Originals_Part_03.zip",
+      "bytes": 254755932,
+      "sha256": "ad570cbe988d9050f08a6a2f7f2c2220ffc00c781e7b2ecba73b30f076959ad3",
+      "kind": "container_of_unchanged_original_files",
+      "readback_sha256_matched": true
+    },
+    {
+      "name": "Paper_I_Lean_Archive_Audit.json.gz",
+      "bytes": 6741357,
+      "sha256": "db3730324e41b5ca26110fa1060cfea5c7c4c8eb3a4e3173db6168c247141774",
+      "kind": "archive_member_audit",
+      "readback_sha256_matched": true
+    }
+  ],
+  "originals": {
+    "source_name_records": 67,
+    "distinct_sha256": 64,
+    "total_bytes_including_aliases": 3652890335,
+    "all_source_bytes_verified": true
+  },
+  "asset_verification": {
+    "status": "ASSETS_AND_SOURCE_BYTES_VERIFIED",
+    "assets": 7,
+    "source_files": 67
+  },
+  "restore_verification": {
+    "status": "CHECKPOINT_RESTORE_BYTES_VERIFIED",
+    "checkpoint": 93,
+    "archive_sha256": "3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5",
+    "files": 2560,
+    "lean_files": 618,
+    "verification_scope": "File integrity only; no Lean compilation or theorem verification."
+  },
+  "coverage": {
+    "number_1_convention": "Initial Pilot archive, preserved under its original filename.",
+    "preserved_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ],
+    "missing_numbers": [
+      72,
+      73,
+      74,
+      75
+    ],
+    "all_listed_numbers_have_hash_graph_path_to_preserved_source": true,
+    "missing_72_restore_rejected_without_creating_destination": true,
+    "archive_containers": 121,
+    "archive_formats": {
+      "zip": 118,
+      "xz": 3
+    },
+    "archived_audit_issues": []
+  },
+  "manuscripts": [
+    {
+      "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+      "bytes": 338724,
+      "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914"
+    },
+    {
+      "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+      "bytes": 116736,
+      "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312"
+    }
+  ],
+  "limits": [
+    "Byte preservation and restore integrity only; no Lean compilation or mathematical revalidation.",
+    "The per-entry archive audit was preserved from the import; its downloaded gzip SHA-256 was reverified.",
+    "Release attachments must be downloaded separately from Git.",
+    "This receipt records data verification before its catalog commit; the containing Git commit identifies this receipt version.",
+    "No collaborator or visibility changes were made during this catalog commit.",
+    "Prior source service version identifiers were not reconstructed."
+  ]
+}

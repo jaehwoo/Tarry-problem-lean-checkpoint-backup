@@ -1,0 +1,649 @@
+{
+  "source_files": 67,
+  "unique_source_hashes": 64,
+  "archive_containers_checked": 121,
+  "archive_formats": {
+    "zip": 118,
+    "xz": 3
+  },
+  "checkpoint_archives": {
+    "2": [
+      {
+        "archive_sha256": "eea9945ce820b634be7f78489d4642a9a49e0dd3d71c504f06be93d4a3551ea1",
+        "archive_name": "Paper_I_Lean_Checkpoint_02.zip",
+        "lean_files": 10
+      }
+    ],
+    "3": [
+      {
+        "archive_sha256": "cb54eeba5a4149127347aeb1b28e50316c2713b91cc9aafd02e20baff08d0152",
+        "archive_name": "Paper_I_Lean_Checkpoint_03.zip",
+        "lean_files": 19
+      }
+    ],
+    "4": [
+      {
+        "archive_sha256": "e799f419ae958c53a9badc465d914bf15a859fdf1a61c1e8030b0ec751496497",
+        "archive_name": "Paper_I_Lean_Checkpoint_04.zip",
+        "lean_files": 21
+      }
+    ],
+    "5": [
+      {
+        "archive_sha256": "ea399c841e9ade79f9c1ae705c98ddba706965bf5d2c3c104f175d19d578ced5",
+        "archive_name": "Paper_I_Lean_Checkpoint_05.zip",
+        "lean_files": 31
+      }
+    ],
+    "6": [
+      {
+        "archive_sha256": "a8887465c723c8bdbf60ecbaf4a3c842f23767c41b83f6569524e7e5fbe2cbb3",
+        "archive_name": "Paper_I_Lean_Checkpoint_06.zip",
+        "lean_files": 35
+      }
+    ],
+    "7": [
+      {
+        "archive_sha256": "fcfe4a28e62922da4dc4c439f676c00f28278877f30f002d9b1d6fa53ab7e2b7",
+        "archive_name": "Paper_I_Lean_Checkpoint_07.zip",
+        "lean_files": 39
+      }
+    ],
+    "8": [
+      {
+        "archive_sha256": "3d9973c00413ae99181df3d513e4c00a8fd4042d760821ef49274de3cece3d3a",
+        "archive_name": "Paper_I_Lean_Checkpoint_08.zip",
+        "lean_files": 42
+      }
+    ],
+    "9": [
+      {
+        "archive_sha256": "12ef88f93a67556759a5c838171dd2a07c526abdbc7b11fc3aae91a1cd13bf68",
+        "archive_name": "Paper_I_Lean_Checkpoint_09.zip",
+        "lean_files": 46
+      }
+    ],
+    "10": [
+      {
+        "archive_sha256": "6e9adb084010dfd5fbb795f3dc34e18e3b109801889e571f1ec48a408b9d724e",
+        "archive_name": "Paper_I_Lean_Checkpoint_10.zip",
+        "lean_files": 49
+      }
+    ],
+    "11": [
+      {
+        "archive_sha256": "5f29a3544f7f22cca17ca079bc6ba2a74509b2a897d063143a5978e374782284",
+        "archive_name": "Paper_I_Lean_Checkpoint_11.zip",
+        "lean_files": 53
+      }
+    ],
+    "12": [
+      {
+        "archive_sha256": "b353daa5300d66ed03c9158ceed48d0008f09ab5f6be5df251108335d6086ace",
+        "archive_name": "Paper_I_Lean_Checkpoint_12.zip",
+        "lean_files": 57
+      }
+    ],
+    "13": [
+      {
+        "archive_sha256": "c581a106bdbb880405bd9177878d91bd02755aeb761b24171d138b01406b95d3",
+        "archive_name": "Paper_I_Lean_Checkpoint_13.zip",
+        "lean_files": 62
+      }
+    ],
+    "14": [
+      {
+        "archive_sha256": "7875aff1e520e2ffe6c078af97903c34edcc60bf237b7946128cbe8584c6a9ee",
+        "archive_name": "Paper_I_Lean_Checkpoint_14.zip",
+        "lean_files": 66
+      }
+    ],
+    "15": [
+      {
+        "archive_sha256": "9bd2dc57bf74f401de133cc811347148f1bd2071c9c853694fb68c771ba0aad0",
+        "archive_name": "Paper_I_Lean_Checkpoint_15.zip",
+        "lean_files": 70
+      }
+    ],
+    "16": [
+      {
+        "archive_sha256": "4351cceeedfdd6e99a64f5612d125a7c7aa6585a6c5716f43362571a95951b03",
+        "archive_name": "Paper_I_Lean_Checkpoint_16.zip",
+        "lean_files": 73
+      }
+    ],
+    "93": [
+      {
+        "archive_sha256": "3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5",
+        "archive_name": "Paper_I_Lean_Checkpoint_93.zip",
+        "lean_files": 618
+      },
+      {
+        "archive_sha256": "065889ea6e0b74b9e1a2e004dd918180278a01c7b619fbc5689e4bbbac064c92",
+        "archive_name": "Paper_I_Lean_Working_Checkpoint_93.zip",
+        "lean_files": 618
+      }
+    ],
+    "82": [
+      {
+        "archive_sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+        "archive_name": "Paper_I_Lean_History_Through_82.zip",
+        "lean_files": 480
+      }
+    ],
+    "1": [
+      {
+        "archive_sha256": "92b3dcd400fa01b1d714aaf1082bc486656167716bc009dc7e6bbc40d5d695f9",
+        "archive_name": "Paper_I_Lean_Pilot_20261009(1).zip",
+        "lean_files": 5
+      }
+    ],
+    "92": [
+      {
+        "archive_sha256": "4032a0cf5e1454b3454f3e633da7e7fe5fafedc89610a4792d6f35d58541ab16",
+        "archive_name": "Paper_I_Lean_Working_Checkpoint_92.zip",
+        "lean_files": 612
+      }
+    ],
+    "81": [
+      {
+        "archive_sha256": "3979f656a2b9ac57d314dd6a4df68ef82cc8e7c32dbc31aa8313aca0c4668084",
+        "archive_name": "Paper_I_Lean_Checkpoint_81.zip",
+        "lean_files": 471
+      }
+    ],
+    "91": [
+      {
+        "archive_sha256": "cf7b04719bd8920b825cc374b499c9271b35b457810aa3bb10e6eaf60034e007",
+        "archive_name": "Paper_I_Lean_Working_Checkpoint_91.zip",
+        "lean_files": 606
+      }
+    ],
+    "80": [
+      {
+        "archive_sha256": "47cec39620873b0155ff44625c3602c741cf2ea7e72371ec7603bc4ff21c0a35",
+        "archive_name": "Paper_I_Lean_Checkpoint_80.zip",
+        "lean_files": 459
+      }
+    ],
+    "90": [
+      {
+        "archive_sha256": "246f4b366cccf6c1a9e9cd1e45b72052e5bff74f2a4aa407de6b0031aa7e8bf2",
+        "archive_name": "Paper_I_Lean_Working_Checkpoint_90.zip",
+        "lean_files": 594
+      }
+    ],
+    "79": [
+      {
+        "archive_sha256": "5ebb7eb355b220c4d7f7490f5fa9fae0b1650dc78a45a41b523f5862835eb2dc",
+        "archive_name": "Paper_I_Lean_Checkpoint_79.zip",
+        "lean_files": 440
+      }
+    ],
+    "89": [
+      {
+        "archive_sha256": "c35f6f5d9761b665496992fffc36a984d61322840081cc21c271f2bda4ba45bd",
+        "archive_name": "Paper_I_Lean_Working_Checkpoint_89.zip",
+        "lean_files": 586
+      }
+    ],
+    "78": [
+      {
+        "archive_sha256": "55fb3e64fc2c213737f5310d0128497f4fd1c8bda8e733a49314865f03a25c26",
+        "archive_name": "Paper_I_Lean_Checkpoint_78.zip",
+        "lean_files": 436
+      }
+    ],
+    "88": [
+      {
+        "archive_sha256": "33a9d52ddcce8c5f7fa1b17af6a1f97cadd31bb1d6577d59245f8c3fb4b207e9",
+        "archive_name": "Paper_I_Lean_Checkpoint_88.zip",
+        "lean_files": 572
+      }
+    ],
+    "77": [
+      {
+        "archive_sha256": "6f5bd5f55818af09fc97ce6289a48604db2ac3126de995ea9aa5a05af2eef1f7",
+        "archive_name": "Paper_I_Lean_Checkpoint_77.zip",
+        "lean_files": 431
+      }
+    ],
+    "87": [
+      {
+        "archive_sha256": "56536266ea15c49d8d846998d9e3fdcc3a190548daba60c6f7a3bb1e52b06268",
+        "archive_name": "Paper_I_Lean_Checkpoint_87.zip",
+        "lean_files": 555
+      }
+    ],
+    "76": [
+      {
+        "archive_sha256": "6b8eb62da8232b05c7779343a786ec904ffd1a3c39a8f9009562044d02906c05",
+        "archive_name": "Paper_I_Lean_Checkpoint_76.zip",
+        "lean_files": 419
+      }
+    ],
+    "86": [
+      {
+        "archive_sha256": "5c90b3f8601e885122de4650a11683e89836ae4868fc6ef69c153497a7bbea4f",
+        "archive_name": "Paper_I_Lean_Checkpoint_86.zip",
+        "lean_files": 539
+      }
+    ],
+    "71": [
+      {
+        "archive_sha256": "621a0aca6001bf8a3d569b7be7603344efd3c33e6ba5f98ac403f7226aca99a8",
+        "archive_name": "Paper_I_Lean_Checkpoint_71.zip",
+        "lean_files": 407
+      }
+    ],
+    "85": [
+      {
+        "archive_sha256": "072f4b3c480e89401d50ea74342ac2ed90a2be278bd6fccefdf2057d6be4781c",
+        "archive_name": "Paper_I_Lean_Checkpoint_85.zip",
+        "lean_files": 525
+      }
+    ],
+    "70": [
+      {
+        "archive_sha256": "16f095f12edcd093126da8f37586e18eed584f823b18e453c5c90cc122a68d40",
+        "archive_name": "Paper_I_Lean_Checkpoint_70.zip",
+        "lean_files": 385
+      }
+    ],
+    "84": [
+      {
+        "archive_sha256": "302b2ee102942f5aca990dd3cb57cc59e2f21a657a9729ebf11164c147c48ede",
+        "archive_name": "Paper_I_Lean_Checkpoint_84.zip",
+        "lean_files": 515
+      }
+    ],
+    "69": [
+      {
+        "archive_sha256": "bef1f9fdd1c85ef3fe36c6b659c677bee44898d115ff2457c40fb920392a2606",
+        "archive_name": "Paper_I_Lean_Checkpoint_69.zip",
+        "lean_files": 380
+      }
+    ],
+    "83": [
+      {
+        "archive_sha256": "ec42fc7a4c9be3228f83ea70f79453a3ec1159dc4e6fc9d48acfb95b3111b26f",
+        "archive_name": "Paper_I_Lean_Checkpoint_83.zip",
+        "lean_files": 494
+      }
+    ],
+    "68": [
+      {
+        "archive_sha256": "2b091ce0ccaa93f854160c90b32f7cec0b4f7f2d1503976607baa0d5b0aada38",
+        "archive_name": "Paper_I_Lean_Checkpoint_68.zip",
+        "lean_files": 374
+      }
+    ],
+    "67": [
+      {
+        "archive_sha256": "25e73b81e233a71a09a2ea5952ef459a092d32d16904a0a6a668c6b9995b8522",
+        "archive_name": "Paper_I_Lean_Checkpoint_67.zip",
+        "lean_files": 365
+      }
+    ],
+    "66": [
+      {
+        "archive_sha256": "acc4169537be9424006f64eafabe582087ef0a6545f8e24dfa3ffb939507edcc",
+        "archive_name": "Paper_I_Lean_Checkpoint_66.zip",
+        "lean_files": 360
+      }
+    ],
+    "65": [
+      {
+        "archive_sha256": "abe625cc3f2cd266ee6f3c29f66a66dc6912da160e4520cf0f560f73f521dc7f",
+        "archive_name": "Paper_I_Lean_Checkpoint_65.zip",
+        "lean_files": 356
+      }
+    ],
+    "64": [
+      {
+        "archive_sha256": "4929e4c34d94dc72726ea3c06838e6b6895c6cfe66deadb4c3c5f067b6317fbb",
+        "archive_name": "Paper_I_Lean_Checkpoint_64.zip",
+        "lean_files": 350
+      }
+    ],
+    "63": [
+      {
+        "archive_sha256": "9c6c1b26f437ce222b77a93a0287ea052b12733f916a406070b67617601e23bf",
+        "archive_name": "Paper_I_Lean_Checkpoint_63.zip",
+        "lean_files": 344
+      }
+    ],
+    "62": [
+      {
+        "archive_sha256": "00735fab8c8ee66cf70d668f264cc1342821a2d0ab36cd44a3d18930ea732aad",
+        "archive_name": "Paper_I_Lean_Checkpoint_62.zip",
+        "lean_files": 337
+      }
+    ],
+    "61": [
+      {
+        "archive_sha256": "c6d3487ee6f402b2a8c3d51ee3b82b576da40e95a9d9866b75afd0933e56279f",
+        "archive_name": "Paper_I_Lean_Checkpoint_61.zip",
+        "lean_files": 329
+      }
+    ],
+    "60": [
+      {
+        "archive_sha256": "9baab7c9b214cc8403402c6ea03ffbb31f715eae15ddf87b231f97b4d2fc7a94",
+        "archive_name": "Paper_I_Lean_Checkpoint_60.zip",
+        "lean_files": 322
+      }
+    ],
+    "59": [
+      {
+        "archive_sha256": "90edc492c2b3e73d140523931ba5e1e8cc7160e43637d6f82b4c87a70e9263c2",
+        "archive_name": "Paper_I_Lean_Checkpoint_59.zip",
+        "lean_files": 313
+      }
+    ],
+    "58": [
+      {
+        "archive_sha256": "8ea3132cd3ab240d76148af60af32005580bbf60af3c465c57fb4c039268e9f8",
+        "archive_name": "Paper_I_Lean_Checkpoint_58.zip",
+        "lean_files": 301
+      }
+    ],
+    "57": [
+      {
+        "archive_sha256": "1c2a298d54cf5b70439283b312ee54b3f2cf015ebec323f16cf67f63a636d4b0",
+        "archive_name": "Paper_I_Lean_Checkpoint_57.zip",
+        "lean_files": 293
+      }
+    ],
+    "56": [
+      {
+        "archive_sha256": "c2414b10dad50cf09bca555ca5f8ff57bff44120c3a512f383d843ad9a9ff732",
+        "archive_name": "Paper_I_Lean_Checkpoint_56.zip",
+        "lean_files": 287
+      }
+    ],
+    "55": [
+      {
+        "archive_sha256": "497e5bef0c95b1b2b1bc5e6c3a6df10542ba9d6fb6dfaddbcf63d4f131c35973",
+        "archive_name": "Paper_I_Lean_Checkpoint_55.zip",
+        "lean_files": 282
+      }
+    ],
+    "54": [
+      {
+        "archive_sha256": "917e15326b08f9b5989a45d502017ec477f90789332f94a36a4e3288af5ab428",
+        "archive_name": "Paper_I_Lean_Checkpoint_54.zip",
+        "lean_files": 276
+      }
+    ],
+    "53": [
+      {
+        "archive_sha256": "1894f165f8e09c63dbdf592ccc909d4403523be252f17194ad3521b2a6af58ef",
+        "archive_name": "Paper_I_Lean_Checkpoint_53.zip",
+        "lean_files": 269
+      }
+    ],
+    "52": [
+      {
+        "archive_sha256": "57b01446e06ee76039e77ff8570723466d6e9f54deb4901f30e45d514cafb47b",
+        "archive_name": "Paper_I_Lean_Checkpoint_52.zip",
+        "lean_files": 263
+      }
+    ],
+    "51": [
+      {
+        "archive_sha256": "c4de0f55554e3c6442d737054c6e99a31ba58a877b16377be43fdaaffb43c574",
+        "archive_name": "Paper_I_Lean_Checkpoint_51.zip",
+        "lean_files": 258
+      }
+    ],
+    "50": [
+      {
+        "archive_sha256": "3b3121a8c0f75342ed22a050cacb583ad83a65e95370bca4dd7081a7792a670a",
+        "archive_name": "Paper_I_Lean_Checkpoint_50.zip",
+        "lean_files": 253
+      }
+    ],
+    "49": [
+      {
+        "archive_sha256": "01c0fd982cb161ecfc15a37a440df0f1fc30ca02aee44cb9011a1e4d927e0814",
+        "archive_name": "Paper_I_Lean_Checkpoint_49.zip",
+        "lean_files": 249
+      }
+    ],
+    "48": [
+      {
+        "archive_sha256": "71570a0f4048bea1be72c0123ee4a13a1bf67330283b7731f15820f6cb7fbbb0",
+        "archive_name": "Paper_I_Lean_Checkpoint_48.zip",
+        "lean_files": 243
+      }
+    ],
+    "47": [
+      {
+        "archive_sha256": "c0d4b95f4d951b38358f862a0c5e02685ba44b8116bd39a601a78a2424f263e0",
+        "archive_name": "Paper_I_Lean_Checkpoint_47.zip",
+        "lean_files": 238
+      }
+    ],
+    "46": [
+      {
+        "archive_sha256": "878b65761342e51a07651cbeaf3edbef1328b18a2da9d00df726402a0bdf7e8a",
+        "archive_name": "Paper_I_Lean_Checkpoint_46.zip",
+        "lean_files": 233
+      }
+    ],
+    "45": [
+      {
+        "archive_sha256": "e673ad8739f43d9fd748502a3c67a192a1c573bf833ec735804951eaa08e338a",
+        "archive_name": "Paper_I_Lean_Checkpoint_45.zip",
+        "lean_files": 228
+      }
+    ],
+    "44": [
+      {
+        "archive_sha256": "7df58c964aced33c8b44488eb398526975566025d0fc0f67992b7318cd248e59",
+        "archive_name": "Paper_I_Lean_Checkpoint_44.zip",
+        "lean_files": 223
+      }
+    ],
+    "43": [
+      {
+        "archive_sha256": "2e98a40508bab481504fe9122c5543423d8bb6294458ce3bfd1422eec2119f2d",
+        "archive_name": "Paper_I_Lean_Checkpoint_43.zip",
+        "lean_files": 218
+      }
+    ],
+    "42": [
+      {
+        "archive_sha256": "0781fae31a888f7bcc2284c3f6ade17969d784a0e334ded8457ae442b48b5c66",
+        "archive_name": "Paper_I_Lean_Checkpoint_42.zip",
+        "lean_files": 213
+      }
+    ],
+    "41": [
+      {
+        "archive_sha256": "67e8c4587e79589c557804cff332c7b0c0c5ba29901ed01728bf38769f460e39",
+        "archive_name": "Paper_I_Lean_Checkpoint_41.zip",
+        "lean_files": 208
+      }
+    ],
+    "40": [
+      {
+        "archive_sha256": "9736a63f0ec1919955a58e7620050f9ca49f54af5733e434674c51ad9a9f8637",
+        "archive_name": "Paper_I_Lean_Checkpoint_40.zip",
+        "lean_files": 203
+      }
+    ],
+    "39": [
+      {
+        "archive_sha256": "eaf3ae2b7a83671ee36fdd4541d87787d8de158e67b6672d72aae532011cd1b6",
+        "archive_name": "Paper_I_Lean_Checkpoint_39.zip",
+        "lean_files": 198
+      }
+    ],
+    "38": [
+      {
+        "archive_sha256": "a1addba3cea275a5b4f0bdde7ff2c4e7b671b027ccb38f373b438420fb4db5bc",
+        "archive_name": "Paper_I_Lean_Checkpoint_38.zip",
+        "lean_files": 193
+      }
+    ],
+    "37": [
+      {
+        "archive_sha256": "ab99538739798f6482ca3a53205df023f87cfb843b8fa32fd5033d6edb0acc66",
+        "archive_name": "Paper_I_Lean_Checkpoint_37.zip",
+        "lean_files": 188
+      }
+    ],
+    "36": [
+      {
+        "archive_sha256": "b428c951b64a44036fa5667f971d9257ead827e9f9e264ba2b5f057bf179ab2b",
+        "archive_name": "Paper_I_Lean_Checkpoint_36.zip",
+        "lean_files": 184
+      }
+    ],
+    "35": [
+      {
+        "archive_sha256": "83b54a673930b79d9fc2ab52547d709e4cf8721412632a8701cb61ef7fed8b5c",
+        "archive_name": "Paper_I_Lean_Checkpoint_35.zip",
+        "lean_files": 177
+      }
+    ],
+    "34": [
+      {
+        "archive_sha256": "6ad15fc7de140fbf37cd6178bdd8277d546ff7c1e64cf7595ea643b87de61a8e",
+        "archive_name": "Paper_I_Lean_Checkpoint_34.zip",
+        "lean_files": 171
+      }
+    ],
+    "33": [
+      {
+        "archive_sha256": "433692bf34949a2dba820303bbe7360b3facfea4b34668e703877886bb6fca1c",
+        "archive_name": "Paper_I_Lean_Checkpoint_33.zip",
+        "lean_files": 167
+      }
+    ],
+    "32": [
+      {
+        "archive_sha256": "f4449638c570585add0ec7c2d9b2bc4e00a5bccc23d0eb1967dafc66170847b0",
+        "archive_name": "Paper_I_Lean_Checkpoint_32.zip",
+        "lean_files": 163
+      }
+    ],
+    "31": [
+      {
+        "archive_sha256": "e98b8dabc156dec39da6225e2409b651c005a91b93ee91730a8322d8dfe16824",
+        "archive_name": "Paper_I_Lean_Checkpoint_31.zip",
+        "lean_files": 158
+      }
+    ],
+    "30": [
+      {
+        "archive_sha256": "48ceeddd0523fd33cf8903f6bc8c436731c94cb02e1c8eb9622c7692662d5c12",
+        "archive_name": "Paper_I_Lean_Checkpoint_30.zip",
+        "lean_files": 154
+      }
+    ],
+    "29": [
+      {
+        "archive_sha256": "ba95b339d9b40b9fab8121d721996ac96bc61671dd111f026205069842b190ca",
+        "archive_name": "Paper_I_Lean_Checkpoint_29.zip",
+        "lean_files": 150
+      }
+    ],
+    "28": [
+      {
+        "archive_sha256": "0e5d913fe20493cef172580d36c0d88b3ad4557c85e8383d3829505b9299e9eb",
+        "archive_name": "Paper_I_Lean_Checkpoint_28.zip",
+        "lean_files": 146
+      }
+    ],
+    "27": [
+      {
+        "archive_sha256": "6f32b63b56e05337b5516aa7af2b7a24e2c391f7c007119e5bba5cf2e3e9a4c9",
+        "archive_name": "Paper_I_Lean_Checkpoint_27.zip",
+        "lean_files": 141
+      }
+    ],
+    "26": [
+      {
+        "archive_sha256": "a2550b7e3f70ddb34eaf0f31957a6c1a6ba311bb3945139ee58fc6a860b9780d",
+        "archive_name": "Paper_I_Lean_Checkpoint_26.zip",
+        "lean_files": 137
+      }
+    ],
+    "25": [
+      {
+        "archive_sha256": "1ffa3d7cbf655dd16a61abaf353ae597cc739973f50cd69c66613657c1446626",
+        "archive_name": "Paper_I_Lean_Checkpoint_25.zip",
+        "lean_files": 133
+      }
+    ],
+    "24": [
+      {
+        "archive_sha256": "63610024aead357d7877529fcffb2113922e61a352d876137947cbfdce4ceacc",
+        "archive_name": "Paper_I_Lean_Checkpoint_24.zip",
+        "lean_files": 129
+      }
+    ],
+    "23": [
+      {
+        "archive_sha256": "6977b4af1f1e3333a5e944904a831e55bd00e432b34c170980c158dcf9ee10b8",
+        "archive_name": "Paper_I_Lean_Checkpoint_23.zip",
+        "lean_files": 125
+      }
+    ],
+    "22": [
+      {
+        "archive_sha256": "4cd6184e69742ad8da85629e834dad38511068d0e25c00beeee30d75adfe6c67",
+        "archive_name": "Paper_I_Lean_Checkpoint_22.zip",
+        "lean_files": 116
+      }
+    ],
+    "21": [
+      {
+        "archive_sha256": "c9bd3017a385d46eeb91e5f0aa8ef8d0b8a16b504b40d642a7f6b3716cdf8e38",
+        "archive_name": "Paper_I_Lean_Checkpoint_21.zip",
+        "lean_files": 106
+      }
+    ],
+    "20": [
+      {
+        "archive_sha256": "48626534c68c02f06ac5e5c6d4d1e9fe94787410ce63b5fb63f786235e1e847b",
+        "archive_name": "Paper_I_Lean_Checkpoint_20.zip",
+        "lean_files": 98
+      }
+    ],
+    "19": [
+      {
+        "archive_sha256": "71d9a609230486abcad886b83b8de440d52135c15e1661733c8d07344df5a9e2",
+        "archive_name": "Paper_I_Lean_Checkpoint_19.zip",
+        "lean_files": 91
+      }
+    ],
+    "18": [
+      {
+        "archive_sha256": "b7ceaf43f2e78be43988e1a728e28c97a8a5a603e4f418f57447b386c6e36754",
+        "archive_name": "Paper_I_Lean_Checkpoint_18.zip",
+        "lean_files": 83
+      }
+    ],
+    "17": [
+      {
+        "archive_sha256": "db92c42d067da13f1694d75bfb8cda0624bac9e07874f3bc5ec2c39774b6de8d",
+        "archive_name": "Paper_I_Lean_Checkpoint_17.zip",
+        "lean_files": 77
+      }
+    ]
+  },
+  "missing_checkpoint_numbers": [
+    72,
+    73,
+    74,
+    75
+  ],
+  "issues": [],
+  "number_1_convention": "Initial Pilot archive, preserved under its original filename.",
+  "catalog_provenance": "Reconstructed from hash-verified private release assets; source Library version identifiers are not reconstructed.",
+  "verification_scope": "File SHA-256 and archive integrity, not Lean compilation or mathematical correctness."
+}

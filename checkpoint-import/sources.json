@@ -1,0 +1,675 @@
+[
+  {
+    "name": "Paper_I_Lean_History_Through_82.zip",
+    "path": "/Paper_I_Lean_History_Through_82.zip",
+    "size_bytes": 528211115,
+    "sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+    "restore_from": {
+      "asset": "Paper_I_Lean_History_Through_82.zip",
+      "member": null
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Pilot_20261009(1).zip",
+    "path": "/Paper_I_Lean_Pilot_20261009(1).zip",
+    "size_bytes": 254910,
+    "sha256": "92b3dcd400fa01b1d714aaf1082bc486656167716bc009dc7e6bbc40d5d695f9",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Paper_I_Lean_Pilot_20261009(1).zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Pilot_20261009.zip",
+    "path": "/Paper_I_Lean_Pilot_20261009.zip",
+    "size_bytes": 254910,
+    "sha256": "92b3dcd400fa01b1d714aaf1082bc486656167716bc009dc7e6bbc40d5d695f9",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Paper_I_Lean_Pilot_20261009(1).zip"
+    },
+    "alias_of_sha256": "92b3dcd400fa01b1d714aaf1082bc486656167716bc009dc7e6bbc40d5d695f9"
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_02.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_02.zip",
+    "size_bytes": 300227,
+    "sha256": "eea9945ce820b634be7f78489d4642a9a49e0dd3d71c504f06be93d4a3551ea1",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_02.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_02_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_02_Report.pdf",
+    "size_bytes": 66239,
+    "sha256": "11140f8feb4b1225c7a987413042e0807d34f6102a7194cf2ee28ddfe442fdc1",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_02_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_03.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_03.zip",
+    "size_bytes": 443782,
+    "sha256": "cb54eeba5a4149127347aeb1b28e50316c2713b91cc9aafd02e20baff08d0152",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_03.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_03_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_03_Report.pdf",
+    "size_bytes": 97046,
+    "sha256": "abaf2e46a20981a87a722a0a436b301ad2c1d8f9391700c970d69939c578d9c7",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_03_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_04.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_04.zip",
+    "size_bytes": 1301387,
+    "sha256": "e799f419ae958c53a9badc465d914bf15a859fdf1a61c1e8030b0ec751496497",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_04.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_04_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_04_Report.pdf",
+    "size_bytes": 105129,
+    "sha256": "eb9aac7bd76607b8c4925d364f69f73485dbc5236508afe824b444b6511d6618",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_04_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_05.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_05.zip",
+    "size_bytes": 3069004,
+    "sha256": "ea399c841e9ade79f9c1ae705c98ddba706965bf5d2c3c104f175d19d578ced5",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_05.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_05_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_05_Build_Evidence.zip",
+    "size_bytes": 247627,
+    "sha256": "92b3c7ff0e3fd5d08a718086fdd4315463f78ac087474687f77f525a58cdf000",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_05_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_05_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_05_Checklist.zip",
+    "size_bytes": 117551,
+    "sha256": "69d3cd812aefbb6bbff66ca6a985128b0f0c3c544d7aafd3379d731f5d5b0ae0",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_05_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_05_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_05_Report.pdf",
+    "size_bytes": 114451,
+    "sha256": "cc01b4b7299321f565011a208bc0e2871ec4505363cb8e024b8ac39cdbf62399",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_05_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_06.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_06.zip",
+    "size_bytes": 6463520,
+    "sha256": "a8887465c723c8bdbf60ecbaf4a3c842f23767c41b83f6569524e7e5fbe2cbb3",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_06.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_06_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_06_Build_Evidence.zip",
+    "size_bytes": 287722,
+    "sha256": "972c4a29212845754be9b5b8027df8d6108129acb75bbad189e406e2cf2089bf",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_06_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_06_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_06_Checklist.zip",
+    "size_bytes": 122717,
+    "sha256": "6aecd11bf363e3853ee0520d9280047bbe9c92c5b74bda855b7ee2c643032b7c",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_06_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_06_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_06_Report.pdf",
+    "size_bytes": 103725,
+    "sha256": "3f62732be88c35f81ea68b5ca6ebe23c55d5a533b3a2ab69f63f282ffd202315",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_06_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_07.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_07.zip",
+    "size_bytes": 13172170,
+    "sha256": "fcfe4a28e62922da4dc4c439f676c00f28278877f30f002d9b1d6fa53ab7e2b7",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_07.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_07_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_07_Build_Evidence.zip",
+    "size_bytes": 355976,
+    "sha256": "627071ee3cd251b86c6ddff92423fc958825b145ca13984f714b72c7b8b43aeb",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_07_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_07_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_07_Checklist.zip",
+    "size_bytes": 130326,
+    "sha256": "0016fa45aee1913416bd03d93c2bf3ba208168af246b5aaf3f8fc5da1ce12722",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_07_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_07_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_07_Report.pdf",
+    "size_bytes": 106044,
+    "sha256": "032cf1008a4cde1177dbf84087a3cfd1fd6aece9c6826789480c97f9cba3a8bb",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_07_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_08.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_08.zip",
+    "size_bytes": 26573318,
+    "sha256": "3d9973c00413ae99181df3d513e4c00a8fd4042d760821ef49274de3cece3d3a",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_08.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_08_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_08_Build_Evidence.zip",
+    "size_bytes": 412835,
+    "sha256": "d3907d6fe45617ed15d23bee0d763f667d4418c7f506651522a9062b64ebd9f2",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_08_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_08_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_08_Checklist.zip",
+    "size_bytes": 137684,
+    "sha256": "ca8311e067762562f09c6dc15d4770d9e6a1e2c22281173706922db562622035",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_08_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_08_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_08_Report.pdf",
+    "size_bytes": 105146,
+    "sha256": "d14913dd379c70e2abcfda2a980949820549f2123e95bc20f64d7803985c1885",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_08_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_09.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_09.zip",
+    "size_bytes": 53457772,
+    "sha256": "12ef88f93a67556759a5c838171dd2a07c526abdbc7b11fc3aae91a1cd13bf68",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_09.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_09_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_09_Build_Evidence.zip",
+    "size_bytes": 538483,
+    "sha256": "08e40d94906814732b8c5e0602c56bfc38d508640f90b485ce6d6e4705603080",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_09_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_09_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_09_Checklist.zip",
+    "size_bytes": 154842,
+    "sha256": "4d2f570a15618a3bc8d221713947727b0a533cc70cb1f0571a08e0c8f93db73a",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_09_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_09_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_09_Report.pdf",
+    "size_bytes": 109461,
+    "sha256": "c441433e93a0f496c802ba029afba290dd0f3099011034c0f1d615fd017eb4e1",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_09_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_10.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_10.zip",
+    "size_bytes": 107202801,
+    "sha256": "6e9adb084010dfd5fbb795f3dc34e18e3b109801889e571f1ec48a408b9d724e",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_10.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_10_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_10_Build_Evidence.zip",
+    "size_bytes": 735011,
+    "sha256": "b6fc9a3603edacffac2d716019b3b4d68233e2259f59e43fb1b66bb2f613c590",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_10_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_10_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_10_Checklist.zip",
+    "size_bytes": 165478,
+    "sha256": "e92d82208d0678350095299a49287b298a72ab0f45d4be4a7204ad44bca39627",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_10_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_10_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_10_Report.pdf",
+    "size_bytes": 109034,
+    "sha256": "2d7a9a8440d89ad2d0d0bf51abdcf63e9ca295e90142880cd9539834d5067a61",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_10_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_11.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_11.zip",
+    "size_bytes": 214772297,
+    "sha256": "5f29a3544f7f22cca17ca079bc6ba2a74509b2a897d063143a5978e374782284",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_11.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_11_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_11_Build_Evidence.zip",
+    "size_bytes": 917956,
+    "sha256": "42a7cdab6dedae71299f0854d7a2db80809f30285e98d2397f227c071265011e",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_11_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_11_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_11_Checklist.zip",
+    "size_bytes": 180650,
+    "sha256": "f12c66ad54d35b1b2e39c8b160725c38052949362ba76c2ed3fc943593f0ae31",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_11_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_11_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_11_Report.pdf",
+    "size_bytes": 110759,
+    "sha256": "8cd166624ee5085da789c106aa5561153688edf24c04d1ed9fc972964f01b89b",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_11_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_12.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_12.zip",
+    "size_bytes": 218573137,
+    "sha256": "b353daa5300d66ed03c9158ceed48d0008f09ab5f6be5df251108335d6086ace",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_12.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_12_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_12_Build_Evidence.zip",
+    "size_bytes": 1046442,
+    "sha256": "4bd2a61fd9b871818512580da6a56ea019106977ec6bd2e6e113dd98ca1c8b6a",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_12_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_12_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_12_Checklist.zip",
+    "size_bytes": 196130,
+    "sha256": "6d4b8d6c127ab4822b12cff5a62c4d299861d3663f316690455965099ba17cb4",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_12_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_12_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_12_Report.pdf",
+    "size_bytes": 106084,
+    "sha256": "2851d0248ab0b9b27e4bdf3d453cde60c2485566b5d694eec3a0254d75509ca5",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_01.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_12_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_13.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_13.zip",
+    "size_bytes": 222849234,
+    "sha256": "c581a106bdbb880405bd9177878d91bd02755aeb761b24171d138b01406b95d3",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_13.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_13_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_13_Build_Evidence.zip",
+    "size_bytes": 1171650,
+    "sha256": "3c7d53aadbf916a58ca203de483a0eedc778456e74ae3c2acd26ab2c46127105",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_13_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_13_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_13_Checklist.zip",
+    "size_bytes": 206624,
+    "sha256": "a1356a69b67ac39ba88b68ae2e6ad52f6d2246d8edce0f8310eb36b479c88143",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_13_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_13_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_13_Report.pdf",
+    "size_bytes": 104106,
+    "sha256": "4022ef933acce3b3492d38e73a51939d9f2674fa1a2aeab0f8d3f00609f36fa7",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_13_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_14.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_14.zip",
+    "size_bytes": 227912548,
+    "sha256": "7875aff1e520e2ffe6c078af97903c34edcc60bf237b7946128cbe8584c6a9ee",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_14.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_14_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_14_Build_Evidence.zip",
+    "size_bytes": 1332570,
+    "sha256": "0ee3d47eb7d830fe83b185164582888a24ae7f018f1325526b4c2536460b3a70",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_14_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_14_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_14_Checklist.zip",
+    "size_bytes": 221647,
+    "sha256": "d923a0a75ae2e79fcd3903b50385561f1be53206a30c72a721f020bc9c0d95ef",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_14_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_14_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_14_Report.pdf",
+    "size_bytes": 108649,
+    "sha256": "e3e97f58ee1467722618080688e2a887a8fe4f86f53b9621aa37d038c64e7dde",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_14_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_15.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_15.zip",
+    "size_bytes": 233567601,
+    "sha256": "9bd2dc57bf74f401de133cc811347148f1bd2071c9c853694fb68c771ba0aad0",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_15.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_15_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_15_Build_Evidence.zip",
+    "size_bytes": 4578505,
+    "sha256": "fb2e29f505967428cae44bfdfeefeff990e7e35010603689f546e773e0b8638b",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_15_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_15_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_15_Checklist.zip",
+    "size_bytes": 227433,
+    "sha256": "31f19643a9acbf97f82de2778b7d7baceca167cee3d38f796fac09a422559a84",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_15_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_15_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_15_Report.pdf",
+    "size_bytes": 106555,
+    "sha256": "4065bde267c639c7ab4df3bb207ace551c5be898719cc9f3aff916a2cc19d533",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_02.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_15_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_16.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_16.zip",
+    "size_bytes": 239758701,
+    "sha256": "4351cceeedfdd6e99a64f5612d125a7c7aa6585a6c5716f43362571a95951b03",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_16.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_16_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_16_Build_Evidence.zip",
+    "size_bytes": 5053089,
+    "sha256": "49f4ecfd927ae084937dd1aab92f9f109968efd1e3000d0d99b36502697788e1",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_16_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_16_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_16_Checklist.zip",
+    "size_bytes": 230592,
+    "sha256": "789f0d2dc12d4d8f469d87291d96aecba9378d549d548c2842dc755be0f9da36",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_16_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_16_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_16_Report.pdf",
+    "size_bytes": 100150,
+    "sha256": "4a72dfee3e83dff1da8d02d59978473fd58e9c855c9d666d9980cd882977827d",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_16_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_93.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_93.zip",
+    "size_bytes": 508328846,
+    "sha256": "3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Checkpoint_93.zip",
+      "member": null
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_93_Build_Evidence.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_93_Build_Evidence.zip",
+    "size_bytes": 2723544,
+    "sha256": "785b4ea7d0521b8e0761c9d1639a5708edc18fdff08d082ec811386a3ab7d006",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_93_Build_Evidence.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_93_Checklist.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_93_Checklist.zip",
+    "size_bytes": 6305736,
+    "sha256": "01da33be904d31defbe97ed066bab927b7fb64c4e86bf1788f7ded45d30e9ab6",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_93_Checklist.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_93_Delivery_Verification.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_93_Delivery_Verification.zip",
+    "size_bytes": 6789,
+    "sha256": "b25a6b2a1a634697f1f8b64fc389759ecc86f6880738bc740c534fe33e3af597",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_93_Delivery_Verification.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_93_Report.pdf",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_93_Report.pdf",
+    "size_bytes": 103685,
+    "sha256": "f99c990569bd2ff232681035355be42365ec8c71dcd6d21cd9d1371e06a7b153",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_93_Report.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Checkpoint_93_Report.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_93_Report.zip",
+    "size_bytes": 77014,
+    "sha256": "666d43ac62ad6bfcb344f1b5338821d4ca6c01ca7f957ec4f8abadc2f3e0cd01",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Checkpoint_93_Report.zip"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_History_Through_93.zip",
+    "path": "/Tarry/Paper_I_Lean_History_Through_93.zip",
+    "size_bytes": 508328846,
+    "sha256": "3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Checkpoint_93.zip",
+      "member": null
+    },
+    "alias_of_sha256": "3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5"
+  },
+  {
+    "name": "Paper_I_Lean_Pilot_20261009.zip",
+    "path": "/Tarry/Paper_I_Lean_Pilot_20261009.zip",
+    "size_bytes": 254910,
+    "sha256": "92b3dcd400fa01b1d714aaf1082bc486656167716bc009dc7e6bbc40d5d695f9",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Paper_I_Lean_Pilot_20261009(1).zip"
+    },
+    "alias_of_sha256": "92b3dcd400fa01b1d714aaf1082bc486656167716bc009dc7e6bbc40d5d695f9"
+  },
+  {
+    "name": "Paper_I_Lean_Pilot_Report_20261009.pdf",
+    "path": "/Tarry/Paper_I_Lean_Pilot_Report_20261009.pdf",
+    "size_bytes": 139874,
+    "sha256": "14e34b2b4606c781385bb0c71be6d1ec0dfe2023363341dae406bceb0bd85a78",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Originals_Part_03.zip",
+      "member": "Tarry/Paper_I_Lean_Pilot_Report_20261009.pdf"
+    }
+  },
+  {
+    "name": "Paper_I_Lean_Working_Checkpoint_93.zip",
+    "path": "/Tarry/Paper_I_Lean_Working_Checkpoint_93.zip",
+    "size_bytes": 508160539,
+    "sha256": "065889ea6e0b74b9e1a2e004dd918180278a01c7b619fbc5689e4bbbac064c92",
+    "restore_from": {
+      "asset": "Paper_I_Lean_Working_Checkpoint_93.zip",
+      "member": null
+    }
+  }
+]

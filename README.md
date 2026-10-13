@@ -1,10 +1,10 @@
-> 비공개 도구 배포: 이 저장소에는 백업 도구와 합성 시험 자료를 보존합니다. 전체 시험 저장소·복원물은 `artifacts/Lean_Checkpoint_Backup_2026-10-13.zip`에 있습니다. 초기 보고서의 GitHub 미업로드 기록은 도구 배포 전 시험 당시의 기록입니다. 실제 연구 원고·Lean 프로젝트의 체크포인트는 이 저장소에 포함하지 않습니다.
+> 실제 연구 자료 보존: 확인된 Paper I 체크포인트 원본은 이 비공개 저장소의 Release 첨부 파일에, 목록·해시·복원 도구·원격 재다운로드 검사 결과는 [checkpoint-import](checkpoint-import/README.md)에 있습니다. 72–75번은 미확인입니다. 전체 합성 시험 자료는 `artifacts/Lean_Checkpoint_Backup_2026-10-13.zip`에 있습니다.
 
 # Lean checkpoint backup
 
 원본을 읽기만 하고, 별도 bare Git 저장소에 체크포인트를 남기는 Python 도구입니다. 프로젝트, 고정 원고, 원고–Lean 대응 보고서·의존성 체인, 검증 로그, 지속 체크리스트를 함께 보존합니다. Git 커밋 생성만으로 성공을 판정하지 않습니다.
 
-이 패키지에는 도구, 설정 예시, 33개 자동 테스트, 테스트용 두 버전의 저장소와 복원 결과, 실제 실행 기록이 들어 있습니다. 사용자 원고·프로젝트의 복사본은 포함하지 않습니다. GitHub에 실제 자료를 업로드하지 않았습니다. 기존 체크포인트에 관한 확인 범위는 `RECOVERY_STATUS.md`, 이번 실행 결과는 `IMPLEMENTATION_REPORT.md`를 보십시오.
+도구 패키지에는 설정 예시, 33개 자동 테스트, 합성 프로젝트 두 버전과 복원 결과가 들어 있습니다. `RECOVERY_STATUS.md`, `IMPLEMENTATION_REPORT.md`는 실제 자료 업로드 이전의 초기 시험 기록입니다. 이후 보존한 실제 원고·프로젝트의 범위와 원격 확인 결과는 [checkpoint-import/README.md](checkpoint-import/README.md)를 보십시오.
 
 ## 실행 환경과 빠른 시험
 
@@ -121,3 +121,4 @@ Git tree에는 원본 payload, 파일마다 SHA-256·바이트 수·모드와 �
 파일 바이트, 일반 권한, 실행 권한, 빈 디렉터리를 보존합니다. 소유자, ACL, xattr, 시각 정보, 하드링크 관계와 원본 Git 이력은 복원 범위에 포함하지 않습니다. 저장장치 자체 고장이나 향후 원격 삭제에 대한 보장은 하지 않습니다. `verify`/`sync`의 결과는 실행 시점의 확인입니다. 이 도구는 Lean 컴파일러나 증명 감사를 대신하지 않습니다.
 
 구현 참고: [Git update-ref](https://git-scm.com/docs/git-update-ref), [Git push](https://git-scm.com/docs/git-push), [GitHub Get a repository](https://docs.github.com/en/rest/repos/repos#get-a-repository).
+

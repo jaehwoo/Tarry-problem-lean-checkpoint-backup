@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Paper_I_Lean_Checkpoint_93.zip",
+    "bytes": 508328846,
+    "sha256": "3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5",
+    "kind": "original_zip"
+  },
+  {
+    "name": "Paper_I_Lean_History_Through_82.zip",
+    "bytes": 528211115,
+    "sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+    "kind": "original_zip"
+  },
+  {
+    "name": "Paper_I_Lean_Working_Checkpoint_93.zip",
+    "bytes": 508160539,
+    "sha256": "065889ea6e0b74b9e1a2e004dd918180278a01c7b619fbc5689e4bbbac064c92",
+    "kind": "original_zip"
+  },
+  {
+    "name": "Paper_I_Lean_Originals_Part_01.zip",
+    "bytes": 652216163,
+    "sha256": "df59a77dff6c9dc1c81f2d9afce7629cd7dc1563d309a1871ff10c01a6d098f0",
+    "kind": "container_of_unchanged_original_files"
+  },
+  {
+    "name": "Paper_I_Lean_Originals_Part_02.zip",
+    "bytes": 692389112,
+    "sha256": "4cd9899faf2f85d11143e571819580de7d86356b4c4a65682c7f16993c62cca1",
+    "kind": "container_of_unchanged_original_files"
+  },
+  {
+    "name": "Paper_I_Lean_Originals_Part_03.zip",
+    "bytes": 254755932,
+    "sha256": "ad570cbe988d9050f08a6a2f7f2c2220ffc00c781e7b2ecba73b30f076959ad3",
+    "kind": "container_of_unchanged_original_files"
+  },
+  {
+    "name": "Paper_I_Lean_Archive_Audit.json.gz",
+    "bytes": 6741357,
+    "sha256": "db3730324e41b5ca26110fa1060cfea5c7c4c8eb3a4e3173db6168c247141774",
+    "kind": "archive_member_audit"
+  }
+]
