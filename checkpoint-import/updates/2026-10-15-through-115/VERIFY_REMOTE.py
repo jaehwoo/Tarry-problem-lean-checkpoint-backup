@@ -24,8 +24,14 @@ def api(path,accept='application/vnd.github+json'):
     return urllib.request.build_opener(NoRedirect()).open(request,timeout=120)
 
 def get(path):
-    with api(path) as r:
-        return json.load(r)
+    try:
+        with api(path) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as error:
+        # Log only the API's diagnostic JSON; never authorization or redirect URLs.
+        body=error.read().decode('utf-8','replace')
+        print('GITHUB_API_ERROR',json.dumps({'status':error.code,'path':path,'body':body,'accepted_permissions':error.headers.get('X-Accepted-GitHub-Permissions'),'rate_limit_remaining':error.headers.get('X-RateLimit-Remaining')}),flush=True)
+        raise
 
 def check_private():
     d=get('')
