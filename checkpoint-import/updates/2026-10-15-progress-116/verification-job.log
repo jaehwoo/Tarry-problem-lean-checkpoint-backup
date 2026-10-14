@@ -1,0 +1,58 @@
+﻿2026-10-14T22:32:03.1304810Z Current runner version: '2.337.0'
+2026-10-14T22:32:03.1332368Z ##[group]Runner Image Provisioner
+2026-10-14T22:32:03.1333579Z Hosted Compute Agent
+2026-10-14T22:32:03.1334284Z Version: 20261002.596
+2026-10-14T22:32:03.1335322Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+2026-10-14T22:32:03.1336212Z Build Date: 2026-10-02T22:28:27Z
+2026-10-14T22:32:03.1337372Z Worker ID: {4ff7cfc8-eac0-4704-b43a-4266125711ad}
+2026-10-14T22:32:03.1338249Z Region: westus3
+2026-10-14T22:32:03.1338892Z Cloud: Azure
+2026-10-14T22:32:03.1339690Z ##[endgroup]
+2026-10-14T22:32:03.1341534Z ##[group]Operating System
+2026-10-14T22:32:03.1342362Z Ubuntu
+2026-10-14T22:32:03.1343003Z 24.04.5
+2026-10-14T22:32:03.1343619Z LTS
+2026-10-14T22:32:03.1344385Z ##[endgroup]
+2026-10-14T22:32:03.1345055Z ##[group]Runner Image
+2026-10-14T22:32:03.1345848Z Image: ubuntu-24.04
+2026-10-14T22:32:03.1346779Z Version: 20261004.327.1
+2026-10-14T22:32:03.1348465Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-14T22:32:03.1350499Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+2026-10-14T22:32:03.1351801Z ##[endgroup]
+2026-10-14T22:32:03.1353374Z ##[group]GITHUB_TOKEN Permissions
+2026-10-14T22:32:03.1355606Z Contents: write
+2026-10-14T22:32:03.1356339Z Metadata: read
+2026-10-14T22:32:03.1357554Z ##[endgroup]
+2026-10-14T22:32:03.1360007Z Secret source: Actions
+2026-10-14T22:32:03.1361149Z Cache mode: write
+2026-10-14T22:32:03.1362071Z Prepare workflow directory
+2026-10-14T22:32:03.1771080Z Prepare all required actions
+2026-10-14T22:32:03.1886884Z Complete job name: verify
+2026-10-14T22:32:03.2863479Z ##[group]Run python3 - <<'PY'
+2026-10-14T22:32:03.2864439Z [36;1mpython3 - <<'PY'[0m
+2026-10-14T22:32:03.2865458Z [36;1mimport base64, hashlib, json, os, pathlib, urllib.request[0m
+2026-10-14T22:32:03.2866896Z [36;1mroot=pathlib.Path('catalog');root.mkdir()[0m
+2026-10-14T22:32:03.2870121Z [36;1mfiles=[('source.json','checkpoint-import/updates/2026-10-15-progress-116/source.json',os.environ['GH_COMMIT']),('verify.py','checkpoint-import/updates/2026-10-15-progress-116/verify.py',os.environ['GH_COMMIT']),('base_verifier.py','checkpoint-import/updates/2026-10-15-through-115/VERIFY_REMOTE.py','3ca4402e150e5b62df50bdb7bd19e8898c3a30f7')][0m
+2026-10-14T22:32:03.2873346Z [36;1mfor name,path,commit in files:[0m
+2026-10-14T22:32:03.2876102Z [36;1m    req=urllib.request.Request('https://api.github.com/repos/jaehwoo/lean-checkpoint-backup/contents/'+path+'?ref='+commit,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'Paper-I-backup-verification'})[0m
+2026-10-14T22:32:03.2879278Z [36;1m    with urllib.request.urlopen(req,timeout=60) as response:data=json.load(response)[0m
+2026-10-14T22:32:03.2880544Z [36;1m    content=base64.b64decode(data['content'])[0m
+2026-10-14T22:32:03.2882027Z [36;1m    assert hashlib.sha1(b'blob '+str(len(content)).encode()+b'\0'+content).hexdigest()==data['sha'][0m
+2026-10-14T22:32:03.2883311Z [36;1m    (root/name).write_bytes(content)[0m
+2026-10-14T22:32:03.2884237Z [36;1mPY[0m
+2026-10-14T22:32:03.6062167Z shell: /usr/bin/bash -e {0}
+2026-10-14T22:32:03.6063413Z env:
+2026-10-14T22:32:03.6069047Z   GH_TOKEN: ***
+2026-10-14T22:32:03.6069904Z   GH_COMMIT: 492b4ccc89689f0994495fb17196203458eaee6c
+2026-10-14T22:32:03.6070845Z ##[endgroup]
+2026-10-14T22:32:04.5985323Z ##[group]Run python3 catalog/verify.py
+2026-10-14T22:32:04.5986721Z [36;1mpython3 catalog/verify.py[0m
+2026-10-14T22:32:04.6046251Z shell: /usr/bin/bash -e {0}
+2026-10-14T22:32:04.6047497Z env:
+2026-10-14T22:32:04.6055757Z   GH_TOKEN: ***
+2026-10-14T22:32:04.6056774Z ##[endgroup]
+2026-10-14T22:32:06.4975804Z ADDENDUM_RECEIPT_START
+2026-10-14T22:32:06.4983261Z {"asset_id": 641880174, "bytes": 4327720, "checkpoint": 116, "classification": "progress_only", "commit": "492b4ccc89689f0994495fb17196203458eaee6c", "complete_checkpoint": false, "latest_complete_checkpoint": 115, "release_id": 413240377, "repository_after": {"full_name": "jaehwoo/lean-checkpoint-backup", "id": 1417233863, "observed_at_utc": "2026-10-14T22:32:06.495717+00:00", "private": true, "visibility": "private"}, "repository_before": {"full_name": "jaehwoo/lean-checkpoint-backup", "id": 1417233863, "observed_at_utc": "2026-10-14T22:32:05.069687+00:00", "private": true, "visibility": "private"}, "run_id": "38648290737", "sha256": "9940e0e35a4d68c03974381988dd071721d1359cc12cf45e757183d5ff129785", "source": {"created_at": "2026-10-14T22:20:18.174968Z", "file_id": "file_0000000047208209906fe2b4c1d94e6d", "id": "file_0000000047208209906fe2b4c1d94e6d", "kind": "file", "library_artifact_type": "other", "library_file_id": "libfile_950d60ba874c8191ba543b113dc9a5b4", "mime_type": "application/zip", "model_generated": true, "modified_at": "2026-10-14T22:20:18.174968Z", "name": "Paper_I_Lean_Checkpoint_116_Progress.zip", "path": "/Tarry/Paper_I_Lean_Checkpoint_116_Progress.zip", "size_bytes": 4327720, "surface": "library", "version_id": null}, "status": "REMOTE_PROGRESS_BYTES_VERIFIED", "verification_environment": "GitHub-hosted runner; authenticated remote byte download, disk hash readback and ZIP CRC check", "verified_at_utc": "2026-10-14T22:32:06.495749+00:00", "zip_members": 748}
+2026-10-14T22:32:06.4990471Z ADDENDUM_RECEIPT_END
+2026-10-14T22:32:06.5141589Z Cleaning up orphan processes
+

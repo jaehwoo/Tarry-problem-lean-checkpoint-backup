@@ -1,0 +1,46 @@
+{
+  "asset_id": 641880174,
+  "bytes": 4327720,
+  "checkpoint": 116,
+  "classification": "progress_only",
+  "commit": "492b4ccc89689f0994495fb17196203458eaee6c",
+  "complete_checkpoint": false,
+  "latest_complete_checkpoint": 115,
+  "release_id": 413240377,
+  "repository_after": {
+    "full_name": "jaehwoo/lean-checkpoint-backup",
+    "id": 1417233863,
+    "observed_at_utc": "2026-10-14T22:32:06.495717+00:00",
+    "private": true,
+    "visibility": "private"
+  },
+  "repository_before": {
+    "full_name": "jaehwoo/lean-checkpoint-backup",
+    "id": 1417233863,
+    "observed_at_utc": "2026-10-14T22:32:05.069687+00:00",
+    "private": true,
+    "visibility": "private"
+  },
+  "run_id": "38648290737",
+  "sha256": "9940e0e35a4d68c03974381988dd071721d1359cc12cf45e757183d5ff129785",
+  "source": {
+    "created_at": "2026-10-14T22:20:18.174968Z",
+    "file_id": "file_0000000047208209906fe2b4c1d94e6d",
+    "id": "file_0000000047208209906fe2b4c1d94e6d",
+    "kind": "file",
+    "library_artifact_type": "other",
+    "library_file_id": "libfile_950d60ba874c8191ba543b113dc9a5b4",
+    "mime_type": "application/zip",
+    "model_generated": true,
+    "modified_at": "2026-10-14T22:20:18.174968Z",
+    "name": "Paper_I_Lean_Checkpoint_116_Progress.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_116_Progress.zip",
+    "size_bytes": 4327720,
+    "surface": "library",
+    "version_id": null
+  },
+  "status": "REMOTE_PROGRESS_BYTES_VERIFIED",
+  "verification_environment": "GitHub-hosted runner; authenticated remote byte download, disk hash readback and ZIP CRC check",
+  "verified_at_utc": "2026-10-14T22:32:06.495749+00:00",
+  "zip_members": 748
+}
