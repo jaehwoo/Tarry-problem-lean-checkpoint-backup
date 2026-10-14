@@ -1,0 +1,48 @@
+{
+  "unchanged": true,
+  "assets": [
+    {
+      "id": 637379822,
+      "name": "Paper_I_Lean_Checkpoint_93.zip",
+      "size": 508328846,
+      "digest": "sha256:3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5"
+    },
+    {
+      "id": 637380650,
+      "name": "Paper_I_Lean_History_Through_82.zip",
+      "size": 528211115,
+      "digest": "sha256:9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55"
+    },
+    {
+      "id": 637381390,
+      "name": "Paper_I_Lean_Working_Checkpoint_93.zip",
+      "size": 508160539,
+      "digest": "sha256:065889ea6e0b74b9e1a2e004dd918180278a01c7b619fbc5689e4bbbac064c92"
+    },
+    {
+      "id": 637382272,
+      "name": "Paper_I_Lean_Originals_Part_01.zip",
+      "size": 652216163,
+      "digest": "sha256:df59a77dff6c9dc1c81f2d9afce7629cd7dc1563d309a1871ff10c01a6d098f0"
+    },
+    {
+      "id": 637383219,
+      "name": "Paper_I_Lean_Originals_Part_02.zip",
+      "size": 692389112,
+      "digest": "sha256:4cd9899faf2f85d11143e571819580de7d86356b4c4a65682c7f16993c62cca1"
+    },
+    {
+      "id": 637384350,
+      "name": "Paper_I_Lean_Originals_Part_03.zip",
+      "size": 254755932,
+      "digest": "sha256:ad570cbe988d9050f08a6a2f7f2c2220ffc00c781e7b2ecba73b30f076959ad3"
+    },
+    {
+      "id": 637403372,
+      "name": "Paper_I_Lean_Archive_Audit.json.gz",
+      "size": 6741357,
+      "digest": "sha256:db3730324e41b5ca26110fa1060cfea5c7c4c8eb3a4e3173db6168c247141774"
+    }
+  ],
+  "release_id": 411807641
+}

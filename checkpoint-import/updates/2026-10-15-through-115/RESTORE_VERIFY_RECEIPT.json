@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "78c11f94f303593a7f057d5a3caa9114c9f25b178f97c9a7d12a1bedf01894f0",
+  "checkpoint": 115,
+  "files": 1785,
+  "lean_files": 798,
+  "status": "CHECKPOINT_RESTORE_BYTES_VERIFIED",
+  "verification_scope": "File integrity only; no Lean compilation or theorem verification."
+}

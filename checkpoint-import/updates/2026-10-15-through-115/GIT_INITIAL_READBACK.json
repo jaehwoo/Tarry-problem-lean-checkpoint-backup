@@ -1,0 +1,108 @@
+{
+  "commit": "045dcc2f560234a389566d9e659fd0cca3fa759d",
+  "files": [
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/CHECKPOINTS.csv",
+      "bytes": 9327,
+      "sha256": "2bf4e80891c9b06fba84d72a20bdb9198f494d50a1c8980d440705aaf983f188",
+      "github_blob_sha": "a01361b97d8bcd5d9d7e1737cd3cb9ee17863941"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/LOCAL_PACKAGING_VERIFICATION.json",
+      "bytes": 88,
+      "sha256": "9b64c6003468bf5dd1c94dd97259dce52b696cde25af1e87ff09e9b66f02bdcd",
+      "github_blob_sha": "fc33a2760f82e1dfc7d749e6b2ea1589723bbd98"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/LOOKUP_SCOPE.json",
+      "bytes": 1347,
+      "sha256": "4364441b17e566a386715421031d2ac477abe9d909c93fbc29e8a230e1556c8a",
+      "github_blob_sha": "d90ccedb6de990df7efa70b232a4ea1404f8c9ba"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/ORIGINAL_MANIFEST_CHECK.json",
+      "bytes": 249,
+      "sha256": "104d9fc48741f9ed662caa2084a4484f14b8daef36bf96bfed2c7e009e3aae46",
+      "github_blob_sha": "f80d31a6a451d58d6f3fac779e54a24f6b0f0000"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/README.md",
+      "bytes": 5523,
+      "sha256": "dc1f450f6458099fd2249288b29ba68b08d0d4b813fbfea44ed3b7ab2a313def",
+      "github_blob_sha": "67d5bd814d492449c063351f6145b89060760680"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/SHA256SUMS",
+      "bytes": 510,
+      "sha256": "6a960f6d9dfe0596fc6eee6b47a7347717ffefa3225500f9da00ef2ec0f87910",
+      "github_blob_sha": "bd95b28ccb870d27984a506f5580aa5017184d04"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/SOURCES.csv",
+      "bytes": 23899,
+      "sha256": "0b448f42a346124f0067abdd377ae46b9605ce8dcff7b872703b790bd7facbc1",
+      "github_blob_sha": "f3a5f70db30e5f803383d48391806fdc0bdcb07e"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/VERIFY_REMOTE.py",
+      "bytes": 7057,
+      "sha256": "e0716e9fa5f2f093da25f5bd9b07507c64247d114df8b6b4e7952f103c809c08",
+      "github_blob_sha": "8b38b70a8454b4c7b892aa092f9c0d5ab2bd970f"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/assets.json",
+      "bytes": 994,
+      "sha256": "64f76b57718846d44cf29b12e674be0fdf2efb5a0bfdc04449d715daf952df6b",
+      "github_blob_sha": "109cc98ba82a5cb1b685eb96edde51cf300f9c41"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/coverage.json",
+      "bytes": 50408,
+      "sha256": "0bfcb51e73a12d8b02bf7bf7bbbc606b43bb24af1b11dc7cb92cecf8fa34fa3d",
+      "github_blob_sha": "76b98436aa31b0c78caf6434a3090996554c5f0d"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/executed-scripts/build_import.py",
+      "bytes": 10034,
+      "sha256": "7210e86f3c8c17d6e8f2b36975c333a5f37283409741859b362430bf0e120755",
+      "github_blob_sha": "43b6b3f28588e927b35230c7eec55e8a4b3ac072"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/executed-scripts/finalize_catalog.py",
+      "bytes": 3413,
+      "sha256": "211f035b45108608b3b3dfff13bfe3260da7d9481407fec70beab5564887f898",
+      "github_blob_sha": "ce83081cc453519638f43e1f05f8a9e266b9beb2"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/execution-logs/build_import.log",
+      "bytes": 6601,
+      "sha256": "bf9365f546155c247b5c53bd64c429bb6581875e490e7c97788b10a7ab2546db",
+      "github_blob_sha": "6338183d5e58391fb7e3be1b5f1dfa50431ddc61"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/restore.py",
+      "bytes": 6615,
+      "sha256": "9155b7e0cf39d395a829453d2c32295452c2d4a43eddcc7d5d527f40789750c3",
+      "github_blob_sha": "0821e0183fba09f741bd9c22de504194c1f5415d"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/source_provenance.json",
+      "bytes": 35541,
+      "sha256": "6fb78b8aac3b23d0c8eeba9ef82f694f655896e6c8f95ef78ab0015b38806ac0",
+      "github_blob_sha": "34ce6057eb7d37d79a15f2435ac9b967b3f9e27d"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-15-through-115/sources.json",
+      "bytes": 46667,
+      "sha256": "d70d8bf756d2cb57b8159523847686ab9e80957e713c41bd0552d27fda90eb94",
+      "github_blob_sha": "246ed91095f3ef4703d06dee07a1cce52a8fa3b3"
+    },
+    {
+      "path": ".github/workflows/paper-i-115-backup-verify.yml",
+      "bytes": 2190,
+      "sha256": "62d76a34c03ddb8de9564a66d8a6b84b5572f994b0ce234800ce5d529e9c142a",
+      "github_blob_sha": "636fa2a81547bbe4a6309ba08683af607689deef"
+    }
+  ],
+  "existing_files_unchanged": 52
+}

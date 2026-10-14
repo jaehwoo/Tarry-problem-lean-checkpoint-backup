@@ -1,0 +1,32 @@
+{
+  "uploads": "GitHub UI Release attachment chooser; 5 assets, new draft Release ID 413227169",
+  "download_validation": "GitHub Actions job makes authenticated GET requests to this repository and downloads redirected bytes without forwarding authorization; records SHA-256 and performs isolated restoration",
+  "browser_limit": "The browser download helper rejected the download due to a URL-protocol security policy. No browser bypass was attempted. Browser download attempts are not counted as successful readback.",
+  "first_run": {
+    "id": 38647061078,
+    "job_id": 116136412290,
+    "outcome": "failed HTTP 403 before downloading release assets",
+    "token_permissions": "contents:read"
+  },
+  "diagnostic_run": {
+    "id": 38647231587,
+    "job_id": 116136999398,
+    "outcome": "Resource not accessible by integration, HTTP 403",
+    "token_permissions": "contents:read"
+  },
+  "verification_run": {
+    "id": 38647380930,
+    "job_id": 116137495068,
+    "token_permissions": "contents:write, temporary draft visibility; verifier uses GET only",
+    "outcome": "success",
+    "completed_at_utc": "2026-10-14T22:25:15.443705+00:00"
+  },
+  "local_test": {
+    "command": "python3 new-import/restore.py restore --assets upload-assets --checkpoint 115 --destination local-restored-115",
+    "exit_code": 0,
+    "scope": "Local staging only, distinct from remote verification."
+  },
+  "remote_command": "python3 catalog/VERIFY_REMOTE.py",
+  "no_source_execution": "No manuscript Lean sources or checkpoint build tools are executed; only the existing byte-restoration tool and the new download/hash verifier run.",
+  "cleanup": "Remove the active one-off workflow in the final evidence commit; retain the exact executed YAML as an evidence file."
+}

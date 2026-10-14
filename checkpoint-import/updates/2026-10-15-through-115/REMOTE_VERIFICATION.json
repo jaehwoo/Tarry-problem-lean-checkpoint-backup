@@ -1,0 +1,105 @@
+{
+  "asset_and_original_verification": {
+    "assets": 5,
+    "source_files": 69,
+    "status": "ASSETS_AND_SOURCE_BYTES_VERIFIED"
+  },
+  "assets": [
+    {
+      "bytes": 676310002,
+      "expected_sha256": "f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa",
+      "github_digest": "sha256:f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa",
+      "id": 641824592,
+      "name": "Paper_I_Newer_Originals_Part_01.zip",
+      "sha256": "f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa",
+      "status": "DOWNLOADED_AND_HASH_VERIFIED"
+    },
+    {
+      "bytes": 624581212,
+      "expected_sha256": "1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea",
+      "github_digest": "sha256:1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea",
+      "id": 641830408,
+      "name": "Paper_I_Newer_Originals_Part_02.zip",
+      "sha256": "1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea",
+      "status": "DOWNLOADED_AND_HASH_VERIFIED"
+    },
+    {
+      "bytes": 229956174,
+      "expected_sha256": "50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201",
+      "github_digest": "sha256:50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201",
+      "id": 641836776,
+      "name": "Paper_I_Newer_Originals_Part_03.zip",
+      "sha256": "50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201",
+      "status": "DOWNLOADED_AND_HASH_VERIFIED"
+    },
+    {
+      "bytes": 524900605,
+      "expected_sha256": "aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832",
+      "github_digest": "sha256:aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832",
+      "id": 641839071,
+      "name": "Paper_I_Newer_Originals_Part_04.zip",
+      "sha256": "aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832",
+      "status": "DOWNLOADED_AND_HASH_VERIFIED"
+    },
+    {
+      "bytes": 2999037,
+      "expected_sha256": "e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834",
+      "github_digest": "sha256:e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834",
+      "id": 641844465,
+      "name": "Paper_I_Newer_Archive_Audit.json.gz",
+      "sha256": "e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834",
+      "status": "DOWNLOADED_AND_HASH_VERIFIED"
+    }
+  ],
+  "checkpoint": 115,
+  "finished_at_utc": "2026-10-14T22:25:15.443705+00:00",
+  "github_commit": "045dcc2f560234a389566d9e659fd0cca3fa759d",
+  "github_run_attempt": "1",
+  "github_run_id": "38647380930",
+  "python": "3.12.3",
+  "release_draft": true,
+  "release_id": 413227169,
+  "release_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/tag/untagged-dec02d0192d416ed2264",
+  "repository_after": {
+    "full_name": "jaehwoo/lean-checkpoint-backup",
+    "id": 1417233863,
+    "observed_at_utc": "2026-10-14T22:25:15.443693+00:00",
+    "private": true,
+    "visibility": "private"
+  },
+  "repository_before": {
+    "full_name": "jaehwoo/lean-checkpoint-backup",
+    "id": 1417233863,
+    "observed_at_utc": "2026-10-14T22:24:10.014670+00:00",
+    "private": true,
+    "visibility": "private"
+  },
+  "restoration": {
+    "archive_sha256": "78c11f94f303593a7f057d5a3caa9114c9f25b178f97c9a7d12a1bedf01894f0",
+    "checkpoint": 115,
+    "files": 1785,
+    "lean_files": 798,
+    "status": "CHECKPOINT_RESTORE_BYTES_VERIFIED",
+    "verification_scope": "File integrity only; no Lean compilation or theorem verification."
+  },
+  "restore_tool_sha256": "9155b7e0cf39d395a829453d2c32295452c2d4a43eddcc7d5d527f40789750c3",
+  "restored_manuscripts": [
+    {
+      "bytes": 338724,
+      "name": "Complete_Affine_Jets_I_Introduction_Revision.tex",
+      "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914"
+    },
+    {
+      "bytes": 116736,
+      "name": "Complete_Affine_Jets_Supplement.tex",
+      "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312"
+    }
+  ],
+  "restored_original_package_manifest_files": 1783,
+  "source_bytes": 2055734485,
+  "source_file_count": 69,
+  "started_at_utc": "2026-10-14T22:24:09.673150+00:00",
+  "status": "REMOTE_DOWNLOAD_HASH_AND_RESTORE_VERIFIED",
+  "verification_environment": "GitHub-hosted Actions runner; actual API downloads, not local staging files or browser metadata",
+  "verification_scope": "Archive bytes and isolated restoration; no Lean recompilation or mathematical verification."
+}

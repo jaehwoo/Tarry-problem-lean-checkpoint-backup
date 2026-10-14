@@ -1,0 +1,81 @@
+﻿2026-10-14T22:24:08.1417034Z Current runner version: '2.337.0'
+2026-10-14T22:24:08.1443138Z ##[group]Runner Image Provisioner
+2026-10-14T22:24:08.1443939Z Hosted Compute Agent
+2026-10-14T22:24:08.1444737Z Version: 20261002.596
+2026-10-14T22:24:08.1445321Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+2026-10-14T22:24:08.1445937Z Build Date: 2026-10-02T22:28:27Z
+2026-10-14T22:24:08.1446644Z Worker ID: {40e10b6c-efb4-4e20-bfaf-29fc58644c46}
+2026-10-14T22:24:08.1447281Z Region: centralus
+2026-10-14T22:24:08.1447798Z Cloud: Azure
+2026-10-14T22:24:08.1448290Z ##[endgroup]
+2026-10-14T22:24:08.1449978Z ##[group]Operating System
+2026-10-14T22:24:08.1450609Z Ubuntu
+2026-10-14T22:24:08.1451071Z 24.04.5
+2026-10-14T22:24:08.1451486Z LTS
+2026-10-14T22:24:08.1451958Z ##[endgroup]
+2026-10-14T22:24:08.1452404Z ##[group]Runner Image
+2026-10-14T22:24:08.1453058Z Image: ubuntu-24.04
+2026-10-14T22:24:08.1453579Z Version: 20261004.327.1
+2026-10-14T22:24:08.1455219Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-14T22:24:08.1456627Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+2026-10-14T22:24:08.1457525Z ##[endgroup]
+2026-10-14T22:24:08.1458493Z ##[group]GITHUB_TOKEN Permissions
+2026-10-14T22:24:08.1460973Z Contents: write
+2026-10-14T22:24:08.1461491Z Metadata: read
+2026-10-14T22:24:08.1462061Z ##[endgroup]
+2026-10-14T22:24:08.1463856Z Secret source: Actions
+2026-10-14T22:24:08.1465342Z Cache mode: write
+2026-10-14T22:24:08.1466151Z Prepare workflow directory
+2026-10-14T22:24:08.1702242Z Prepare all required actions
+2026-10-14T22:24:08.1768022Z Complete job name: verify
+2026-10-14T22:24:08.2421470Z ##[group]Run python3 - <<'PY'
+2026-10-14T22:24:08.2422253Z [36;1mpython3 - <<'PY'[0m
+2026-10-14T22:24:08.2422936Z [36;1mimport base64, hashlib, json, os, pathlib, urllib.request[0m
+2026-10-14T22:24:08.2423933Z [36;1mrepo=os.environ['GH_REPOSITORY'][0m
+2026-10-14T22:24:08.2424768Z [36;1massert repo=='jaehwoo/lean-checkpoint-backup'[0m
+2026-10-14T22:24:08.2425443Z [36;1mcommit=os.environ['GH_COMMIT'][0m
+2026-10-14T22:24:08.2426238Z [36;1mprefix='checkpoint-import/updates/2026-10-15-through-115/'[0m
+2026-10-14T22:24:08.2427019Z [36;1mroot=pathlib.Path('catalog');root.mkdir()[0m
+2026-10-14T22:24:08.2427987Z [36;1mfor name in ['assets.json','sources.json','coverage.json','restore.py','VERIFY_REMOTE.py']:[0m
+2026-10-14T22:24:08.2430069Z [36;1m    req=urllib.request.Request('https://api.github.com/repos/'+repo+'/contents/'+prefix+name+'?ref='+commit,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'Paper-I-backup-verification'})[0m
+2026-10-14T22:24:08.2431883Z [36;1m    with urllib.request.urlopen(req,timeout=60) as response:[0m
+2026-10-14T22:24:08.2432620Z [36;1m        data=json.load(response)[0m
+2026-10-14T22:24:08.2433374Z [36;1m    assert data['encoding']=='base64' and data['type']=='file'[0m
+2026-10-14T22:24:08.2434175Z [36;1m    content=base64.b64decode(data['content'])[0m
+2026-10-14T22:24:08.2435261Z [36;1m    blob=hashlib.sha1(b'blob '+str(len(content)).encode()+b'\0'+content).hexdigest()[0m
+2026-10-14T22:24:08.2436080Z [36;1m    assert blob==data['sha'][0m
+2026-10-14T22:24:08.2436682Z [36;1m    (root/name).write_bytes(content)[0m
+2026-10-14T22:24:08.2437453Z [36;1m    print('CATALOG',name,hashlib.sha256(content).hexdigest())[0m
+2026-10-14T22:24:08.2438174Z [36;1mPY[0m
+2026-10-14T22:24:08.3363838Z shell: /usr/bin/bash -e {0}
+2026-10-14T22:24:08.3365066Z env:
+2026-10-14T22:24:08.3368829Z   GH_TOKEN: ***
+2026-10-14T22:24:08.3369424Z   GH_REPOSITORY: jaehwoo/lean-checkpoint-backup
+2026-10-14T22:24:08.3370142Z   GH_COMMIT: 045dcc2f560234a389566d9e659fd0cca3fa759d
+2026-10-14T22:24:08.3370901Z ##[endgroup]
+2026-10-14T22:24:09.6141154Z CATALOG assets.json 64f76b57718846d44cf29b12e674be0fdf2efb5a0bfdc04449d715daf952df6b
+2026-10-14T22:24:09.6148853Z CATALOG sources.json d70d8bf756d2cb57b8159523847686ab9e80957e713c41bd0552d27fda90eb94
+2026-10-14T22:24:09.6159032Z CATALOG coverage.json 0bfcb51e73a12d8b02bf7bf7bbbc606b43bb24af1b11dc7cb92cecf8fa34fa3d
+2026-10-14T22:24:09.6160864Z CATALOG restore.py 9155b7e0cf39d395a829453d2c32295452c2d4a43eddcc7d5d527f40789750c3
+2026-10-14T22:24:09.6162737Z CATALOG VERIFY_REMOTE.py e0716e9fa5f2f093da25f5bd9b07507c64247d114df8b6b4e7952f103c809c08
+2026-10-14T22:24:09.6263367Z ##[group]Run python3 catalog/VERIFY_REMOTE.py
+2026-10-14T22:24:09.6264572Z [36;1mpython3 catalog/VERIFY_REMOTE.py[0m
+2026-10-14T22:24:09.6319355Z shell: /usr/bin/bash -e {0}
+2026-10-14T22:24:09.6320139Z env:
+2026-10-14T22:24:09.6326561Z   GH_TOKEN: ***
+2026-10-14T22:24:09.6327192Z ##[endgroup]
+2026-10-14T22:24:10.2731145Z DOWNLOADING Paper_I_Newer_Originals_Part_01.zip 676310002
+2026-10-14T22:24:20.8869379Z VERIFIED Paper_I_Newer_Originals_Part_01.zip f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa
+2026-10-14T22:24:20.8875674Z DOWNLOADING Paper_I_Newer_Originals_Part_02.zip 624581212
+2026-10-14T22:24:52.8483521Z VERIFIED Paper_I_Newer_Originals_Part_02.zip 1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea
+2026-10-14T22:24:52.8484749Z DOWNLOADING Paper_I_Newer_Originals_Part_03.zip 229956174
+2026-10-14T22:24:57.8306863Z VERIFIED Paper_I_Newer_Originals_Part_03.zip 50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201
+2026-10-14T22:24:57.8307967Z DOWNLOADING Paper_I_Newer_Originals_Part_04.zip 524900605
+2026-10-14T22:25:09.6543136Z VERIFIED Paper_I_Newer_Originals_Part_04.zip aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832
+2026-10-14T22:25:09.6544243Z DOWNLOADING Paper_I_Newer_Archive_Audit.json.gz 2999037
+2026-10-14T22:25:10.0915997Z VERIFIED Paper_I_Newer_Archive_Audit.json.gz e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834
+2026-10-14T22:25:15.4443545Z REMOTE_VERIFICATION_RECEIPT_START
+2026-10-14T22:25:15.4451657Z {"asset_and_original_verification": {"assets": 5, "source_files": 69, "status": "ASSETS_AND_SOURCE_BYTES_VERIFIED"}, "assets": [{"bytes": 676310002, "expected_sha256": "f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa", "github_digest": "sha256:f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa", "id": 641824592, "name": "Paper_I_Newer_Originals_Part_01.zip", "sha256": "f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa", "status": "DOWNLOADED_AND_HASH_VERIFIED"}, {"bytes": 624581212, "expected_sha256": "1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea", "github_digest": "sha256:1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea", "id": 641830408, "name": "Paper_I_Newer_Originals_Part_02.zip", "sha256": "1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea", "status": "DOWNLOADED_AND_HASH_VERIFIED"}, {"bytes": 229956174, "expected_sha256": "50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201", "github_digest": "sha256:50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201", "id": 641836776, "name": "Paper_I_Newer_Originals_Part_03.zip", "sha256": "50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201", "status": "DOWNLOADED_AND_HASH_VERIFIED"}, {"bytes": 524900605, "expected_sha256": "aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832", "github_digest": "sha256:aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832", "id": 641839071, "name": "Paper_I_Newer_Originals_Part_04.zip", "sha256": "aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832", "status": "DOWNLOADED_AND_HASH_VERIFIED"}, {"bytes": 2999037, "expected_sha256": "e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834", "github_digest": "sha256:e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834", "id": 641844465, "name": "Paper_I_Newer_Archive_Audit.json.gz", "sha256": "e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834", "status": "DOWNLOADED_AND_HASH_VERIFIED"}], "checkpoint": 115, "finished_at_utc": "2026-10-14T22:25:15.443705+00:00", "github_commit": "045dcc2f560234a389566d9e659fd0cca3fa759d", "github_run_attempt": "1", "github_run_id": "38647380930", "python": "3.12.3", "release_draft": true, "release_id": 413227169, "release_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/tag/untagged-dec02d0192d416ed2264", "repository_after": {"full_name": "jaehwoo/lean-checkpoint-backup", "id": 1417233863, "observed_at_utc": "2026-10-14T22:25:15.443693+00:00", "private": true, "visibility": "private"}, "repository_before": {"full_name": "jaehwoo/lean-checkpoint-backup", "id": 1417233863, "observed_at_utc": "2026-10-14T22:24:10.014670+00:00", "private": true, "visibility": "private"}, "restoration": {"archive_sha256": "78c11f94f303593a7f057d5a3caa9114c9f25b178f97c9a7d12a1bedf01894f0", "checkpoint": 115, "files": 1785, "lean_files": 798, "status": "CHECKPOINT_RESTORE_BYTES_VERIFIED", "verification_scope": "File integrity only; no Lean compilation or theorem verification."}, "restore_tool_sha256": "9155b7e0cf39d395a829453d2c32295452c2d4a43eddcc7d5d527f40789750c3", "restored_manuscripts": [{"bytes": 338724, "name": "Complete_Affine_Jets_I_Introduction_Revision.tex", "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914"}, {"bytes": 116736, "name": "Complete_Affine_Jets_Supplement.tex", "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312"}], "restored_original_package_manifest_files": 1783, "source_bytes": 2055734485, "source_file_count": 69, "started_at_utc": "2026-10-14T22:24:09.673150+00:00", "status": "REMOTE_DOWNLOAD_HASH_AND_RESTORE_VERIFIED", "verification_environment": "GitHub-hosted Actions runner; actual API downloads, not local staging files or browser metadata", "verification_scope": "Archive bytes and isolated restoration; no Lean recompilation or mathematical verification."}
+2026-10-14T22:25:15.4458634Z REMOTE_VERIFICATION_RECEIPT_END
+2026-10-14T22:25:16.1153559Z Cleaning up orphan processes
+

@@ -1,0 +1,96 @@
+﻿2026-10-14T22:21:25.1711896Z Current runner version: '2.337.0'
+2026-10-14T22:21:25.1779179Z ##[group]Runner Image Provisioner
+2026-10-14T22:21:25.1791154Z Hosted Compute Agent
+2026-10-14T22:21:25.1792171Z Version: 20261012.601
+2026-10-14T22:21:25.1793352Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+2026-10-14T22:21:25.1794756Z Build Date: 2026-10-12T17:48:21Z
+2026-10-14T22:21:25.1796013Z Worker ID: {ac16810d-e3d1-43fd-8346-3b4075876c2b}
+2026-10-14T22:21:25.1797470Z Region: eastus
+2026-10-14T22:21:25.1798487Z Cloud: Azure
+2026-10-14T22:21:25.1799578Z ##[endgroup]
+2026-10-14T22:21:25.1812571Z ##[group]Operating System
+2026-10-14T22:21:25.1813695Z Ubuntu
+2026-10-14T22:21:25.1814825Z 24.04.5
+2026-10-14T22:21:25.1815711Z LTS
+2026-10-14T22:21:25.1816817Z ##[endgroup]
+2026-10-14T22:21:25.1817865Z ##[group]Runner Image
+2026-10-14T22:21:25.1818999Z Image: ubuntu-24.04
+2026-10-14T22:21:25.1830679Z Version: 20261012.334.1
+2026-10-14T22:21:25.1833256Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-14T22:21:25.1836159Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+2026-10-14T22:21:25.1838067Z ##[endgroup]
+2026-10-14T22:21:25.1850528Z ##[group]GITHUB_TOKEN Permissions
+2026-10-14T22:21:25.1854669Z Contents: read
+2026-10-14T22:21:25.1855684Z Metadata: read
+2026-10-14T22:21:25.1856678Z ##[endgroup]
+2026-10-14T22:21:25.1870566Z Secret source: Actions
+2026-10-14T22:21:25.1872339Z Cache mode: write
+2026-10-14T22:21:25.1873937Z Prepare workflow directory
+2026-10-14T22:21:25.2652499Z Prepare all required actions
+2026-10-14T22:21:25.2818454Z Complete job name: verify
+2026-10-14T22:21:25.4474519Z ##[group]Run python3 - <<'PY'
+2026-10-14T22:21:25.4476414Z [36;1mpython3 - <<'PY'[0m
+2026-10-14T22:21:25.4478169Z [36;1mimport base64, hashlib, json, os, pathlib, urllib.request[0m
+2026-10-14T22:21:25.4479836Z [36;1mrepo=os.environ['GH_REPOSITORY'][0m
+2026-10-14T22:21:25.4483142Z [36;1massert repo=='jaehwoo/lean-checkpoint-backup'[0m
+2026-10-14T22:21:25.4485013Z [36;1mcommit=os.environ['GH_COMMIT'][0m
+2026-10-14T22:21:25.4489700Z [36;1mprefix='checkpoint-import/updates/2026-10-15-through-115/'[0m
+2026-10-14T22:21:25.4491858Z [36;1mroot=pathlib.Path('catalog');root.mkdir()[0m
+2026-10-14T22:21:25.4493726Z [36;1mfor name in ['assets.json','sources.json','coverage.json','restore.py','VERIFY_REMOTE.py']:[0m
+2026-10-14T22:21:25.4497661Z [36;1m    req=urllib.request.Request('https://api.github.com/repos/'+repo+'/contents/'+prefix+name+'?ref='+commit,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'Paper-I-backup-verification'})[0m
+2026-10-14T22:21:25.4501386Z [36;1m    with urllib.request.urlopen(req,timeout=60) as response:[0m
+2026-10-14T22:21:25.4502810Z [36;1m        data=json.load(response)[0m
+2026-10-14T22:21:25.4504164Z [36;1m    assert data['encoding']=='base64' and data['type']=='file'[0m
+2026-10-14T22:21:25.4505724Z [36;1m    content=base64.b64decode(data['content'])[0m
+2026-10-14T22:21:25.4507420Z [36;1m    blob=hashlib.sha1(b'blob '+str(len(content)).encode()+b'\0'+content).hexdigest()[0m
+2026-10-14T22:21:25.4508965Z [36;1m    assert blob==data['sha'][0m
+2026-10-14T22:21:25.4510665Z [36;1m    (root/name).write_bytes(content)[0m
+2026-10-14T22:21:25.4512165Z [36;1m    print('CATALOG',name,hashlib.sha256(content).hexdigest())[0m
+2026-10-14T22:21:25.4513565Z [36;1mPY[0m
+2026-10-14T22:21:25.5442753Z shell: /usr/bin/bash -e {0}
+2026-10-14T22:21:25.5444124Z env:
+2026-10-14T22:21:25.5448822Z   GH_TOKEN: ***
+2026-10-14T22:21:25.5449462Z   GH_REPOSITORY: jaehwoo/lean-checkpoint-backup
+2026-10-14T22:21:25.5450931Z   GH_COMMIT: 5921064f31b72634fb223e63584f035d505a7728
+2026-10-14T22:21:25.5451756Z ##[endgroup]
+2026-10-14T22:21:26.4027345Z CATALOG assets.json 64f76b57718846d44cf29b12e674be0fdf2efb5a0bfdc04449d715daf952df6b
+2026-10-14T22:21:26.4029701Z CATALOG sources.json d70d8bf756d2cb57b8159523847686ab9e80957e713c41bd0552d27fda90eb94
+2026-10-14T22:21:26.4032873Z CATALOG coverage.json 0bfcb51e73a12d8b02bf7bf7bbbc606b43bb24af1b11dc7cb92cecf8fa34fa3d
+2026-10-14T22:21:26.4035653Z CATALOG restore.py 9155b7e0cf39d395a829453d2c32295452c2d4a43eddcc7d5d527f40789750c3
+2026-10-14T22:21:26.4037336Z CATALOG VERIFY_REMOTE.py b0c0a04d0b6df83bf11ddc640eadbeedad305bab5e5d3d2c3f860016c3ed64b5
+2026-10-14T22:21:26.4183908Z ##[group]Run python3 catalog/VERIFY_REMOTE.py
+2026-10-14T22:21:26.4185276Z [36;1mpython3 catalog/VERIFY_REMOTE.py[0m
+2026-10-14T22:21:26.4266901Z shell: /usr/bin/bash -e {0}
+2026-10-14T22:21:26.4267528Z env:
+2026-10-14T22:21:26.4272228Z   GH_TOKEN: ***
+2026-10-14T22:21:26.4272772Z ##[endgroup]
+2026-10-14T22:21:27.0242991Z Traceback (most recent call last):
+2026-10-14T22:21:27.0252984Z   File "/home/runner/work/lean-checkpoint-backup/lean-checkpoint-backup/catalog/VERIFY_REMOTE.py", line 107, in <module>
+2026-10-14T22:21:27.0256290Z     main()
+2026-10-14T22:21:27.0266653Z   File "/home/runner/work/lean-checkpoint-backup/lean-checkpoint-backup/catalog/VERIFY_REMOTE.py", line 63, in main
+2026-10-14T22:21:27.0305298Z     release=get('releases/'+str(RELEASE_ID))
+2026-10-14T22:21:27.0311397Z             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-14T22:21:27.0322810Z   File "/home/runner/work/lean-checkpoint-backup/lean-checkpoint-backup/catalog/VERIFY_REMOTE.py", line 27, in get
+2026-10-14T22:21:27.0341436Z     with api(path) as r:
+2026-10-14T22:21:27.0351395Z          ^^^^^^^^^
+2026-10-14T22:21:27.0354973Z   File "/home/runner/work/lean-checkpoint-backup/lean-checkpoint-backup/catalog/VERIFY_REMOTE.py", line 24, in api
+2026-10-14T22:21:27.0359923Z     return urllib.request.build_opener(NoRedirect()).open(request,timeout=120)
+2026-10-14T22:21:27.0363596Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-14T22:21:27.0366778Z   File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+2026-10-14T22:21:27.0369757Z     response = meth(req, response)
+2026-10-14T22:21:27.0372305Z                ^^^^^^^^^^^^^^^^^^^
+2026-10-14T22:21:27.0375312Z   File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+2026-10-14T22:21:27.0378477Z     response = self.parent.error(
+2026-10-14T22:21:27.0380832Z                ^^^^^^^^^^^^^^^^^^
+2026-10-14T22:21:27.0383676Z   File "/usr/lib/python3.12/urllib/request.py", line 559, in error
+2026-10-14T22:21:27.0387092Z     return self._call_chain(*args)
+2026-10-14T22:21:27.0389711Z            ^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-14T22:21:27.0393341Z   File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+2026-10-14T22:21:27.0396875Z     result = func(*args)
+2026-10-14T22:21:27.0399269Z              ^^^^^^^^^^^
+2026-10-14T22:21:27.0402790Z   File "/usr/lib/python3.12/urllib/request.py", line 639, in http_error_default
+2026-10-14T22:21:27.0406747Z     raise HTTPError(req.full_url, code, msg, hdrs, fp)
+2026-10-14T22:21:27.0410354Z urllib.error.HTTPError: HTTP Error 403: Forbidden
+2026-10-14T22:21:27.0431332Z ##[error]Process completed with exit code 1.
+2026-10-14T22:21:27.0633332Z Cleaning up orphan processes
+

@@ -38,7 +38,11 @@ The root `lean_backup.py` is retained unchanged. That tool creates a new operati
 
 ## Verification evidence
 
-`REMOTE_VERIFICATION.json`, `ASSET_VERIFY_RECEIPT.json`, and `RESTORE_VERIFY_RECEIPT.json` provide the actual remote-readback and restoration results when present. `ORIGINAL_MANIFEST_CHECK.json` records the exact match between all 1,785 checkpoint 115 archive members and its original delivery manifest. `SHA256SUMS` covers the five Release assets. `GIT_PAYLOAD_SHA256SUMS` covers the additive catalog payload.
+**Remote verification passed on 2026-10-14 at 22:25 UTC (2026-10-15, 07:25 KST).** [GitHub Actions run 38647380930](https://github.com/jaehwoo/lean-checkpoint-backup/actions/runs/38647380930) downloaded all five Release assets independently, matched their sizes and SHA-256 hashes, verified all 69 original files, and restored checkpoint 115. All 1,785 restored files passed disk readback; 798 paths end in `.lean`, including retained historical source files. Both manuscript hashes matched. The original package manifest's 1,783 listed files also passed.
+
+`REMOTE_VERIFICATION.json`, `ASSET_VERIFY_RECEIPT.json`, and `RESTORE_VERIFY_RECEIPT.json` contain the actual remote-readback and restoration results. `ORIGINAL_MANIFEST_CHECK.json` separately records the exact match between all 1,785 checkpoint 115 archive members and its original delivery manifest. `SHA256SUMS` covers the five Release assets. `GIT_PAYLOAD_SHA256SUMS` covers the additive catalog payload.
+
+The browser download helper hit a URL-protocol policy restriction and was not used as proof of remote verification. The GitHub-hosted job used the authenticated Release API and actual downloaded bytes. Two initial jobs with `contents: read` were rejected at draft-release access (HTTP 403). The successful one-off job temporarily used `contents: write` for draft visibility, while the verifier made only GET requests. The active workflow is removed after completion, and its executed definition is retained as evidence under `executed-scripts/RemoteVerification.workflow.yml`. No continuing workflow or expanded token permission is left active by this task. Failed and successful job logs remain preserved.
 
 Historical coverage through 93 is inherited from the preserved prior verification records, not represented as a fresh re-download of those seven large assets. Their current remote IDs, sizes and digests are compared with the pre-task inventory. All existing Git file paths and object hashes are checked unchanged after the additive commit.
 
