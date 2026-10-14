@@ -1,0 +1,1543 @@
+{
+  "checked_at_utc": "2026-10-14T22:06:47.595454+00:00",
+  "checkpoint_archives": {
+    "115": [
+      {
+        "archive_sha256": "78c11f94f303593a7f057d5a3caa9114c9f25b178f97c9a7d12a1bedf01894f0",
+        "archive_name": "Paper_I_Lean_Checkpoint_115.zip",
+        "lean_files": 798,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_115.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "108": [
+      {
+        "archive_sha256": "63b6d283d8f5e57d0105d2e7da5e8b1db0908d14d81ac7b70243d683f64513a7",
+        "archive_name": "Paper_I_Lean_Checkpoint_108.zip",
+        "lean_files": 664,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_115.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "107": [
+      {
+        "archive_sha256": "3ea3a8570dbd04e2493fcad5039bf14b5bb93ac42bfacead9c6f834c12b06112",
+        "archive_name": "Paper_I_Lean_Checkpoint_107.zip",
+        "lean_files": 637,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_115.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "106": [
+      {
+        "archive_sha256": "b03b229c3051b69d0d2a6e225156ba1f36e940996a148c15158ef9930e09f28d",
+        "archive_name": "Paper_I_Lean_Checkpoint_106.zip",
+        "lean_files": 612,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_115.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "105": [
+      {
+        "archive_sha256": "a4d6b64d8ce4b5033df73d8c80ed111c6544f242a68251069dfb895f95ac74fe",
+        "archive_name": "Paper_I_Lean_Checkpoint_105.zip",
+        "lean_files": 593,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_115.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "114": [
+      {
+        "archive_sha256": "9257a943ee3e5812180127ab38196f4b67be51b3d602302b918ef007cf46bbd0",
+        "archive_name": "Paper_I_Lean_Checkpoint_114.zip",
+        "lean_files": 772,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_114.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "113": [
+      {
+        "archive_sha256": "512637b5f011f0ed722bbc0f91321a962ed6456f5d51c4a50d64c53cd7f80f61",
+        "archive_name": "Paper_I_Lean_Checkpoint_113_Joint_Selection.zip",
+        "lean_files": 757,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Paper_I_Lean_Checkpoint_113_Joint_Selection.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      },
+      {
+        "archive_sha256": "e1951c8af5cc7374c0b43a6a5f06307ec9eeb916449e8251f3960b0fc7c163a2",
+        "archive_name": "Paper_I_Lean_Checkpoint_113.zip",
+        "lean_files": 752,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_113.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "112": [
+      {
+        "archive_sha256": "b9c363b9c533a661fb9554fcae4952c57f9477170211425add5ddf34d3ed733a",
+        "archive_name": "Paper_I_Lean_Checkpoint_112.zip",
+        "lean_files": 683,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Paper_I_Lean_Checkpoint_112.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      },
+      {
+        "archive_sha256": "a397639c9a3447d5cc41745b7a583204d877a8a6198e10bcf78afc1ee85669d3",
+        "archive_name": "Paper_I_Lean_Checkpoint_112.zip",
+        "lean_files": 744,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_112.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "111": [
+      {
+        "archive_sha256": "8287b3a6cf1498c192cd413d82ba3f2408e333b41303e91f506cfe5a004d5c9c",
+        "archive_name": "Paper_I_Lean_Checkpoint_111.zip",
+        "lean_files": 676,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Paper_I_Lean_Checkpoint_111.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "110": [
+      {
+        "archive_sha256": "cb0f6e62c9b16b65a899071b04ab76b9d4fb5901e353f3a3b478c69c9be291d6",
+        "archive_name": "Paper_I_Lean_Checkpoint_110.zip",
+        "lean_files": 697,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_110.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "104": [
+      {
+        "archive_sha256": "c47f4983fdb3462eb083e681ccb441cfabbb0b81310cc0b048492ec4095d4f39",
+        "archive_name": "Paper_I_Lean_History_Checkpoint_104.zip",
+        "lean_files": 584,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "103": [
+      {
+        "archive_sha256": "0eb7222dd3e78f3777e957449edba92936ed8b741710e6f51b6a0b9f9752cef4",
+        "archive_name": "Paper_I_Lean_Checkpoint_103.zip",
+        "lean_files": 607,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "102": [
+      {
+        "archive_sha256": "65980cb3bfc2da060d06085149834c54690061b496b1fcc65593d14af8cf0846",
+        "archive_name": "Paper_I_Lean_Checkpoint_102.zip",
+        "lean_files": 591,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "101": [
+      {
+        "archive_sha256": "d463466b896e866863e7dfca8448098b662a5ec7f2842315aeeea524bf40ee71",
+        "archive_name": "Paper_I_Lean_Checkpoint_101.zip",
+        "lean_files": 569,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "100": [
+      {
+        "archive_sha256": "76e28895f40ea019fdb4f1a5424930d42c099d795615d9694c7dae37e0b68604",
+        "archive_name": "Paper_I_Lean_Checkpoint_100.zip",
+        "lean_files": 583,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_100.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "99": [
+      {
+        "archive_sha256": "dcebe9e236c541c404533188aa4bd8aade6c9a8f5965cb699b07b54c6876d76a",
+        "archive_name": "Paper_I_Lean_Checkpoint_99.zip",
+        "lean_files": 697,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_100.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_99.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "98": [
+      {
+        "archive_sha256": "e433a76d397419eed8d520d402b234991ec6e647f55fd3efa6c28c3c51ddcc46",
+        "archive_name": "Paper_I_Lean_Checkpoint_98.zip",
+        "lean_files": 675,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_100.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_99.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_98.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "97": [
+      {
+        "archive_sha256": "d406d13c9becb391c5e73f38aa07870c1aa17be87e3fc24eea304590d915801f",
+        "archive_name": "Paper_I_Lean_Checkpoint_97.zip",
+        "lean_files": 661,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_100.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_99.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_98.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_97.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "96": [
+      {
+        "archive_sha256": "7917443b9f7c79b41ab22b8b34b162b016ef2a7eb93a9cfacc8f2b0693f37b15",
+        "archive_name": "Paper_I_Lean_Checkpoint_96.zip",
+        "lean_files": 651,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_100.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_99.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_98.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_97.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_96.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "95": [
+      {
+        "archive_sha256": "110aec26d5ef3afc6b03d1c1819250cd9b489f4a8581ba94aab3e4cde4b8c388",
+        "archive_name": "Paper_I_Lean_Checkpoint_95.zip",
+        "lean_files": 641,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_100.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_99.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_98.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_97.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_96.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_95.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ],
+    "94": [
+      {
+        "archive_sha256": "69c25aea301900cf5907c7121119bc0c8ab57f1244a88c929c224a4f11c1d1bc",
+        "archive_name": "Paper_I_Lean_Checkpoint_94.zip",
+        "lean_files": 629,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_History_Checkpoint_104.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_103.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_102.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_100.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_99.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_98.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_97.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_96.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_95.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_94.zip"
+        ],
+        "recorded_evidence_present": true,
+        "manuscripts": [
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+            "sha256": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+            "bytes": 338724
+          },
+          {
+            "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+            "sha256": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+            "bytes": 116736
+          },
+          {
+            "path": "PaperILean/manuscript/source_labels.aux",
+            "sha256": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+            "bytes": 44541
+          }
+        ]
+      }
+    ]
+  },
+  "progress_archives": {
+    "109": [
+      {
+        "archive_sha256": "267aa00f8b08c901fbdb603a744f8cad28adc31d9a7337c671f73c98be424bce",
+        "archive_name": "Paper_I_Lean_Checkpoint_109_Progress.zip",
+        "lean_files": 665,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_115.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_109_Progress.zip"
+        ]
+      },
+      {
+        "archive_sha256": "0e1152d115abe0f3be16a64a25ac4d9a712bd3841c9d934ec06e6127435b5d13",
+        "archive_name": "Paper_I_Lean_Checkpoint_109_Progress.zip",
+        "lean_files": 667,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_109_Progress.zip"
+        ]
+      }
+    ],
+    "115": [
+      {
+        "archive_sha256": "f998b3662aec9c8e24082612f3f869f15e838a0213ae5a03abb01e16976cfc4d",
+        "archive_name": "Paper_I_Lean_Checkpoint_115_Progress.zip",
+        "lean_files": 771,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_115_Progress.zip"
+        ]
+      }
+    ],
+    "114": [
+      {
+        "archive_sha256": "82340b1d96e711d8e5ef1e6107987c05d5ceee36653d8f6a7467616f2e8fc2ec",
+        "archive_name": "Paper_I_Lean_Checkpoint_114_Progress.zip",
+        "lean_files": 745,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_114_Progress.zip"
+        ]
+      }
+    ],
+    "101": [
+      {
+        "archive_sha256": "59e5ee96e39917ab8c5c62af00cde9493b7f3c1898c7993495c8776f3c7958b9",
+        "archive_name": "Paper_I_Lean_Checkpoint_101_Progress.zip",
+        "lean_files": 561,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Paper_I_Lean_Checkpoint_113_Joint_Selection.zip",
+          "PaperILean/supporting_reviews/Published_Citations_Lean_Update_20261014.zip",
+          "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_101_Progress.zip"
+        ]
+      },
+      {
+        "archive_sha256": "cf2eba8c2c5c6693b5b1cd109b344b41ddf76b98d9387d106d7d98120e4bd6bb",
+        "archive_name": "Paper_I_Lean_Checkpoint_101_Progress.zip",
+        "lean_files": 565,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_101_Progress.zip"
+        ]
+      }
+    ],
+    "113": [
+      {
+        "archive_sha256": "6235afa8c4745e3a13b6e9e75a4b01aa172e5fb16e1f11d5ddd9fa6938c2ef4e",
+        "archive_name": "Paper_I_Lean_Checkpoint_113_Progress.zip",
+        "lean_files": 740,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_113_Progress.zip"
+        ]
+      }
+    ],
+    "112": [
+      {
+        "archive_sha256": "cb2c22c8ec28b88f5ed690ad5f251ddf5acd4ecc87a849e26ee88f5816179624",
+        "archive_name": "Paper_I_Lean_Checkpoint_112_Progress.zip",
+        "lean_files": 732,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_112_Progress.zip"
+        ]
+      }
+    ],
+    "111": [
+      {
+        "archive_sha256": "90206cecb254687754e4d9eaee04eada62d01a44ace07ddcfbd467075b2216c4",
+        "archive_name": "Paper_I_Lean_Checkpoint_111_Progress.zip",
+        "lean_files": 675,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_111_Progress.zip"
+        ]
+      },
+      {
+        "archive_sha256": "b2702c18e6682fcfc6b8da13cf625d667b4e49211310e36f0229fd1906b93d46",
+        "archive_name": "Paper_I_Lean_Checkpoint_111_Progress.zip",
+        "lean_files": 676,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Paper_I_Lean_Checkpoint_111_Progress.zip"
+        ]
+      }
+    ],
+    "110": [
+      {
+        "archive_sha256": "b556d157187f1e02f12ba74b00c505cc27159d50a9697235408ca0a3105240c8",
+        "archive_name": "Paper_I_Lean_Checkpoint_110_Progress.zip",
+        "lean_files": 671,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_110_Progress.zip"
+        ]
+      }
+    ],
+    "108": [
+      {
+        "archive_sha256": "d651cd3973e87fe235303f00eb71a6052aca4c9083ff56074a8d072f1fa81167",
+        "archive_name": "Paper_I_Lean_Working_Checkpoint_108.zip",
+        "lean_files": 664,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": true
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Working_Checkpoint_108.zip"
+        ]
+      },
+      {
+        "archive_sha256": "a1478a91d87fdd454a7da2bfae0d995b06dc3c0a5338ca22d898ae719751df54",
+        "archive_name": "Paper_I_Lean_Checkpoint_108_Progress.zip",
+        "lean_files": 689,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_108_Progress.zip"
+        ]
+      }
+    ],
+    "107": [
+      {
+        "archive_sha256": "c89f990862cc0b9be5d3731d9ed93fcd8d2620503526f4aebd5ea9cb42ab0e75",
+        "archive_name": "Paper_I_Lean_Checkpoint_107_Progress.zip",
+        "lean_files": 668,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_107_Progress.zip"
+        ]
+      }
+    ],
+    "106": [
+      {
+        "archive_sha256": "1c619b509e292f7cf1bda0885676fb0775c76489620e0494350b34c5fe48a5a4",
+        "archive_name": "Paper_I_Lean_Checkpoint_106_Progress.zip",
+        "lean_files": 649,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_106_Progress.zip"
+        ]
+      }
+    ],
+    "105": [
+      {
+        "archive_sha256": "363ab51119eb50a4065b70531d43336f756ff9ac41b070f1b48516bec813f84c",
+        "archive_name": "Paper_I_Lean_Checkpoint_105_Progress.zip",
+        "lean_files": 611,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_105_Progress.zip"
+        ]
+      }
+    ],
+    "104": [
+      {
+        "archive_sha256": "08c76a03c495e8cb8804a31e1239a0ac749395920131187fffc8098399cd4f52",
+        "archive_name": "Paper_I_Lean_Checkpoint_104_Progress.zip",
+        "lean_files": 603,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_104_Progress.zip"
+        ]
+      }
+    ],
+    "103": [
+      {
+        "archive_sha256": "f0f96153e640b0b0c2e9284832b324997a01b9d25c70b80e9ba41fa12315eeb1",
+        "archive_name": "Paper_I_Lean_Checkpoint_103_Progress.zip",
+        "lean_files": 603,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_103_Progress.zip"
+        ]
+      }
+    ],
+    "102": [
+      {
+        "archive_sha256": "655dc99d04ffbffbe70ba86a2a83f90aa44d860ea7782f9a9e41449c336c7525",
+        "archive_name": "Paper_I_Lean_Checkpoint_102_Progress.zip",
+        "lean_files": 587,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_102_Progress.zip"
+        ]
+      }
+    ],
+    "100": [
+      {
+        "archive_sha256": "b84f463533bec31da111dbfd0f0cc0287de3f9f340f453bae6e49c2776d7649c",
+        "archive_name": "Paper_I_Lean_Checkpoint_100_Progress.zip",
+        "lean_files": 564,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_100_Progress.zip"
+        ]
+      }
+    ],
+    "99": [
+      {
+        "archive_sha256": "87372071f965f29dfb88e6969745dbc35b6501f64accd04df6c50170178bc3d3",
+        "archive_name": "Paper_I_Lean_Checkpoint_99_Progress.zip",
+        "lean_files": 546,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_99_Progress.zip"
+        ]
+      }
+    ],
+    "98": [
+      {
+        "archive_sha256": "1b80c2cfa8b761260831a8ef10190997bc8dde9b50b95d1243f4d37f46d8989e",
+        "archive_name": "Paper_I_Lean_Checkpoint_98_Progress.zip",
+        "lean_files": 533,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_98_Progress.zip"
+        ]
+      }
+    ],
+    "97": [
+      {
+        "archive_sha256": "0cf5f97844068007bd12d5235b3e01e5daf9d452137422a09ae64df294d7f48b",
+        "archive_name": "Paper_I_Lean_Checkpoint_97_Progress.zip",
+        "lean_files": 522,
+        "project_checks": {
+          "toolchain": true,
+          "lake_manifest": true,
+          "root": true,
+          "checklist": true,
+          "correspondence": true,
+          "lakefile": true,
+          "lean_sources": true,
+          "manuscripts": false
+        },
+        "route": [
+          "/Tarry/Paper_I_Lean_Checkpoint_97_Progress.zip"
+        ]
+      }
+    ]
+  },
+  "complete_project_numbers": [
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "cumulative_preserved_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "missing_complete_checkpoint_numbers": [
+    72,
+    73,
+    74,
+    75,
+    109
+  ],
+  "historical_coverage_source": "checkpoint-import/coverage.json at b1b83e60a556733b8b257446c0131cc3a38f35c7",
+  "number_1_convention": "Initial Pilot archive, preserved under its original filename.",
+  "definition_of_complete": "A completed checkpoint package with sources, pins, manuscripts, checklist, correspondence and recorded evidence; does not mean the manuscript is fully proved or provide toolchain/cache binaries.",
+  "verification_scope": "Byte preservation, archive integrity and restoration only."
+}

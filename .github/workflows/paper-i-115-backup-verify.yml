@@ -1,0 +1,45 @@
+name: Verify newer Paper I private backup
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/paper-i-115-backup-verify.yml
+      - checkpoint-import/updates/2026-10-15-through-115/VERIFY_REMOTE.py
+      - checkpoint-import/updates/2026-10-15-through-115/assets.json
+      - checkpoint-import/updates/2026-10-15-through-115/restore.py
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Read the exact committed catalog and verifier
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+          GH_COMMIT: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import base64, hashlib, json, os, pathlib, urllib.request
+          repo=os.environ['GH_REPOSITORY']
+          assert repo=='jaehwoo/lean-checkpoint-backup'
+          commit=os.environ['GH_COMMIT']
+          prefix='checkpoint-import/updates/2026-10-15-through-115/'
+          root=pathlib.Path('catalog');root.mkdir()
+          for name in ['assets.json','sources.json','coverage.json','restore.py','VERIFY_REMOTE.py']:
+              req=urllib.request.Request('https://api.github.com/repos/'+repo+'/contents/'+prefix+name+'?ref='+commit,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'Paper-I-backup-verification'})
+              with urllib.request.urlopen(req,timeout=60) as response:
+                  data=json.load(response)
+              assert data['encoding']=='base64' and data['type']=='file'
+              content=base64.b64decode(data['content'])
+              blob=hashlib.sha1(b'blob '+str(len(content)).encode()+b'\0'+content).hexdigest()
+              assert blob==data['sha']
+              (root/name).write_bytes(content)
+              print('CATALOG',name,hashlib.sha256(content).hexdigest())
+          PY
+      - name: Download remote assets, verify originals, and restore checkpoint 115
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 catalog/VERIFY_REMOTE.py

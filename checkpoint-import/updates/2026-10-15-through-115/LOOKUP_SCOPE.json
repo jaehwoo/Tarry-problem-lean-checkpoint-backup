@@ -1,0 +1,24 @@
+{
+  "source_inventory": "Library recursive ZIP inventory modified since 2026-10-13T00:00:00Z, 77 results, no next page; broad title search (100 results) cross-checked newer archive identities; focused 109/116/117 completed-project filename search returned no matches.",
+  "selected_sources": 69,
+  "materialized_sources": 69,
+  "failed_materializations": [],
+  "selected_source_access_failures": [],
+  "latest_completed_package": 115,
+  "unrecovered_historical_numbers": [
+    72,
+    73,
+    74,
+    75
+  ],
+  "no_completed_109": "Two progress archive hashes were found; neither is relabeled as a completed checkpoint.",
+  "historical_versions": "Latest returned file IDs are pinned. Numeric Library version IDs are retained where provided; null means not exposed, not an inferred version 0. Nested originals retain their exact byte hashes and routes to the pinned ancestor. Unlisted prior Library versions were not enumerated.",
+  "historical_109_progress": {
+    "file_id": "file_00000000c28081f5ad0e4197cd5bf9ea",
+    "library_file_id": "libfile_6d1c24aee4b081919e0507591d5224ae",
+    "recorded_version_id": null,
+    "sha256": "267aa00f8b08c901fbdb603a744f8cad28adc31d9a7337c671f73c98be424bce",
+    "recovery": "Exact bytes found as nested original; no claim of direct old-version Library access."
+  },
+  "versions_not_reconstructed": true
+}
