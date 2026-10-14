@@ -1,0 +1,12 @@
+{
+  "base_checkpoint": 71,
+  "generated_modules": [
+    "AllDimCoefficientSpace",
+    "AllDimCoefficientModel",
+    "AllDimPolynomialQuotient",
+    "AllDimAffinePullback",
+    "AllDimCoefficientChange"
+  ],
+  "later_source_bytes_recovered": false,
+  "method": "New dimension-parametric declarations from the unchanged three-dimensional source proofs; all statements and builds require current review. No historical checkpoint72-75 bytes or prior execution are asserted."
+}

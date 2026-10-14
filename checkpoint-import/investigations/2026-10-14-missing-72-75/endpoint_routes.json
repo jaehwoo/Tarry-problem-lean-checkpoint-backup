@@ -1,0 +1,76 @@
+[
+  {
+    "sha256": "6b8eb62da8232b05c7779343a786ec904ffd1a3c39a8f9009562044d02906c05",
+    "name": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_76.zip",
+    "bytes": 407803767,
+    "first_chain": [
+      {
+        "archive_sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_81.zip"
+      },
+      {
+        "archive_sha256": "3979f656a2b9ac57d314dd6a4df68ef82cc8e7c32dbc31aa8313aca0c4668084",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_80.zip"
+      },
+      {
+        "archive_sha256": "47cec39620873b0155ff44625c3602c741cf2ea7e72371ec7603bc4ff21c0a35",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_79.zip"
+      },
+      {
+        "archive_sha256": "5ebb7eb355b220c4d7f7490f5fa9fae0b1650dc78a45a41b523f5862835eb2dc",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_78.zip"
+      },
+      {
+        "archive_sha256": "55fb3e64fc2c213737f5310d0128497f4fd1c8bda8e733a49314865f03a25c26",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_77.zip"
+      },
+      {
+        "archive_sha256": "6f5bd5f55818af09fc97ce6289a48604db2ac3126de995ea9aa5a05af2eef1f7",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_76.zip"
+      }
+    ],
+    "baseline_checkpoint": 76,
+    "format": "zip",
+    "status": "ALL_MEMBERS_HASHED_AND_ZIP_CRC_READ",
+    "retained_as": "original_checkpoint_76.zip"
+  },
+  {
+    "sha256": "621a0aca6001bf8a3d569b7be7603344efd3c33e6ba5f98ac403f7226aca99a8",
+    "name": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_71.zip",
+    "bytes": 396049451,
+    "first_chain": [
+      {
+        "archive_sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_81.zip"
+      },
+      {
+        "archive_sha256": "3979f656a2b9ac57d314dd6a4df68ef82cc8e7c32dbc31aa8313aca0c4668084",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_80.zip"
+      },
+      {
+        "archive_sha256": "47cec39620873b0155ff44625c3602c741cf2ea7e72371ec7603bc4ff21c0a35",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_79.zip"
+      },
+      {
+        "archive_sha256": "5ebb7eb355b220c4d7f7490f5fa9fae0b1650dc78a45a41b523f5862835eb2dc",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_78.zip"
+      },
+      {
+        "archive_sha256": "55fb3e64fc2c213737f5310d0128497f4fd1c8bda8e733a49314865f03a25c26",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_77.zip"
+      },
+      {
+        "archive_sha256": "6f5bd5f55818af09fc97ce6289a48604db2ac3126de995ea9aa5a05af2eef1f7",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_76.zip"
+      },
+      {
+        "archive_sha256": "6b8eb62da8232b05c7779343a786ec904ffd1a3c39a8f9009562044d02906c05",
+        "member": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_71.zip"
+      }
+    ],
+    "baseline_checkpoint": 71,
+    "format": "zip",
+    "status": "ALL_MEMBERS_HASHED_AND_ZIP_CRC_READ",
+    "retained_as": "original_checkpoint_71.zip"
+  }
+]

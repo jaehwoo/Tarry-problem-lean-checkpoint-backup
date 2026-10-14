@@ -1,0 +1,2118 @@
+{
+  "schema": 1,
+  "from_checkpoint": 71,
+  "to_checkpoint": 76,
+  "counts": {
+    "from_files": 1153,
+    "to_files": 1196,
+    "unchanged": 1090,
+    "changed": 25,
+    "added": 81,
+    "removed": 38
+  },
+  "active_lean_counts": {
+    "from": 387,
+    "to": 398,
+    "unchanged": 387,
+    "changed": 0,
+    "added": 11,
+    "removed": 0
+  },
+  "unchanged": [
+    "PaperILean/PaperILean/AffineCatalogueBump.lean",
+    "PaperILean/PaperILean/AffineCharacterTargets.lean",
+    "PaperILean/PaperILean/AffineCharacterUses.lean",
+    "PaperILean/PaperILean/AffineIntegralChange.lean",
+    "PaperILean/PaperILean/AffineJetCenterDerivative.lean",
+    "PaperILean/PaperILean/AffineJetDerivatives.lean",
+    "PaperILean/PaperILean/AffinePullback.lean",
+    "PaperILean/PaperILean/AmplitudeClassBounds.lean",
+    "PaperILean/PaperILean/AmplitudeClassConstants.lean",
+    "PaperILean/PaperILean/AmplitudeClassGlobalBounds.lean",
+    "PaperILean/PaperILean/AmplitudeClassMassWeights.lean",
+    "PaperILean/PaperILean/AmplitudeNormalization.lean",
+    "PaperILean/PaperILean/AmplitudeScalarBounds.lean",
+    "PaperILean/PaperILean/AmplitudeScaledDerivatives.lean",
+    "PaperILean/PaperILean/AnisotropicSkewBounds.lean",
+    "PaperILean/PaperILean/AnnularLogDecay.lean",
+    "PaperILean/PaperILean/AnnularShortnessBounds.lean",
+    "PaperILean/PaperILean/AssignmentIncidence.lean",
+    "PaperILean/PaperILean/AxiomAudit.lean",
+    "PaperILean/PaperILean/BalanceSpectralBounds.lean",
+    "PaperILean/PaperILean/Batch05AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch06AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch07AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch08AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch09AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch10AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch11AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch12AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch13AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch14AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch15AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch16AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch17AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch18AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch19AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch20AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch21AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch22AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch23AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch24AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch25AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch26AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch27AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch28AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch29AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch30AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch31AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch32AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch33AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch34AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch35AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch36AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch37AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch38AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch39AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch40AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch41AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch42AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch43AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch44AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch45AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch46AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch47AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch48AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch49AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch50AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch51AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch52AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch53AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch54AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch55AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch56AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch57AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch58AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch59AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch60AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch61AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch62AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch63AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch64AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch65AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch66AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch67AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch68AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch69AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch70AxiomAudit.lean",
+    "PaperILean/PaperILean/Batch71AxiomAudit.lean",
+    "PaperILean/PaperILean/BoundedCenterLattice.lean",
+    "PaperILean/PaperILean/BoundedCoefficientIntegral.lean",
+    "PaperILean/PaperILean/BoundedJetCenterVariation.lean",
+    "PaperILean/PaperILean/BumpDerivativeBounds.lean",
+    "PaperILean/PaperILean/CatalogueMassWeights.lean",
+    "PaperILean/PaperILean/CharacterCombinatorics.lean",
+    "PaperILean/PaperILean/CoarseAnnularShortness.lean",
+    "PaperILean/PaperILean/CoarseFrameInverse.lean",
+    "PaperILean/PaperILean/CoarseIncidenceData.lean",
+    "PaperILean/PaperILean/CoarseLinearTail.lean",
+    "PaperILean/PaperILean/CoarseOscillatoryPieces.lean",
+    "PaperILean/PaperILean/CoarsePieceMeasurability.lean",
+    "PaperILean/PaperILean/CoarsePositiveDomination.lean",
+    "PaperILean/PaperILean/CoarseWeightedMass.lean",
+    "PaperILean/PaperILean/CoefficientAnnulusVolume.lean",
+    "PaperILean/PaperILean/CoefficientChange.lean",
+    "PaperILean/PaperILean/CoefficientDyadicCover.lean",
+    "PaperILean/PaperILean/CoefficientFrameBounds.lean",
+    "PaperILean/PaperILean/CoefficientJetBounds.lean",
+    "PaperILean/PaperILean/CoefficientModel.lean",
+    "PaperILean/PaperILean/CompactReciprocalAmplitude.lean",
+    "PaperILean/PaperILean/ComparisonDifferentialBound.lean",
+    "PaperILean/PaperILean/CompleteJetNormEquivalence.lean",
+    "PaperILean/PaperILean/CompleteJetTaylorTransport.lean",
+    "PaperILean/PaperILean/CompleteSymmetricJetEquiv.lean",
+    "PaperILean/PaperILean/CountableIncidence.lean",
+    "PaperILean/PaperILean/CubeAtomIndex.lean",
+    "PaperILean/PaperILean/CubeAtomTemplates.lean",
+    "PaperILean/PaperILean/CubeComplexAtoms.lean",
+    "PaperILean/PaperILean/CubeDyadicAtoms.lean",
+    "PaperILean/PaperILean/CubeDyadicPartition.lean",
+    "PaperILean/PaperILean/CubeFiniteProductSum.lean",
+    "PaperILean/PaperILean/CubeSlopeSeries.lean",
+    "PaperILean/PaperILean/CubeTensorAtoms.lean",
+    "PaperILean/PaperILean/CubeTensorDeterminant.lean",
+    "PaperILean/PaperILean/CubeTensorPartition.lean",
+    "PaperILean/PaperILean/DerivativeClassBounds.lean",
+    "PaperILean/PaperILean/DiagonalCharacter.lean",
+    "PaperILean/PaperILean/DiagonalExponentialDifferential.lean",
+    "PaperILean/PaperILean/DirectionalCoefficientBounds.lean",
+    "PaperILean/PaperILean/DirectionalCoefficientJets.lean",
+    "PaperILean/PaperILean/DirectionalHessian.lean",
+    "PaperILean/PaperILean/DirectionalIntegrationByParts.lean",
+    "PaperILean/PaperILean/DirectionalPolynomialDerivatives.lean",
+    "PaperILean/PaperILean/DisjointEllipsoidPacking.lean",
+    "PaperILean/PaperILean/DyadicLpMinkowski.lean",
+    "PaperILean/PaperILean/DyadicLpSummation.lean",
+    "PaperILean/PaperILean/DyadicShells.lean",
+    "PaperILean/PaperILean/EllipsoidGeometry.lean",
+    "PaperILean/PaperILean/EllipsoidRealVolume.lean",
+    "PaperILean/PaperILean/EllipsoidVolume.lean",
+    "PaperILean/PaperILean/EnvironmentCheck.lean",
+    "PaperILean/PaperILean/ExponentialFrameConnectivity.lean",
+    "PaperILean/PaperILean/ExponentialSumCalculus.lean",
+    "PaperILean/PaperILean/FineShapeComparability.lean",
+    "PaperILean/PaperILean/FineShapeIndexBox.lean",
+    "PaperILean/PaperILean/FineShapeOrientationFamily.lean",
+    "PaperILean/PaperILean/FiniteAffineLabels.lean",
+    "PaperILean/PaperILean/FiniteCoarseDyadicShapes.lean",
+    "PaperILean/PaperILean/FiniteFineShapeMesh.lean",
+    "PaperILean/PaperILean/FiniteIntegralReconstruction.lean",
+    "PaperILean/PaperILean/FiniteLinearTailSum.lean",
+    "PaperILean/PaperILean/FiniteLpPower.lean",
+    "PaperILean/PaperILean/FiniteMeasureGluing.lean",
+    "PaperILean/PaperILean/FiniteMeasurePacking.lean",
+    "PaperILean/PaperILean/FiniteNormalizedDerivatives.lean",
+    "PaperILean/PaperILean/FiniteNormalizedPartition.lean",
+    "PaperILean/PaperILean/FixedFrameIncidence.lean",
+    "PaperILean/PaperILean/FixedSmoothBump.lean",
+    "PaperILean/PaperILean/FrameBalance.lean",
+    "PaperILean/PaperILean/FrameCenterLattice.lean",
+    "PaperILean/PaperILean/FrameComparisonComposition.lean",
+    "PaperILean/PaperILean/FrameCriticalMinimum.lean",
+    "PaperILean/PaperILean/FrameEllipsoidQuotient.lean",
+    "PaperILean/PaperILean/FrameEnergy.lean",
+    "PaperILean/PaperILean/FrameEnergyContinuity.lean",
+    "PaperILean/PaperILean/FrameEnergyMixedDerivative.lean",
+    "PaperILean/PaperILean/FrameEnergySmoothness.lean",
+    "PaperILean/PaperILean/FrameExponentialSpectral.lean",
+    "PaperILean/PaperILean/FrameFirstVariationSmoothness.lean",
+    "PaperILean/PaperILean/FrameLogEnergyRecentering.lean",
+    "PaperILean/PaperILean/FrameMinimumAttainment.lean",
+    "PaperILean/PaperILean/FrameMinimumUniqueness.lean",
+    "PaperILean/PaperILean/FramePolarLogEnergy.lean",
+    "PaperILean/PaperILean/FrameSelectionTest.lean",
+    "PaperILean/PaperILean/FrameSingularDecomposition.lean",
+    "PaperILean/PaperILean/FrameSingularValues.lean",
+    "PaperILean/PaperILean/FrameSublevelBounds.lean",
+    "PaperILean/PaperILean/FullFrameEnergyConvexity.lean",
+    "PaperILean/PaperILean/FullFrameSecondVariation.lean",
+    "PaperILean/PaperILean/GeneralAffineCharacter.lean",
+    "PaperILean/PaperILean/GeometricLengthGrid.lean",
+    "PaperILean/PaperILean/GlobalCoefficientLp.lean",
+    "PaperILean/PaperILean/GlobalHorizontalFrame.lean",
+    "PaperILean/PaperILean/GreedyDenominatorDerivatives.lean",
+    "PaperILean/PaperILean/GreedyNormalizedDerivatives.lean",
+    "PaperILean/PaperILean/GreedyNormalizedPartition.lean",
+    "PaperILean/PaperILean/GreedyPlateauCoverage.lean",
+    "PaperILean/PaperILean/GreedySelectionBorel.lean",
+    "PaperILean/PaperILean/GreedySupportPacking.lean",
+    "PaperILean/PaperILean/HomogeneousClassBound.lean",
+    "PaperILean/PaperILean/HorizontalCriticalityBound.lean",
+    "PaperILean/PaperILean/HorizontalFrameAlgebra.lean",
+    "PaperILean/PaperILean/HorizontalFrameContinuation.lean",
+    "PaperILean/PaperILean/IBPAmplitudeBounds.lean",
+    "PaperILean/PaperILean/IndexCombinatorics.lean",
+    "PaperILean/PaperILean/IntegerPointBoxes.lean",
+    "PaperILean/PaperILean/IntegralBridges.lean",
+    "PaperILean/PaperILean/InverseFrameRecovery.lean",
+    "PaperILean/PaperILean/InverseTaylorRecovery.lean",
+    "PaperILean/PaperILean/IteratedIntegrationByParts.lean",
+    "PaperILean/PaperILean/IteratedPolynomialDerivatives.lean",
+    "PaperILean/PaperILean/JetWindowVolume.lean",
+    "PaperILean/PaperILean/JointFrameEnergySmoothness.lean",
+    "PaperILean/PaperILean/JointPolynomialSmoothness.lean",
+    "PaperILean/PaperILean/LargerExponents.lean",
+    "PaperILean/PaperILean/LatticeBumpOverlap.lean",
+    "PaperILean/PaperILean/LatticeMassWeights.lean",
+    "PaperILean/PaperILean/LinearJetCoordinates.lean",
+    "PaperILean/PaperILean/LinearNonautonomousODE.lean",
+    "PaperILean/PaperILean/LocalHorizontalFrame.lean",
+    "PaperILean/PaperILean/LocalNonautonomousODE.lean",
+    "PaperILean/PaperILean/LocalProductDerivatives.lean",
+    "PaperILean/PaperILean/LocalReciprocalDerivatives.lean",
+    "PaperILean/PaperILean/LocalizationProperties.lean",
+    "PaperILean/PaperILean/LocalizedDerivativeSums.lean",
+    "PaperILean/PaperILean/LogEnergyFirstDerivative.lean",
+    "PaperILean/PaperILean/LogEnergyGradient.lean",
+    "PaperILean/PaperILean/LogEnergyHessianFormula.lean",
+    "PaperILean/PaperILean/LogEnergySourceHessian.lean",
+    "PaperILean/PaperILean/LogSpectralChainAlgebra.lean",
+    "PaperILean/PaperILean/MainStatement.lean",
+    "PaperILean/PaperILean/MassProperties.lean",
+    "PaperILean/PaperILean/MatrixCubeLabels.lean",
+    "PaperILean/PaperILean/MatrixCubePacking.lean",
+    "PaperILean/PaperILean/MatrixExpLogDifferential.lean",
+    "PaperILean/PaperILean/MatrixExpLogInverse.lean",
+    "PaperILean/PaperILean/MatrixExponentialCurve.lean",
+    "PaperILean/PaperILean/MatrixExponentialDerivative.lean",
+    "PaperILean/PaperILean/MatrixExponentialDifferential.lean",
+    "PaperILean/PaperILean/MatrixFrameFirstVariation.lean",
+    "PaperILean/PaperILean/MatrixFrameSecondVariation.lean",
+    "PaperILean/PaperILean/MatrixIdentityLogEnergy.lean",
+    "PaperILean/PaperILean/MatrixLogAnalytic.lean",
+    "PaperILean/PaperILean/MatrixLogContinuity.lean",
+    "PaperILean/PaperILean/MatrixLogDerivative.lean",
+    "PaperILean/PaperILean/MatrixLogEnergyModel.lean",
+    "PaperILean/PaperILean/MatrixLogInverse.lean",
+    "PaperILean/PaperILean/MatrixLogSeries.lean",
+    "PaperILean/PaperILean/MatrixOrthogonalReduction.lean",
+    "PaperILean/PaperILean/MatrixTraceSquareDifferential.lean",
+    "PaperILean/PaperILean/MinimizerAllDegreeStop.lean",
+    "PaperILean/PaperILean/MinimizerCatalogueCoverage.lean",
+    "PaperILean/PaperILean/MinimizerJetBounds.lean",
+    "PaperILean/PaperILean/MinimizerLowerBounds.lean",
+    "PaperILean/PaperILean/MinimizerSelectionCoverage.lean",
+    "PaperILean/PaperILean/MinimizerSpectralBounds.lean",
+    "PaperILean/PaperILean/MinimizerTranslationStop.lean",
+    "PaperILean/PaperILean/MinimizingEllipsoidIntersection.lean",
+    "PaperILean/PaperILean/MinimizingFrameComparison.lean",
+    "PaperILean/PaperILean/MixedFrameBumpDerivatives.lean",
+    "PaperILean/PaperILean/MixedJetCoefficients.lean",
+    "PaperILean/PaperILean/MovedCenterSelection.lean",
+    "PaperILean/PaperILean/MovingFrameCriticality.lean",
+    "PaperILean/PaperILean/NearestLatticeCenter.lean",
+    "PaperILean/PaperILean/NonlinearPhaseBounds.lean",
+    "PaperILean/PaperILean/NormalizedPartitionRegularity.lean",
+    "PaperILean/PaperILean/NormalizedPhaseSlope.lean",
+    "PaperILean/PaperILean/OrientationNetLocalPacking.lean",
+    "PaperILean/PaperILean/OrientedSpectralBasis.lean",
+    "PaperILean/PaperILean/OriginalIndexNonstationaryPhase.lean",
+    "PaperILean/PaperILean/OriginalMassWeights.lean",
+    "PaperILean/PaperILean/OrthogonalRoundingTransport.lean",
+    "PaperILean/PaperILean/OscillatoryIntegralCalculus.lean",
+    "PaperILean/PaperILean/ParameterImplicitFunction.lean",
+    "PaperILean/PaperILean/PassingEllipsoidComparison.lean",
+    "PaperILean/PaperILean/PassingFrameQuantitativeBounds.lean",
+    "PaperILean/PaperILean/PhysicalDerivativeTail.lean",
+    "PaperILean/PaperILean/PhysicalIncidenceImplication.lean",
+    "PaperILean/PaperILean/PhysicalShapeEstimate.lean",
+    "PaperILean/PaperILean/PolynomialDerivativeCoefficients.lean",
+    "PaperILean/PaperILean/PolynomialDerivativeVanishing.lean",
+    "PaperILean/PaperILean/PolynomialDifferentiation.lean",
+    "PaperILean/PaperILean/PolynomialLineTaylor.lean",
+    "PaperILean/PaperILean/PolynomialQuotient.lean",
+    "PaperILean/PaperILean/PolynomialTensorSymmetry.lean",
+    "PaperILean/PaperILean/PositiveDyadicSums.lean",
+    "PaperILean/PaperILean/QuantitativeNonstationaryPhase.lean",
+    "PaperILean/PaperILean/RawJetContractionBounds.lean",
+    "PaperILean/PaperILean/RawJetUniformBounds.lean",
+    "PaperILean/PaperILean/RelativeAffineLabelCount.lean",
+    "PaperILean/PaperILean/RelativeFrameBootstrap.lean",
+    "PaperILean/PaperILean/RelativeFrameCalculus.lean",
+    "PaperILean/PaperILean/RelativeOrientationPacking.lean",
+    "PaperILean/PaperILean/RescaledAmplitudeSupport.lean",
+    "PaperILean/PaperILean/RescaledNonstationaryPhase.lean",
+    "PaperILean/PaperILean/RescaledPhase.lean",
+    "PaperILean/PaperILean/RescaledPhaseGradient.lean",
+    "PaperILean/PaperILean/RetainedMinimizerSingularValues.lean",
+    "PaperILean/PaperILean/RotationChartDomains.lean",
+    "PaperILean/PaperILean/RotationChartJacobian.lean",
+    "PaperILean/PaperILean/RotationChartMeasurability.lean",
+    "PaperILean/PaperILean/RotationChartPatchMeasure.lean",
+    "PaperILean/PaperILean/RotationChartRegularity.lean",
+    "PaperILean/PaperILean/RotationChartSmoothness.lean",
+    "PaperILean/PaperILean/RotationChartTranslation.lean",
+    "PaperILean/PaperILean/RotationChartVolume.lean",
+    "PaperILean/PaperILean/RotationExponential.lean",
+    "PaperILean/PaperILean/RotationExponentialChart.lean",
+    "PaperILean/PaperILean/RotationGroupTopology.lean",
+    "PaperILean/PaperILean/RotationHaarIdentification.lean",
+    "PaperILean/PaperILean/RotationHaarMeasure.lean",
+    "PaperILean/PaperILean/RotationHaarVolume.lean",
+    "PaperILean/PaperILean/RotationInvariantVolume.lean",
+    "PaperILean/PaperILean/RotationLogChart.lean",
+    "PaperILean/PaperILean/RotationNeighborhoods.lean",
+    "PaperILean/PaperILean/RotationOrientationFrames.lean",
+    "PaperILean/PaperILean/RotationOrientationPacking.lean",
+    "PaperILean/PaperILean/RotationSingularApproximation.lean",
+    "PaperILean/PaperILean/RotationTangentCoordinates.lean",
+    "PaperILean/PaperILean/RoundedAffineCoverage.lean",
+    "PaperILean/PaperILean/RoundedFrameApproximation.lean",
+    "PaperILean/PaperILean/SPDFrameCompactness.lean",
+    "PaperILean/PaperILean/SPDFrameRepresentative.lean",
+    "PaperILean/PaperILean/ScalarFrameBarrier.lean",
+    "PaperILean/PaperILean/ScalarLogEnergy.lean",
+    "PaperILean/PaperILean/ScalarLogSpectralDerivatives.lean",
+    "PaperILean/PaperILean/ScaledCenterLatticeCount.lean",
+    "PaperILean/PaperILean/ScaledJetTransport.lean",
+    "PaperILean/PaperILean/SecondDerivativeAlgebra.lean",
+    "PaperILean/PaperILean/SelectedFrameBounds.lean",
+    "PaperILean/PaperILean/SelectionRelativeBounds.lean",
+    "PaperILean/PaperILean/SelectionTestClosed.lean",
+    "PaperILean/PaperILean/SignedVolumePowers.lean",
+    "PaperILean/PaperILean/SkewCoordinateVolume.lean",
+    "PaperILean/PaperILean/SmoothMinimizingGram.lean",
+    "PaperILean/PaperILean/SourceAmplitudeClassDecay.lean",
+    "PaperILean/PaperILean/SourceAmplitudeClassDyadic.lean",
+    "PaperILean/PaperILean/SourceAmplitudeClassShape.lean",
+    "PaperILean/PaperILean/SourceAnnularAssembly.lean",
+    "PaperILean/PaperILean/SourceAnnularRemainder.lean",
+    "PaperILean/PaperILean/SourceAnnularShortness.lean",
+    "PaperILean/PaperILean/SourceAnnularTail.lean",
+    "PaperILean/PaperILean/SourceChoiceScales.lean",
+    "PaperILean/PaperILean/SourceClassAnnularAssembly.lean",
+    "PaperILean/PaperILean/SourceClassGlobalAssembly.lean",
+    "PaperILean/PaperILean/SourceClassIncidenceGlobal.lean",
+    "PaperILean/PaperILean/SourceDenominatorDerivatives.lean",
+    "PaperILean/PaperILean/SourceDyadicMinkowski.lean",
+    "PaperILean/PaperILean/SourceGlobalAssembly.lean",
+    "PaperILean/PaperILean/SourceGreedyCoverage.lean",
+    "PaperILean/PaperILean/SourceGreedyPacking.lean",
+    "PaperILean/PaperILean/SourceHomogeneousBound.lean",
+    "PaperILean/PaperILean/SourceIncidenceGlobal.lean",
+    "PaperILean/PaperILean/SourceLinearTail.lean",
+    "PaperILean/PaperILean/SourceLocalization.lean",
+    "PaperILean/PaperILean/SourceLocalizationMass.lean",
+    "PaperILean/PaperILean/SourceNormalizedDerivativeEstimates.lean",
+    "PaperILean/PaperILean/SourceNormalizedPartition.lean",
+    "PaperILean/PaperILean/SourcePhaseBounds.lean",
+    "PaperILean/PaperILean/SourcePhysicalDerivativeTail.lean",
+    "PaperILean/PaperILean/SourcePhysicalDyadic.lean",
+    "PaperILean/PaperILean/SourcePhysicalDyadicDecay.lean",
+    "PaperILean/PaperILean/SourcePhysicalShape.lean",
+    "PaperILean/PaperILean/SourceRadiusDerivativeFamily.lean",
+    "PaperILean/PaperILean/SourceRadiusFamily.lean",
+    "PaperILean/PaperILean/SourceSmallScale.lean",
+    "PaperILean/PaperILean/SourceSmoothPartition.lean",
+    "PaperILean/PaperILean/SourceTailDecay.lean",
+    "PaperILean/PaperILean/SourceUniformBound.lean",
+    "PaperILean/PaperILean/SpectralCothKernel.lean",
+    "PaperILean/PaperILean/SpectralFrameBarrier.lean",
+    "PaperILean/PaperILean/SpectralHessianForm.lean",
+    "PaperILean/PaperILean/SpectralLogBounds.lean",
+    "PaperILean/PaperILean/SymmetricCongruence.lean",
+    "PaperILean/PaperILean/SymmetricFrameChartHessian.lean",
+    "PaperILean/PaperILean/SymmetricFrameHessianInvertible.lean",
+    "PaperILean/PaperILean/SymmetricGramCoordinates.lean",
+    "PaperILean/PaperILean/SymmetricLogSmoothness.lean",
+    "PaperILean/PaperILean/SymmetricMatrixExponential.lean",
+    "PaperILean/PaperILean/SymmetricTensorPolynomial.lean",
+    "PaperILean/PaperILean/TensorContractionBounds.lean",
+    "PaperILean/PaperILean/TensorContractionGram.lean",
+    "PaperILean/PaperILean/TensorEvaluationBounds.lean",
+    "PaperILean/PaperILean/TensorExponentialSums.lean",
+    "PaperILean/PaperILean/TensorFrameBounds.lean",
+    "PaperILean/PaperILean/TensorFrameVariations.lean",
+    "PaperILean/PaperILean/TensorOperatorComparison.lean",
+    "PaperILean/PaperILean/TensorOrthogonalInvariance.lean",
+    "PaperILean/PaperILean/TensorPairingDerivative.lean",
+    "PaperILean/PaperILean/TensorSlotAction.lean",
+    "PaperILean/PaperILean/TensorSlotSpectral.lean",
+    "PaperILean/PaperILean/TensorSlotSymmetry.lean",
+    "PaperILean/PaperILean/TranslationGramBound.lean",
+    "PaperILean/PaperILean/TranslationRightFrameStability.lean",
+    "PaperILean/PaperILean/TranslationStopStability.lean",
+    "PaperILean/PaperILean/UniformAffineCatalogueCount.lean",
+    "PaperILean/PaperILean/UniformMinimizerWindow.lean",
+    "PaperILean/PaperILean/WeightedIncidence.lean",
+    "PaperILean/PaperILean/WholeFamilyMassAggregation.lean",
+    "PaperILean/evidence/affine_attempt_01.log",
+    "PaperILean/evidence/affine_attempt_02.log",
+    "PaperILean/evidence/affine_attempt_03.log",
+    "PaperILean/evidence/affine_attempt_04.log",
+    "PaperILean/evidence/affine_attempt_05.log",
+    "PaperILean/evidence/affine_attempt_06.log",
+    "PaperILean/evidence/affine_cache.log",
+    "PaperILean/evidence/affine_character_targets_attempt_01.log",
+    "PaperILean/evidence/affine_character_uses_attempt_01.log",
+    "PaperILean/evidence/affine_character_uses_attempt_02.log",
+    "PaperILean/evidence/affine_general_strategy_screening.json",
+    "PaperILean/evidence/affine_strategy_screening.json",
+    "PaperILean/evidence/affinecharactertargets_checked.log",
+    "PaperILean/evidence/affinecharacteruses_checked.log",
+    "PaperILean/evidence/affinepullback_checked.log",
+    "PaperILean/evidence/assignment_attempt_01.log",
+    "PaperILean/evidence/assignment_attempt_02.log",
+    "PaperILean/evidence/assignment_attempt_03.log",
+    "PaperILean/evidence/assignment_attempt_04.log",
+    "PaperILean/evidence/assignment_attempt_05.log",
+    "PaperILean/evidence/assignment_strategy_screening.json",
+    "PaperILean/evidence/assignmentincidence_checked.log",
+    "PaperILean/evidence/axioms_checked.log",
+    "PaperILean/evidence/build_results.json",
+    "PaperILean/evidence/character_combinatorics_attempt_01.log",
+    "PaperILean/evidence/character_combinatorics_attempt_02.log",
+    "PaperILean/evidence/character_combinatorics_attempt_03.log",
+    "PaperILean/evidence/character_combinatorics_attempt_04.log",
+    "PaperILean/evidence/character_combinatorics_screening.json",
+    "PaperILean/evidence/charactercombinatorics_checked.log",
+    "PaperILean/evidence/checkpoint_71_001_inherited_interval_rebuild.log",
+    "PaperILean/evidence/checkpoint_71_002_slope_series_01.log",
+    "PaperILean/evidence/checkpoint_71_003_tensor_atoms_01.log",
+    "PaperILean/evidence/checkpoint_71_004_finite_product_01.log",
+    "PaperILean/evidence/checkpoint_71_005_tensor_atoms_02.log",
+    "PaperILean/evidence/checkpoint_71_006_finite_product_02.log",
+    "PaperILean/evidence/checkpoint_71_007_tensor_and_slope_units.log",
+    "PaperILean/evidence/checkpoint_71_008_finite_product_03.log",
+    "PaperILean/evidence/checkpoint_71_009_complex_atoms_01.log",
+    "PaperILean/evidence/checkpoint_71_010_complex_atoms_02.log",
+    "PaperILean/evidence/checkpoint_71_011_finite_product_fixed_01.log",
+    "PaperILean/evidence/checkpoint_71_012_finite_product_fixed_02.log",
+    "PaperILean/evidence/checkpoint_71_013_finite_product_fixed_03.log",
+    "PaperILean/evidence/checkpoint_71_014_generic_and_complex_units.log",
+    "PaperILean/evidence/checkpoint_71_015_determinant_01.log",
+    "PaperILean/evidence/checkpoint_71_016_tensor_partition_01.log",
+    "PaperILean/evidence/checkpoint_71_017_final_units.log",
+    "PaperILean/evidence/checkpoint_71_018_batch_axioms.log",
+    "PaperILean/evidence/checkpoint_71_019_integration.log",
+    "PaperILean/evidence/checkpoint_71_axioms_checked.log",
+    "PaperILean/evidence/checkpoint_71_baseline.json",
+    "PaperILean/evidence/checkpoint_71_blockers.json",
+    "PaperILean/evidence/checkpoint_71_build_results.json",
+    "PaperILean/evidence/checkpoint_71_command_history.json",
+    "PaperILean/evidence/checkpoint_71_drafts/002_slope_series_01_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/003_tensor_atoms_01_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/004_finite_product_01_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/005_tensor_atoms_02_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/006_finite_product_02_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/008_finite_product_03_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/009_complex_atoms_01_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/009_finite_product_04_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/010_complex_atoms_02_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/010_finite_product_05_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/011_finite_product_fixed_01_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/012_finite_product_fixed_02_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/013_finite_product_fixed_03_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/015_determinant_01_0.lean",
+    "PaperILean/evidence/checkpoint_71_drafts/016_tensor_partition_01_0.lean",
+    "PaperILean/evidence/checkpoint_71_environment_cache_restore.log",
+    "PaperILean/evidence/checkpoint_71_environment_commands.json",
+    "PaperILean/evidence/checkpoint_71_environment_version.log",
+    "PaperILean/evidence/checkpoint_71_failure_resolutions.json",
+    "PaperILean/evidence/checkpoint_71_final_source_review.json",
+    "PaperILean/evidence/checkpoint_71_integration_import_closure.json",
+    "PaperILean/evidence/checkpoint_71_interrupted_attempt.json",
+    "PaperILean/evidence/checkpoint_71_package_source_status.json",
+    "PaperILean/evidence/checkpoint_71_packages_restore.json",
+    "PaperILean/evidence/checkpoint_71_pdf_quality.json",
+    "PaperILean/evidence/checkpoint_71_pre_strategy.json",
+    "PaperILean/evidence/checkpoint_71_preservation.json",
+    "PaperILean/evidence/checkpoint_71_print_axioms.txt",
+    "PaperILean/evidence/checkpoint_71_report_build.log",
+    "PaperILean/evidence/checkpoint_71_runtime_ready.json",
+    "PaperILean/evidence/checkpoint_71_runtime_restore.json",
+    "PaperILean/evidence/checkpoint_71_source_review.md",
+    "PaperILean/evidence/checkpoint_71_source_review_diagnostics.json",
+    "PaperILean/evidence/checkpoint_71_source_safety_scan.json",
+    "PaperILean/evidence/checkpoint_71_summary.json",
+    "PaperILean/evidence/checkpoint_71_translation_review.json",
+    "PaperILean/evidence/coefficient_change_attempt_01.log",
+    "PaperILean/evidence/coefficient_change_attempt_02.log",
+    "PaperILean/evidence/coefficient_model_attempt_01.log",
+    "PaperILean/evidence/coefficient_model_attempt_02.log",
+    "PaperILean/evidence/coefficient_model_attempt_03.log",
+    "PaperILean/evidence/coefficient_model_attempt_04.log",
+    "PaperILean/evidence/coefficient_model_attempt_05.log",
+    "PaperILean/evidence/coefficient_model_attempt_06.log",
+    "PaperILean/evidence/coefficient_model_attempt_07.log",
+    "PaperILean/evidence/coefficientchange_checked.log",
+    "PaperILean/evidence/coefficientmodel_checked.log",
+    "PaperILean/evidence/continuation_assignment_build.log",
+    "PaperILean/evidence/continuation_baseline_build.log",
+    "PaperILean/evidence/continuation_cache.log",
+    "PaperILean/evidence/continuation_cache_retry.log",
+    "PaperILean/evidence/continuation_character_combinatorics_build.log",
+    "PaperILean/evidence/continuation_checkpoint_01_build.log",
+    "PaperILean/evidence/continuation_checkpoint_02_build.log",
+    "PaperILean/evidence/continuation_checkpoint_03_partial_build.log",
+    "PaperILean/evidence/continuation_coefficient_change_build.log",
+    "PaperILean/evidence/continuation_diagonal_character_build.log",
+    "PaperILean/evidence/continuation_fixed_frame_build.log",
+    "PaperILean/evidence/countable_cache.log",
+    "PaperILean/evidence/countable_incidence_attempt_01.log",
+    "PaperILean/evidence/countableincidence_checked.log",
+    "PaperILean/evidence/dependency_graph_check.json",
+    "PaperILean/evidence/diagonal_character_attempt_01.log",
+    "PaperILean/evidence/diagonal_character_attempt_02.log",
+    "PaperILean/evidence/diagonal_character_attempt_03.log",
+    "PaperILean/evidence/diagonalcharacter_checked.log",
+    "PaperILean/evidence/environment_check.log",
+    "PaperILean/evidence/environment_checked.log",
+    "PaperILean/evidence/environmentcheck_checked.log",
+    "PaperILean/evidence/fixed_frame_attempt_01.log",
+    "PaperILean/evidence/fixed_frame_attempt_02.log",
+    "PaperILean/evidence/fixed_frame_strategy_screening.json",
+    "PaperILean/evidence/fixedframeincidence_checked.log",
+    "PaperILean/evidence/general_affine_character_attempt_01.log",
+    "PaperILean/evidence/general_affine_character_attempt_02.log",
+    "PaperILean/evidence/generalaffinecharacter_checked.log",
+    "PaperILean/evidence/incidence_integration_cache.log",
+    "PaperILean/evidence/index_combinatorics_attempt_01.log",
+    "PaperILean/evidence/index_combinatorics_attempt_02.log",
+    "PaperILean/evidence/indexcombinatorics_checked.log",
+    "PaperILean/evidence/integral_bridges_attempt_01.log",
+    "PaperILean/evidence/integral_bridges_attempt_02.log",
+    "PaperILean/evidence/integral_bridges_attempt_03.log",
+    "PaperILean/evidence/integral_bridges_checked.log",
+    "PaperILean/evidence/integralbridges_checked.log",
+    "PaperILean/evidence/isomorphisms_cache.log",
+    "PaperILean/evidence/kernel_dependency_listing.log",
+    "PaperILean/evidence/lake_build_checked.log",
+    "PaperILean/evidence/lake_update.log",
+    "PaperILean/evidence/lake_update_retry.log",
+    "PaperILean/evidence/lake_version.log",
+    "PaperILean/evidence/larger_exponent_cache.log",
+    "PaperILean/evidence/larger_exponent_screening.json",
+    "PaperILean/evidence/larger_exponents_attempt_01.log",
+    "PaperILean/evidence/larger_exponents_attempt_02.log",
+    "PaperILean/evidence/largerexponents_checked.log",
+    "PaperILean/evidence/lean_version.log",
+    "PaperILean/evidence/main_statement_attempt_1.log",
+    "PaperILean/evidence/main_statement_attempt_2.log",
+    "PaperILean/evidence/main_statement_review.json",
+    "PaperILean/evidence/mainstatement_checked.log",
+    "PaperILean/evidence/manuscript_preservation.json",
+    "PaperILean/evidence/mathlib_cache.log",
+    "PaperILean/evidence/mathlib_cache_targeted.log",
+    "PaperILean/evidence/mathlib_cache_targeted_retry.log",
+    "PaperILean/evidence/mathlib_revision.log",
+    "PaperILean/evidence/obstruction_tests.json",
+    "PaperILean/evidence/obstruction_tests.log",
+    "PaperILean/evidence/polynomial_quotient_attempt_01.log",
+    "PaperILean/evidence/polynomial_quotient_attempt_02.log",
+    "PaperILean/evidence/polynomialquotient_checked.log",
+    "PaperILean/evidence/report_quality_check.json",
+    "PaperILean/evidence/report_render.log",
+    "PaperILean/evidence/reproduction_05/all_implemented_modules.log",
+    "PaperILean/evidence/reproduction_05/lake_version.log",
+    "PaperILean/evidence/reproduction_05/lean_version.log",
+    "PaperILean/evidence/reproduction_05/mathlib_revision.log",
+    "PaperILean/evidence/reproduction_05/new_declarations_axioms.log",
+    "PaperILean/evidence/reproduction_05/results.json",
+    "PaperILean/evidence/weighted_attempt_1.log",
+    "PaperILean/evidence/weighted_attempt_2.log",
+    "PaperILean/evidence/weighted_core_attempt_1.log",
+    "PaperILean/evidence/weightedincidence_checked.log",
+    "PaperILean/lake-manifest.json",
+    "PaperILean/lakefile.toml",
+    "PaperILean/lean-toolchain",
+    "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+    "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+    "PaperILean/manuscript/source_labels.aux",
+    "PaperILean/reports/Checkpoint71_AllCompletedDeclarations.csv",
+    "PaperILean/reports/Checkpoint71_AllCompletedDeclarations.json",
+    "PaperILean/reports/Checkpoint71_AuditedDefinitions.csv",
+    "PaperILean/reports/Checkpoint71_AuditedDefinitions.json",
+    "PaperILean/reports/Checkpoint71_CompletedDeclarations.csv",
+    "PaperILean/reports/Checkpoint71_CompletedDeclarations.json",
+    "PaperILean/reports/Checkpoint71_KernelProjectDependencies.csv",
+    "PaperILean/reports/Checkpoint71_KernelProjectDependencies.json",
+    "PaperILean/reports/Checkpoint71_LibraryReferences.csv",
+    "PaperILean/reports/Checkpoint71_LibraryReferences.json",
+    "PaperILean/reports/Checkpoint71_MasterChecklist.csv",
+    "PaperILean/reports/Checkpoint71_MasterChecklist.json",
+    "PaperILean/reports/Checkpoint71_MasterChecklist.md",
+    "PaperILean/reports/Checkpoint71_ModuleStatus.csv",
+    "PaperILean/reports/Checkpoint71_ModuleStatus.json",
+    "PaperILean/reports/ContinuationStrategyAudit.md",
+    "PaperILean/reports/Paper_I_Lean_Checkpoint_71_Report.md",
+    "PaperILean/reports/PilotCorrespondenceReport.md",
+    "PaperILean/reports/PilotDependencyMap.md",
+    "PaperILean/tools/MatrixApiProbe.lean",
+    "PaperILean/tools/PrintDependencies.lean",
+    "PaperILean/tools/affine_screening.py",
+    "PaperILean/tools/center_variation_screening.py",
+    "PaperILean/tools/check_project.py",
+    "PaperILean/tools/checkpoint06_command.py",
+    "PaperILean/tools/checkpoint06_metadata.py",
+    "PaperILean/tools/checkpoint07_command.py",
+    "PaperILean/tools/checkpoint07_metadata.py",
+    "PaperILean/tools/checkpoint07_obstruction_tests.py",
+    "PaperILean/tools/checkpoint08_command.py",
+    "PaperILean/tools/checkpoint08_metadata.py",
+    "PaperILean/tools/checkpoint08_obstruction_tests.py",
+    "PaperILean/tools/checkpoint09_command.py",
+    "PaperILean/tools/checkpoint09_directional_screening.py",
+    "PaperILean/tools/checkpoint09_metadata.py",
+    "PaperILean/tools/checkpoint09_obstruction_tests.py",
+    "PaperILean/tools/checkpoint10_command.py",
+    "PaperILean/tools/checkpoint10_gram_screening.py",
+    "PaperILean/tools/checkpoint10_metadata.py",
+    "PaperILean/tools/checkpoint10_obstruction_tests.py",
+    "PaperILean/tools/checkpoint11_command.py",
+    "PaperILean/tools/checkpoint11_composition_screening.py",
+    "PaperILean/tools/checkpoint11_frame_screening.py",
+    "PaperILean/tools/checkpoint11_metadata.py",
+    "PaperILean/tools/checkpoint11_obstruction_tests.py",
+    "PaperILean/tools/checkpoint12_command.py",
+    "PaperILean/tools/checkpoint12_metadata.py",
+    "PaperILean/tools/checkpoint12_obstruction_tests.py",
+    "PaperILean/tools/checkpoint12_pdf_quality.py",
+    "PaperILean/tools/checkpoint12_scalar_curve_screening.py",
+    "PaperILean/tools/checkpoint12_spectral_screening.py",
+    "PaperILean/tools/checkpoint13_command.py",
+    "PaperILean/tools/checkpoint13_matrix_screening.py",
+    "PaperILean/tools/checkpoint13_metadata.py",
+    "PaperILean/tools/checkpoint13_obstruction_tests.py",
+    "PaperILean/tools/checkpoint13_pdf_quality.py",
+    "PaperILean/tools/checkpoint14_command.py",
+    "PaperILean/tools/checkpoint14_metadata.py",
+    "PaperILean/tools/checkpoint14_package_sources.py",
+    "PaperILean/tools/checkpoint14_pdf_quality.py",
+    "PaperILean/tools/checkpoint14_snapshot.py",
+    "PaperILean/tools/checkpoint14_spectral_screening.py",
+    "PaperILean/tools/checkpoint15_author_report.py",
+    "PaperILean/tools/checkpoint15_command.py",
+    "PaperILean/tools/checkpoint15_fixed_basis_screen.py",
+    "PaperILean/tools/checkpoint15_metadata.py",
+    "PaperILean/tools/checkpoint15_pdf_quality.py",
+    "PaperILean/tools/checkpoint15_snapshot.py",
+    "PaperILean/tools/checkpoint15_strategy_screen.py",
+    "PaperILean/tools/checkpoint16_author_report.py",
+    "PaperILean/tools/checkpoint16_command.py",
+    "PaperILean/tools/checkpoint16_metadata.py",
+    "PaperILean/tools/checkpoint16_package_sources.py",
+    "PaperILean/tools/checkpoint16_pdf_quality.py",
+    "PaperILean/tools/checkpoint16_snapshot.py",
+    "PaperILean/tools/checkpoint16_strategy_screen.py",
+    "PaperILean/tools/checkpoint17_author_report.py",
+    "PaperILean/tools/checkpoint17_command.py",
+    "PaperILean/tools/checkpoint17_metadata.py",
+    "PaperILean/tools/checkpoint17_package_sources.py",
+    "PaperILean/tools/checkpoint17_pdf_quality.py",
+    "PaperILean/tools/checkpoint17_snapshot.py",
+    "PaperILean/tools/checkpoint17_strategy_screen.py",
+    "PaperILean/tools/checkpoint18_author_report.py",
+    "PaperILean/tools/checkpoint18_command.py",
+    "PaperILean/tools/checkpoint18_metadata.py",
+    "PaperILean/tools/checkpoint18_package_sources.py",
+    "PaperILean/tools/checkpoint18_strategy_screen.py",
+    "PaperILean/tools/checkpoint19_author_report.py",
+    "PaperILean/tools/checkpoint19_command.py",
+    "PaperILean/tools/checkpoint19_metadata.py",
+    "PaperILean/tools/checkpoint19_package_sources.py",
+    "PaperILean/tools/checkpoint19_strategy_screen.py",
+    "PaperILean/tools/checkpoint20_author_report.py",
+    "PaperILean/tools/checkpoint20_command.py",
+    "PaperILean/tools/checkpoint20_metadata.py",
+    "PaperILean/tools/checkpoint20_package_sources.py",
+    "PaperILean/tools/checkpoint20_strategy_screen.py",
+    "PaperILean/tools/checkpoint21_author_report.py",
+    "PaperILean/tools/checkpoint21_command.py",
+    "PaperILean/tools/checkpoint21_metadata.py",
+    "PaperILean/tools/checkpoint21_package_sources.py",
+    "PaperILean/tools/checkpoint21_pdf_quality.py",
+    "PaperILean/tools/checkpoint21_strategy_screen.py",
+    "PaperILean/tools/checkpoint22_author_report.py",
+    "PaperILean/tools/checkpoint22_command.py",
+    "PaperILean/tools/checkpoint22_metadata.py",
+    "PaperILean/tools/checkpoint22_pdf_quality.py",
+    "PaperILean/tools/checkpoint22_restore.py",
+    "PaperILean/tools/checkpoint22_strategy_screen.py",
+    "PaperILean/tools/checkpoint22_type_probe.lean",
+    "PaperILean/tools/checkpoint23_author_report.py",
+    "PaperILean/tools/checkpoint23_baseline.py",
+    "PaperILean/tools/checkpoint23_command.py",
+    "PaperILean/tools/checkpoint23_ift_screen.py",
+    "PaperILean/tools/checkpoint23_metadata.py",
+    "PaperILean/tools/checkpoint23_pdf_quality.py",
+    "PaperILean/tools/checkpoint23_strategy_screen.py",
+    "PaperILean/tools/checkpoint23_type_probe.lean",
+    "PaperILean/tools/checkpoint24_author_report.py",
+    "PaperILean/tools/checkpoint24_baseline.py",
+    "PaperILean/tools/checkpoint24_command.py",
+    "PaperILean/tools/checkpoint24_metadata.py",
+    "PaperILean/tools/checkpoint24_pdf_quality.py",
+    "PaperILean/tools/checkpoint24_strategy_screen.py",
+    "PaperILean/tools/checkpoint25_author_report.py",
+    "PaperILean/tools/checkpoint25_baseline.py",
+    "PaperILean/tools/checkpoint25_command.py",
+    "PaperILean/tools/checkpoint25_metadata.py",
+    "PaperILean/tools/checkpoint25_pdf_quality.py",
+    "PaperILean/tools/checkpoint25_strategy_screen.py",
+    "PaperILean/tools/checkpoint26_author_report.py",
+    "PaperILean/tools/checkpoint26_baseline.py",
+    "PaperILean/tools/checkpoint26_command.py",
+    "PaperILean/tools/checkpoint26_metadata.py",
+    "PaperILean/tools/checkpoint26_pdf_quality.py",
+    "PaperILean/tools/checkpoint26_strategy_screen.py",
+    "PaperILean/tools/checkpoint27_author_report.py",
+    "PaperILean/tools/checkpoint27_baseline.py",
+    "PaperILean/tools/checkpoint27_command.py",
+    "PaperILean/tools/checkpoint27_metadata.py",
+    "PaperILean/tools/checkpoint27_pdf_quality.py",
+    "PaperILean/tools/checkpoint27_strategy_screen.py",
+    "PaperILean/tools/checkpoint28_author_report.py",
+    "PaperILean/tools/checkpoint28_baseline.py",
+    "PaperILean/tools/checkpoint28_command.py",
+    "PaperILean/tools/checkpoint28_metadata.py",
+    "PaperILean/tools/checkpoint28_pdf_quality.py",
+    "PaperILean/tools/checkpoint28_strategy_screen.py",
+    "PaperILean/tools/checkpoint29_author_report.py",
+    "PaperILean/tools/checkpoint29_baseline.py",
+    "PaperILean/tools/checkpoint29_command.py",
+    "PaperILean/tools/checkpoint29_metadata.py",
+    "PaperILean/tools/checkpoint29_pdf_quality.py",
+    "PaperILean/tools/checkpoint29_strategy_screen.py",
+    "PaperILean/tools/checkpoint30_author_report.py",
+    "PaperILean/tools/checkpoint30_baseline.py",
+    "PaperILean/tools/checkpoint30_command.py",
+    "PaperILean/tools/checkpoint30_metadata.py",
+    "PaperILean/tools/checkpoint30_pdf_quality.py",
+    "PaperILean/tools/checkpoint30_strategy_screen.py",
+    "PaperILean/tools/checkpoint31_author_report.py",
+    "PaperILean/tools/checkpoint31_baseline.py",
+    "PaperILean/tools/checkpoint31_command.py",
+    "PaperILean/tools/checkpoint31_metadata.py",
+    "PaperILean/tools/checkpoint31_pdf_quality.py",
+    "PaperILean/tools/checkpoint31_strategy_screen.py",
+    "PaperILean/tools/checkpoint32_author_report.py",
+    "PaperILean/tools/checkpoint32_baseline.py",
+    "PaperILean/tools/checkpoint32_command.py",
+    "PaperILean/tools/checkpoint32_metadata.py",
+    "PaperILean/tools/checkpoint32_pdf_quality.py",
+    "PaperILean/tools/checkpoint32_strategy_screen.py",
+    "PaperILean/tools/checkpoint33_author_report.py",
+    "PaperILean/tools/checkpoint33_baseline.py",
+    "PaperILean/tools/checkpoint33_command.py",
+    "PaperILean/tools/checkpoint33_metadata.py",
+    "PaperILean/tools/checkpoint33_pdf_quality.py",
+    "PaperILean/tools/checkpoint33_strategy_screen.py",
+    "PaperILean/tools/checkpoint34_author_report.py",
+    "PaperILean/tools/checkpoint34_baseline.py",
+    "PaperILean/tools/checkpoint34_command.py",
+    "PaperILean/tools/checkpoint34_metadata.py",
+    "PaperILean/tools/checkpoint34_pdf_quality.py",
+    "PaperILean/tools/checkpoint34_radius_refinement.py",
+    "PaperILean/tools/checkpoint34_strategy_screen.py",
+    "PaperILean/tools/checkpoint35_author_report.py",
+    "PaperILean/tools/checkpoint35_baseline.py",
+    "PaperILean/tools/checkpoint35_command.py",
+    "PaperILean/tools/checkpoint35_inverse_refinement.py",
+    "PaperILean/tools/checkpoint35_metadata.py",
+    "PaperILean/tools/checkpoint35_pdf_quality.py",
+    "PaperILean/tools/checkpoint35_strategy_screen.py",
+    "PaperILean/tools/checkpoint36_author_report.py",
+    "PaperILean/tools/checkpoint36_baseline.py",
+    "PaperILean/tools/checkpoint36_command.py",
+    "PaperILean/tools/checkpoint36_foundation_screen.py",
+    "PaperILean/tools/checkpoint36_metadata.py",
+    "PaperILean/tools/checkpoint36_pdf_quality.py",
+    "PaperILean/tools/checkpoint36_strategy_screen.py",
+    "PaperILean/tools/checkpoint37_author_report.py",
+    "PaperILean/tools/checkpoint37_baseline.py",
+    "PaperILean/tools/checkpoint37_command.py",
+    "PaperILean/tools/checkpoint37_metadata.py",
+    "PaperILean/tools/checkpoint37_pdf_quality.py",
+    "PaperILean/tools/checkpoint37_strategy_screen.py",
+    "PaperILean/tools/checkpoint38_author_report.py",
+    "PaperILean/tools/checkpoint38_baseline.py",
+    "PaperILean/tools/checkpoint38_command.py",
+    "PaperILean/tools/checkpoint38_measure_screen.py",
+    "PaperILean/tools/checkpoint38_metadata.py",
+    "PaperILean/tools/checkpoint38_pdf_quality.py",
+    "PaperILean/tools/checkpoint38_strategy_screen.py",
+    "PaperILean/tools/checkpoint39_author_report.py",
+    "PaperILean/tools/checkpoint39_baseline.py",
+    "PaperILean/tools/checkpoint39_command.py",
+    "PaperILean/tools/checkpoint39_document_command.py",
+    "PaperILean/tools/checkpoint39_metadata.py",
+    "PaperILean/tools/checkpoint39_pdf_quality.py",
+    "PaperILean/tools/checkpoint39_restore_packages.py",
+    "PaperILean/tools/checkpoint39_run_verify.py",
+    "PaperILean/tools/checkpoint39_strategy_screen.py",
+    "PaperILean/tools/checkpoint40_author_report.py",
+    "PaperILean/tools/checkpoint40_baseline.py",
+    "PaperILean/tools/checkpoint40_command.py",
+    "PaperILean/tools/checkpoint40_document_command.py",
+    "PaperILean/tools/checkpoint40_frame_screen.py",
+    "PaperILean/tools/checkpoint40_metadata.py",
+    "PaperILean/tools/checkpoint40_pdf_quality.py",
+    "PaperILean/tools/checkpoint40_strategy_screen.py",
+    "PaperILean/tools/checkpoint41_author_report.py",
+    "PaperILean/tools/checkpoint41_baseline.py",
+    "PaperILean/tools/checkpoint41_command.py",
+    "PaperILean/tools/checkpoint41_document_command.py",
+    "PaperILean/tools/checkpoint41_metadata.py",
+    "PaperILean/tools/checkpoint41_pdf_quality.py",
+    "PaperILean/tools/checkpoint41_strategy_screen.py",
+    "PaperILean/tools/checkpoint42_author_report.py",
+    "PaperILean/tools/checkpoint42_baseline.py",
+    "PaperILean/tools/checkpoint42_command.py",
+    "PaperILean/tools/checkpoint42_document_command.py",
+    "PaperILean/tools/checkpoint42_metadata.py",
+    "PaperILean/tools/checkpoint42_pdf_quality.py",
+    "PaperILean/tools/checkpoint42_strategy_screen.py",
+    "PaperILean/tools/checkpoint43_author_report.py",
+    "PaperILean/tools/checkpoint43_baseline.py",
+    "PaperILean/tools/checkpoint43_command.py",
+    "PaperILean/tools/checkpoint43_document_command.py",
+    "PaperILean/tools/checkpoint43_metadata.py",
+    "PaperILean/tools/checkpoint43_pdf_quality.py",
+    "PaperILean/tools/checkpoint43_strategy_screen.py",
+    "PaperILean/tools/checkpoint44_author_report.py",
+    "PaperILean/tools/checkpoint44_baseline.py",
+    "PaperILean/tools/checkpoint44_command.py",
+    "PaperILean/tools/checkpoint44_document_command.py",
+    "PaperILean/tools/checkpoint44_metadata.py",
+    "PaperILean/tools/checkpoint44_pdf_quality.py",
+    "PaperILean/tools/checkpoint44_strategy_screen.py",
+    "PaperILean/tools/checkpoint45_author_report.py",
+    "PaperILean/tools/checkpoint45_baseline.py",
+    "PaperILean/tools/checkpoint45_command.py",
+    "PaperILean/tools/checkpoint45_document_command.py",
+    "PaperILean/tools/checkpoint45_metadata.py",
+    "PaperILean/tools/checkpoint45_pdf_quality.py",
+    "PaperILean/tools/checkpoint45_restore_packages.py",
+    "PaperILean/tools/checkpoint45_restore_runtime.py",
+    "PaperILean/tools/checkpoint45_strategy_screen.py",
+    "PaperILean/tools/checkpoint46_author_report.py",
+    "PaperILean/tools/checkpoint46_baseline.py",
+    "PaperILean/tools/checkpoint46_command.py",
+    "PaperILean/tools/checkpoint46_coverage_screen.py",
+    "PaperILean/tools/checkpoint46_document_command.py",
+    "PaperILean/tools/checkpoint46_metadata.py",
+    "PaperILean/tools/checkpoint46_pdf_quality.py",
+    "PaperILean/tools/checkpoint46_strategy_screen.py",
+    "PaperILean/tools/checkpoint47_author_report.py",
+    "PaperILean/tools/checkpoint47_baseline.py",
+    "PaperILean/tools/checkpoint47_command.py",
+    "PaperILean/tools/checkpoint47_document_command.py",
+    "PaperILean/tools/checkpoint47_metadata.py",
+    "PaperILean/tools/checkpoint47_pdf_quality.py",
+    "PaperILean/tools/checkpoint47_strategy_screen.py",
+    "PaperILean/tools/checkpoint48_author_report.py",
+    "PaperILean/tools/checkpoint48_baseline.py",
+    "PaperILean/tools/checkpoint48_closed_test_screen.py",
+    "PaperILean/tools/checkpoint48_command.py",
+    "PaperILean/tools/checkpoint48_document_command.py",
+    "PaperILean/tools/checkpoint48_metadata.py",
+    "PaperILean/tools/checkpoint48_parent_archive.py",
+    "PaperILean/tools/checkpoint48_pdf_quality.py",
+    "PaperILean/tools/checkpoint48_strategy_screen.py",
+    "PaperILean/tools/checkpoint49_author_report.py",
+    "PaperILean/tools/checkpoint49_baseline.py",
+    "PaperILean/tools/checkpoint49_command.py",
+    "PaperILean/tools/checkpoint49_document_command.py",
+    "PaperILean/tools/checkpoint49_metadata.py",
+    "PaperILean/tools/checkpoint49_pdf_quality.py",
+    "PaperILean/tools/checkpoint49_strategy_screen.py",
+    "PaperILean/tools/checkpoint50_author_report.py",
+    "PaperILean/tools/checkpoint50_baseline.py",
+    "PaperILean/tools/checkpoint50_command.py",
+    "PaperILean/tools/checkpoint50_document_command.py",
+    "PaperILean/tools/checkpoint50_metadata.py",
+    "PaperILean/tools/checkpoint50_pdf_quality.py",
+    "PaperILean/tools/checkpoint50_strategy_screen.py",
+    "PaperILean/tools/checkpoint51_author_report.py",
+    "PaperILean/tools/checkpoint51_command.py",
+    "PaperILean/tools/checkpoint51_metadata.py",
+    "PaperILean/tools/checkpoint51_restore_packages.py",
+    "PaperILean/tools/checkpoint51_restore_runtime.py",
+    "PaperILean/tools/checkpoint51_strategy_screen.py",
+    "PaperILean/tools/checkpoint52_author_report.py",
+    "PaperILean/tools/checkpoint52_command.py",
+    "PaperILean/tools/checkpoint52_metadata.py",
+    "PaperILean/tools/checkpoint52_strategy_screen.py",
+    "PaperILean/tools/checkpoint53_author_report.py",
+    "PaperILean/tools/checkpoint53_command.py",
+    "PaperILean/tools/checkpoint53_metadata.py",
+    "PaperILean/tools/checkpoint53_pdf_quality.py",
+    "PaperILean/tools/checkpoint53_strategy_screen.py",
+    "PaperILean/tools/checkpoint54_author_report.py",
+    "PaperILean/tools/checkpoint54_command.py",
+    "PaperILean/tools/checkpoint54_metadata.py",
+    "PaperILean/tools/checkpoint54_pdf_quality.py",
+    "PaperILean/tools/checkpoint54_strategy_screen.py",
+    "PaperILean/tools/checkpoint55_author_report.py",
+    "PaperILean/tools/checkpoint55_command.py",
+    "PaperILean/tools/checkpoint55_metadata.py",
+    "PaperILean/tools/checkpoint55_pdf_quality.py",
+    "PaperILean/tools/checkpoint55_strategy_screen.py",
+    "PaperILean/tools/checkpoint56_author_report.py",
+    "PaperILean/tools/checkpoint56_command.py",
+    "PaperILean/tools/checkpoint56_metadata.py",
+    "PaperILean/tools/checkpoint56_pdf_quality.py",
+    "PaperILean/tools/checkpoint56_strategy_screen.py",
+    "PaperILean/tools/checkpoint57_author_report.py",
+    "PaperILean/tools/checkpoint57_command.py",
+    "PaperILean/tools/checkpoint57_metadata.py",
+    "PaperILean/tools/checkpoint57_parent_history.py",
+    "PaperILean/tools/checkpoint57_pdf_quality.py",
+    "PaperILean/tools/checkpoint57_strategy_screen.py",
+    "PaperILean/tools/checkpoint58_author_report.py",
+    "PaperILean/tools/checkpoint58_command.py",
+    "PaperILean/tools/checkpoint58_metadata.py",
+    "PaperILean/tools/checkpoint58_pdf_quality.py",
+    "PaperILean/tools/checkpoint58_strategy_screen.py",
+    "PaperILean/tools/checkpoint59_author_report.py",
+    "PaperILean/tools/checkpoint59_command.py",
+    "PaperILean/tools/checkpoint59_metadata.py",
+    "PaperILean/tools/checkpoint59_pdf_quality.py",
+    "PaperILean/tools/checkpoint59_strategy_screen.py",
+    "PaperILean/tools/checkpoint60_author_report.py",
+    "PaperILean/tools/checkpoint60_command.py",
+    "PaperILean/tools/checkpoint60_metadata.py",
+    "PaperILean/tools/checkpoint60_pdf_quality.py",
+    "PaperILean/tools/checkpoint60_strategy_screen.py",
+    "PaperILean/tools/checkpoint61_author_report.py",
+    "PaperILean/tools/checkpoint61_command.py",
+    "PaperILean/tools/checkpoint61_metadata.py",
+    "PaperILean/tools/checkpoint61_pdf_quality.py",
+    "PaperILean/tools/checkpoint61_restore_packages.py",
+    "PaperILean/tools/checkpoint61_restore_runtime.py",
+    "PaperILean/tools/checkpoint61_strategy_screen.py",
+    "PaperILean/tools/checkpoint62_author_report.py",
+    "PaperILean/tools/checkpoint62_command.py",
+    "PaperILean/tools/checkpoint62_metadata.py",
+    "PaperILean/tools/checkpoint62_pdf_quality.py",
+    "PaperILean/tools/checkpoint62_restore_packages.py",
+    "PaperILean/tools/checkpoint62_restore_runtime.py",
+    "PaperILean/tools/checkpoint62_strategy_screen.py",
+    "PaperILean/tools/checkpoint63_author_report.py",
+    "PaperILean/tools/checkpoint63_command.py",
+    "PaperILean/tools/checkpoint63_metadata.py",
+    "PaperILean/tools/checkpoint63_pdf_quality.py",
+    "PaperILean/tools/checkpoint63_strategy_screen.py",
+    "PaperILean/tools/checkpoint64_author_report.py",
+    "PaperILean/tools/checkpoint64_command.py",
+    "PaperILean/tools/checkpoint64_metadata.py",
+    "PaperILean/tools/checkpoint64_pdf_quality.py",
+    "PaperILean/tools/checkpoint64_strategy_screen.py",
+    "PaperILean/tools/checkpoint65_author_report.py",
+    "PaperILean/tools/checkpoint65_baseline.py",
+    "PaperILean/tools/checkpoint65_command.py",
+    "PaperILean/tools/checkpoint65_metadata.py",
+    "PaperILean/tools/checkpoint65_pdf_quality.py",
+    "PaperILean/tools/checkpoint65_restore_packages.py",
+    "PaperILean/tools/checkpoint65_restore_runtime.py",
+    "PaperILean/tools/checkpoint65_scope.json",
+    "PaperILean/tools/checkpoint65_strategy_screen.py",
+    "PaperILean/tools/checkpoint66_author_report.py",
+    "PaperILean/tools/checkpoint66_baseline.py",
+    "PaperILean/tools/checkpoint66_command.py",
+    "PaperILean/tools/checkpoint66_metadata.py",
+    "PaperILean/tools/checkpoint66_pdf_quality.py",
+    "PaperILean/tools/checkpoint66_scope.json",
+    "PaperILean/tools/checkpoint66_strategy_screen.py",
+    "PaperILean/tools/checkpoint67_author_report.py",
+    "PaperILean/tools/checkpoint67_baseline.py",
+    "PaperILean/tools/checkpoint67_command.py",
+    "PaperILean/tools/checkpoint67_metadata.py",
+    "PaperILean/tools/checkpoint67_pdf_quality.py",
+    "PaperILean/tools/checkpoint67_restore_packages.py",
+    "PaperILean/tools/checkpoint67_restore_runtime.py",
+    "PaperILean/tools/checkpoint67_scope.json",
+    "PaperILean/tools/checkpoint67_strategy_screen.py",
+    "PaperILean/tools/checkpoint68_author_report.py",
+    "PaperILean/tools/checkpoint68_baseline.py",
+    "PaperILean/tools/checkpoint68_command.py",
+    "PaperILean/tools/checkpoint68_metadata.py",
+    "PaperILean/tools/checkpoint68_pdf_quality.py",
+    "PaperILean/tools/checkpoint68_scope.json",
+    "PaperILean/tools/checkpoint68_strategy_screen.py",
+    "PaperILean/tools/checkpoint69_author_report.py",
+    "PaperILean/tools/checkpoint69_baseline.py",
+    "PaperILean/tools/checkpoint69_command.py",
+    "PaperILean/tools/checkpoint69_metadata.py",
+    "PaperILean/tools/checkpoint69_pdf_quality.py",
+    "PaperILean/tools/checkpoint69_scope.json",
+    "PaperILean/tools/checkpoint69_strategy_screen.py",
+    "PaperILean/tools/checkpoint70_author_report.py",
+    "PaperILean/tools/checkpoint70_baseline.py",
+    "PaperILean/tools/checkpoint70_command.py",
+    "PaperILean/tools/checkpoint70_metadata.py",
+    "PaperILean/tools/checkpoint70_pdf_quality.py",
+    "PaperILean/tools/checkpoint70_scope.json",
+    "PaperILean/tools/checkpoint70_strategy_screen.py",
+    "PaperILean/tools/checkpoint71_author_report.py",
+    "PaperILean/tools/checkpoint71_baseline.py",
+    "PaperILean/tools/checkpoint71_command.py",
+    "PaperILean/tools/checkpoint71_metadata.py",
+    "PaperILean/tools/checkpoint71_pdf_quality.py",
+    "PaperILean/tools/checkpoint71_restore_packages.py",
+    "PaperILean/tools/checkpoint71_restore_runtime.py",
+    "PaperILean/tools/checkpoint71_scope.json",
+    "PaperILean/tools/checkpoint71_strategy_screen.py",
+    "PaperILean/tools/checkpoint_command.py",
+    "PaperILean/tools/derivative_jet_screening.py",
+    "PaperILean/tools/derive_checkpoint63_metadata.py",
+    "PaperILean/tools/general_affine_screening.py",
+    "PaperILean/tools/jet_norm_screening.py",
+    "PaperILean/tools/lean_command.py",
+    "PaperILean/tools/make_dependency_map.py",
+    "PaperILean/tools/obstruction_tests.py",
+    "PaperILean/tools/own_exe.c",
+    "PaperILean/tools/package_checkpoint05.py",
+    "PaperILean/tools/package_checkpoint06.py",
+    "PaperILean/tools/package_checkpoint07.py",
+    "PaperILean/tools/package_checkpoint08.py",
+    "PaperILean/tools/package_checkpoint09.py",
+    "PaperILean/tools/package_checkpoint10.py",
+    "PaperILean/tools/package_checkpoint11.py",
+    "PaperILean/tools/package_checkpoint12.py",
+    "PaperILean/tools/package_checkpoint13.py",
+    "PaperILean/tools/package_checkpoint14.py",
+    "PaperILean/tools/package_checkpoint15.py",
+    "PaperILean/tools/package_checkpoint16.py",
+    "PaperILean/tools/package_checkpoint17.py",
+    "PaperILean/tools/package_checkpoint18.py",
+    "PaperILean/tools/package_checkpoint19.py",
+    "PaperILean/tools/package_checkpoint20.py",
+    "PaperILean/tools/package_checkpoint21.py",
+    "PaperILean/tools/package_checkpoint22.py",
+    "PaperILean/tools/package_checkpoint23.py",
+    "PaperILean/tools/package_checkpoint24.py",
+    "PaperILean/tools/package_checkpoint25.py",
+    "PaperILean/tools/package_checkpoint26.py",
+    "PaperILean/tools/package_checkpoint27.py",
+    "PaperILean/tools/package_checkpoint28.py",
+    "PaperILean/tools/package_checkpoint29.py",
+    "PaperILean/tools/package_checkpoint30.py",
+    "PaperILean/tools/package_checkpoint31.py",
+    "PaperILean/tools/package_checkpoint32.py",
+    "PaperILean/tools/package_checkpoint33.py",
+    "PaperILean/tools/package_checkpoint34.py",
+    "PaperILean/tools/package_checkpoint35.py",
+    "PaperILean/tools/package_checkpoint36.py",
+    "PaperILean/tools/package_checkpoint37.py",
+    "PaperILean/tools/package_checkpoint38.py",
+    "PaperILean/tools/package_checkpoint39.py",
+    "PaperILean/tools/package_checkpoint40.py",
+    "PaperILean/tools/package_checkpoint41.py",
+    "PaperILean/tools/package_checkpoint42.py",
+    "PaperILean/tools/package_checkpoint43.py",
+    "PaperILean/tools/package_checkpoint44.py",
+    "PaperILean/tools/package_checkpoint45.py",
+    "PaperILean/tools/package_checkpoint46.py",
+    "PaperILean/tools/package_checkpoint47.py",
+    "PaperILean/tools/package_checkpoint48.py",
+    "PaperILean/tools/package_checkpoint49.py",
+    "PaperILean/tools/package_checkpoint50.py",
+    "PaperILean/tools/package_checkpoint51.py",
+    "PaperILean/tools/package_checkpoint52.py",
+    "PaperILean/tools/package_checkpoint53.py",
+    "PaperILean/tools/package_checkpoint54.py",
+    "PaperILean/tools/package_checkpoint55.py",
+    "PaperILean/tools/package_checkpoint56.py",
+    "PaperILean/tools/package_checkpoint57.py",
+    "PaperILean/tools/package_checkpoint58.py",
+    "PaperILean/tools/package_checkpoint59.py",
+    "PaperILean/tools/package_checkpoint60.py",
+    "PaperILean/tools/package_checkpoint61.py",
+    "PaperILean/tools/package_checkpoint62.py",
+    "PaperILean/tools/package_checkpoint63.py",
+    "PaperILean/tools/package_checkpoint64.py",
+    "PaperILean/tools/package_checkpoint65.py",
+    "PaperILean/tools/package_checkpoint66.py",
+    "PaperILean/tools/package_checkpoint67.py",
+    "PaperILean/tools/package_checkpoint68.py",
+    "PaperILean/tools/package_checkpoint69.py",
+    "PaperILean/tools/package_checkpoint70.py",
+    "PaperILean/tools/package_checkpoint71.py",
+    "PaperILean/tools/pdf_breaks.lua",
+    "PaperILean/tools/persistent_checklist.py",
+    "PaperILean/tools/persistent_checklist05.py",
+    "PaperILean/tools/persistent_checklist06.py",
+    "PaperILean/tools/restore_checkpoint36_parent.py",
+    "PaperILean/tools/symmetric_coordinate_screening.py",
+    "PaperILean/tools/taylor_transport_screening.py",
+    "PaperILean/tools/verify_checkpoint05.py",
+    "PaperILean/tools/write_checkpoint11_report.py"
+  ],
+  "changed": [
+    {
+      "path": "PaperILean/PaperILean.lean",
+      "before": {
+        "sha256": "a36a91d358ad82572b4844e22493c9e04da9df8305fc20dda9945f008774c9ff",
+        "bytes": 13000
+      },
+      "after": {
+        "sha256": "fc61e097832f830c4d556ad3e8fe72e6c0c35845201de9dffc032f84d7e3e4ec",
+        "bytes": 13423
+      }
+    },
+    {
+      "path": "PaperILean/README.md",
+      "before": {
+        "sha256": "04f4eee478241e2c6f1acea771243987c50d5560f4eb268bd496e9932c3591e2",
+        "bytes": 6917
+      },
+      "after": {
+        "sha256": "8239dbe41ff8b69a9831d77b93ec08614a89d4d27302428170b4aea901e33717",
+        "bytes": 2789
+      }
+    },
+    {
+      "path": "PaperILean/SHA256SUMS",
+      "before": {
+        "sha256": "e64139e06c1b9f0a3d231c27436a091f74abcf4e0335f770c5ce9108976eb91a",
+        "bytes": 118383
+      },
+      "after": {
+        "sha256": "380b8431f9a0782487078f929734644ce7a30e84258ec47e089f36d9c8a48f6b",
+        "bytes": 123062
+      }
+    },
+    {
+      "path": "PaperILean/reports/CompletedDeclarations.csv",
+      "before": {
+        "sha256": "c26f25199879b230f8a229dd8ee378a6eb38903be91bfeef40224c75c0d8d3fd",
+        "bytes": 7147417
+      },
+      "after": {
+        "sha256": "7aca4f9fd26336d16b7426fefdc522bc60a4b80217ddfaf511b34a71e95a9d72",
+        "bytes": 7329259
+      }
+    },
+    {
+      "path": "PaperILean/reports/CompletedDeclarations.json",
+      "before": {
+        "sha256": "21b35cda26c0702a0fc57360b4f4d061e49271bfeb6b40f53c74a2778fa4d8a5",
+        "bytes": 8013887
+      },
+      "after": {
+        "sha256": "b702be763887631cb7ee8dfb686be4b8053c60d5304c844e1ae1dd405b56e517",
+        "bytes": 8223380
+      }
+    },
+    {
+      "path": "PaperILean/reports/CorrespondenceReport.md",
+      "before": {
+        "sha256": "fffde60875106c2e3b2f6efbd9743c840977d304d659b86c9af005dda3ef0c2f",
+        "bytes": 24800
+      },
+      "after": {
+        "sha256": "4920335c4646047c2753652c733d2b5e93a7fb398c6553aa4c28f8a81e6e7588",
+        "bytes": 29577
+      }
+    },
+    {
+      "path": "PaperILean/reports/DependencyMap.csv",
+      "before": {
+        "sha256": "02129a2b3d9fd4d4c3702695f0dbe39add955295113daaab39230a58593ad8df",
+        "bytes": 2178169
+      },
+      "after": {
+        "sha256": "96ce79b6b6940807bd095b87f19d5b303c2dc47ab5fd9bf47fcc2fcc41e28639",
+        "bytes": 2263504
+      }
+    },
+    {
+      "path": "PaperILean/reports/DependencyMap.json",
+      "before": {
+        "sha256": "335a88c83118e9fb83b1a1ec9a2f651c8f9674073c8354c6f534ee44a7068dd5",
+        "bytes": 8181705
+      },
+      "after": {
+        "sha256": "ad9bef7f715c090062bfdc66f0d2c73b78df72a1a624c625c0b00b45ac866748",
+        "bytes": 8459305
+      }
+    },
+    {
+      "path": "PaperILean/reports/DependencyMap.md",
+      "before": {
+        "sha256": "fc2b855b90b9858713c541cd8e7ed4d2ce717f24d7759f3461b3880483618845",
+        "bytes": 1287183
+      },
+      "after": {
+        "sha256": "99d6d7bc4756769f089a50f5ee9fc06fcf2d87d8f670c4797a54485dfc8c70ec",
+        "bytes": 1318352
+      }
+    },
+    {
+      "path": "PaperILean/reports/KernelProjectDependencies.csv",
+      "before": {
+        "sha256": "60d916d64243cce80e6809529990671215f5404eaff04d203bc2df95f0f9e56a",
+        "bytes": 810780
+      },
+      "after": {
+        "sha256": "ad6c8efbc3f6ca4137c2a23759b58c0b42530a27de4fb78f8c675cd23824fd11",
+        "bytes": 876557
+      }
+    },
+    {
+      "path": "PaperILean/reports/KernelProjectDependencies.json",
+      "before": {
+        "sha256": "3927b4a18c73fb3ec20d4a2c104bac8ceabbddc49648644926d848f460e78c8e",
+        "bytes": 1064299
+      },
+      "after": {
+        "sha256": "beb017fd3f91861894e75abf24a4795bde069a301a1696dfbc27107408c638a8",
+        "bytes": 1151448
+      }
+    },
+    {
+      "path": "PaperILean/reports/MainDependencyTraversal.json",
+      "before": {
+        "sha256": "20edd3dc1cf5efc420c056226fc1a7dce274a966d64668750e3be7b805b9e232",
+        "bytes": 1549950
+      },
+      "after": {
+        "sha256": "4cc220661db921b9068c6e094b1aac6407aec30c61c299fff460732c1f1874b3",
+        "bytes": 1473608
+      }
+    },
+    {
+      "path": "PaperILean/reports/MasterChecklist.csv",
+      "before": {
+        "sha256": "02129a2b3d9fd4d4c3702695f0dbe39add955295113daaab39230a58593ad8df",
+        "bytes": 2178169
+      },
+      "after": {
+        "sha256": "96ce79b6b6940807bd095b87f19d5b303c2dc47ab5fd9bf47fcc2fcc41e28639",
+        "bytes": 2263504
+      }
+    },
+    {
+      "path": "PaperILean/reports/MasterChecklist.json",
+      "before": {
+        "sha256": "335a88c83118e9fb83b1a1ec9a2f651c8f9674073c8354c6f534ee44a7068dd5",
+        "bytes": 8181705
+      },
+      "after": {
+        "sha256": "ad9bef7f715c090062bfdc66f0d2c73b78df72a1a624c625c0b00b45ac866748",
+        "bytes": 8459305
+      }
+    },
+    {
+      "path": "PaperILean/reports/MasterChecklist.md",
+      "before": {
+        "sha256": "fc2b855b90b9858713c541cd8e7ed4d2ce717f24d7759f3461b3880483618845",
+        "bytes": 1287183
+      },
+      "after": {
+        "sha256": "99d6d7bc4756769f089a50f5ee9fc06fcf2d87d8f670c4797a54485dfc8c70ec",
+        "bytes": 1318352
+      }
+    },
+    {
+      "path": "PaperILean/reports/ModuleStatus.csv",
+      "before": {
+        "sha256": "cf409414cd7830be06d0e1eacba9b9affc6f830094ee204a49043b48669d1a22",
+        "bytes": 70457
+      },
+      "after": {
+        "sha256": "1ebf796092a2145b197cc1fcc775d1e3821e155a3a8996bcbe3f7f77b21b808b",
+        "bytes": 72326
+      }
+    },
+    {
+      "path": "PaperILean/reports/ModuleStatus.json",
+      "before": {
+        "sha256": "6a146ac4d0bf01d35e4d3d0733e347f4c21db824944e37dbdf9541681b055837",
+        "bytes": 114194
+      },
+      "after": {
+        "sha256": "749aab83f43213ddad9b5b77f84f701b97d3d893b78725280fa6048c23c46d7a",
+        "bytes": 117273
+      }
+    },
+    {
+      "path": "PaperILean/reports/Paper_I_Lean_Checkpoint_71_Report.pdf",
+      "before": {
+        "sha256": "c6ad63ab33f17edfb0e6903e2be3801706b2006d1431eeb7f705069c9fb91077",
+        "bytes": 76807
+      },
+      "after": {
+        "sha256": "992368e83d03214aeed52b732086865cea99385cc6d0254ad803d780dd022d87",
+        "bytes": 108685
+      }
+    },
+    {
+      "path": "PaperILean/reports/PrerequisiteLeaves.csv",
+      "before": {
+        "sha256": "4997e60ff2cbad4fc595efb2165852d6226ffe1275ec9ac16d67162ef75f6387",
+        "bytes": 422221
+      },
+      "after": {
+        "sha256": "901fc6730dfe817ff3783ca18b64f2aae4dc2c7d3858d9460625ac198421e165",
+        "bytes": 429725
+      }
+    },
+    {
+      "path": "PaperILean/reports/PrerequisiteLeaves.json",
+      "before": {
+        "sha256": "96755e66c6c911175bbf0eae51b4589722a1828e3e78790ea8d30cef6a415f24",
+        "bytes": 440605
+      },
+      "after": {
+        "sha256": "88a9554f1145b3bbb7f5d386adc4c260958866f307a66348c9cc368ea50d263c",
+        "bytes": 448060
+      }
+    },
+    {
+      "path": "PaperILean/reports/Prerequisites.md",
+      "before": {
+        "sha256": "47cff855f056bcc5513cc439edc8bf78a83152c055bcaca6b9269955cd5632bd",
+        "bytes": 24002
+      },
+      "after": {
+        "sha256": "03c3e1780fa34769a20be5727c22deac0b37288396d358790c7139b3b61414be",
+        "bytes": 24386
+      }
+    },
+    {
+      "path": "PaperILean/reports/ProofDependencyMap.csv",
+      "before": {
+        "sha256": "ca37ecdb45f51ad16701fd9c28d010f3464298c0654f44ba6674157262d56ed5",
+        "bytes": 830041
+      },
+      "after": {
+        "sha256": "5f04f773848626d962af49b5eee16517b5279c20ad00a3cdb48dbacc4d8f0c1d",
+        "bytes": 863612
+      }
+    },
+    {
+      "path": "PaperILean/reports/ProofDependencyMap.json",
+      "before": {
+        "sha256": "b8282970d4ba578588dc54177a7baf16b89fde960b92e382835366d2473dbaaf",
+        "bytes": 1109205
+      },
+      "after": {
+        "sha256": "08ce02f36964e332e22239c4a9398c1c34b20d5cb94f30ba44bd36e5c4fa33dc",
+        "bytes": 1151161
+      }
+    },
+    {
+      "path": "PaperILean/reports/pdf_header.tex",
+      "before": {
+        "sha256": "ed27ba504f040327ed4c1aec7527616fe8a4c61f4a3a2d51d8b9f82b59f2fdfc",
+        "bytes": 696
+      },
+      "after": {
+        "sha256": "f07444a1d3e6aec867d5c69d148a00663fd4327bd0f8e6c73bbfa1ae98db3494",
+        "bytes": 702
+      }
+    },
+    {
+      "path": "PaperILean/tools/build_report.sh",
+      "before": {
+        "sha256": "401a4df3f141cf91325d43f7fc427e9943155eb22b70fbe1a9464e38725aaa1d",
+        "bytes": 654
+      },
+      "after": {
+        "sha256": "3e3e1ce01d600f26418d17cb65ee4b55b251fea70768b8f26ac191ef857749c2",
+        "bytes": 654
+      }
+    }
+  ],
+  "added": [
+    {
+      "path": "PaperILean/PaperILean/AllDimAffineCharacterTargets.lean",
+      "sha256": "816905718fd102d92a1f944a9538a5385e4d948b7aec64670aa30931e23f2cdb",
+      "bytes": 1698
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimAffineCharacterUses.lean",
+      "sha256": "8dadd923978c0e38355a042eb49390827610176d71d58c75963f4d9ae5616880",
+      "bytes": 1811
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimAffinePullback.lean",
+      "sha256": "85864c3c477a4318cb1a08ca43affb6e92857af73c117ea0fc595bfde4967608",
+      "bytes": 10211
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimCoefficientChange.lean",
+      "sha256": "8f25858f7a675bb7c98195a4c0dc9dae4ca25267a258673b9f163c214f433797",
+      "bytes": 3142
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimCoefficientModel.lean",
+      "sha256": "40a838a17ecde03b563081a0b1b16d3161666e76849251833561793648063cb9",
+      "bytes": 5602
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimCoefficientSpace.lean",
+      "sha256": "6866a21b144d0e9129f4e56a726da9dd70ecf106a4e54befb9dd1a4a84b468be",
+      "bytes": 2343
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimDiagonalCharacter.lean",
+      "sha256": "29771fba1c98466fb1cf7facc5cb75c4225307fc65813b93542bc27309401c5d",
+      "bytes": 2251
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimGeneralAffineCharacter.lean",
+      "sha256": "ac278a0fe6c626950576acf818818a41a6423f3f8656cf3cde57c7bbbc2889a5",
+      "bytes": 7167
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimIndexWeights.lean",
+      "sha256": "ef8eb852929cd37061de92dfa86017ddca21c0c05fff96c6658cd7b13774af66",
+      "bytes": 3135
+    },
+    {
+      "path": "PaperILean/PaperILean/AllDimPolynomialQuotient.lean",
+      "sha256": "100aed9f8a5675423afc796f5aacc08b8a3f61c8a46dbf401fd89ba9a3be45dc",
+      "bytes": 3423
+    },
+    {
+      "path": "PaperILean/PaperILean/Batch76AxiomAudit.lean",
+      "sha256": "e606defd6f72d7d1fa8777df967a145f1364ae4af37e167a3d54a2ee1700a6ef",
+      "bytes": 17055
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint76_PackagingIndex.json",
+      "sha256": "750e70b82d4bb5aebc3f4847bce706a86ab2c21c70a2c3088d94e1f419d06e33",
+      "bytes": 1023
+    },
+    {
+      "path": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_71.zip",
+      "sha256": "621a0aca6001bf8a3d569b7be7603344efd3c33e6ba5f98ac403f7226aca99a8",
+      "bytes": 396049451
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_001_environment_version.log",
+      "sha256": "5362a246ce2545424db10a77de8fd4694f4cf8b0170dfd43fa727acf7f7f259b",
+      "bytes": 78
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_002_environment_cache_scoped.log",
+      "sha256": "daf8fc0ce1f4f0841bc7748f21d77e2c9e2e8a3a668dbafafccb8cb2ef24ab2c",
+      "bytes": 38277
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_003_coefficient_space.log",
+      "sha256": "81ce25065f95bbf530f1a55d1dd7aa674ad0c244f0d5fd7626e9250eddb542a2",
+      "bytes": 547
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_004_coefficient_model.log",
+      "sha256": "bb258cc3ca3548e5a46bfd04cc69ce818bc38d6df5b5a27aab3e57351932dd35",
+      "bytes": 550
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_005_quotient_and_affine.log",
+      "sha256": "8dca3ee8a737a4fa440d422470031966d811fc01864abc6cf47b130d6f332fa0",
+      "bytes": 663
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_006_index_and_character.log",
+      "sha256": "8b2920a6c05fc460984670ed6a688ed5d3c5bb18d7e161bd3b8a5cd9de1c7cc1",
+      "bytes": 1045
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_007_character_uses.log",
+      "sha256": "a72f93921b439e58689b677abc590c149de4916ebe7d8b445cb07005afd84d47",
+      "bytes": 978
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_008_batch_axioms.log",
+      "sha256": "4a19e1cb7b85d82923ca70ce1def0e00b265f9cfbefc1e6012e78768ac28b4a9",
+      "bytes": 28547
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_009_integration.log",
+      "sha256": "4310e160b706d6e318f76b5c1d583030fac373b42d355ccd61431bc86bb985a3",
+      "bytes": 75863
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_010_batch_axioms_final.log",
+      "sha256": "8b6b632c7b4ab01c12a3beb4cd5a8ca3bae76597f1f53cb1024ac4635a321d77",
+      "bytes": 296489
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_011_integration_final.log",
+      "sha256": "d4460b2b04702acad9f04027426facbee0105a9b03bed7f6137fcc8181fd3922",
+      "bytes": 356903
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_audit_metadata_fix.json",
+      "sha256": "4890a6bf754f0a8294507cde92e59653341f91986b3b7b38fb4e390569b4f117",
+      "bytes": 612
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_axioms_checked.log",
+      "sha256": "8b6b632c7b4ab01c12a3beb4cd5a8ca3bae76597f1f53cb1024ac4635a321d77",
+      "bytes": 296489
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_build_results.json",
+      "sha256": "6f4caaa6fa0201abcea1c0481dbde7cc4c9000507eff66bdcfd1354be459ddb7",
+      "bytes": 189993
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_cache_console.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_cache_roots.json",
+      "sha256": "f6e01168e98d100b0e518a7a4ce40e974e3194801a05f4d541ebb8549387239a",
+      "bytes": 5407
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_command_history.json",
+      "sha256": "e070dc196c1cc8cace66dd7ce3ceb62897a0eb9a3f30c9890225d69dad1ff474",
+      "bytes": 1035707
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_completed_save.json",
+      "sha256": "d658b25b0003398392194343695b2064c288f59d0f8f98506ca91720ea76488a",
+      "bytes": 576
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_drafts/008_audit_metadata_shadow.lean",
+      "sha256": "fd01176f032749c873190d852faf62fc0a8fe72f6a90851150a5187a1d3fb956",
+      "bytes": 17000
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_environment_recovery.json",
+      "sha256": "715b302bc83ee493bcfa4e486ee83e9b4c919ca5c9cdc44060229556207fc1a5",
+      "bytes": 3877
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_environment_recovery.log",
+      "sha256": "f4a5371169ccc870c7ec2ea538f774af18ca489435bb8ea2cdb3062597cfc748",
+      "bytes": 111
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_full_source_save.json",
+      "sha256": "5a17245c12d56d923f25ecb8e7301050d4f62036320859ba97eac23a7870a0ed",
+      "bytes": 575
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_initial_save.json",
+      "sha256": "c5a6331f90e54ff29b3479439c3c4b7a8679f099f8795c868a15900524255228",
+      "bytes": 574
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_intermediate_save.json",
+      "sha256": "c8578e9db14a6e96b196f2e55295ccef1cd9784f6ebb266c608323b49110f8e0",
+      "bytes": 575
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_interrupted_cache.json",
+      "sha256": "5d23f09f7963f615e28d5baf460715b7f23cc71ab8d145d2d65504f32ace377b",
+      "bytes": 645
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_library_recovery_listing.json",
+      "sha256": "47299c8656676b73927de543ca916e0a4f99afb961bdec51076e8161faaea30c",
+      "bytes": 6864
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_package_status.json",
+      "sha256": "9af4b25a4507a46a5c0168cd1747ea1826c29fc5d03b20994856bfaeeab598ef",
+      "bytes": 1148
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_packages_recovery.json",
+      "sha256": "55cf495ad8c132a7e690339d24752559d0b0feba4d44ca1feb54c3e486a39a9f",
+      "bytes": 29205
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_pdf_first_layout_check.json",
+      "sha256": "9a6bc112e37448b090ffe7359f471bfcdf29bbe240334d9b6b2a3eff0acfa9f4",
+      "bytes": 507
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_pdf_quality.json",
+      "sha256": "babde988818a9d66a4a07e44d16b663502ba089fc4b89cfaef426d3573d5b50a",
+      "bytes": 1496
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_pre_strategy.json",
+      "sha256": "f4a21bf56122f3c9bd6c77e2b20a5b405a48c3087229a640ed8dcce83655469b",
+      "bytes": 908
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_preservation.json",
+      "sha256": "6018a8634609b20dd76f5791333a2d821d94a4da1d1dc603f08689789c4fc685",
+      "bytes": 18906
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_print_axioms.txt",
+      "sha256": "bac59879182ef525011c8ac73e110d7edd9a4d0d2050e416a6cd1056e7b0c7bd",
+      "bytes": 10025
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_progress_archive_integrity.json",
+      "sha256": "bf04d4f4b594a84a3b59e5eec59ba3a1061671b2319df6caee28e28ff81227fd",
+      "bytes": 1432
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_progress_archive_repair_verified.json",
+      "sha256": "c3fd2779fec74de627676a85ecaaeeb1cf696df2049b3b39563828888472e0d1",
+      "bytes": 368
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_reconstruction_method.json",
+      "sha256": "a7ed7a4b50475a2afc43a8375b595fbefea974ca47126bd820c20e5fd3e85457",
+      "bytes": 473
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_repaired_completed_save.json",
+      "sha256": "9fd8c24f3157e84268e3648d153236a21c313b2b7b6a23afa94efbbf7466c68f",
+      "bytes": 576
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_report_authoring_correction.json",
+      "sha256": "e0849fa1f20b9a59d094eb1cb4e0f82633dd28d3f83aa70637dbd632d10a4a98",
+      "bytes": 575
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_report_build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_source_review.md",
+      "sha256": "055d2bd1257d58a58b4cffbc9535841369d4cdaa4a07e15d63a3854f6ad48835",
+      "bytes": 5031
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_source_safety_scan.json",
+      "sha256": "de7c027e33426814be8ee417677ffa240dd1c00f9b0118fb75d16184bc147656",
+      "bytes": 18032
+    },
+    {
+      "path": "PaperILean/evidence/checkpoint_76_summary.json",
+      "sha256": "7b411bb36544a8aa64cd31f665b3fc73ee3a0cd8589e671c25c07ccdfb8d6c46",
+      "bytes": 14707
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_AllCompletedDeclarations.json",
+      "sha256": "b702be763887631cb7ee8dfb686be4b8053c60d5304c844e1ae1dd405b56e517",
+      "bytes": 8223380
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_AuditedDefinitions.csv",
+      "sha256": "b34c500fc42e00ade1dc6cedfc30e8eefbf6156b1567f9d1a8347e2a707b7a01",
+      "bytes": 70801
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_AuditedDefinitions.json",
+      "sha256": "6492cc72a83c393a42cb5429153497867ad11b82a7e8e799b461863d8279b973",
+      "bytes": 86426
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_CompletedDeclarations.csv",
+      "sha256": "9119d0116096736bb4b552a61f11d041d4096f55c6286146f76c82eab5d48135",
+      "bytes": 181831
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_CompletedDeclarations.json",
+      "sha256": "f4b0f623a33474da4c7ade298ab40a986af3eeb8e9976fd359e30c791fa83fe5",
+      "bytes": 209496
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_CorrespondenceReport.md",
+      "sha256": "4920335c4646047c2753652c733d2b5e93a7fb398c6553aa4c28f8a81e6e7588",
+      "bytes": 29577
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_KernelProjectDependencies.json",
+      "sha256": "beb017fd3f91861894e75abf24a4795bde069a301a1696dfbc27107408c638a8",
+      "bytes": 1151448
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_LibraryReferences.csv",
+      "sha256": "ab33f3b264373fbad257106f5ff026091c5057b60d1ea9b0c9be79cd38d88b27",
+      "bytes": 99982
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_LibraryReferences.json",
+      "sha256": "2ddd5a1c38a6df76e8e089c0fbcfe1b2474d77675115328bbc87c3690c894928",
+      "bytes": 106576
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_MainDependencyTraversal.json",
+      "sha256": "4cc220661db921b9068c6e094b1aac6407aec30c61c299fff460732c1f1874b3",
+      "bytes": 1473608
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_MasterChecklist.json",
+      "sha256": "ad9bef7f715c090062bfdc66f0d2c73b78df72a1a624c625c0b00b45ac866748",
+      "bytes": 8459305
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_ModuleStatus.json",
+      "sha256": "749aab83f43213ddad9b5b77f84f701b97d3d893b78725280fa6048c23c46d7a",
+      "bytes": 117273
+    },
+    {
+      "path": "PaperILean/reports/Checkpoint76_Recovery.json",
+      "sha256": "3d1e47a12143a16a1c50dbde709ca4232897af77ba68c24944824a9cdc1a1665",
+      "bytes": 47672
+    },
+    {
+      "path": "PaperILean/reports/Paper_I_Lean_Checkpoint_76_Report.pdf",
+      "sha256": "24f36388235b29931e08420cea0155b9768c61676b0635ad614317527bec6257",
+      "bytes": 81913
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_author_report.py",
+      "sha256": "6eb7824d1e940a96673e10bebcbf24fe7fe8b03ea8f221a704577f00a248a013",
+      "bytes": 17230
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_command.py",
+      "sha256": "75f8fe5d63c9808fe6b21722156d51d96e25e070ce56505f8350aacd4c58153f",
+      "bytes": 4347
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_fix_audit.py",
+      "sha256": "b2562f1422781e38e5377b095510cdb45f5460f875b2b281e9c25fe13d4feff5",
+      "bytes": 1664
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_make_audit.py",
+      "sha256": "b8f4c5807c8a38ec8133b4b6ce56c4aa2ec1fa9a1047f5aa9c5b2f0904ec5bdf",
+      "bytes": 3347
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_metadata.py",
+      "sha256": "bb092197eefbc80117286e643ba1e941ba9dbbc9c58a547bfcf59c499bee6841",
+      "bytes": 21851
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_obstructions.py",
+      "sha256": "e62104a3ba43bedad6820de4afefc45343f3c395eaf1343e679cffa1e087a0aa",
+      "bytes": 3255
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_pdf_quality.py",
+      "sha256": "9d17e17985ba555b1dcdfd89f0c4dc4175c7348b80c352192ac3e19abb3ce9d4",
+      "bytes": 1864
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_reconstruct.py",
+      "sha256": "b8660f6a4cfb8b242fb823ebe04069a1f621b0719695acab6848d42642293428",
+      "bytes": 4637
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_reconstruct_character.py",
+      "sha256": "435b6d42f1cd3642851ff357758e2a278c6f97612706df91b5cc366d2c1d8b7a",
+      "bytes": 3637
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_recover.py",
+      "sha256": "d3406d5e599f05b45f04c05c3a032e15120a356aeecaf980fb5a008f57254cbc",
+      "bytes": 3272
+    },
+    {
+      "path": "PaperILean/tools/checkpoint76_scope.json",
+      "sha256": "ed99a0b41f9c703b12e9fffcabe58e02dccac91ea44c728fd33d4261dbc15ffa",
+      "bytes": 15926
+    },
+    {
+      "path": "PaperILean/tools/package_checkpoint76.py",
+      "sha256": "b7175e63415644a82e98a12a26fe0ebf1ee0013845b0f4f1c17b6ea6f993dc99",
+      "bytes": 10334
+    }
+  ],
+  "removed": [
+    {
+      "path": "PaperILean/checkpoints/Checkpoint37_PackagingIndex.json",
+      "sha256": "ea7acd07517053f01b0542c46ab30174034a3e43be9038289b4b1dcaa8316abe",
+      "bytes": 613
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint38_PackagingIndex.json",
+      "sha256": "4f51f125bada425df7628d5356c230685ac98567f02876273a92d411ba2e3e9b",
+      "bytes": 892
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint39_PackagingIndex.json",
+      "sha256": "aa6d15821cb50a0e78784220c20907abda53b5a71d41464722e3154e48d5bb18",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint40_PackagingIndex.json",
+      "sha256": "a72c40fe54cb3db8b606da56b8bd1a96fcc38bc4032f69953c45492de4b21484",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint41_PackagingIndex.json",
+      "sha256": "c5a0a9405ddad2bf51d48499c3a5e5b4b73954372afadb64a78d400e5daf4713",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint42_PackagingIndex.json",
+      "sha256": "5fe647061e6018c394fa94a7d7b1ed3199589ee36d515e949f3cc3e01fa24ea9",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint43_PackagingIndex.json",
+      "sha256": "13a787a335a6ba983c37f04afeae40244f5b274ac7337ca70126d456e5190215",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint44_PackagingIndex.json",
+      "sha256": "c3fe31085cf63a9ffe7dfc80a0331fc8f6445d9d4d8cb5ab0932aebbcfc68df3",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint45_PackagingIndex.json",
+      "sha256": "138af521d5cf6d058d6079d3dcfd12df454bc3faf9ec619f6ca8ffb2f3cab7d7",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint46_PackagingIndex.json",
+      "sha256": "3adfa794063626f00fdb9b1941cf758946c50329616c35d7dcd5c6e792dfe3e4",
+      "bytes": 422
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint47_PackagingIndex.json",
+      "sha256": "c25205f141e3721d33d5f9622b9430dc9c94d7851cc4643b683652561bbb5951",
+      "bytes": 515
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint48_PackagingIndex.json",
+      "sha256": "ce6dec94d7c1c4ddcde74a5e4b348fd45802c16ecdfed54f66fb3daeb014ed99",
+      "bytes": 922
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint49_PackagingIndex.json",
+      "sha256": "259d7dd275cec89c0e8d571cd20c9601e371d5f9f98dc3d0580515ffd7847e88",
+      "bytes": 515
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint50_PackagingIndex.json",
+      "sha256": "e0b32393fb579e2359cf7feb94cba118f427dad0994cd4c016024e1a1fdbb003",
+      "bytes": 515
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint51_PackagingIndex.json",
+      "sha256": "1e8db5747224741ca575dcbdd42ad7814378fcbd79a06d07c8f7152d63e50ec2",
+      "bytes": 370
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint52_PackagingIndex.json",
+      "sha256": "ba10818eedabfa67bb64bb5600f0d5a80ad13419f67452c6afe832ddb6f52095",
+      "bytes": 370
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint53_PackagingIndex.json",
+      "sha256": "04539960ca9d1ce3aad6eecce28b0b3605100b778694bbe6e98fa2585845e430",
+      "bytes": 370
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint54_PackagingIndex.json",
+      "sha256": "6b29a8dc027719c13630fe228feeed90ec01febdfa0e8b3389dc2aacd8198ebf",
+      "bytes": 370
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint55_PackagingIndex.json",
+      "sha256": "0719203b8509fc967a02dfa1a4bfe472af2821f6162dab4eee4c6ee944ecd650",
+      "bytes": 734066
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint56_PackagingIndex.json",
+      "sha256": "276e5e5c80f9d7bd17be4d0ff2f68903e3d71a682a981d898d66786d4f6ac543",
+      "bytes": 1195561
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint57_PackagingIndex.json",
+      "sha256": "fb58df2a8ff35a565896bdc987e3c00f4f5e97cb2e3043bf566350478049aa5c",
+      "bytes": 1355911
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint58_PackagingIndex.json",
+      "sha256": "d56c2b769030da058677ce94b71496016381c6117a4cc748e68b87bc40ba2ed1",
+      "bytes": 1510826
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint59_PackagingIndex.json",
+      "sha256": "e830b99d24daf60b93e1ea157281168ffd23bca8924585f69f5d6fbf22006e11",
+      "bytes": 1669004
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint60_PackagingIndex.json",
+      "sha256": "567a379e27e1a3496c2c4ef7b30acc0e67f5e7b4f146417ba09e6d774764a6b4",
+      "bytes": 1835720
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint61_PackagingIndex.json",
+      "sha256": "27d4d9a4dbe3de3f748ee0edcba11ab7fc2dd6f79434eb8f3ac78fb829433afc",
+      "bytes": 21606
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint62_PackagingIndex.json",
+      "sha256": "ba292159d37b322c294c8bb352fb5f0c959d442ece85120fb610620346ed727a",
+      "bytes": 19696
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint63_PackagingIndex.json",
+      "sha256": "af9d152ad48885c14463a21226384e80f19757b6dffc13072302e381b8fcb0c3",
+      "bytes": 43553
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint64_PackagingIndex.json",
+      "sha256": "768ec5c54e7f98b7d09371d1d41cd58ce81d1433d8a0f3cd14880b439879361e",
+      "bytes": 71624
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint65_PackagingIndex.json",
+      "sha256": "61c56458166c92ad937d61cbabcc4aad2f863ccdbeab48e5a6ddba5c75329f94",
+      "bytes": 18775
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint66_PackagingIndex.json",
+      "sha256": "d72ebc40159a6dbfc9f4e6a0b87a69489ef2dbe98abb42977ba827065be3a1ae",
+      "bytes": 42371
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint67_PackagingIndex.json",
+      "sha256": "b95c0cf185b44fefeab261cc29108b0de870c5001b5825132eda40d0600cbb91",
+      "bytes": 15694
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint68_PackagingIndex.json",
+      "sha256": "038e57d254b27da29bcb84797fe6112c15203eb04aca40c3039841634b3b634a",
+      "bytes": 38084
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint69_PackagingIndex.json",
+      "sha256": "4f98256e766a59802cb77367d55caf5a1a0ad7a4843bdae6b5f72b89a8f4027f",
+      "bytes": 61238
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint70_PackagingIndex.json",
+      "sha256": "eb3c31d345f4bdfaeb621944d406e4bd6662fbb6d4d7be4ec9f95ac1c5dab2e6",
+      "bytes": 88354
+    },
+    {
+      "path": "PaperILean/checkpoints/Checkpoint71_PackagingIndex.json",
+      "sha256": "8882763c0654b9f26edb90e1d5b09909b0665f9e70de1339191143c00829effc",
+      "bytes": 18064
+    },
+    {
+      "path": "PaperILean/checkpoints/Legacy_Pilot_SHA256SUMS.txt",
+      "sha256": "7f728075b0d0155a694c14db911bb69c75e39374f33cffd9c9563893c22205e9",
+      "bytes": 5075
+    },
+    {
+      "path": "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_70.zip",
+      "sha256": "16f095f12edcd093126da8f37586e18eed584f823b18e453c5c90cc122a68d40",
+      "bytes": 385881117
+    },
+    {
+      "path": "PaperILean/checkpoints/README.md",
+      "sha256": "c5f91c95e56423e3f91f4edc9586b6e0ea23e304f8d55dc6a986557b0db191e9",
+      "bytes": 399
+    }
+  ],
+  "added_content_aliases": [
+    {
+      "new_path": "PaperILean/evidence/checkpoint_76_001_environment_version.log",
+      "same_bytes_in_71": [
+        "PaperILean/evidence/checkpoint_71_environment_version.log",
+        "PaperILean/evidence/lean_version.log",
+        "PaperILean/evidence/reproduction_05/lean_version.log"
+      ]
+    },
+    {
+      "new_path": "PaperILean/evidence/checkpoint_76_cache_console.log",
+      "same_bytes_in_71": [
+        "PaperILean/evidence/affine_attempt_03.log",
+        "PaperILean/evidence/affine_attempt_06.log",
+        "PaperILean/evidence/affine_character_targets_attempt_01.log",
+        "PaperILean/evidence/affinecharactertargets_checked.log",
+        "PaperILean/evidence/affinecharacteruses_checked.log",
+        "PaperILean/evidence/affinepullback_checked.log",
+        "PaperILean/evidence/assignment_attempt_02.log",
+        "PaperILean/evidence/assignment_attempt_03.log",
+        "PaperILean/evidence/assignment_attempt_05.log",
+        "PaperILean/evidence/assignmentincidence_checked.log",
+        "PaperILean/evidence/character_combinatorics_attempt_03.log",
+        "PaperILean/evidence/character_combinatorics_attempt_04.log",
+        "PaperILean/evidence/charactercombinatorics_checked.log",
+        "PaperILean/evidence/checkpoint_71_002_slope_series_01.log",
+        "PaperILean/evidence/checkpoint_71_003_tensor_atoms_01.log",
+        "PaperILean/evidence/checkpoint_71_005_tensor_atoms_02.log",
+        "PaperILean/evidence/checkpoint_71_010_complex_atoms_02.log",
+        "PaperILean/evidence/checkpoint_71_015_determinant_01.log",
+        "PaperILean/evidence/checkpoint_71_016_tensor_partition_01.log",
+        "PaperILean/evidence/checkpoint_71_report_build.log",
+        "PaperILean/evidence/coefficient_change_attempt_02.log",
+        "PaperILean/evidence/coefficient_model_attempt_07.log",
+        "PaperILean/evidence/coefficientchange_checked.log",
+        "PaperILean/evidence/coefficientmodel_checked.log",
+        "PaperILean/evidence/countable_incidence_attempt_01.log",
+        "PaperILean/evidence/countableincidence_checked.log",
+        "PaperILean/evidence/diagonal_character_attempt_03.log",
+        "PaperILean/evidence/diagonalcharacter_checked.log",
+        "PaperILean/evidence/fixed_frame_attempt_02.log",
+        "PaperILean/evidence/fixedframeincidence_checked.log",
+        "PaperILean/evidence/indexcombinatorics_checked.log",
+        "PaperILean/evidence/integral_bridges_checked.log",
+        "PaperILean/evidence/integralbridges_checked.log",
+        "PaperILean/evidence/larger_exponents_attempt_02.log",
+        "PaperILean/evidence/largerexponents_checked.log",
+        "PaperILean/evidence/polynomialquotient_checked.log",
+        "PaperILean/evidence/report_render.log"
+      ]
+    },
+    {
+      "new_path": "PaperILean/evidence/checkpoint_76_report_build.log",
+      "same_bytes_in_71": [
+        "PaperILean/evidence/affine_attempt_03.log",
+        "PaperILean/evidence/affine_attempt_06.log",
+        "PaperILean/evidence/affine_character_targets_attempt_01.log",
+        "PaperILean/evidence/affinecharactertargets_checked.log",
+        "PaperILean/evidence/affinecharacteruses_checked.log",
+        "PaperILean/evidence/affinepullback_checked.log",
+        "PaperILean/evidence/assignment_attempt_02.log",
+        "PaperILean/evidence/assignment_attempt_03.log",
+        "PaperILean/evidence/assignment_attempt_05.log",
+        "PaperILean/evidence/assignmentincidence_checked.log",
+        "PaperILean/evidence/character_combinatorics_attempt_03.log",
+        "PaperILean/evidence/character_combinatorics_attempt_04.log",
+        "PaperILean/evidence/charactercombinatorics_checked.log",
+        "PaperILean/evidence/checkpoint_71_002_slope_series_01.log",
+        "PaperILean/evidence/checkpoint_71_003_tensor_atoms_01.log",
+        "PaperILean/evidence/checkpoint_71_005_tensor_atoms_02.log",
+        "PaperILean/evidence/checkpoint_71_010_complex_atoms_02.log",
+        "PaperILean/evidence/checkpoint_71_015_determinant_01.log",
+        "PaperILean/evidence/checkpoint_71_016_tensor_partition_01.log",
+        "PaperILean/evidence/checkpoint_71_report_build.log",
+        "PaperILean/evidence/coefficient_change_attempt_02.log",
+        "PaperILean/evidence/coefficient_model_attempt_07.log",
+        "PaperILean/evidence/coefficientchange_checked.log",
+        "PaperILean/evidence/coefficientmodel_checked.log",
+        "PaperILean/evidence/countable_incidence_attempt_01.log",
+        "PaperILean/evidence/countableincidence_checked.log",
+        "PaperILean/evidence/diagonal_character_attempt_03.log",
+        "PaperILean/evidence/diagonalcharacter_checked.log",
+        "PaperILean/evidence/fixed_frame_attempt_02.log",
+        "PaperILean/evidence/fixedframeincidence_checked.log",
+        "PaperILean/evidence/indexcombinatorics_checked.log",
+        "PaperILean/evidence/integral_bridges_checked.log",
+        "PaperILean/evidence/integralbridges_checked.log",
+        "PaperILean/evidence/larger_exponents_attempt_02.log",
+        "PaperILean/evidence/largerexponents_checked.log",
+        "PaperILean/evidence/polynomialquotient_checked.log",
+        "PaperILean/evidence/report_render.log"
+      ]
+    }
+  ],
+  "active_lean_added": [
+    "PaperILean/PaperILean/AllDimAffineCharacterTargets.lean",
+    "PaperILean/PaperILean/AllDimAffineCharacterUses.lean",
+    "PaperILean/PaperILean/AllDimAffinePullback.lean",
+    "PaperILean/PaperILean/AllDimCoefficientChange.lean",
+    "PaperILean/PaperILean/AllDimCoefficientModel.lean",
+    "PaperILean/PaperILean/AllDimCoefficientSpace.lean",
+    "PaperILean/PaperILean/AllDimDiagonalCharacter.lean",
+    "PaperILean/PaperILean/AllDimGeneralAffineCharacter.lean",
+    "PaperILean/PaperILean/AllDimIndexWeights.lean",
+    "PaperILean/PaperILean/AllDimPolynomialQuotient.lean",
+    "PaperILean/PaperILean/Batch76AxiomAudit.lean"
+  ],
+  "active_lean_changed": [],
+  "manuscripts": [
+    {
+      "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+      "sha256_before": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+      "sha256_after": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+      "equal": true
+    },
+    {
+      "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+      "sha256_before": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+      "sha256_after": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+      "equal": true
+    },
+    {
+      "path": "PaperILean/manuscript/source_labels.aux",
+      "sha256_before": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+      "sha256_after": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+      "equal": true
+    }
+  ],
+  "interpretation": "Observed endpoint differences only. No attribution of any change to historical checkpoints 72,73,74,75."
+}

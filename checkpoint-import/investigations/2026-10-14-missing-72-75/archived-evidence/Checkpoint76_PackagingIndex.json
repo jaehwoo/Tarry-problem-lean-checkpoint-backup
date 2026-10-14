@@ -1,0 +1,17 @@
+{
+  "parent_archive": "checkpoints/Paper_I_Lean_Checkpoint_71.zip",
+  "parent_archive_sha256": "621a0aca6001bf8a3d569b7be7603344efd3c33e6ba5f98ac403f7226aca99a8",
+  "parent_archive_size_bytes": 396049451,
+  "parent_checkpoint": 71,
+  "unrecovered_checkpoints": [
+    72,
+    73,
+    74,
+    75
+  ],
+  "parent_history": "The exact checkpoint71 ZIP contains its own exact parent and historical packaging index. Follow ZIP-member paths to access older history; no parent content is rewritten.",
+  "full_archive": "All current project sources, report, checklist and evidence plus the exact checkpoint71 ZIP as a stored member. Runtime, caches, temporary Python bytecode and lock files are reproducible and omitted.",
+  "working_archive": "All current project sources, report, checklist and evidence; the large parent ZIP is referenced here rather than duplicated. The separately saved checkpoint71 archive retains older nested history.",
+  "mathematical_code_executed": true,
+  "full_manuscript_verification_complete": false
+}

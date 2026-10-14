@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "from_files": 1153,
+    "to_files": 1196,
+    "unchanged": 1090,
+    "changed": 25,
+    "added": 81,
+    "removed": 38
+  },
+  "active_lean_counts": {
+    "from": 387,
+    "to": 398,
+    "unchanged": 387,
+    "changed": 0,
+    "added": 11,
+    "removed": 0
+  },
+  "active_lean_added": [
+    "PaperILean/PaperILean/AllDimAffineCharacterTargets.lean",
+    "PaperILean/PaperILean/AllDimAffineCharacterUses.lean",
+    "PaperILean/PaperILean/AllDimAffinePullback.lean",
+    "PaperILean/PaperILean/AllDimCoefficientChange.lean",
+    "PaperILean/PaperILean/AllDimCoefficientModel.lean",
+    "PaperILean/PaperILean/AllDimCoefficientSpace.lean",
+    "PaperILean/PaperILean/AllDimDiagonalCharacter.lean",
+    "PaperILean/PaperILean/AllDimGeneralAffineCharacter.lean",
+    "PaperILean/PaperILean/AllDimIndexWeights.lean",
+    "PaperILean/PaperILean/AllDimPolynomialQuotient.lean",
+    "PaperILean/PaperILean/Batch76AxiomAudit.lean"
+  ],
+  "active_lean_changed": [],
+  "manuscripts": [
+    {
+      "path": "PaperILean/manuscript/Complete_Affine_Jets_I_Introduction_Revision.tex",
+      "sha256_before": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+      "sha256_after": "91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914",
+      "equal": true
+    },
+    {
+      "path": "PaperILean/manuscript/Complete_Affine_Jets_Supplement.tex",
+      "sha256_before": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+      "sha256_after": "31b5340997aac383d037029596d1c52c88679cab366263b25ecda7d594aef312",
+      "equal": true
+    },
+    {
+      "path": "PaperILean/manuscript/source_labels.aux",
+      "sha256_before": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+      "sha256_after": "8b7dde6d2d264f06aa1992ca9d47dda5cee4989e8f1754e7e7dc684056747bf1",
+      "equal": true
+    }
+  ]
+}

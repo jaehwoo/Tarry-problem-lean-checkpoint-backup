@@ -1,0 +1,6 @@
+SCAN Paper_I_Lean_Checkpoint_108_Build_Evidence.zip 8163bdede37f
+SCAN support/checkpoint108-support.tar.xz 1281f6a1b4fa
+SCAN support/checkpoint108-support.tar 0784cab71a49
+SCAN Paper_I_Lean_Checkpoint_108_Delivery_Verification.zip 258550d5ca33
+SCAN Paper_I_Lean_Checkpoint_108_Progress.zip a1478a91d87f
+{"roots": 27, "containers": 72, "edges": 60, "hits": 426, "errors": [{"sha256": "0784cab71a499c5a19ee7b809371cc5c796f8792486c9dce8ec33a4c27af34b3", "name": "support/checkpoint108-support.tar", "reason": "unsupported format"}]}

@@ -1,0 +1,1272 @@
+--- checkpoint71/PaperILean/PaperILean.lean
++++ checkpoint76/PaperILean/PaperILean.lean
+@@ -318,3 +318,13 @@
+ import PaperILean.CubeTensorDeterminant
+ import PaperILean.CubeTensorPartition
+ import PaperILean.CubeComplexAtoms
++import PaperILean.AllDimCoefficientSpace
++import PaperILean.AllDimCoefficientModel
++import PaperILean.AllDimPolynomialQuotient
++import PaperILean.AllDimAffinePullback
++import PaperILean.AllDimCoefficientChange
++import PaperILean.AllDimIndexWeights
++import PaperILean.AllDimDiagonalCharacter
++import PaperILean.AllDimAffineCharacterTargets
++import PaperILean.AllDimGeneralAffineCharacter
++import PaperILean.AllDimAffineCharacterUses
+--- checkpoint71/PaperILean/README.md
++++ checkpoint76/PaperILean/README.md
+@@ -1,37 +1,15 @@
+-# Paper I Lean verification - checkpoint 71
++# Paper I Lean verification - checkpoint 76
+ 
+-The original arbitrary-dimensional cube tensor atoms, fixed affine templates, partition, mass one, complex amplitude interface and exact positive determinant-power series are checked. Full manuscript/main-theorem verification remains incomplete; the all-dimensional cube Lp lemma is not proved.
++Full manuscript and main-theorem verification remain incomplete.
+ 
+-The authoritative manuscript is unchanged: SHA256 91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914. All 380 inherited Lean modules and pinned files are unchanged. The root appends six imports. reports/MasterChecklist.json is the sole canonical checklist (2793 records).
++This checkpoint resumes exact saved checkpoint71 after checkpoint72-75 source bytes and build evidence could not be recovered. It reconstructs and currently verifies 65 theorem proofs, 30 definitions, 4 abbreviations and 3 named instances in ten new AllDim modules. All final unit builds, 102 transitive axiom queries, compiled-reference guard and root integration passed under pinned Lean4.19.0 and mathlib c44e0c8ee63ca166450922a373c7409c5d26b00b. No final mathematical source is unexecuted. All inherited Lean modules and the authoritative manuscript are unchanged.
+ 
+-## Executed scope
++The actual complete monomial space and quotient by constants, affine map F(c+Bx)-F(c), determinant (det B)^choose(k+d,d+1), and coefficient measure change are proved for every finite dimension. Inverse/measure statements require nonzero determinant; the algebraic character includes singular matrices. Literal d=3 bridges preserve the old definitions. The proof uses the alternative dilation/transvection route and total-coordinate counting. Original triangular/homogeneous/orthogonal/SVD intermediates are not verified by that alternative.
+ 
+-Seventy-four theorem proofs, twelve definitions and one type abbreviation in six modules passed under Lean4.19.0 (6caaee842e94), mathlib c44e0c8ee63ca166450922a373c7409c5d26b00b. All 87 transitive audits and root integration passed. Exact commands, outputs, source hashes, resolved failures, two interrupted diagnostics, and full #print axioms output are in evidence/checkpoint_71* and the correspondence report. No final new mathematical code is unexecuted. No native-evaluation proof mechanism was used. Saved failed/interrupted draft snapshots are diagnostic history, not completed code.
++reports/MasterChecklist.json is the sole canonical checklist, with 2895 records retaining all 2793 checkpoint71 records. The current known main graph remains incomplete. reports/CorrespondenceReport.md and its PDF give exact scope, commands/results, all axiom output and unresolved contracts. evidence/checkpoint_76* contains actual logs, source hashes, the pre-strategy screen, resolved audit-metadata failure and preservation evidence. Failed audit snapshots are diagnostic history, not final mathematical code.
+ 
+-For every d:Nat, form alpha:Fin d->(Unit+(Nat+Nat)), a_alpha(x)=product_j a_(alpha j)(x_j), and the fixed product templates indexed by Fin d->Bool. The template index type has exactly 2^d elements. The actual atoms and templates are smooth and compactly supported; atoms are nonnegative and supported inside the coordinatewise open cube. Literal signed diagonal maps and inverses give the exact affine-template representation, with nonzero determinants. The actual atom family has sum the open-cube indicator at every point and equals the closed-cube indicator almost everywhere. Each atom is integrable and the sums of masses and norm masses are one. Complex-valued versions retain these smooth/compact/support/affine properties and exact norm identities. For every epsilon>0 the determinant weights are genuinely summable and their exact sum is (1+2*sum_(n:Nat) s_n^epsilon)^d, s_n=2^(-(n+2)); the associated ENNReal sum is strictly below top. Dimension zero and the positive-dimensional epsilon=0 obstruction are handled explicitly. No all-dimensional cube Lp conclusion is inferred from these prerequisites alone.
++The next task is physical oscillatory change of variables with the constant phase factor, then the exact I577 Lp scaling identity. Cube Lp assembly, physical incidence, necessity and full main dependency expansion remain open. Original manuscript assumptions are not classified as flaws.
+ 
+-The tensor atoms, real/complex fixed templates, partition, mass and determinant-series declarations are unconditional under their displayed elementary hypotheses. They do not use physical incidence or assume the cube Lp conclusion. Application to the full cube lemma remains conditional on the exact all-dimensional physical/coefficient oscillatory scaling identity, finite-template Lp norm control, Minkowski convergence and identification of the oscillatory sum with the cube integral. The existing analytic amplitude bound remains conditional on the unchanged original physical-incidence hypothesis.
++Reproduce with the pinned toolchain: lake exe cache get; lake build PaperILean PaperILean.Batch76AxiomAudit; lake env lean PaperILean/Batch76AxiomAudit.lean. These are reproduction instructions, not additional claimed executions. tools/lean_command.py supplies the recorded container executable-discovery adaptation only; ordinary hosts may call Lean/Lake directly. No native-evaluation proof mechanism is used. Runtime and caches are omitted from the archive.
+ 
+-The pre-target screen passed 12244 exact and 185 floating diagnostics; independent review passed 4188 exact assertions. These are not proofs. Workspace maintenance removed local sources and Lean binaries. The exact saved checkpoint70 ZIP was restored with hash16f095f12edcd093126da8f37586e18eed584f823b18e453c5c90cc122a68d40; only current files were extracted and the nested checkpoint69 ZIP was left packed. Official Lean4.19.0, all nine exact pinned package checkouts and cached mathlib oleans were restored successfully, with actual version/cache commands and unchanged-source hashes recorded. Rebuilding inherited modules was necessary because local project oleans were unavailable; this is environment recovery, not a new mathematical verification claim for unchanged statements.
+-
+-## Reproduction instructions (not additional claimed executions)
+-
+-```text
+-lake exe cache get
+-lake build PaperILean PaperILean.Batch71AxiomAudit
+-lake env lean PaperILean/Batch71AxiomAudit.lean
+-```
+-
+-Use the pinned official toolchain. tools/lean_command.py adapts executable discovery for this container; ordinary hosts can invoke Lean/Lake directly. Runtime and caches are omitted. Checkpoint scripts retain the actual parent path. A shallow ProofWidgets checkout may require its pinned v0.0.57 tag.
+-
+-checkpoints/Paper_I_Lean_Checkpoint_70.zip preserves the exact parent and older history. Checkpoint71_PackagingIndex.json locates unchanged historical reports/evidence inside it. No history is discarded.
+-
+-## Remaining work
+-
+-For the unchanged I565-584 lemma retain every d,k>=1 and finite p>=1 with p>chi(d,k), assuming E_a belongs to Lp(V_(d,k)) for every smooth compact amplitude a. Prove I577 exactly: ||E_(A_beta o T_alpha^-1)||_Lp=|det B_alpha|^(1-chi(d,k)/p)*||E_A_beta||_Lp for the actual fixed templates and signed diagonal maps, with beta=tau composed with alpha (the template tag of the physical atom). The established coefficient representation and full affine character are currently d=3 only; all-dimensional coefficient/phase/measure infrastructure or a separately proved all-dimensional diagonal route is required without changing those definitions. Then choose a finite maximum of the fixed template norms, independent of alpha, use the now-proved determinant series to sum actual oscillatory Lp norms, prove convergence by Minkowski, and identify the sum with the cube integral using the now-proved physical mass and the remaining phase/Tonelli argument. The original d=3 use at I2938 and d=2,k=3 use at I3063 must both remain covered. Physical incidence, necessity and complete main dependency expansion remain independent obligations. These future contracts are not assumed and are not failed final Lean goals.
+-
+-Next: Before selecting the next proof route, test translations, signed diagonal maps, zero-dimensional diagnostics, d=1, d=2/k=3, d=3, constant-term phase factors, determinant powers, p=1 and the endpoint p=chi(d,k). Define the all-dimensional polynomial coefficient and phase spaces alongside the existing d=3 spaces; prove the exact coefficient action/measure character needed for the signed diagonal atom maps, then the I577 oscillatory norm scaling identity. Record separately if a direct diagonal proof replaces any original general-character intermediate. Keep physical incidence independent.
+-
+-This batch follows the manuscript's original tensor-product atom construction and positive determinant-series argument, making the standard omitted finite-product and measure details explicit. Complexification preserves the same atoms. No alternative cube proof or manuscript repair is proposed. Inherited alternative-proof caveats, including the three-dimensional affine-character route and I222/257/284, remain; those alternatives do not verify the original intermediate arguments.
+-
+-Complete fine-grained main dependency expansion remains incomplete. Exact inherited blockers are retained in the canonical checklist and Prerequisites.md.
++The full project archive retains the exact checkpoint71 archive as an unmodified parent. The smaller working checkpoint contains all current sources, reports and build evidence, with older nested history available in that saved parent. No file from checkpoint72-75 is claimed to have been recovered.
+--- checkpoint71/PaperILean/reports/CorrespondenceReport.md
++++ checkpoint76/PaperILean/reports/CorrespondenceReport.md
+@@ -1,289 +1,412 @@
+ ---
+-title: "Paper I: Lean verification checkpoint 71"
+-date: "12 October 2026 (UTC)"
++title: "Paper I: Lean verification checkpoint 76"
++date: "13 October 2026 (KST); execution logs use UTC"
+ ---
+ 
+-**The original cube tensor atoms, fixed affine templates, partition, total mass and positive determinant-power series are now verified in arbitrary finite dimension. Verification of the full cube \(L^p\) lemma, manuscript and main theorem remains incomplete.**
+-
+-This batch continues the exact saved checkpoint 70. Seventy-four theorem proofs, twelve definitions and one type abbreviation in six mathematical modules compiled under pinned Lean 4.19.0. All 87 transitive axiom audits and root integration passed. The 380 inherited Lean modules and authoritative manuscript are unchanged. No final new mathematical code is unexecuted.
+-
+-## Exact construction and verified scope
+-
+-Let \(\mathcal I=\{*\}\sqcup\mathbb N\sqcup\mathbb N\) be the unchanged interval-atom index type from checkpoint 70. Its actual atoms \(f_i\), fixed templates \(A_b\), tags \(\tau_i\in\{0,1\}\), centers \(c_i\) and signed slopes \(s_i\) satisfy \(f_i(x)=A_{\tau_i}((x-c_i)/s_i)\). The slopes are \(1\), \(2^{-(n+2)}\), or \(-2^{-(n+2)}\), with \(n\in\mathbb N\).
+-
+-For every natural dimension \(d\), define
++**The all-dimensional coefficient model, actual polynomial quotient, affine determinant character and coefficient measure change are verified in the recovered project. Full manuscript and main-theorem verification remains incomplete.**
++
++This iteration starts from the exact saved checkpoint 71. The latest saved project, report, checklist and evidence were recovered successfully. The former local checkpoint-75 project and deliverables were absent, and the saved-file listing still identified checkpoint 71. Source bytes and build evidence for checkpoints 72-75 were not recovered. Their earlier conversational summaries are not treated as recoverable proofs. Necessary dimension-parametric prerequisites were reconstructed from the unchanged checkpoint-71 sources and executed anew. This is recovery and current verification, not a claim to have recovered those lost checkpoints or to have made 65 historically new mathematical advances.
++
++Sixty-five theorem proofs, thirty definitions, four abbreviations and three named instances in ten mathematical modules compiled under pinned Lean 4.19.0. All 102 transitive axiom queries, the compiled dimension-dependency guard and final root integration passed. The axiom lists contain only `propext`, `Classical.choice` and `Quot.sound`, or are empty. No final new mathematical source is unexecuted. Three intermediate working snapshots were confirmed saved while this iteration proceeded.
++
++## Exact verified statement
++
++For every natural dimension $d$ and degree $k$, the coefficient index contains exactly the nonconstant monomials with total degree in $[1,k]$. Its cardinality is $\binom{k+d}{d}-1$. The coefficient space is linearly equivalent to the actual polynomial quotient by constants, with the zero-constant representative required at I156 and I180. For every center $c$ and every real $d$-by-$d$ matrix $B$, the actual coefficient action satisfies
+ \[
+-f_\alpha(x)=\prod_{j<d}f_{\alpha(j)}(x_j),\qquad
+-A_\beta(y)=\prod_{j<d}A_{\beta(j)}(y_j),
++\mathcal L_{c,B}F(x)=F(c+Bx)-F(c),\qquad
++\det\mathcal L_{c,B}=(\det B)^{\chi_{d,k}},\qquad
++\chi_{d,k}=\binom{k+d}{d+1}.
+ \]
++Thus the absolute determinant formula at I182 holds in every dimension. No invertibility or positivity is imposed on the algebraic character. Affine degree preservation, the correct contravariant composition order and the inverse for $\det B\ne0$ are proved. For the explicit product Lebesgue coefficient measure and $\det B\ne0$,
+ \[
+-B_\alpha=\operatorname{diag}(s_{\alpha(j)}),\qquad
+-T_\alpha(y)_j=c_{\alpha(j)}+s_{\alpha(j)}y_j.
++(\mathcal L_{c,B})_*\,dF=|\det B|^{-\chi_{d,k}}\,dF.
+ \]
+-Here \(\alpha:\operatorname{Fin}(d)\to\mathcal I\), and \(\beta:\operatorname{Fin}(d)\to\mathrm{Bool}\). The template index type has exactly \(2^d\) elements; distinct indices need not give distinct functions. Templates are fixed independently of the atom scales, phase coefficients, \(k\) and \(p\). The proved inverse is the literal coordinatewise quotient, and
+-\[
+-f_\alpha=A_{\tau\circ\alpha}\circ T_\alpha^{-1},\qquad
+-\det B_\alpha\ne0.
+-\]
+-
+-The actual atoms and templates are smooth and compactly supported. Atoms are nonnegative and their closed supports lie inside the coordinatewise open cube. Lean proves actual \(\mathrm{HasSum}\) and summability, then
+-\[
+-\sum_\alpha f_\alpha(x)=\mathbf1_{(0,1)^d}(x)
+-\]
+-at every point, and equality to \(\mathbf1_{[0,1]^d}\) almost everywhere for product Lebesgue measure. Both cubes have volume one. Each atom is integrable, and nonnegative Tonelli gives
+-\[
+-\sum_\alpha\int^-\operatorname{ofReal}(f_\alpha(x))\,dx
+-=\sum_\alpha\int^-\operatorname{ofReal}(\|f_\alpha(x)\|)\,dx=1.
+-\]
+-Literal complex casts preserve real smoothness, compact support, exact closed supports and the affine representation; the complex atom norm equals its real nonnegative value. These statements do not assume an oscillatory-integral identity.
+-
+-\newpage
+-
+-## Exact determinant series and boundary tests
+-
+-For every real \(\epsilon>0\), put \(q=(1/2)^\epsilon\), so \(0<q<1\). The actual scale sequence has
+-\[
+-\sum_{n\ge0}\bigl(2^{-(n+2)}\bigr)^\epsilon=\frac{q^2}{1-q}.
+-\]
+-Both endpoint copies and the interior index are retained. Finite-product summation and the actual signed diagonal determinant give
+-\[
+-\sum_\alpha |\det B_\alpha|^\epsilon
+-=\left(1+2\sum_{n\ge0}\bigl(2^{-(n+2)}\bigr)^\epsilon\right)^d
+-=\left(1+\frac{2q^2}{1-q}\right)^d.
+-\]
+-The family is genuinely summable and its sum is positive. The ENNReal sum of these nonnegative weights is explicitly proved less than \(\top\). Thus the finite real value is not an artifact of totalized real \(\mathrm{tsum}\).
+-
+-Before the new Lean targets, **12,244 exact and 185 floating-point diagnostics** passed; an independent source review added **4,188 exact rational assertions**. These are obstruction tests, not proof certificates or native-evaluation proofs.
+-
+-* The open cube is `Set.pi univ (fun _ => Ioo 0 1)`. Ordered Pi-space `Ioo 0 1` is different in dimension at least two: \((0,1)\) can lie in that ordered interval while every tensor atom vanishes there.
+-* If any coordinate is 0 or 1, every atom vanishes. The closed-cube equality is only almost everywhere, exactly as the manuscript already requires.
+-* Dimension zero correctly gives one empty index, one empty template, product and determinant one, and singleton product volume one. This diagnostic extension does not change the manuscript's range \(d,k\ge1\).
+-* The one-dimensional specialization keeps the exact index shift \(n+2\ge2\), both endpoint copies, and negative right-end slopes. Absolute determinants precede real powers.
+-* At \(\epsilon=0\), the determinant family is formally nonsummable in every positive dimension. Dimension zero still has sum one for every real exponent.
+-* No common compact interior support or bound on derivatives independent of scale is asserted. The later uniform constant must come from finitely many fixed template norms and exact scaling.
+-
+-\newpage
+-
+-## Actual commands and compiler results
+-
+-The pinned environment reports:
+-
+-~~~text
+-Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+-~~~
+-
+-Mathlib is `c44e0c8ee63ca166450922a373c7409c5d26b00b`. All nine pinned package revisions and clean tracked sources were checked. Workspace maintenance had removed local sources and binaries: the exact saved checkpoint 70, official pinned runtime and package caches were restored. Only current project files were extracted; nested history stayed packed. Environment commands actually executed:
+-
+-~~~text
+-python3 tools/lean_command.py lean --version
+-exit 0
+-python3 tools/lean_command.py lake exe cache get
+-exit 0
+-~~~
+-
+-The recorded mathematical invocations ran from the project directory using:
+-
+-~~~text
+-python3 tools/checkpoint71_command.py RECORD ...
+-~~~
+-
+-The driver invokes the pinned wrapper, followed by each command listed below:
+-
+-~~~text
+-python3 tools/lean_command.py ...
+-~~~
+-
+-Exact start/finish times, argv, source hashes and compiler output are in `checkpoint_71_command_history.json`.
+-
+-~~~text
+-1. lake build PaperILean.CubeAtomIndex
+-   exit 0; checkpoint_71_001_inherited_interval_rebuild.log
+-2. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeSlopeSeries.lean
+-   exit 0; checkpoint_71_002_slope_series_01.log
+-3. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeTensorAtoms.lean
+-   exit 0; checkpoint_71_003_tensor_atoms_01.log
+-4. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeFiniteProductSum.lean
+-   exit 1; checkpoint_71_004_finite_product_01.log
+-5. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeTensorAtoms.lean
+-   exit 0; checkpoint_71_005_tensor_atoms_02.log
+-6. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeFiniteProductSum.lean
+-   exit 1; checkpoint_71_006_finite_product_02.log
+-7. lake build PaperILean.CubeTensorAtoms PaperILean.CubeSlopeSeries
+-   exit 0; checkpoint_71_007_tensor_and_slope_units.log
+-8. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeFiniteProductSum.lean
+-   exit 1; checkpoint_71_008_finite_product_03.log
+-9. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeComplexAtoms.lean
+-   exit 1; checkpoint_71_009_complex_atoms_01.log
+-10. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeComplexAtoms.lean
+-   exit 0; checkpoint_71_010_complex_atoms_02.log
+-11. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeFiniteProductSumFixed.lean
+-   exit 1; checkpoint_71_011_finite_product_fixed_01.log
+-12. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeFiniteProductSumFixed.lean
+-   exit 1; checkpoint_71_012_finite_product_fixed_02.log
+-13. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeFiniteProductSumFixed.lean
+-   exit 0; checkpoint_71_013_finite_product_fixed_03.log
+-14. lake build PaperILean.CubeFiniteProductSum PaperILean.CubeComplexAtoms
+-   exit 0; checkpoint_71_014_generic_and_complex_units.log
+-15. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeTensorDeterminant.lean
+-   exit 0; checkpoint_71_015_determinant_01.log
+-16. lake env lean /workspace/scratch/206c4ac6149a/tmp71/drafts/CubeTensorPartition.lean
+-   exit 0; checkpoint_71_016_tensor_partition_01.log
+-17. lake build PaperILean.CubeFiniteProductSum PaperILean.CubeTensorAtoms PaperILean.CubeSlopeSeries PaperILean.CubeTensorDeterminant PaperILean.CubeTensorPartition PaperILean.CubeComplexAtoms
+-   exit 0; checkpoint_71_017_final_units.log
+-18. lake env lean PaperILean/Batch71AxiomAudit.lean
+-   exit 0; checkpoint_71_018_batch_axioms.log
+-19. lake build PaperILean PaperILean.Batch71AxiomAudit
+-   exit 0; checkpoint_71_019_integration.log
+-~~~
+-
+-The inherited interval-unit and full-root rebuilds were necessary because local project object files had been removed. Unchanged statements were not individually re-audited as new mathematical work. All final unit builds, direct axiom audit and root integration exited zero. Project sources and executed draft bytes stayed frozen during recorded invocations.
+-
+-\newpage
+-
+-## Manuscript correspondence
+-
+-"I" denotes the authoritative introduction-revision source. The full 87-declaration table includes actual compiled signatures, exact declaration lines, dependency references and axiom lists. Names below are in namespace `PaperI`.
++The corresponding nonnegative integral substitution is proved for every measurable integrand. The center and matrix are fixed before the coefficient integration variable. No new analytic constant or uniformity hypothesis is introduced.
++
++The $d=3$ phase, measures, polynomial representative, actual quotient equivalence and affine coefficient map specialize by compiled definitional equalities to the unchanged parent definitions. Dimension zero and degree zero give empty coefficient spaces; their determinants equal one. These are diagnostic extensions of the manuscript range, not changes to it.
++
++::: pagebreak
++:::
++
++## Correspondence and proof route
++
++I denotes the unchanged authoritative introduction-revision source. All names below lie in `PaperI.AllDim`. The checklist and declaration tables give every compiled signature, exact declaration line, project and library references, hypotheses and axiom list for all 102 declarations.
+ 
+ | Source | Principal checked declarations |
+ |---|---|
+-| I573: tensor construction and finite templates | `cubeTensorAtom_smooth_compact` \newline `cubeTensorTemplate_smooth_compact` \newline `cubeTensorAtom_tsupport` \newline `cubeTensorAtom_affine_template` \newline `cubeTensorTemplate_card` |
+-| I573/583: partition and mass | `cubeTensorAtom_hasSum` \newline `cubeTensorAtom_ae_closed` \newline `cubeTensorAtom_integrable` \newline `cubeTensorAtom_total_mass` \newline `cubeTensorAtom_total_norm_mass` |
+-| I579-581: positive determinant series | `cubeDyadicScale_rpow_hasSum` \newline `cubeIntervalAtomSlope_rpow_hasSum` \newline `cubeTensorMatrix_det_rpow_hasSum` \newline `cubeTensorMatrix_det_rpow_tsum_lt_top` |
+-| I566-568/573: complex amplitudes | `cubeComplexTensorAtom_smooth_compact` \newline `cubeComplexTensorTemplate_smooth_compact` \newline `cubeComplexTensorAtom_norm` \newline `cubeComplexTensorAtom_affine_template` |
+-
+-The reusable finite-product lemma is proved by induction using nonnegative summable real series and the finite-tuple equivalence. No axiom assumes this factorization or the cube conclusion. This follows the original tensor construction and series argument, making omitted standard details explicit. No manuscript error, typo or repair is established.
+-
+-## Resolved implementation obstructions
+-
+-The generic product-series draft initially reached an elaboration heartbeat limit, then exposed uninferred finite-index binders. Two further long-running diagnostics, named `finite_product_04` and `finite_product_05`, were interrupted by tool-level Ctrl-C with observed exit 130. The driver could not append those interrupted invocations, so their exact argv, pre-execution source snapshots, hashes and recording limitations are preserved separately in `checkpoint_71_interrupted_attempt.json`. No compiler success or proof is inferred from them; their reused snapshot prefixes are historical filenames, not command-history sequence numbers.
+-
+-Stage traces subsequently located the inference cost in method-style multiplication of summable families and `HasSum` proofs. Explicit `f`, `g`, `s`, `t` arguments, separately typed nonnegativity and explicit finite-index binders resolved it at the default 200,000-heartbeat budget. The mathematical induction and tuple reindexing stayed unchanged. Diagnostic traces were removed before the successful final unit build.
+-
+-The complex support draft used an equality-to-zero simplification where support membership is nonzeroness. The pinned `Complex.ofReal_ne_zero` lemma fixed it. These were implementation difficulties, not mathematical gaps or changes of hypotheses. All failed outputs and exact failed goals remain in the evidence. No final goal in the completed batch is unresolved.
+-
+-\newpage
+-
+-## Persistent checklist, preservation and open contracts
+-
+-The authoritative manuscript remains byte-identical, SHA256:
+-
+-`91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914`.
+-
+-The 380 inherited Lean modules and all pinned files are unchanged; the root appends six imports. The exact checkpoint-70 ZIP is retained as an uncompressed member, preserving older history. `MasterChecklist.json` is the sole canonical checklist, with 2,793 records and synchronized derived views. The project contains 387 Lean modules and 2,136 recorded completed theorem proofs. Counts are not completion percentages.
+-
+-The known main traversal contains 3,618 nodes and 609 unexpanded references. All inherited claim text and known edges are retained. Compiler-generated references are covered by actual transitive axiom audits; an unexpanded graph reference is not by itself a missing proof. **Complete fine-grained manuscript and main-theorem dependency expansion remains incomplete.** Historical placeholder edges remain identified as unexpanded; the atom prerequisite's current checked status comes from its new declaration correspondence.
+-
+-`ARG:dyadic_smooth_atoms` now records the tensor construction and series prerequisite as checked. `an:cube-reduction` remains partial. Its unchanged contract is: for all \(d,k\ge1\), finite \(p\ge1\) and \(p>\chi_{d,k}\), membership of \(E_a\) in \(L^p(V_{d,k})\) for every smooth compact amplitude implies membership for the unit-cube amplitude. These hypotheses are not manuscript flaws.
+-
+-The precise next prerequisites are:
+-
+-1. **Missing project infrastructure and implementation difficulty:** prove the all-dimensional physical and coefficient change of variables, including the I577 identity
++| I156; I180-182 | `coefficientPolynomialEquiv`, `polynomialQuotientEquiv`, `card_monomialIndex` |
++| I156-168; I180-182 | `polynomial_affineCoefficientMap`, `phase_affineCoefficientMap`, `affineCoefficientMap_comp`, `affineCoefficientEquiv` |
++| I191-197, alternative counting | `sum_monomialCoordinate`, `affineCoefficientMap_diagonal`, `affineCoefficientMap_diagonal_det` |
++| I180-182, alternative proof | `affineCoefficientMap_translation_det`, `affineCoefficientMap_transvection_det`, `affineCoefficientMap_det`, `affineCoefficientMap_abs_det` |
++| I575-577, coefficient prerequisite | `map_affineCoefficientMeasure_character`, `lintegral_affineCoefficientChange_character` |
++| Literal inherited specialization | `phase_three`, `coefficientMeasure_three`, `coefficientPolynomial_three`, `polynomialQuotientEquiv_three`, `affineCoefficientMap_three` |
++
++The determinant proof follows the recovered alternative: total-coordinate counting gives the diagonal exponent, dilation forces translation and elementary shear determinants to be nonzero idempotents, and matrix induction reduces arbitrary matrices to diagonals and transvections. The final character has no assumed character premise. Two explicitly conditional interfaces are also audited; the unconditional character and measure-change declarations supply their premises.
++
++**This does not verify the original intermediate argument.** The triangular/block claim at I191, the homogeneous permutation-symmetry and hockey-stick steps at I191-197, and the orthogonal/SVD argument at I195 remain unformalized in this recovered source state. Some were reported in the unavailable checkpoint75; that report alone cannot restore their verified status. Inherited proof-route caveats at I222, I257 and I284 remain unchanged.
++
++## Obstructions tested before the new sources
++
++The exact pre-strategy screen passed 2,770 assertions over $d=0,1,2,3$ and $k=0,\ldots,4$, including rational translations, signed and singular diagonal matrices, coefficient orientation, the removed constant, determinant exponents, the $d=2,k=3$ downstream case, and the $p=1$ and $p=\chi$ boundaries. These are diagnostics, not kernel proofs or native-evaluation certificates.
++
++Translation is triangular rather than diagonal, and omitting $F(c)$ fails at the origin. At $p=\chi>0$, the prospective dyadic exponent is zero rather than positive. For the orthogonal matrix $Q=\left(\begin{smallmatrix}3/5&-4/5\\4/5&3/5\end{smallmatrix}\right)$, the pullback of $x_1^2$ has ordinary coefficient squared norm $913/625$, although its symmetric-tensor-weighted squared norm is one. Consequently an ordinary monomial-norm isometry cannot justify the orthogonal step. The manuscript does not assert that false isometry; this is an obstruction to a possible proof route, not a manuscript flaw.
++
++::: pagebreak
++:::
++
++## Unresolved contracts and conditional results
++
++The cube lemma at I565-584 still requires, for every $d,k\ge1$, finite $p\ge1$ with $p>\chi_{d,k}$ and every actual fixed template $A_\beta$ and signed diagonal atom map $T_\alpha(x)=c_\alpha+B_\alpha x$,
+ \[
+ \|E_{A_\beta\circ T_\alpha^{-1}}\|_{L^p(V_{d,k})}
+-=|\det B_\alpha|^{1-\chi_{d,k}/p}\|E_{A_\beta}\|_{L^p(V_{d,k})}.
++=|\det B_\alpha|^{1-\chi_{d,k}/p}\|E_{A_\beta}\|_{L^p(V_{d,k})},
++\qquad \beta=\tau\circ\alpha.
+ \]
+-Here \(\beta=\tau\circ\alpha\) is the actual template tag of the physical atom. The existing coefficient representation and full affine character are proved only for \(d=3\). The manuscript's character at I180-182 is all-dimensional. The cube lemma is used both at I2938 for \(d=3\) and I3063 for \(d=2,k=3\), so a three-dimensional specialization would not cover its original scope.
+-2. **Implementation difficulty:** use the membership premise for the finite list of fixed templates to choose a finite maximum of their \(L^p\) norms, independent of \(\alpha\). Combine the scaling identity and the now-proved determinant series at \(\epsilon=1-\chi_{d,k}/p>0\) to sum the actual oscillatory norms. Prove Minkowski convergence, absolute convergence for each fixed phase using physical mass one, and Tonelli identification with the cube integral. The mass theorem alone does not formalize the phase argument.
+-3. **Inherited independent obligations:** physical incidence, remaining geometric branches, necessity and `MainStatement` remain unformalized as recorded in the canonical checklist. The existing homogeneous analytic implication is conditional on the original physical-incidence hypothesis. Exact retained statements, blocker categories and obstructions appear in `Prerequisites.md`; no new mathematical gap or unavailable execution blocks this batch.
+-
+-These future contracts are not assumed by the new proofs and are not failed final Lean goals. The inherited alternative affine-character proof and I222/257/284 caveats remain: an alternative verifies its formal result, not the original intermediate argument.
+-
+-**Next concrete task:** test translations, signed diagonal maps, constant-term phase factors, determinant exponents, \(d=0,1,2,3\), the \(d=2,k=3\) downstream case, \(p=1\) and \(p=\chi_{d,k}\). Then define the all-dimensional coefficient and phase spaces alongside the unchanged three-dimensional definitions and prove the exact coefficient measure character and I577 norm scaling. Record any direct diagonal alternative separately. Verification remains incomplete.
+-
+-\newpage
++The coefficient part is now checked. The physical Bochner substitution, the factor $\exp(iF(c_\alpha))$, the exact norm scaling, a finite maximum of fixed-template norms chosen independently of $\alpha$, summability of actual oscillatory norms, Minkowski convergence and Tonelli identification remain implementation obligations. They are not assumed by this batch. Both the $d=3$ use at I2938 and $d=2,k=3$ use at I3063 remain required. The original smooth-amplitude membership hypothesis is explicit in the source and is not a flaw.
++
++For fixed $k$, $p>1$, $\gamma\ge0$ and the original finite exponents $A_p,B_p$, the independent physical-incidence input at I519-524 remains
++\[
++\int_{\mathcal A_R}\left(\sum_{j\in\mathcal J_D} b_jv_j
++\mathbf1_{\{j\in\mathcal I(F),\ |\ell_j(F)|\le K_{\rm lin}\}}\right)^p\,dF
++\lesssim_p K_{\rm lin}^{A_p}L_R^{B_p}d_2^{-\gamma}
++\sum_{j\in\mathcal J_D}b_j^pv_j^{p-\chi_k}.
++\]
++For the actual selected physical family, the constant must be fixed for the prescribed compact support before every $R\ge2$, coarse shape and coefficient-independent nonnegative weight family. The original $K_{\rm lin}=R^\delta$, logarithm, exponents and dependencies remain unchanged. This is an explicitly assumed input to the checked analytic implication; its construction remains unformalized. It is not itself a newly discovered manuscript error.
++
++`PaperI.MainStatement` remains a definition without a theorem proof: for every $k\ge14$ and finite real $p>0$, cube membership must be equivalent to $p>\chi_k+3$, with the unchanged smooth-amplitude and uniform-seminorm conclusions above that threshold. Necessity, the remaining geometric branches and full fine-grained dependency expansion remain open. Exact inherited contracts and classifications are retained in `reports/Prerequisites.md` and the canonical checklist. No unavailable Lean execution blocks the completed declarations.
++
++No new fatal flaw, readily repairable mathematical error or typo was established in the reviewed source scope. No manuscript repair is proposed. This was a scoped correspondence review, not an exhaustive audit of every manuscript sentence.
++
++## Persistent checklist and preservation
++
++The single canonical `reports/MasterChecklist.json` now has **2,895 records**, retaining all 2,793 parent records and their claim text. The recovered project records **2,201 completed theorem proofs** and contains 398 Lean source modules, including audit modules. The known main traversal has 3,808 nodes and 593 unexpanded references. These counts are not completion percentages; the full dependency graph remains incomplete. Kernel axiom closure for the covered declarations is a separate, passed check.
++
++All 387 inherited Lean modules and the pinned configuration files remain unchanged. The root only appends ten imports. The authoritative manuscript hash remains
++`91c19e28f6e6a0733505ce066d6a42be9bfb6df1c8c31185849bc4b34b0ab914`.
++
++The next concrete task is the exact physical oscillatory change of variables, including the constant phase factor, followed by I577. Original orthogonal/SVD verification remains a separate obligation. **Verification remains incomplete.**
++
++::: pagebreak
++:::
++
++## Actual commands and results
++
++The restored official runtime reports `Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)`. Mathlib is pinned at `c44e0c8ee63ca166450922a373c7409c5d26b00b`; all nine package revisions and clean tracked sources were checked. Runtime download, archive-hash, extraction and package commands/results are retained in the environment recovery JSON files. Runtime binaries and caches are reproducible dependencies and are not included in the project archive.
++
++Commands ran from the project directory through the serialized recording driver `tools/checkpoint76_command.py`. Below are the actual wrapper commands and observed exit codes. Source hashes before and after each recorded invocation agree. The complete 121-import cache command is printed in the final appendix; it exited zero. The earlier unrestricted cache request was interrupted by tool Ctrl-C with observed exit 130, and did not produce a final driver record. Its exact requested command and recording limitation are retained separately; no success is inferred from it.
++
++```text
++python3 tools/lean_command.py lean --version
++exit 0; environment_version
++```
++
++```text
++python3 tools/lean_command.py lake build PaperILean.AllDimCoefficientSpace
++exit 0; coefficient_space
++```
++
++```text
++python3 tools/lean_command.py lake build PaperILean.AllDimCoefficientModel
++exit 0; coefficient_model
++```
++
++```text
++python3 tools/lean_command.py lake build PaperILean.AllDimPolynomialQuotient PaperILean.AllDimAffinePullback PaperILean.AllDimCoefficientChange
++exit 0; quotient_and_affine
++```
++
++```text
++python3 tools/lean_command.py lake build PaperILean.AllDimIndexWeights PaperILean.AllDimDiagonalCharacter PaperILean.AllDimAffineCharacterTargets PaperILean.AllDimGeneralAffineCharacter
++exit 0; index_and_character
++```
++
++```text
++python3 tools/lean_command.py lake build PaperILean.AllDimAffineCharacterUses
++exit 0; character_uses
++```
++
++```text
++python3 tools/lean_command.py lake env lean PaperILean/Batch76AxiomAudit.lean
++exit 1; batch_axioms
++```
++
++```text
++python3 tools/lean_command.py lake build PaperILean PaperILean.Batch76AxiomAudit
++exit 1; integration
++```
++
++```text
++python3 tools/lean_command.py lake env lean PaperILean/Batch76AxiomAudit.lean
++exit 0; batch_axioms_final
++```
++
++```text
++python3 tools/lean_command.py lake build PaperILean PaperILean.Batch76AxiomAudit
++exit 0; integration_final
++```
++
++The first audit and first root integration failed solely because the audit's second metadata traversal attempted to shadow a mutable variable named `pending`. All 102 axiom queries had already returned acceptable lists, and the mathematical modules compiled. The failed audit source, exact compiler output and hashes are retained. Renaming the second traversal variables to `guardPending` and `guardSeen` repaired the metadata implementation. Mathematical sources were not edited. The final audit and final root integration both exited zero. Inherited linter warnings remain in the raw build output and are not compiler failures.
++
++The final compiled-reference guard printed `GENERAL_DIMENSION_GUARD|PaperI.AllDim.affineCoefficientMap_abs_det|passed`. It checks that the general-dimensional character does not depend on the fixed-three-dimensional coefficient map or quotient equivalence. This metadata check is not a proof mechanism.
++
++::: pagebreak
++:::
+ 
+ ## Actual transitive axiom output
+ 
+-All 87 new declarations passed their transitive audits: 85 use only the accepted standard axioms `propext`, `Classical.choice`, `Quot.sound`, and 2 are axiom-free. No custom axiom or `sorryAx` occurs. This is the actual output for every new declaration:
+-
+-~~~text
+-'PaperI.cubeHasSum_fin_prod_of_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeSummable_fin_prod_of_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTsum_fin_prod_of_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.CubeTensorAtomIndex' does not depend on any axioms
+-'PaperI.cubeTensorAtom' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorTemplate' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorTemplateIndex' does not depend on any axioms
+-'PaperI.cubeTensorOpen' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorCenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAffine' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAffineInv' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorTemplate_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorProduct_tsupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorProduct_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorTemplate_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_smooth_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorTemplate_smooth_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_tsupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_zero_of_not_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorSlope_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorSlope_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAffine_left_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAffine_right_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAffine_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_affine_template' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorTemplate_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_dim_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicScale_rpow_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicRatio_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicRatio_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicScale_rpow_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicScale_rpow_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicScale_rpow_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicScale_rpow_tsum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeDyadicScale_rpow_zero_not_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeIntervalAtomSlope_rpow_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeIntervalAtomSlope_rpow_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeIntervalAtomSlope_rpow_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeIntervalAtomSlope_rpow_tsum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_abs_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_abs_det_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_tsum_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_tsum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_tsum_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_tsum_lt_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_hasSum_zero_dim' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorMatrix_det_rpow_zero_not_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorIndicator_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorOpen_measurableSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorClosed_measurableSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorOpen_ae_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_ae_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_tsum_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorOpen_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorClosed_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_total_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeTensorAtom_total_norm_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorTemplate' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorTemplate_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom_tsupport_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorTemplate_tsupport_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorTemplate_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom_smooth_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorTemplate_smooth_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorTemplate_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom_affine_template' depends on axioms: [propext, Classical.choice, Quot.sound]
+-'PaperI.cubeComplexTensorAtom_dim_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+-~~~
+-
+-The supplementary source scan found no `sorry`, `admit`, custom `axiom`, or prohibited native-evaluation mechanism. Transitive closures are the primary proof-dependency evidence. Actual compiled signatures and direct type/body references are in `checkpoint_71_axioms_checked.log`. The metadata exporter is not a proof mechanism. Completed scope is exactly the declarations covered here; the manuscript and main theorem are not fully verified.
++The following is the complete `#print axioms` output for all 102 new declarations, extracted from the successful final audit. Ninety-six lists contain the three standard classical axioms, one contains `propext` and `Quot.sound`, and five are empty. No `sorryAx`, unsupported custom axiom or native-evaluation proof mechanism occurs. Source scans are supplementary; the transitive kernel queries are the primary evidence.
++
++```text
++'PaperI.AllDim.PhysicalSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.BoundedExponent' does not depend on any axioms
++'PaperI.AllDim.totalDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.MonomialIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.monomialIndexFintype' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.CoefficientSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.physicalMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.dimension' does not depend on any axioms
++'PaperI.AllDim.chi' does not depend on any axioms
++'PaperI.AllDim.phase' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.phase_three' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientMeasure_three' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.physicalMeasure_three' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.chi_three' does not depend on any axioms
++'PaperI.AllDim.dimension_three' does not depend on any axioms
++'PaperI.AllDim.monomialIndexIsEmptyDimZero' depends on axioms: [propext, Classical.choice, Quot.sound]
++```
++
++```text
++'PaperI.AllDim.monomialIndexIsEmptyDegreeZero' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.phase_dim_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.phase_degree_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.monomialExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.monomialExponent_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.sum_monomialExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.exponent_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.nonconstantExponentSet' depends on axioms: [propext, Quot.sound]
++'PaperI.AllDim.monomialIndexEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.zeroConstantPolynomialSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.mem_zeroConstantPolynomialSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.nonconstantMonomialBasis' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientPolynomialEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.nonconstantMonomialBasis_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientPolynomial_totalDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientPolynomial_constantCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
++```
++
++```text
++'PaperI.AllDim.coefficientPolynomial_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.eval_coefficientPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.BoundedPolynomialSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.constantPolynomialSubspace' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.discardConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.nonzero_exponent_sum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.discardConstant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.discardConstant_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.ker_discardConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.polynomialQuotientEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affinePoint' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoordinate_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.linearSubstitution_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affinePolynomialMap' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affinePolynomialMap_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.eval_affineCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
++```
++
++```text
++'PaperI.AllDim.eval_affinePolynomialMap' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineBoundedMap' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientToBounded' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.polynomial_affineCoefficientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.phase_affineCoefficientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficient_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.phase_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affinePoint_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_inverse_left' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_inverse_right' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientMeasure_eq_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.map_affineCoefficientMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
++```
++
++```text
++'PaperI.AllDim.lintegral_affineCoefficientChange' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.lintegral_affineCoefficientChange_of_character' depends on axioms: [propext,
++ Classical.choice,
++ Quot.sound]
++'PaperI.AllDim.naturalExponent_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.positiveNaturalIndexEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.zeroNaturalIndexEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.card_monomialIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.sum_monomialCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.diagonalCoefficientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.diagonalCoefficientMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affinePoint_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_diagonal_det' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_diagonal_abs_det' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.TranslationDeterminantStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.CenteredLinearCharacterStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.AffineCharacterStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
++```
++
++```text
++'PaperI.AllDim.affineCharacter_of_translation_and_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_det_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_translation_det' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.diagonal_transvection_double' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_centered_det_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_transvection_det' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_centered_det' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_det' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_abs_det' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.translationDeterminantStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.centeredLinearCharacterStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCharacterStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.coefficientPolynomial_three' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.polynomialQuotientEquiv_three' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.affineCoefficientMap_three' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.map_affineCoefficientMeasure_character' depends on axioms: [propext, Classical.choice, Quot.sound]
++'PaperI.AllDim.lintegral_affineCoefficientChange_character' depends on axioms: [propext, Classical.choice, Quot.sound]
++```
++
++::: pagebreak
++:::
++
++## Complete scoped-cache command
++
++This is the exact successful command's argument sequence. Shell continuation backslashes only wrap its presentation. It requests the actual 121 Mathlib imports of the project and reuses already downloaded entries. This environment restoration is not a mathematical proof or a native-evaluation proof mechanism.
++
++```text
++python3 tools/lean_command.py lake exe cache get \
++  Mathlib.Algebra.BigOperators.Fin \
++  Mathlib.Algebra.BigOperators.Group.Finset.Piecewise \
++  Mathlib.Algebra.BigOperators.Group.Finset.Sigma \
++  Mathlib.Algebra.BigOperators.Ring.Finset \
++  Mathlib.Algebra.Group.Pointwise.Set.Basic \
++  Mathlib.Algebra.MvPolynomial.Funext \
++  Mathlib.Algebra.MvPolynomial.PDeriv \
++  Mathlib.Algebra.Order.Archimedean.Basic \
++  Mathlib.Algebra.Order.Floor.Ring \
++  Mathlib.Algebra.Order.Round \
++  Mathlib.Algebra.Polynomial.BigOperators \
++  Mathlib.Algebra.Polynomial.Eval.Degree \
++  Mathlib.Analysis.Analytic.IteratedFDeriv \
++  Mathlib.Analysis.Analytic.OfScalars \
++  Mathlib.Analysis.CStarAlgebra.Matrix \
++  Mathlib.Analysis.Calculus.BumpFunction.InnerProduct \
++  Mathlib.Analysis.Calculus.ContDiff.Basic \
++  Mathlib.Analysis.Calculus.ContDiff.Bounds \
++  Mathlib.Analysis.Calculus.ContDiff.Defs \
++  Mathlib.Analysis.Calculus.ContDiff.Operations \
++  Mathlib.Analysis.Calculus.Deriv.Abs \
++  Mathlib.Analysis.Calculus.Deriv.Comp \
++  Mathlib.Analysis.Calculus.Deriv.MeanValue \
++  Mathlib.Analysis.Calculus.Deriv.Mul \
++  Mathlib.Analysis.Calculus.Deriv.Polynomial \
++  Mathlib.Analysis.Calculus.Deriv.Prod \
++  Mathlib.Analysis.Calculus.Deriv.Shift \
++  Mathlib.Analysis.Calculus.Deriv.Slope \
++  Mathlib.Analysis.Calculus.FDeriv.Analytic \
++  Mathlib.Analysis.Calculus.FDeriv.Mul \
++  Mathlib.Analysis.Calculus.FDeriv.Pi \
++  Mathlib.Analysis.Calculus.FDeriv.Symmetric \
++  Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff \
++  Mathlib.Analysis.Calculus.InverseFunctionTheorem.FDeriv \
++  Mathlib.Analysis.Calculus.IteratedDeriv.Defs \
++  Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts \
++  Mathlib.Analysis.Calculus.LocalExtr.Basic \
++  Mathlib.Analysis.Calculus.MeanValue \
++  Mathlib.Analysis.Calculus.SmoothSeries \
++  Mathlib.Analysis.Complex.Basic \
++  Mathlib.Analysis.Convex.Deriv \
++  Mathlib.Analysis.InnerProductSpace.PiL2 \
++  Mathlib.Analysis.MeanInequalities \
++  Mathlib.Analysis.Normed.Algebra.MatrixExponential \
++  Mathlib.Analysis.Normed.Group.Bounded \
++  Mathlib.Analysis.Normed.Module.Convex \
++  Mathlib.Analysis.Normed.Module.FiniteDimension \
++  Mathlib.Analysis.Normed.Ring.InfiniteSum \
++  Mathlib.Analysis.NormedSpace.FunctionSeries \
++  Mathlib.Analysis.NormedSpace.Multilinear.Curry \
++  Mathlib.Analysis.ODE.Gronwall \
++  Mathlib.Analysis.ODE.PicardLindelof \
++  Mathlib.Analysis.SpecialFunctions.Complex.Log \
++  Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.ExpLog \
++  Mathlib.Analysis.SpecialFunctions.ExpDeriv \
++  Mathlib.Analysis.SpecialFunctions.Exponential \
++  Mathlib.Analysis.SpecialFunctions.Log.Basic \
++  Mathlib.Analysis.SpecialFunctions.Log.Deriv \
++  Mathlib.Analysis.SpecialFunctions.Pow.Continuity \
++  Mathlib.Analysis.SpecialFunctions.Pow.NNReal \
++  Mathlib.Analysis.SpecialFunctions.Pow.Real \
++  Mathlib.Analysis.SpecialFunctions.SmoothTransition \
++  Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv \
++  Mathlib.Analysis.SpecificLimits.Basic \
++  Mathlib.Analysis.SpecificLimits.Normed \
++  Mathlib.Data.Fin.Tuple.Basic \
++  Mathlib.Data.Fin.Tuple.Sort \
++  Mathlib.Data.Finset.Pairwise \
++  Mathlib.Data.Finsupp.Multiset \
++  Mathlib.Data.Fintype.BigOperators \
++  Mathlib.Data.Int.Interval \
++  Mathlib.Data.Matrix.Basis \
++  Mathlib.Data.Nat.Factorial.Basic \
++  Mathlib.Data.Set.Card \
++  Mathlib.Data.Set.Finite.Lemmas \
++  Mathlib.Data.Sym.Card \
++  Mathlib.LinearAlgebra.Dual.Lemmas \
++  Mathlib.LinearAlgebra.FiniteDimensional.Lemmas \
++  Mathlib.LinearAlgebra.Isomorphisms \
++  Mathlib.LinearAlgebra.Matrix.Determinant.Basic \
++  Mathlib.LinearAlgebra.Matrix.HermitianFunctionalCalculus \
++  Mathlib.LinearAlgebra.Matrix.NonsingularInverse \
++  Mathlib.LinearAlgebra.Matrix.PosDef \
++  Mathlib.LinearAlgebra.Matrix.Spectrum \
++  Mathlib.LinearAlgebra.Matrix.Symmetric \
++  Mathlib.LinearAlgebra.Matrix.Transvection \
++  Mathlib.MeasureTheory.Constructions.Pi \
++  Mathlib.MeasureTheory.Function.Jacobian \
++  Mathlib.MeasureTheory.Function.LocallyIntegrable \
++  Mathlib.MeasureTheory.Function.LpSeminorm.Basic \
++  Mathlib.MeasureTheory.Function.LpSeminorm.Defs \
++  Mathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality \
++  Mathlib.MeasureTheory.Integral.Bochner.Basic \
++  Mathlib.MeasureTheory.Integral.Bochner.Set \
++  Mathlib.MeasureTheory.Integral.Lebesgue.Add \
++  Mathlib.MeasureTheory.Integral.Lebesgue.Countable \
++  Mathlib.MeasureTheory.Integral.Lebesgue.Map \
++  Mathlib.MeasureTheory.Integral.Prod \
++  Mathlib.MeasureTheory.Measure.Haar.Basic \
++  Mathlib.MeasureTheory.Measure.Lebesgue.Basic \
++  Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar \
++  Mathlib.MeasureTheory.Measure.Real \
++  Mathlib.MeasureTheory.Measure.Restrict \
++  Mathlib.Order.Disjointed \
++  Mathlib.RingTheory.MvPolynomial.Basic \
++  Mathlib.Tactic \
++  Mathlib.Tactic.FieldSimp \
++  Mathlib.Tactic.FunProp \
++  Mathlib.Tactic.Linarith \
++  Mathlib.Tactic.Positivity \
++  Mathlib.Tactic.Ring \
++  Mathlib.Topology.Algebra.InfiniteSum.Basic \
++  Mathlib.Topology.Algebra.InfiniteSum.Constructions \
++  Mathlib.Topology.Algebra.Module.FiniteDimension \
++  Mathlib.Topology.Algebra.Support \
++  Mathlib.Topology.ContinuousMap.Compact \
++  Mathlib.Topology.Instances.ENNReal.Lemmas \
++  Mathlib.Topology.Instances.Real.Lemmas \
++  Mathlib.Topology.MetricSpace.Thickening \
++  Mathlib.Topology.Order.Compact \
++  Mathlib.Topology.PartialHomeomorph
++exit 0; environment_cache_scoped
++```
+--- checkpoint71/PaperILean/reports/Prerequisites.md
++++ checkpoint76/PaperILean/reports/Prerequisites.md
+@@ -1,342 +1,358 @@
+-# Current prerequisite status: checkpoint71
+-
+-Derived from MasterChecklist.json; full verification remains incomplete.
+-
+-## Newly checked prerequisite scope
+-
+-For every d:Nat, form alpha:Fin d->(Unit+(Nat+Nat)), a_alpha(x)=product_j a_(alpha j)(x_j), and the fixed product templates indexed by Fin d->Bool. The template index type has exactly 2^d elements. The actual atoms and templates are smooth and compactly supported; atoms are nonnegative and supported inside the coordinatewise open cube. Literal signed diagonal maps and inverses give the exact affine-template representation, with nonzero determinants. The actual atom family has sum the open-cube indicator at every point and equals the closed-cube indicator almost everywhere. Each atom is integrable and the sums of masses and norm masses are one. Complex-valued versions retain these smooth/compact/support/affine properties and exact norm identities. For every epsilon>0 the determinant weights are genuinely summable and their exact sum is (1+2*sum_(n:Nat) s_n^epsilon)^d, s_n=2^(-(n+2)); the associated ENNReal sum is strictly below top. Dimension zero and the positive-dimensional epsilon=0 obstruction are handled explicitly. No all-dimensional cube Lp conclusion is inferred from these prerequisites alone.
+-
+-## Conditional downstream application
+-
+-The tensor atoms, real/complex fixed templates, partition, mass and determinant-series declarations are unconditional under their displayed elementary hypotheses. They do not use physical incidence or assume the cube Lp conclusion. Application to the full cube lemma remains conditional on the exact all-dimensional physical/coefficient oscillatory scaling identity, finite-template Lp norm control, Minkowski convergence and identification of the oscillatory sum with the cube integral. The existing analytic amplitude bound remains conditional on the unchanged original physical-incidence hypothesis.
+-
+-## Unresolved contracts
+-
+-### root:main
+-
+-Prove the unchanged PaperI.MainStatement: for every k>=14 and finite real p>0, the unit-cube integral is MemLp exactly when p>chi(k)+3; above that threshold every smooth compact amplitude integral is MemLp and satisfies the unchanged SmoothUniformBound. The homogeneous analytic implication is checked under original physical incidence, and the original all-dimensional tensor atom/template/partition/mass and positive determinant-series prerequisites are now checked. Geometric incidence, all-dimensional oscillatory scaling, full cube Lp reduction, necessity and complete fine-grained dependency expansion remain unformalized.
+-
+-Classification: unformalized proof / incomplete full dependency audit; component classifications are retained.
+-
+-Obstruction: No MainStatement proof or complete fine-grained main-theorem closure exists. Tensorization and determinant-series summability are no longer outstanding prerequisites. The exact all-dimensional oscillatory scaling and complete cube Lp argument remain open alongside the independent geometric and necessity branches. Counts are not completion percentages.
+-
+-### an:minimizer
++# Prerequisites - checkpoint76
++
++Derived from the canonical MasterChecklist.json. Verification remains incomplete.
++
++For every d,k>=1 and finite p>=1 with p>chi(d,k), prove I577 for the unchanged actual fixed templates and signed diagonal physical maps: ||E_(A_beta o T_alpha^-1)||_Lp = |det B_alpha|^(1-chi(d,k)/p) ||E_A_beta||_Lp, beta=tau composed with alpha. The all-dimensional coefficient quotient, affine phase identity, determinant and coefficient measure change are now proved. Physical Bochner change of variables, the constant phase factor, the eLpNorm scaling interface, a finite maximum of fixed template norms chosen independently of alpha, summability of the actual oscillatory norms, Minkowski convergence and Tonelli identification with the cube integral remain unformalized in this recovered project. Retain both downstream uses I2938 (d=3) and I3063 (d=2,k=3).
++
++## root:main
++
++Prove the unchanged PaperI.MainStatement: for every k>=14 and finite real p>0, the unit-cube integral is MemLp exactly when p>chi(k)+3; above that threshold every smooth compact amplitude integral is MemLp and satisfies the unchanged SmoothUniformBound. The homogeneous analytic implication is checked under original physical incidence, and the original all-dimensional tensor atom/template/partition/mass and positive determinant-series prerequisites are now checked. Geometric incidence, all-dimensional oscillatory scaling, full cube Lp reduction, necessity and complete fine-grained dependency expansion remain unformalized. Checkpoint76 adds all-dimensional coefficient/phase/determinant/measure infrastructure only. No MainStatement proof or complete fine-grained dependency audit is claimed.
++
++Classification: unformalized proof / incomplete full dependency audit; component classifications are retained
++
++Obstruction: MainStatement remains a definition without a theorem proof. Physical incidence, exact oscillatory norm scaling, full cube assembly, necessity and complete dependency expansion remain open.
++
++## an:character
++
++Prove the actual coefficient matrix is triangular by degree for translations with diagonal entries one; identify homogeneous blocks; prove degree-r coordinate exponent by permutation symmetry and the hockey-stick sum; prove orthogonal pullback determinant has absolute value one without invoking the full alternative character; and implement the original real SVD argument. These are original-proof verification obligations, not a counterexample to the determinant theorem.
++
++Classification: implementation difficulty / original intermediate proofs unformalized; no mathematical gap established
++
++Obstruction: See the retained record.
++
++## an:minimizer
+ 
+ Original proof-route obligations remain: the literal eigenvector equality displayed at257 and the SVD-specific s_min<=||B|| API formulation are not separately packaged as Lean declarations; the lower-frame conclusion is checked in equivalent all-directions and unit-vector forms. Original Lewis-Sendov twice-Frechet/collision steps at222 and the tensor exp(t L_H) identity at284 remain separately tracked despite checked alternative proofs of their consequences. The minimizer existence, unique Gram, smoothness, balance and intrinsic quantitative conclusions have compiled proofs, but this is not a claim that every original intermediate argument is verified.
+ 
+-Classification: implementation difficulty / unformalized original proof-route and SVD API packaging.
+-
+-Obstruction: See retained record.
+-
+-### an:catalogue
++Classification: implementation difficulty / unformalized original proof-route and SVD API packaging
++
++Obstruction: See the retained record.
++
++## an:catalogue
+ 
+ No further catalogue construction is attempted here. The downstream normalized partition and whole-family mass theorem remain separate unresolved obligations.
+ 
+-Classification: none for the previously checked catalogue components and new source packing.
++Classification: none for the previously checked catalogue components and new source packing
+ 
+ Obstruction: The checked family is unchanged after the coefficient is supplied. A full combined localization theorem still requires the unformalized cutoff and jet/stopping assertions.
+ 
+-### an:physical-incidence
++## an:physical-incidence
+ 
+ Prove the encoded PhysicalIncidenceBound with finite real Ap,Bp and Cinc independent of R, shape and the fixed nonnegative weights, for the original source families, from the later fixed-frame geometric/coefficient incidence arguments. The exact integral, selection, determinants, middle-side gamma loss and coefficient measure are now formalized; the geometric discharge is not.
+ 
+-Classification: implementation difficulty / unformalized geometric incidence composition.
++Classification: implementation difficulty / unformalized geometric incidence composition
+ 
+ Obstruction: The input is an explicitly assumed manuscript inequality, not a flaw or unsupported Lean axiom. No proof of its geometric discharge was attempted in this batch.
+ 
+-### an:physical-assembly
+-
+-The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals.
+-
+-Classification: unformalized geometric prerequisite: original physical incidence.
++## an:physical-assembly
++
++The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals. Checkpoint76 clarification: all-dimensional coefficient/phase/character and coefficient measure change are now checked; physical oscillatory scaling and the remaining cube assembly are still open.
++
++Classification: unformalized geometric prerequisite: original physical incidence
+ 
+ Obstruction: The original analytic implication is checked for actual selected source families. Its stated physical-incidence assumption remains unproved; the independent cube-reduction argument remains separate.
+ 
+-### an:cube-reduction
+-
+-For the unchanged I565-584 lemma retain every d,k>=1 and finite p>=1 with p>chi(d,k), assuming E_a belongs to Lp(V_(d,k)) for every smooth compact amplitude a. Prove I577 exactly: ||E_(A_beta o T_alpha^-1)||_Lp=|det B_alpha|^(1-chi(d,k)/p)*||E_A_beta||_Lp for the actual fixed templates and signed diagonal maps, with beta=tau composed with alpha (the template tag of the physical atom). The established coefficient representation and full affine character are currently d=3 only; all-dimensional coefficient/phase/measure infrastructure or a separately proved all-dimensional diagonal route is required without changing those definitions. Then choose a finite maximum of the fixed template norms, independent of alpha, use the now-proved determinant series to sum actual oscillatory Lp norms, prove convergence by Minkowski, and identify the sum with the cube integral using the now-proved physical mass and the remaining phase/Tonelli argument. The original d=3 use at I2938 and d=2,k=3 use at I3063 must both remain covered. Physical incidence, necessity and complete main dependency expansion remain independent obligations. These future contracts are not assumed and are not failed final Lean goals.
+-
+-Classification: implementation difficulty / missing project all-dimensional coefficient, phase and oscillatory-integral scaling infrastructure.
+-
+-Obstruction: The original all-dimensional tensor atom, finite fixed-template, partition, mass and positive determinant-series prerequisites are proved. The exact oscillatory norm scaling I577, finite-template norm maximum, summability of actual oscillatory Lp norms, Minkowski convergence and identification with the cube integral remain. The proved coefficient representation and full affine character are currently d=3 only; the source also uses the lemma for d=2,k=3. No mathematical gap in the manuscript cube lemma has been established.
+-
+-### ARG:anisotropic_rotation_cover
++## an:cube-reduction
++
++For every d,k>=1 and finite p>=1 with p>chi(d,k), prove I577 for the unchanged actual fixed templates and signed diagonal physical maps: ||E_(A_beta o T_alpha^-1)||_Lp = |det B_alpha|^(1-chi(d,k)/p) ||E_A_beta||_Lp, beta=tau composed with alpha. The all-dimensional coefficient quotient, affine phase identity, determinant and coefficient measure change are now proved. Physical Bochner change of variables, the constant phase factor, the eLpNorm scaling interface, a finite maximum of fixed template norms chosen independently of alpha, summability of the actual oscillatory norms, Minkowski convergence and Tonelli identification with the cube integral remain unformalized in this recovered project. Retain both downstream uses I2938 (d=3) and I3063 (d=2,k=3).
++
++Classification: implementation difficulty / missing project interfaces; no unavailable Lean execution and no mathematical gap established
++
++Obstruction: Physical oscillatory scaling and Lp/Tonelli assembly are still missing. The source explicitly assumes smooth-amplitude membership and p>chi; those assumptions are not flaws.
++
++## ARG:anisotropic_rotation_cover
+ 
+ None for orientation approximation, separation and source333-336 local matrix count. The rest of the affine catalogue is a separate obligation.
+ 
+-Classification: none for the scoped orientation claim.
++Classification: none for the scoped orientation claim
+ 
+ Obstruction: All separation hypotheses of the generic cube theorem are supplied by the retained net.
+ 
+-### ARG:finite_physical_volume
++## ARG:degree_filtration
++
++For all d,k, show the actual translation coefficient matrix has zero entry when input total degree is smaller than output total degree, and identity on each equal-degree block; deduce determinant one by triangularity.
++
++Classification: implementation difficulty / original intermediate proof unformalized
++
++Obstruction: Translation is triangular rather than diagonal; input/output index orientation and constant removal must be retained.
++
++## ARG:finite_physical_volume
+ 
+ For ell_i=B_i^T gradient F(c_i), v_i=abs(det B_i), and I_i=integral exp(iF)*a_Fi, prove for every integer m>=1 the uniform per-index estimate abs(I_i)<=C_(m,a)*rho^3*v_i*(1+rho*abs(ell_i))^(-m) in the large-linear regime. Then for every K_lin above a fixed source threshold and E_D(F)=sum over j in J_D with abs(ell_j)<=K_lin of I_j (zero for unselected indices), prove abs(E_a(F)-sum_D E_D(F))<=C_(m,a)*(1+rho*K_lin)^(-m), uniformly for norm(F)<=2R. All four localization clauses, including selected higher jets, are now checked. The rescaled phase expansion, uniform directional phase-gradient lower bound and nonstationary-phase integration remain unformalized.
+ 
+-Classification: implementation difficulty / unformalized oscillatory estimate.
++Classification: implementation difficulty / unformalized oscillatory estimate
+ 
+ Obstruction: Volume, reconstruction, normalized derivatives and selected higher jets are available. The remaining obstacle is phase-gradient and integration-by-parts implementation.
+ 
+-### ARG:positive_dyadic_sums
++## ARG:monomial_character
++
++Prove the actual coefficient matrix is triangular by degree for translations with diagonal entries one; identify homogeneous blocks; prove degree-r coordinate exponent by permutation symmetry and the hockey-stick sum; prove orthogonal pullback determinant has absolute value one without invoking the full alternative character; and implement the original real SVD argument. These are original-proof verification obligations, not a counterexample to the determinant theorem.
++
++Classification: implementation difficulty / original intermediate argument unformalized
++
++Obstruction: The ordinary unweighted monomial norm is not orthogonally invariant. No current attempt or Lean goal for the weighted orthogonal or SVD route is claimed.
++
++## ARG:positive_dyadic_sums
+ 
+ No source-family choice obligation remains in the conditional part (i) implication. Derivation of the explicit physical-incidence premise remains unformalized; the separate part (ii) homogeneous bound is not supplied by summation.
+ 
+-Classification: none for conditional part (i); implementation difficulty for geometric incidence and separate part (ii).
++Classification: none for conditional part (i); implementation difficulty for geometric incidence and separate part (ii)
+ 
+ Obstruction: The original all-radius source-data premise is now constructed. This cannot prove the incidence predicate or homogeneous amplitude uniformity.
+ 
+-### ARG:seminorm_uniformity
+-
+-The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals.
+-
+-Classification: unformalized geometric prerequisite: selected-family physical incidence; no remaining scalar normalization gap.
++## ARG:seminorm_uniformity
++
++The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals. Checkpoint76 clarification: all-dimensional coefficient/phase/character and coefficient measure change are now checked; physical oscillatory scaling and the remaining cube assembly are still open.
++
++Classification: unformalized geometric prerequisite: selected-family physical incidence; no remaining scalar normalization gap
+ 
+ Obstruction: All scalar, finiteness, normalization and homogeneous assembly prerequisites are now available. The physical-incidence inequality has not been geometrically discharged. Checkpoint68's remaining-work prose incorrectly listed finite-seminorm proof as outstanding. PaperI.smoothSeminorm_ne_top in IntegralBridges.lean:130 already proves every finite-order seminorm of a smooth compact amplitude is finite and was audited earlier. This batch reuses that declaration, corrects current status, and preserves historical prose. This is a correspondence-report correction, not a manuscript error or a newly counted proof.
+ 
+-### EXT:Gronwall
++## EXT:Gronwall
+ 
+ For the separate reg:geometric-regimes1490-1671 use, identify the precise scalar differential/integral inequality, interval, coefficient bounds and constant dependencies, then instantiate a valid Gronwall theorem. No exact contract has yet been extracted for that use; it is not a premise of the completed an:comparison proof.
+ 
+-Classification: implementation difficulty / unaudited separate project application.
++Classification: implementation difficulty / unaudited separate project application
+ 
+ Obstruction: The earlier checklist listed a prospective Gronwall route, not a Lean theorem. The comparison route is resolved by relativeFrame_bootstrap; the independent geometric-regime route is not reviewed in this batch.
+ 
+-### EXT:LewisSendov3.3
++## EXT:LewisSendov3.3
+ 
+ Lewis-Sendov3.3 specialized to f(lambda)=sum_i log(lambda_i)^2 on the local positive-eigenvalue domain in S^n, the real symmetric matrix vector space. Prove twice Frechet differentiability at every SPD A; with U a fixed orthogonal eigenbasis and K=U^T V U, the first derivative on symmetric V is sum_i (2 log(lambda_i)/lambda_i) K_ii and the second quadratic derivative is sum_i 2(1-log(lambda_i))/lambda_i^2 K_ii^2 + 2 sum_(i<j) DD(lambda_i,lambda_j) K_ij^2. DD is the divided difference of 2 log(s)/s, with diagonal value2(1-log(s))/s^2. No eigen-gap; local positive domain, not all-matrix ambient differentiability. Then prove the source-curve second chain rule. This is a missing prerequisite statement, not an axiom or checked theorem. Primary source: https://people.orie.cornell.edu/aslewis/publications/01-twice.pdf, published pp376(section3(3.1)),381(Theorem3.3), PDF pages8,13 zero-based.
+ 
+-Classification: missing exact library infrastructure plus unformalized symmetric-space calculus implementation, not a demonstrated mathematical gap.
+-
+-Obstruction: See retained record.
+-
+-### EXT:SO3_Haar
++Classification: missing exact library infrastructure plus unformalized symmetric-space calculus implementation, not a demonstrated mathematical gap
++
++Obstruction: See the retained record.
++
++## EXT:SO3_Haar
+ 
+ None for the quantitative Haar-volume contract at source331.
+ 
+-Classification: none for this scoped contract.
++Classification: none for this scoped contract
+ 
+ Obstruction: The final quantitative composition is now a compiled theorem, not a hypothesis.
+ 
+-### EXT:implicitFunction
++## EXT:implicitFunction
+ 
+ Identify and discharge the precise parameter maps, smoothness and nondegenerate derivative hypotheses for the separate IFT uses at geo:rank-entry759-782 and reg:regular-preparation1375-1489. These were not inspected in this batch; the successful minimizing-Gram application does not verify them.
+ 
+-Classification: implementation difficulty / unaudited other project applications.
+-
+-Obstruction: See retained record.
+-
+-### ARG:frame_tensor_determinant_variations
++Classification: implementation difficulty / unaudited other project applications
++
++Obstruction: See the retained record.
++
++## ARG:frame_tensor_determinant_variations
+ 
+ For every natural tensor order r, actual tensor T, symmetric H and real t, package the checked slot sum L_H as a continuous linear operator and prove tensorFramePullback T (exp(tH)) = exp(t L_H) T. The source second-variation consequence and genuine Hessian are already proved by the recorded direct spectral route. The separate positive-Gram chart inverse is now checked; this does not verify the original operator-exponential intermediate.
+ 
+-Classification: implementation difficulty / unformalized project proof: original tensor operator-exponential identity.
+-
+-Obstruction: See retained record.
+-
+-### ARG:tensor_slot_hessian
++Classification: implementation difficulty / unformalized project proof: original tensor operator-exponential identity
++
++Obstruction: See the retained record.
++
++## ARG:tensor_slot_hessian
+ 
+ For every natural r, actual tensor T, symmetric H and real t, prove tensorFramePullback T (exp(tH)) = (NormedSpace.exp Real (t • tensorSlotActionCLM H)) T. The continuous linear operator and its equality with the source slot action are now defined and checked. Its self-adjointness and the actual source second-variation consequence remain proved by the prior direct spectral route. No equality between the two exponentials has yet been formalized.
+ 
+-Classification: implementation difficulty / unformalized original operator-exponential identity.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_log_exp_chart
++Classification: implementation difficulty / unformalized original operator-exponential identity
++
++Obstruction: See the retained record.
++
++## ARG:SO3_log_exp_chart
+ 
+ None for the explicitly scoped chart and invariant-volume branch. Quantitative U_E(t) volume and packing are separate.
+ 
+-Classification: none for this scoped branch.
++Classification: none for this scoped branch
+ 
+ Obstruction: The sole recorded residual scalar identity is now proved.
+ 
+-### ARG:SO3_Haar_chart_density
++## ARG:SO3_Haar_chart_density
+ 
+ None for the fixed-neighborhood density comparison.
+ 
+-Classification: none for this prerequisite.
++Classification: none for this prerequisite
+ 
+ Obstruction: The earlier Haar identification obstruction is discharged.
+ 
+-### ARG:matrix_log_exp_inverse
++## ARG:matrix_log_exp_inverse
+ 
+ None for the two recorded inverse identities.
+ 
+-Classification: none for these identities.
++Classification: none for these identities
+ 
+ Obstruction: Resolved by differentiating actual convergent series on commuting paths; no assumption of the inverse identity.
+ 
+-### ARG:rotation_log_series_skew
++## ARG:rotation_log_series_skew
+ 
+ None for the recorded skew-image statement.
+ 
+-Classification: none for this skew-image statement.
++Classification: none for this skew-image statement
+ 
+ Obstruction: Resolved by comparing the small conjugated inverse logarithms, using convergence for both original rotation series and then injective conjugation.
+ 
+-### ARG:SO3_chart_regularity
++## ARG:SO3_chart_regularity
+ 
+ None for the explicitly scoped chart and invariant-volume branch. Quantitative U_E(t) volume and packing are separate.
+ 
+-Classification: none for this scoped branch.
++Classification: none for this scoped branch
+ 
+ Obstruction: The sole recorded residual scalar identity is now proved.
+ 
+-### ARG:SO3_chart_topology
++## ARG:SO3_chart_topology
+ 
+ None for this explicitly covered prerequisite.
+ 
+-Classification: none for this prerequisite.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_normalized_Haar
++Classification: none for this prerequisite
++
++Obstruction: See the retained record.
++
++## ARG:SO3_normalized_Haar
+ 
+ None for this explicitly covered prerequisite.
+ 
+-Classification: none for this prerequisite.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_chart_differential
++Classification: none for this prerequisite
++
++Obstruction: See the retained record.
++
++## ARG:SO3_chart_differential
+ 
+ None for the explicitly stated analytic extension, injective differential and uniform differential-bound prerequisite. This does not assert an invariant Haar density.
+ 
+-Classification: none for this prerequisite.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_chart_Jacobian
++Classification: none for this prerequisite
++
++Obstruction: See the retained record.
++
++## ARG:SO3_chart_Jacobian
+ 
+ None for this explicitly covered local prerequisite. Identification with the actual normalized Haar measure and downstream quantitative conclusions are not included.
+ 
+-Classification: none for this prerequisite.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_chart_translation
++Classification: none for this prerequisite
++
++Obstruction: See the retained record.
++
++## ARG:SO3_chart_translation
+ 
+ None for this explicitly covered local prerequisite. Identification with the actual normalized Haar measure and downstream quantitative conclusions are not included.
+ 
+-Classification: none for this prerequisite.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_chart_local_volume
++Classification: none for this prerequisite
++
++Obstruction: See the retained record.
++
++## ARG:SO3_chart_local_volume
+ 
+ None for this explicitly covered local prerequisite. Identification with the actual normalized Haar measure and downstream quantitative conclusions are not included.
+ 
+-Classification: none for this prerequisite.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_chart_measure_identification
++Classification: none for this prerequisite
++
++Obstruction: See the retained record.
++
++## ARG:SO3_chart_measure_identification
+ 
+ None for this measure-identification contract.
+ 
+-Classification: none for this prerequisite.
++Classification: none for this prerequisite
+ 
+ Obstruction: Resolved by compatible global measure construction and Haar uniqueness, not assumed.
+ 
+-### ARG:SO3_global_invariant_volume
++## ARG:SO3_global_invariant_volume
+ 
+ None for this global invariant-volume prerequisite.
+ 
+-Classification: none for this prerequisite.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_finite_orientation_packing
++Classification: none for this prerequisite
++
++Obstruction: See the retained record.
++
++## ARG:SO3_finite_orientation_packing
+ 
+ None for the SO(3) count/coverage/separation statement.
+ 
+-Classification: none for this statement.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_right_adjusted_Gram_approximation
++Classification: none for this statement
++
++Obstruction: See the retained record.
++
++## ARG:SO3_right_adjusted_Gram_approximation
+ 
+ None for the theorem with its displayed Gram representation hypothesis.
+ 
+-Classification: none for the stated conditional theorem.
+-
+-Obstruction: See retained record.
+-
+-### ARG:SO3_singular_value_Gram_bridge
++Classification: none for the stated conditional theorem
++
++Obstruction: See the retained record.
++
++## ARG:SO3_singular_value_Gram_bridge
+ 
+ None for the singular-value/Gram bridge for positive frames.
+ 
+-Classification: none for this scoped contract.
++Classification: none for this scoped contract
+ 
+ Obstruction: The prior missing premise is now discharged by compiled spectral and matrix-algebra proofs.
+ 
+-### ARG:local_matrix_cube_packing
++## ARG:local_matrix_cube_packing
+ 
+ None for source333-336 fixed-fine-shape matrix packing. Source337 center counting is now checked; source340 multiplication and the full catalogue remain separate.
+ 
+-Classification: none for the scoped count.
+-
+-Obstruction: See retained record.
+-
+-### ARG:affine_center_lattice_count
++Classification: none for the scoped count
++
++Obstruction: See the retained record.
++
++## ARG:affine_center_lattice_count
+ 
+ None for the fixed-orientation center finiteness/count at317,333,337,340. The complete catalogue and multiplication over fine shapes and orientations are separate.
+ 
+-Classification: none for the scoped center-lattice branch.
++Classification: none for the scoped center-lattice branch
+ 
+ Obstruction: Resolved with a finite translated integer box, exact noncommuting normalization, injectivity and source-scale uniformity; no remaining mathematical gap for these declarations.
+ 
+-### ARG:finite_fine_shape_mesh
++## ARG:finite_fine_shape_mesh
+ 
+ None for the disclosed given-coarse-shape mesh contract at303. The actual minimizing-frame singular-value range, global dyadic label assignment, orientation composition and full affine-family assembly remain separate.
+ 
+-Classification: none for the scoped mesh branch.
++Classification: none for the scoped mesh branch
+ 
+ Obstruction: The tested endpoint convention is implemented. A common grid anchored at L prevents lower-retention loss, downward rounding preserves U, monotonicity preserves order, and the finite index box gives an absolute cardinality bound.
+ 
+-### ARG:affine_catalogue_index_packing
++## ARG:affine_catalogue_index_packing
+ 
+ None for the given-coarse-shape finite affine label and local-count contract at303-340. Smooth bumps, actual target coverage and the global retained coarse-label bridge remain separate.
+ 
+-Classification: none for the scoped affine index/count branch.
++Classification: none for the scoped affine index/count branch
+ 
+ Obstruction: The actual dependent labels, exact relative filter and sum of integer fibers are implemented. Separation comes from the same checked net; scale smallness follows from the already checked threshold before R.
+ 
+-### ARG:rounded_affine_approximation
++## ARG:rounded_affine_approximation
+ 
+ None for the rounded passing-index cover. Fixed smooth bumps and greedy-retained coverage remain separate.
+ 
+-Classification: none for the scoped interface.
++Classification: none for the scoped interface
+ 
+ Obstruction: The retained-range, coarse-shell, center-membership and matrix-test premises are all discharged for the actual canonical source minimizer.
+ 
+-### ARG:rounded_matrix_orientation_composition
++## ARG:rounded_matrix_orientation_composition
+ 
+ None for this generic retained-target composition. Actual minimizing retained-range/coarse-label assignment remains a separate interface.
+ 
+-Classification: none for the scoped composition.
++Classification: none for the scoped composition
+ 
+ Obstruction: The noncommuting adjustment is handled by exact orthogonal conjugation; repeated singular values are matched with multiplicity. All final proof units compile.
+ 
+-### ARG:nearest_center_coverage
++## ARG:nearest_center_coverage
+ 
+ None for normalized center existence and enlargement membership under the explicit geometric premises. Passing the selection test after moving the center remains separate.
+ 
+-Classification: none for the scoped center/enlargement branch.
++Classification: none for the scoped center/enlargement branch
+ 
+ Obstruction: Coordinate rounding, Euclidean normalization and physical displacement are proved; the source threshold is chosen before R,F and targets.
+ 
+-### ARG:retained_singular_value_coarse_assignment
++## ARG:retained_singular_value_coarse_assignment
+ 
+ None for the retained minimizing-singular-value and finite coarse-assignment interface.
+ 
+-Classification: none for the scoped interface.
++Classification: none for the scoped interface
+ 
+ Obstruction: Positive square roots transfer the established spectral bounds without losing signs; finite half-open dyadic shells handle endpoints and repeated values. The a priori minimizer theorem supplies canonical existence.
+ 
+-### ARG:rounded_index_passes_selection_test
++## ARG:rounded_index_passes_selection_test
+ 
+ None for I345 and the passing-index support coverage at I367. Greedy-retained coverage at I369 is a separate obligation.
+ 
+-Classification: none for the scoped interface.
++Classification: none for the scoped interface
+ 
+ Obstruction: Exact noncommuting conjugation, inverse direction, transpose norms and representative invariance are proved. The radius and error conditions use one fixed c0 threshold; the open support inclusion uses theta<r/c.
+ 

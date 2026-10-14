@@ -1,0 +1,5 @@
+{
+  "pattern": "(?:check\\s*points?|batch)[ _-]*0*7[2-5](?!\\d)",
+  "scanned_member_records": 73726,
+  "matches": []
+}

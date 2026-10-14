@@ -1,0 +1,444 @@
+{
+  "from_count": 2793,
+  "to_count": 2895,
+  "duplicate_ids_71": 0,
+  "duplicate_ids_76": 0,
+  "added_ids": [
+    "BRIDGE:AllDim.AffineCharacterStatement",
+    "BRIDGE:AllDim.BoundedExponent",
+    "BRIDGE:AllDim.BoundedPolynomialSpace",
+    "BRIDGE:AllDim.CenteredLinearCharacterStatement",
+    "BRIDGE:AllDim.CoefficientSpace",
+    "BRIDGE:AllDim.MonomialIndex",
+    "BRIDGE:AllDim.PhysicalSpace",
+    "BRIDGE:AllDim.TranslationDeterminantStatement",
+    "BRIDGE:AllDim.affineBoundedMap",
+    "BRIDGE:AllDim.affineCharacterStatement",
+    "BRIDGE:AllDim.affineCharacter_of_translation_and_linear",
+    "BRIDGE:AllDim.affineCoefficientEquiv",
+    "BRIDGE:AllDim.affineCoefficientMap",
+    "BRIDGE:AllDim.affineCoefficientMap_abs_det",
+    "BRIDGE:AllDim.affineCoefficientMap_centered_det",
+    "BRIDGE:AllDim.affineCoefficientMap_centered_det_mul",
+    "BRIDGE:AllDim.affineCoefficientMap_comp",
+    "BRIDGE:AllDim.affineCoefficientMap_det",
+    "BRIDGE:AllDim.affineCoefficientMap_det_comp",
+    "BRIDGE:AllDim.affineCoefficientMap_det_ne_zero",
+    "BRIDGE:AllDim.affineCoefficientMap_diagonal",
+    "BRIDGE:AllDim.affineCoefficientMap_diagonal_abs_det",
+    "BRIDGE:AllDim.affineCoefficientMap_diagonal_det",
+    "BRIDGE:AllDim.affineCoefficientMap_factor",
+    "BRIDGE:AllDim.affineCoefficientMap_identity",
+    "BRIDGE:AllDim.affineCoefficientMap_inverse_left",
+    "BRIDGE:AllDim.affineCoefficientMap_inverse_right",
+    "BRIDGE:AllDim.affineCoefficientMap_three",
+    "BRIDGE:AllDim.affineCoefficientMap_translation_det",
+    "BRIDGE:AllDim.affineCoefficientMap_transvection_det",
+    "BRIDGE:AllDim.affineCoordinate",
+    "BRIDGE:AllDim.affineCoordinate_degree",
+    "BRIDGE:AllDim.affinePoint",
+    "BRIDGE:AllDim.affinePoint_comp",
+    "BRIDGE:AllDim.affinePoint_diagonal",
+    "BRIDGE:AllDim.affinePolynomialMap",
+    "BRIDGE:AllDim.affinePolynomialMap_degree",
+    "BRIDGE:AllDim.card_monomialIndex",
+    "BRIDGE:AllDim.centeredLinearCharacterStatement",
+    "BRIDGE:AllDim.chi",
+    "BRIDGE:AllDim.chi_three",
+    "BRIDGE:AllDim.coefficientMeasure",
+    "BRIDGE:AllDim.coefficientMeasure_eq_volume",
+    "BRIDGE:AllDim.coefficientMeasure_three",
+    "BRIDGE:AllDim.coefficientPolynomial",
+    "BRIDGE:AllDim.coefficientPolynomialEquiv",
+    "BRIDGE:AllDim.coefficientPolynomial_constantCoeff",
+    "BRIDGE:AllDim.coefficientPolynomial_eq_sum",
+    "BRIDGE:AllDim.coefficientPolynomial_three",
+    "BRIDGE:AllDim.coefficientPolynomial_totalDegree",
+    "BRIDGE:AllDim.coefficientToBounded",
+    "BRIDGE:AllDim.coefficient_ext",
+    "BRIDGE:AllDim.constantPolynomialSubspace",
+    "BRIDGE:AllDim.diagonalCoefficientMap",
+    "BRIDGE:AllDim.diagonalCoefficientMap_apply",
+    "BRIDGE:AllDim.diagonal_transvection_double",
+    "BRIDGE:AllDim.dimension",
+    "BRIDGE:AllDim.dimension_three",
+    "BRIDGE:AllDim.discardConstant",
+    "BRIDGE:AllDim.discardConstant_eq",
+    "BRIDGE:AllDim.discardConstant_surjective",
+    "BRIDGE:AllDim.eval_affineCoordinate",
+    "BRIDGE:AllDim.eval_affinePolynomialMap",
+    "BRIDGE:AllDim.eval_coefficientPolynomial",
+    "BRIDGE:AllDim.exponent_le_sum",
+    "BRIDGE:AllDim.ker_discardConstant",
+    "BRIDGE:AllDim.linearSubstitution_degree",
+    "BRIDGE:AllDim.lintegral_affineCoefficientChange",
+    "BRIDGE:AllDim.lintegral_affineCoefficientChange_character",
+    "BRIDGE:AllDim.lintegral_affineCoefficientChange_of_character",
+    "BRIDGE:AllDim.map_affineCoefficientMeasure",
+    "BRIDGE:AllDim.map_affineCoefficientMeasure_character",
+    "BRIDGE:AllDim.mem_zeroConstantPolynomialSpace",
+    "BRIDGE:AllDim.monomialExponent",
+    "BRIDGE:AllDim.monomialExponent_apply",
+    "BRIDGE:AllDim.monomialIndexEquiv",
+    "BRIDGE:AllDim.monomialIndexFintype",
+    "BRIDGE:AllDim.monomialIndexIsEmptyDegreeZero",
+    "BRIDGE:AllDim.monomialIndexIsEmptyDimZero",
+    "BRIDGE:AllDim.naturalExponent_le_sum",
+    "BRIDGE:AllDim.nonconstantExponentSet",
+    "BRIDGE:AllDim.nonconstantMonomialBasis",
+    "BRIDGE:AllDim.nonconstantMonomialBasis_coe",
+    "BRIDGE:AllDim.nonzero_exponent_sum_pos",
+    "BRIDGE:AllDim.phase",
+    "BRIDGE:AllDim.phase_affineCoefficientMap",
+    "BRIDGE:AllDim.phase_degree_zero",
+    "BRIDGE:AllDim.phase_dim_zero",
+    "BRIDGE:AllDim.phase_three",
+    "BRIDGE:AllDim.phase_zero",
+    "BRIDGE:AllDim.physicalMeasure",
+    "BRIDGE:AllDim.physicalMeasure_three",
+    "BRIDGE:AllDim.polynomialQuotientEquiv",
+    "BRIDGE:AllDim.polynomialQuotientEquiv_three",
+    "BRIDGE:AllDim.polynomial_affineCoefficientMap",
+    "BRIDGE:AllDim.positiveNaturalIndexEquiv",
+    "BRIDGE:AllDim.sum_monomialCoordinate",
+    "BRIDGE:AllDim.sum_monomialExponent",
+    "BRIDGE:AllDim.totalDegree",
+    "BRIDGE:AllDim.translationDeterminantStatement",
+    "BRIDGE:AllDim.zeroConstantPolynomialSpace",
+    "BRIDGE:AllDim.zeroNaturalIndexEquiv"
+  ],
+  "removed_ids": [],
+  "changed_existing_ids": [
+    "ARG:coefficient_basis",
+    "ARG:degree_filtration",
+    "ARG:monomial_character",
+    "ARG:seminorm_uniformity",
+    "an:character",
+    "an:cube-reduction",
+    "an:physical-assembly",
+    "root:main"
+  ],
+  "unchanged_existing_count": 2785,
+  "changed_existing_fields": {
+    "ARG:coefficient_basis": {
+      "exact_verified_statement": {
+        "before": null,
+        "after": "For every natural d,k, use precisely all nonconstant monomials of total degree at most k. The quotient by constants is linearly equivalent to these coefficients. The actual affine map is F(c+Bx)-F(c), with contravariant composition, degree preservation for every B, and an inverse only when det B is nonzero. Its determinant equals (det B)^choose(k+d,d+1), hence the absolute character in I182. Explicit coefficient Lebesgue measure has the corresponding inverse-Jacobian character. Signed and singular B are retained for the algebraic determinant; coefficient measure change retains det B != 0. The d=3 phase, measure, polynomial, quotient equivalence and affine coefficient map specialize literally to the unchanged parent definitions. The zero-dimensional and degree-zero coefficient spaces are empty."
+      },
+      "historical_status_checkpoint71": {
+        "before": null,
+        "after": "completed full monomial basis and actual quotient equivalence; coefficientMeasure_eq_volume checked"
+      },
+      "status": {
+        "before": "completed full monomial basis and actual quotient equivalence; coefficientMeasure_eq_volume checked",
+        "after": "complete finite-dimensional monomial basis, actual quotient equivalence, cardinality and literal d=3 specialization checked"
+      },
+      "status_provenance": {
+        "before": "retained checkpoint 04; no new proof claimed by migration",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      },
+      "proposed_lean": {
+        "before": "PaperI.coefficientPolynomialEquiv; PaperI.polynomialQuotientEquiv",
+        "after": "PaperI.coefficientPolynomialEquiv; PaperI.polynomialQuotientEquiv;PaperI.AllDim.coefficientPolynomialEquiv;PaperI.AllDim.polynomialQuotientEquiv;PaperI.AllDim.card_monomialIndex;PaperI.AllDim.coefficientMeasure_eq_volume;PaperI.AllDim.affineCoefficientMap_three"
+      },
+      "blocker_category": {
+        "before": "see retained report",
+        "after": "none within the stated coefficient-model scope"
+      },
+      "historical_dependencies_checkpoint71": {
+        "before": null,
+        "after": "implementation-specific subdependencies not yet declared"
+      },
+      "historical_proposed_lean_checkpoint71": {
+        "before": null,
+        "after": "PaperI.coefficientPolynomialEquiv; PaperI.polynomialQuotientEquiv"
+      },
+      "historical_blocker_category_checkpoint71": {
+        "before": null,
+        "after": "see retained report"
+      },
+      "dependencies": {
+        "before": "implementation-specific subdependencies not yet declared",
+        "after": "implementation-specific subdependencies not yet declared;BRIDGE:AllDim.coefficientPolynomialEquiv;BRIDGE:AllDim.polynomialQuotientEquiv;BRIDGE:AllDim.card_monomialIndex;BRIDGE:AllDim.coefficientMeasure_eq_volume;BRIDGE:AllDim.affineCoefficientMap_three"
+      }
+    },
+    "ARG:degree_filtration": {
+      "historical_status_checkpoint71": {
+        "before": null,
+        "after": "affine total-degree preservation and translation determinant completed; original triangular matrix and homogeneous-block intermediate claims remain unverified"
+      },
+      "status": {
+        "before": "affine total-degree preservation and translation determinant completed; original triangular matrix and homogeneous-block intermediate claims remain unverified",
+        "after": "all-dimensional affine degree preservation and translation determinant checked; original triangular/block proof remains unformalized"
+      },
+      "exact_unresolved_statement": {
+        "before": null,
+        "after": "For all d,k, show the actual translation coefficient matrix has zero entry when input total degree is smaller than output total degree, and identity on each equal-degree block; deduce determinant one by triangularity."
+      },
+      "proof_route": {
+        "before": "see retained Checkpoint04 and ContinuationStrategyAudit",
+        "after": "Alternative dilation/transvection and total-coordinate-count proof, reconstructed from checkpoint-71 three-dimensional sources. Verifies the all-dimensional determinant result, not the original triangularity, homogeneous permutation-symmetry/hockey-stick, orthogonal or SVD intermediates."
+      },
+      "status_provenance": {
+        "before": "retained checkpoint 04; no new proof claimed by migration",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      },
+      "historical_proof_route_checkpoint71": {
+        "before": null,
+        "after": "see retained Checkpoint04 and ContinuationStrategyAudit"
+      },
+      "obstruction": {
+        "before": null,
+        "after": "Translation is triangular rather than diagonal; input/output index orientation and constant removal must be retained."
+      },
+      "proposed_lean": {
+        "before": "PaperI.Prerequisites.degree_filtration",
+        "after": "PaperI.Prerequisites.degree_filtration;PaperI.AllDim.affinePolynomialMap_degree;PaperI.AllDim.affineCoefficientMap_translation_det"
+      },
+      "blocker_category": {
+        "before": "see retained report",
+        "after": "implementation difficulty / original intermediate proof unformalized"
+      },
+      "historical_dependencies_checkpoint71": {
+        "before": null,
+        "after": "implementation-specific subdependencies not yet declared"
+      },
+      "historical_proposed_lean_checkpoint71": {
+        "before": null,
+        "after": "PaperI.Prerequisites.degree_filtration"
+      },
+      "historical_blocker_category_checkpoint71": {
+        "before": null,
+        "after": "see retained report"
+      },
+      "dependencies": {
+        "before": "implementation-specific subdependencies not yet declared",
+        "after": "implementation-specific subdependencies not yet declared;BRIDGE:AllDim.affinePolynomialMap_degree;BRIDGE:AllDim.affineCoefficientMap_translation_det"
+      }
+    },
+    "ARG:monomial_character": {
+      "exact_verified_statement": {
+        "before": null,
+        "after": "For every natural d,k, use precisely all nonconstant monomials of total degree at most k. The quotient by constants is linearly equivalent to these coefficients. The actual affine map is F(c+Bx)-F(c), with contravariant composition, degree preservation for every B, and an inverse only when det B is nonzero. Its determinant equals (det B)^choose(k+d,d+1), hence the absolute character in I182. Explicit coefficient Lebesgue measure has the corresponding inverse-Jacobian character. Signed and singular B are retained for the algebraic determinant; coefficient measure change retains det B != 0. The d=3 phase, measure, polynomial, quotient equivalence and affine coefficient map specialize literally to the unchanged parent definitions. The zero-dimensional and degree-zero coefficient spaces are empty."
+      },
+      "historical_status_checkpoint71": {
+        "before": null,
+        "after": "all-degree character completed in dimension three by alternative diagonal/transvection proof; general-d and original homogeneous/orthogonal/SVD intermediates remain unformalized"
+      },
+      "status": {
+        "before": "all-degree character completed in dimension three by alternative diagonal/transvection proof; general-d and original homogeneous/orthogonal/SVD intermediates remain unformalized",
+        "after": "all-dimensional complete-degree determinant character checked by alternative proof; original homogeneous/orthogonal/SVD stages unresolved"
+      },
+      "exact_unresolved_statement": {
+        "before": null,
+        "after": "Prove the actual coefficient matrix is triangular by degree for translations with diagonal entries one; identify homogeneous blocks; prove degree-r coordinate exponent by permutation symmetry and the hockey-stick sum; prove orthogonal pullback determinant has absolute value one without invoking the full alternative character; and implement the original real SVD argument. These are original-proof verification obligations, not a counterexample to the determinant theorem."
+      },
+      "proof_route": {
+        "before": "see retained Checkpoint04 and ContinuationStrategyAudit",
+        "after": "Alternative dilation/transvection and total-coordinate-count proof, reconstructed from checkpoint-71 three-dimensional sources. Verifies the all-dimensional determinant result, not the original triangularity, homogeneous permutation-symmetry/hockey-stick, orthogonal or SVD intermediates."
+      },
+      "status_provenance": {
+        "before": "retained checkpoint 04; no new proof claimed by migration",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      },
+      "historical_proof_route_checkpoint71": {
+        "before": null,
+        "after": "see retained Checkpoint04 and ContinuationStrategyAudit"
+      },
+      "obstruction": {
+        "before": null,
+        "after": "The ordinary unweighted monomial norm is not orthogonally invariant. No current attempt or Lean goal for the weighted orthogonal or SVD route is claimed."
+      },
+      "proposed_lean": {
+        "before": "PaperI.sum_monomialCoordinate; PaperI.affineCoefficientMap_abs_det; PaperI.affineCharacterStatement",
+        "after": "PaperI.sum_monomialCoordinate; PaperI.affineCoefficientMap_abs_det; PaperI.affineCharacterStatement;PaperI.AllDim.sum_monomialCoordinate;PaperI.AllDim.affineCoefficientMap_det"
+      },
+      "blocker_category": {
+        "before": "see retained report",
+        "after": "implementation difficulty / original intermediate argument unformalized"
+      },
+      "historical_dependencies_checkpoint71": {
+        "before": null,
+        "after": "implementation-specific subdependencies not yet declared"
+      },
+      "historical_proposed_lean_checkpoint71": {
+        "before": null,
+        "after": "PaperI.sum_monomialCoordinate; PaperI.affineCoefficientMap_abs_det; PaperI.affineCharacterStatement"
+      },
+      "historical_blocker_category_checkpoint71": {
+        "before": null,
+        "after": "see retained report"
+      },
+      "dependencies": {
+        "before": "implementation-specific subdependencies not yet declared",
+        "after": "implementation-specific subdependencies not yet declared;BRIDGE:AllDim.sum_monomialCoordinate;BRIDGE:AllDim.affineCoefficientMap_det"
+      }
+    },
+    "ARG:seminorm_uniformity": {
+      "exact_unresolved_statement": {
+        "before": "The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals.",
+        "after": "The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals. Checkpoint76 clarification: all-dimensional coefficient/phase/character and coefficient measure change are now checked; physical oscillatory scaling and the remaining cube assembly are still open."
+      },
+      "historical_exact_unresolved_statement_checkpoint71": {
+        "before": null,
+        "after": "The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals."
+      },
+      "status_provenance": {
+        "before": "checkpoint71: downstream cube-prerequisite wording reconciled; the checkpoint69 conditional homogeneous analytic proof is unchanged and was not individually re-audited",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      }
+    },
+    "an:character": {
+      "exact_verified_statement": {
+        "before": null,
+        "after": "For every natural d,k, use precisely all nonconstant monomials of total degree at most k. The quotient by constants is linearly equivalent to these coefficients. The actual affine map is F(c+Bx)-F(c), with contravariant composition, degree preservation for every B, and an inverse only when det B is nonzero. Its determinant equals (det B)^choose(k+d,d+1), hence the absolute character in I182. Explicit coefficient Lebesgue measure has the corresponding inverse-Jacobian character. Signed and singular B are retained for the algebraic determinant; coefficient measure change retains det B != 0. The d=3 phase, measure, polynomial, quotient equivalence and affine coefficient map specialize literally to the unchanged parent definitions. The zero-dimensional and degree-zero coefficient spaces are empty."
+      },
+      "historical_status_checkpoint71": {
+        "before": null,
+        "after": "three-dimensional full affine character and Lemma 2.1(ii) window bound checked; general-d part (i) and original SVD intermediates unresolved"
+      },
+      "status": {
+        "before": "three-dimensional full affine character and Lemma 2.1(ii) window bound checked; general-d part (i) and original SVD intermediates unresolved",
+        "after": "full part(i) checked in every finite dimension by an alternative argument; inherited d=3 part(ii) remains checked; original intermediate argument incomplete"
+      },
+      "exact_unresolved_statement": {
+        "before": null,
+        "after": "Prove the actual coefficient matrix is triangular by degree for translations with diagonal entries one; identify homogeneous blocks; prove degree-r coordinate exponent by permutation symmetry and the hockey-stick sum; prove orthogonal pullback determinant has absolute value one without invoking the full alternative character; and implement the original real SVD argument. These are original-proof verification obligations, not a counterexample to the determinant theorem."
+      },
+      "proof_route": {
+        "before": "see retained Checkpoint04 and ContinuationStrategyAudit",
+        "after": "Alternative dilation/transvection and total-coordinate-count proof, reconstructed from checkpoint-71 three-dimensional sources. Verifies the all-dimensional determinant result, not the original triangularity, homogeneous permutation-symmetry/hockey-stick, orthogonal or SVD intermediates."
+      },
+      "status_provenance": {
+        "before": "retained checkpoint 04; no new proof claimed by migration",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      },
+      "historical_proof_route_checkpoint71": {
+        "before": null,
+        "after": "see retained Checkpoint04 and ContinuationStrategyAudit"
+      },
+      "proposed_lean": {
+        "before": "PaperI.affineCoefficientMap_abs_det; PaperI.affineCharacterStatement; general-d and tensor-window extensions planned; PaperI.affineJet_window_volume_uniform",
+        "after": "PaperI.affineCoefficientMap_abs_det; PaperI.affineCharacterStatement; general-d and tensor-window extensions planned; PaperI.affineJet_window_volume_uniform;PaperI.AllDim.affineCoefficientMap_abs_det;PaperI.AllDim.map_affineCoefficientMeasure_character"
+      },
+      "blocker_category": {
+        "before": "new project proofs / unverified original intermediate arguments",
+        "after": "implementation difficulty / original intermediate proofs unformalized; no mathematical gap established"
+      },
+      "historical_dependencies_checkpoint71": {
+        "before": null,
+        "after": "def:complete-jet;ARG:degree_filtration;ARG:monomial_character;EXT:linearChangeOfVariables"
+      },
+      "historical_proposed_lean_checkpoint71": {
+        "before": null,
+        "after": "PaperI.affineCoefficientMap_abs_det; PaperI.affineCharacterStatement; general-d and tensor-window extensions planned; PaperI.affineJet_window_volume_uniform"
+      },
+      "historical_blocker_category_checkpoint71": {
+        "before": null,
+        "after": "new project proofs / unverified original intermediate arguments"
+      },
+      "dependencies": {
+        "before": "def:complete-jet;ARG:degree_filtration;ARG:monomial_character;EXT:linearChangeOfVariables",
+        "after": "def:complete-jet;ARG:degree_filtration;ARG:monomial_character;EXT:linearChangeOfVariables;BRIDGE:AllDim.affineCoefficientMap_abs_det;BRIDGE:AllDim.map_affineCoefficientMeasure_character"
+      }
+    },
+    "an:cube-reduction": {
+      "exact_verified_statement": {
+        "before": " Sixty-one new theorem proofs, eleven definitions and one type abbreviation make the original I573 interval atom construction explicit. With u(x)=1-smoothTransition(x-1), psi(x)=u(x)-u(2x) and phi(x)=1-u(4x)-u(4(1-x)), phi and psi are nonnegative smooth compact templates. Their closed supports lie in [1/4,3/4] and [1/2,2]. The actual left/right atoms at scale s_n=2^(-(n+2)) have closed supports strictly inside (0,1) and are exactly template compositions with inverse affine maps of slopes s_n and -s_n. For all real x and N>=0 the finite prefix equals 1-u(2^(N+2)x)-u(2^(N+2)(1-x)). At each interior point both tails vanish throughout a fixed neighborhood after one finite N. The atom sums equal the open-interval indicator pointwise and the closed-interval indicator almost everywhere. One countable index family and two fixed templates give exact nonzero slopes and affine representation. Nonnegative Tonelli proves the sum of the actual atoms' masses, and of their norm masses, is exactly one. These are one-dimensional prerequisites; no tensorization or cube Lp conclusion is inferred without proof. For every d:Nat, form alpha:Fin d->(Unit+(Nat+Nat)), a_alpha(x)=product_j a_(alpha j)(x_j), and the fixed product templates indexed by Fin d->Bool. The template index type has exactly 2^d elements. The actual atoms and templates are smooth and compactly supported; atoms are nonnegative and supported inside the coordinatewise open cube. Literal signed diagonal maps and inverses give the exact affine-template representation, with nonzero determinants. The actual atom family has sum the open-cube indicator at every point and equals the closed-cube indicator almost everywhere. Each atom is integrable and the sums of masses and norm masses are one. Complex-valued versions retain these smooth/compact/support/affine properties and exact norm identities. For every epsilon>0 the determinant weights are genuinely summable and their exact sum is (1+2*sum_(n:Nat) s_n^epsilon)^d, s_n=2^(-(n+2)); the associated ENNReal sum is strictly below top. Dimension zero and the positive-dimensional epsilon=0 obstruction are handled explicitly. No all-dimensional cube Lp conclusion is inferred from these prerequisites alone.",
+        "after": " Sixty-one new theorem proofs, eleven definitions and one type abbreviation make the original I573 interval atom construction explicit. With u(x)=1-smoothTransition(x-1), psi(x)=u(x)-u(2x) and phi(x)=1-u(4x)-u(4(1-x)), phi and psi are nonnegative smooth compact templates. Their closed supports lie in [1/4,3/4] and [1/2,2]. The actual left/right atoms at scale s_n=2^(-(n+2)) have closed supports strictly inside (0,1) and are exactly template compositions with inverse affine maps of slopes s_n and -s_n. For all real x and N>=0 the finite prefix equals 1-u(2^(N+2)x)-u(2^(N+2)(1-x)). At each interior point both tails vanish throughout a fixed neighborhood after one finite N. The atom sums equal the open-interval indicator pointwise and the closed-interval indicator almost everywhere. One countable index family and two fixed templates give exact nonzero slopes and affine representation. Nonnegative Tonelli proves the sum of the actual atoms' masses, and of their norm masses, is exactly one. These are one-dimensional prerequisites; no tensorization or cube Lp conclusion is inferred without proof. For every d:Nat, form alpha:Fin d->(Unit+(Nat+Nat)), a_alpha(x)=product_j a_(alpha j)(x_j), and the fixed product templates indexed by Fin d->Bool. The template index type has exactly 2^d elements. The actual atoms and templates are smooth and compactly supported; atoms are nonnegative and supported inside the coordinatewise open cube. Literal signed diagonal maps and inverses give the exact affine-template representation, with nonzero determinants. The actual atom family has sum the open-cube indicator at every point and equals the closed-cube indicator almost everywhere. Each atom is integrable and the sums of masses and norm masses are one. Complex-valued versions retain these smooth/compact/support/affine properties and exact norm identities. For every epsilon>0 the determinant weights are genuinely summable and their exact sum is (1+2*sum_(n:Nat) s_n^epsilon)^d, s_n=2^(-(n+2)); the associated ENNReal sum is strictly below top. Dimension zero and the positive-dimensional epsilon=0 obstruction are handled explicitly. No all-dimensional cube Lp conclusion is inferred from these prerequisites alone. For every natural d,k, use precisely all nonconstant monomials of total degree at most k. The quotient by constants is linearly equivalent to these coefficients. The actual affine map is F(c+Bx)-F(c), with contravariant composition, degree preservation for every B, and an inverse only when det B is nonzero. Its determinant equals (det B)^choose(k+d,d+1), hence the absolute character in I182. Explicit coefficient Lebesgue measure has the corresponding inverse-Jacobian character. Signed and singular B are retained for the algebraic determinant; coefficient measure change retains det B != 0. The d=3 phase, measure, polynomial, quotient equivalence and affine coefficient map specialize literally to the unchanged parent definitions. The zero-dimensional and degree-zero coefficient spaces are empty."
+      },
+      "historical_status_checkpoint71": {
+        "before": null,
+        "after": "partial: all-dimensional tensor atom/template/partition/mass and positive determinant-series prerequisites checked; no all-dimensional cube Lp theorem"
+      },
+      "exact_unresolved_statement": {
+        "before": "For the unchanged I565-584 lemma retain every d,k>=1 and finite p>=1 with p>chi(d,k), assuming E_a belongs to Lp(V_(d,k)) for every smooth compact amplitude a. Prove I577 exactly: ||E_(A_beta o T_alpha^-1)||_Lp=|det B_alpha|^(1-chi(d,k)/p)*||E_A_beta||_Lp for the actual fixed templates and signed diagonal maps, with beta=tau composed with alpha (the template tag of the physical atom). The established coefficient representation and full affine character are currently d=3 only; all-dimensional coefficient/phase/measure infrastructure or a separately proved all-dimensional diagonal route is required without changing those definitions. Then choose a finite maximum of the fixed template norms, independent of alpha, use the now-proved determinant series to sum actual oscillatory Lp norms, prove convergence by Minkowski, and identify the sum with the cube integral using the now-proved physical mass and the remaining phase/Tonelli argument. The original d=3 use at I2938 and d=2,k=3 use at I3063 must both remain covered. Physical incidence, necessity and complete main dependency expansion remain independent obligations. These future contracts are not assumed and are not failed final Lean goals.",
+        "after": "For every d,k>=1 and finite p>=1 with p>chi(d,k), prove I577 for the unchanged actual fixed templates and signed diagonal physical maps: ||E_(A_beta o T_alpha^-1)||_Lp = |det B_alpha|^(1-chi(d,k)/p) ||E_A_beta||_Lp, beta=tau composed with alpha. The all-dimensional coefficient quotient, affine phase identity, determinant and coefficient measure change are now proved. Physical Bochner change of variables, the constant phase factor, the eLpNorm scaling interface, a finite maximum of fixed template norms chosen independently of alpha, summability of the actual oscillatory norms, Minkowski convergence and Tonelli identification with the cube integral remain unformalized in this recovered project. Retain both downstream uses I2938 (d=3) and I3063 (d=2,k=3)."
+      },
+      "status_provenance": {
+        "before": "checkpoint71 final-source builds, transitive axiom audit and scoped source review",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      },
+      "obstruction": {
+        "before": "The original all-dimensional tensor atom, finite fixed-template, partition, mass and positive determinant-series prerequisites are proved. The exact oscillatory norm scaling I577, finite-template norm maximum, summability of actual oscillatory Lp norms, Minkowski convergence and identification with the cube integral remain. The proved coefficient representation and full affine character are currently d=3 only; the source also uses the lemma for d=2,k=3. No mathematical gap in the manuscript cube lemma has been established.",
+        "after": "Physical oscillatory scaling and Lp/Tonelli assembly are still missing. The source explicitly assumes smooth-amplitude membership and p>chi; those assumptions are not flaws."
+      },
+      "historical_exact_verified_statement_checkpoint71": {
+        "before": null,
+        "after": " Sixty-one new theorem proofs, eleven definitions and one type abbreviation make the original I573 interval atom construction explicit. With u(x)=1-smoothTransition(x-1), psi(x)=u(x)-u(2x) and phi(x)=1-u(4x)-u(4(1-x)), phi and psi are nonnegative smooth compact templates. Their closed supports lie in [1/4,3/4] and [1/2,2]. The actual left/right atoms at scale s_n=2^(-(n+2)) have closed supports strictly inside (0,1) and are exactly template compositions with inverse affine maps of slopes s_n and -s_n. For all real x and N>=0 the finite prefix equals 1-u(2^(N+2)x)-u(2^(N+2)(1-x)). At each interior point both tails vanish throughout a fixed neighborhood after one finite N. The atom sums equal the open-interval indicator pointwise and the closed-interval indicator almost everywhere. One countable index family and two fixed templates give exact nonzero slopes and affine representation. Nonnegative Tonelli proves the sum of the actual atoms' masses, and of their norm masses, is exactly one. These are one-dimensional prerequisites; no tensorization or cube Lp conclusion is inferred without proof. For every d:Nat, form alpha:Fin d->(Unit+(Nat+Nat)), a_alpha(x)=product_j a_(alpha j)(x_j), and the fixed product templates indexed by Fin d->Bool. The template index type has exactly 2^d elements. The actual atoms and templates are smooth and compactly supported; atoms are nonnegative and supported inside the coordinatewise open cube. Literal signed diagonal maps and inverses give the exact affine-template representation, with nonzero determinants. The actual atom family has sum the open-cube indicator at every point and equals the closed-cube indicator almost everywhere. Each atom is integrable and the sums of masses and norm masses are one. Complex-valued versions retain these smooth/compact/support/affine properties and exact norm identities. For every epsilon>0 the determinant weights are genuinely summable and their exact sum is (1+2*sum_(n:Nat) s_n^epsilon)^d, s_n=2^(-(n+2)); the associated ENNReal sum is strictly below top. Dimension zero and the positive-dimensional epsilon=0 obstruction are handled explicitly. No all-dimensional cube Lp conclusion is inferred from these prerequisites alone."
+      },
+      "blocker_category": {
+        "before": "implementation difficulty / missing project all-dimensional coefficient, phase and oscillatory-integral scaling infrastructure",
+        "after": "implementation difficulty / missing project interfaces; no unavailable Lean execution and no mathematical gap established"
+      },
+      "historical_obstruction_checkpoint71": {
+        "before": null,
+        "after": "The original all-dimensional tensor atom, finite fixed-template, partition, mass and positive determinant-series prerequisites are proved. The exact oscillatory norm scaling I577, finite-template norm maximum, summability of actual oscillatory Lp norms, Minkowski convergence and identification with the cube integral remain. The proved coefficient representation and full affine character are currently d=3 only; the source also uses the lemma for d=2,k=3. No mathematical gap in the manuscript cube lemma has been established."
+      },
+      "historical_dependencies_checkpoint71": {
+        "before": null,
+        "after": "an:character;EXT:Minkowski;EXT:Tonelli;ARG:dyadic_smooth_atoms;BRIDGE:cubeDyadicAtoms_locally_finite_inside;BRIDGE:cubeIntervalAtom_affine_template;BRIDGE:cubeIntervalAtom_hasSum;BRIDGE:cubeIntervalAtom_ae_closed;BRIDGE:cubeIntervalAtom_total_mass;BRIDGE:cubeIntervalAtom_total_norm_mass;BRIDGE:cubeTensorAtom_affine_template;BRIDGE:cubeTensorTemplate_card;BRIDGE:cubeTensorAtom_hasSum;BRIDGE:cubeTensorAtom_ae_closed;BRIDGE:cubeTensorAtom_total_mass;BRIDGE:cubeTensorAtom_total_norm_mass;BRIDGE:cubeTensorMatrix_det_rpow_hasSum;BRIDGE:cubeTensorMatrix_det_rpow_tsum_lt_top;BRIDGE:cubeComplexTensorAtom_affine_template"
+      },
+      "historical_proposed_lean_checkpoint71": {
+        "before": null,
+        "after": "PaperI.smoothToCube;PaperI.cubeDyadicAtoms_locally_finite_inside;PaperI.cubeIntervalAtom_affine_template;PaperI.cubeIntervalAtom_hasSum;PaperI.cubeIntervalAtom_ae_closed;PaperI.cubeIntervalAtom_total_mass;PaperI.cubeIntervalAtom_total_norm_mass;PaperI.cubeTensorAtom_affine_template;PaperI.cubeTensorTemplate_card;PaperI.cubeTensorAtom_hasSum;PaperI.cubeTensorAtom_ae_closed;PaperI.cubeTensorAtom_total_mass;PaperI.cubeTensorAtom_total_norm_mass;PaperI.cubeTensorMatrix_det_rpow_hasSum;PaperI.cubeTensorMatrix_det_rpow_tsum_lt_top;PaperI.cubeComplexTensorAtom_affine_template"
+      },
+      "historical_blocker_category_checkpoint71": {
+        "before": null,
+        "after": "implementation difficulty / missing project all-dimensional coefficient, phase and oscillatory-integral scaling infrastructure"
+      },
+      "status": {
+        "before": "partial: all-dimensional tensor atom/template/partition/mass and positive determinant-series prerequisites checked; no all-dimensional cube Lp theorem",
+        "after": "partial: tensor atoms and determinant series retained; all-dimensional coefficient/phase/character infrastructure now checked; cube Lp theorem still open"
+      },
+      "proposed_lean": {
+        "before": "PaperI.smoothToCube;PaperI.cubeDyadicAtoms_locally_finite_inside;PaperI.cubeIntervalAtom_affine_template;PaperI.cubeIntervalAtom_hasSum;PaperI.cubeIntervalAtom_ae_closed;PaperI.cubeIntervalAtom_total_mass;PaperI.cubeIntervalAtom_total_norm_mass;PaperI.cubeTensorAtom_affine_template;PaperI.cubeTensorTemplate_card;PaperI.cubeTensorAtom_hasSum;PaperI.cubeTensorAtom_ae_closed;PaperI.cubeTensorAtom_total_mass;PaperI.cubeTensorAtom_total_norm_mass;PaperI.cubeTensorMatrix_det_rpow_hasSum;PaperI.cubeTensorMatrix_det_rpow_tsum_lt_top;PaperI.cubeComplexTensorAtom_affine_template",
+        "after": "PaperI.smoothToCube;PaperI.cubeDyadicAtoms_locally_finite_inside;PaperI.cubeIntervalAtom_affine_template;PaperI.cubeIntervalAtom_hasSum;PaperI.cubeIntervalAtom_ae_closed;PaperI.cubeIntervalAtom_total_mass;PaperI.cubeIntervalAtom_total_norm_mass;PaperI.cubeTensorAtom_affine_template;PaperI.cubeTensorTemplate_card;PaperI.cubeTensorAtom_hasSum;PaperI.cubeTensorAtom_ae_closed;PaperI.cubeTensorAtom_total_mass;PaperI.cubeTensorAtom_total_norm_mass;PaperI.cubeTensorMatrix_det_rpow_hasSum;PaperI.cubeTensorMatrix_det_rpow_tsum_lt_top;PaperI.cubeComplexTensorAtom_affine_template;PaperI.AllDim.phase_affineCoefficientMap;PaperI.AllDim.lintegral_affineCoefficientChange_character"
+      },
+      "historical_exact_unresolved_statement_checkpoint71": {
+        "before": null,
+        "after": "For the unchanged I565-584 lemma retain every d,k>=1 and finite p>=1 with p>chi(d,k), assuming E_a belongs to Lp(V_(d,k)) for every smooth compact amplitude a. Prove I577 exactly: ||E_(A_beta o T_alpha^-1)||_Lp=|det B_alpha|^(1-chi(d,k)/p)*||E_A_beta||_Lp for the actual fixed templates and signed diagonal maps, with beta=tau composed with alpha (the template tag of the physical atom). The established coefficient representation and full affine character are currently d=3 only; all-dimensional coefficient/phase/measure infrastructure or a separately proved all-dimensional diagonal route is required without changing those definitions. Then choose a finite maximum of the fixed template norms, independent of alpha, use the now-proved determinant series to sum actual oscillatory Lp norms, prove convergence by Minkowski, and identify the sum with the cube integral using the now-proved physical mass and the remaining phase/Tonelli argument. The original d=3 use at I2938 and d=2,k=3 use at I3063 must both remain covered. Physical incidence, necessity and complete main dependency expansion remain independent obligations. These future contracts are not assumed and are not failed final Lean goals."
+      },
+      "dependencies": {
+        "before": "an:character;EXT:Minkowski;EXT:Tonelli;ARG:dyadic_smooth_atoms;BRIDGE:cubeDyadicAtoms_locally_finite_inside;BRIDGE:cubeIntervalAtom_affine_template;BRIDGE:cubeIntervalAtom_hasSum;BRIDGE:cubeIntervalAtom_ae_closed;BRIDGE:cubeIntervalAtom_total_mass;BRIDGE:cubeIntervalAtom_total_norm_mass;BRIDGE:cubeTensorAtom_affine_template;BRIDGE:cubeTensorTemplate_card;BRIDGE:cubeTensorAtom_hasSum;BRIDGE:cubeTensorAtom_ae_closed;BRIDGE:cubeTensorAtom_total_mass;BRIDGE:cubeTensorAtom_total_norm_mass;BRIDGE:cubeTensorMatrix_det_rpow_hasSum;BRIDGE:cubeTensorMatrix_det_rpow_tsum_lt_top;BRIDGE:cubeComplexTensorAtom_affine_template",
+        "after": "an:character;EXT:Minkowski;EXT:Tonelli;ARG:dyadic_smooth_atoms;BRIDGE:cubeDyadicAtoms_locally_finite_inside;BRIDGE:cubeIntervalAtom_affine_template;BRIDGE:cubeIntervalAtom_hasSum;BRIDGE:cubeIntervalAtom_ae_closed;BRIDGE:cubeIntervalAtom_total_mass;BRIDGE:cubeIntervalAtom_total_norm_mass;BRIDGE:cubeTensorAtom_affine_template;BRIDGE:cubeTensorTemplate_card;BRIDGE:cubeTensorAtom_hasSum;BRIDGE:cubeTensorAtom_ae_closed;BRIDGE:cubeTensorAtom_total_mass;BRIDGE:cubeTensorAtom_total_norm_mass;BRIDGE:cubeTensorMatrix_det_rpow_hasSum;BRIDGE:cubeTensorMatrix_det_rpow_tsum_lt_top;BRIDGE:cubeComplexTensorAtom_affine_template;BRIDGE:AllDim.phase_affineCoefficientMap;BRIDGE:AllDim.lintegral_affineCoefficientChange_character"
+      }
+    },
+    "an:physical-assembly": {
+      "exact_unresolved_statement": {
+        "before": "The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals.",
+        "after": "The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals. Checkpoint76 clarification: all-dimensional coefficient/phase/character and coefficient measure change are now checked; physical oscillatory scaling and the remaining cube assembly are still open."
+      },
+      "historical_exact_unresolved_statement_checkpoint71": {
+        "before": null,
+        "after": "The homogeneous analytic implication is complete under its explicit original incidence premise. Discharge SourceRadiusIncidence/PhysicalIncidenceBound I519-524 for the actual selected source family: for each compact K choose one Cinc>=0 such that for every R>=2, every original coarse shape and every fixed nonnegative coefficient-independent weight family the exact original weighted physical-incidence integral inequality holds with K_lin=R^delta and the original source logarithm and exponents Ap,Bp,gamma. This unformalized geometric prerequisite is not a manuscript flaw merely because it is explicitly assumed in the analytic proposition. The independent cube lemma I565-585 remains: for all d,k>=1 and finite p>=1 with p>chi(d,k), membership of every smooth compact amplitude integral implies membership of the unit-cube integral. Its original tensor atoms, fixed real/complex affine templates, almost-everywhere cube partition, total mass and positive determinant-power series are checked in every finite dimension at checkpoint71. The all-dimensional physical/coefficient oscillatory scaling identity, summable oscillatory Lp norms, Minkowski convergence and identification with the cube oscillatory integral remain to be implemented. MainStatement also requires necessity, the remaining geometric branches and complete fine-grained dependency expansion. These future contracts are not assumed or failed final Lean goals."
+      },
+      "status_provenance": {
+        "before": "checkpoint71: downstream cube-prerequisite wording reconciled; the checkpoint69 conditional homogeneous analytic proof is unchanged and was not individually re-audited",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      }
+    },
+    "root:main": {
+      "exact_unresolved_statement": {
+        "before": "Prove the unchanged PaperI.MainStatement: for every k>=14 and finite real p>0, the unit-cube integral is MemLp exactly when p>chi(k)+3; above that threshold every smooth compact amplitude integral is MemLp and satisfies the unchanged SmoothUniformBound. The homogeneous analytic implication is checked under original physical incidence, and the original all-dimensional tensor atom/template/partition/mass and positive determinant-series prerequisites are now checked. Geometric incidence, all-dimensional oscillatory scaling, full cube Lp reduction, necessity and complete fine-grained dependency expansion remain unformalized.",
+        "after": "Prove the unchanged PaperI.MainStatement: for every k>=14 and finite real p>0, the unit-cube integral is MemLp exactly when p>chi(k)+3; above that threshold every smooth compact amplitude integral is MemLp and satisfies the unchanged SmoothUniformBound. The homogeneous analytic implication is checked under original physical incidence, and the original all-dimensional tensor atom/template/partition/mass and positive determinant-series prerequisites are now checked. Geometric incidence, all-dimensional oscillatory scaling, full cube Lp reduction, necessity and complete fine-grained dependency expansion remain unformalized. Checkpoint76 adds all-dimensional coefficient/phase/determinant/measure infrastructure only. No MainStatement proof or complete fine-grained dependency audit is claimed."
+      },
+      "status_provenance": {
+        "before": "checkpoint71: unchanged MainStatement definition; tensor atom and determinant-series prerequisites checked; main proof and complete fine-grained dependency expansion remain incomplete",
+        "after": "checkpoint76 current-source builds, axiom audit, correspondence review; baseline is recovered checkpoint71"
+      },
+      "obstruction": {
+        "before": "No MainStatement proof or complete fine-grained main-theorem closure exists. Tensorization and determinant-series summability are no longer outstanding prerequisites. The exact all-dimensional oscillatory scaling and complete cube Lp argument remain open alongside the independent geometric and necessity branches. Counts are not completion percentages.",
+        "after": "MainStatement remains a definition without a theorem proof. Physical incidence, exact oscillatory norm scaling, full cube assembly, necessity and complete dependency expansion remain open."
+      },
+      "historical_obstruction_checkpoint71": {
+        "before": null,
+        "after": "No MainStatement proof or complete fine-grained main-theorem closure exists. Tensorization and determinant-series summability are no longer outstanding prerequisites. The exact all-dimensional oscillatory scaling and complete cube Lp argument remain open alongside the independent geometric and necessity branches. Counts are not completion percentages."
+      },
+      "historical_exact_unresolved_statement_checkpoint71": {
+        "before": null,
+        "after": "Prove the unchanged PaperI.MainStatement: for every k>=14 and finite real p>0, the unit-cube integral is MemLp exactly when p>chi(k)+3; above that threshold every smooth compact amplitude integral is MemLp and satisfies the unchanged SmoothUniformBound. The homogeneous analytic implication is checked under original physical incidence, and the original all-dimensional tensor atom/template/partition/mass and positive determinant-series prerequisites are now checked. Geometric incidence, all-dimensional oscillatory scaling, full cube Lp reduction, necessity and complete fine-grained dependency expansion remain unformalized."
+      }
+    }
+  }
+}

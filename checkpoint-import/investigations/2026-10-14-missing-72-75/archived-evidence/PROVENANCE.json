@@ -1,0 +1,26 @@
+[
+  {
+    "copied_file": "archived-evidence/Checkpoint76_Recovery.json",
+    "source_archive_sha256": "6b8eb62da8232b05c7779343a786ec904ffd1a3c39a8f9009562044d02906c05",
+    "source_member": "PaperILean/reports/Checkpoint76_Recovery.json",
+    "sha256": "3d1e47a12143a16a1c50dbde709ca4232897af77ba68c24944824a9cdc1a1665"
+  },
+  {
+    "copied_file": "archived-evidence/checkpoint_76_reconstruction_method.json",
+    "source_archive_sha256": "6b8eb62da8232b05c7779343a786ec904ffd1a3c39a8f9009562044d02906c05",
+    "source_member": "PaperILean/evidence/checkpoint_76_reconstruction_method.json",
+    "sha256": "a7ed7a4b50475a2afc43a8375b595fbefea974ca47126bd820c20e5fd3e85457"
+  },
+  {
+    "copied_file": "archived-evidence/checkpoint_76_source_review.md",
+    "source_archive_sha256": "6b8eb62da8232b05c7779343a786ec904ffd1a3c39a8f9009562044d02906c05",
+    "source_member": "PaperILean/evidence/checkpoint_76_source_review.md",
+    "sha256": "055d2bd1257d58a58b4cffbc9535841369d4cdaa4a07e15d63a3854f6ad48835"
+  },
+  {
+    "copied_file": "archived-evidence/Checkpoint76_PackagingIndex.json",
+    "source_archive_sha256": "6b8eb62da8232b05c7779343a786ec904ffd1a3c39a8f9009562044d02906c05",
+    "source_member": "PaperILean/checkpoints/Checkpoint76_PackagingIndex.json",
+    "sha256": "750e70b82d4bb5aebc3f4847bce706a86ab2c21c70a2c3088d94e1f419d06e33"
+  }
+]

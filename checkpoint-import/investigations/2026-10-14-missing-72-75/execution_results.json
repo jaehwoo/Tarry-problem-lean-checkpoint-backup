@@ -1,0 +1,36 @@
+{
+  "working_directory": "/workspace/scratch/1938aaafc16e",
+  "commands": [
+    {
+      "command": "python3 scan_archives.py",
+      "exit_code": 0,
+      "log": "execution-logs/scan.log",
+      "sha256": "5fe5ac899b4651ac864fb47482f5c5c9046a03121a98949a2fcccbc15f75cdf8"
+    },
+    {
+      "command": "python3 restore_compare.py",
+      "exit_code": 0,
+      "log": "execution-logs/compare.log",
+      "sha256": "b1a741d154c56f7d2e49ebcbdd8814a4f733c9328185ae937c49b5c49ff37615"
+    },
+    {
+      "command": "python3 complete_tar_scan.py",
+      "exit_code": 0,
+      "log": "execution-logs/tar-scan.log",
+      "sha256": "80a0098f512e7917fa47a1fb2c39b0336df66cf37ba60ea22d63fd1a91e809c0"
+    },
+    {
+      "command": "python3 scan_archives.py --resume",
+      "exit_code": 0,
+      "log": "execution-logs/scan-additional.log",
+      "sha256": "9ca6276caec895d7888e12957e2652b1431d0f5cdc87d446cfc6a474ba38f619"
+    },
+    {
+      "command": "python3 complete_tar_scan.py",
+      "exit_code": 0,
+      "log": "execution-logs/tar-scan-additional.log",
+      "sha256": "4bcbc0eaaee3b363cef970075c2416c51a5aa0c67d17c9b5327c1dd85709eca2"
+    }
+  ],
+  "scope": "Byte provenance and endpoint comparison; no Lean execution."
+}
