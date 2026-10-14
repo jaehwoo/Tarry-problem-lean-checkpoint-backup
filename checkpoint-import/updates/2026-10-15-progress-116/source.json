@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "file_0000000047208209906fe2b4c1d94e6d",
+    "kind": "file",
+    "name": "Paper_I_Lean_Checkpoint_116_Progress.zip",
+    "path": "/Tarry/Paper_I_Lean_Checkpoint_116_Progress.zip",
+    "file_id": "file_0000000047208209906fe2b4c1d94e6d",
+    "library_file_id": "libfile_950d60ba874c8191ba543b113dc9a5b4",
+    "library_artifact_type": "other",
+    "version_id": null,
+    "mime_type": "application/zip",
+    "size_bytes": 4327720,
+    "created_at": "2026-10-14T22:20:18.174968Z",
+    "modified_at": "2026-10-14T22:20:18.174968Z",
+    "model_generated": true,
+    "surface": "library"
+  },
+  "sha256": "9940e0e35a4d68c03974381988dd071721d1359cc12cf45e757183d5ff129785",
+  "bytes": 4327720,
+  "classification": "progress_only",
+  "zip_members": 748,
+  "local_crc_check": "passed",
+  "complete_checkpoint": false,
+  "note": "First 116 progress version observed at the final inventory refresh; pinned backing file ID, not an inferred completed checkpoint."
+}
