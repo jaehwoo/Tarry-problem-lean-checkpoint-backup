@@ -9,7 +9,8 @@ on:
       - checkpoint-import/updates/2026-10-15-through-115/assets.json
       - checkpoint-import/updates/2026-10-15-through-115/restore.py
 permissions:
-  contents: read
+  # Temporary for this draft-release verification; revert to read after the run.
+  contents: write
 jobs:
   verify:
     runs-on: ubuntu-latest
