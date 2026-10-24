@@ -1,16 +1,10 @@
 name: One-time checkpoint backup recovery audit
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/checkpoint-backup-recovery-20261024.yml'
-      - 'checkpoint-import/updates/2026-10-24-all-checkpoints/recover_and_verify_remote_backup.py'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   verify:
-    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Run one-time checkpoint backup recovery audit'
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:

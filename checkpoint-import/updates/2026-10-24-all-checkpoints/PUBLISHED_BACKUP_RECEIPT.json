@@ -1,0 +1,55 @@
+{
+  "status": "GITHUB_BACKUP_PUBLISHED_AND_READ_BACK",
+  "repository": "jaehwoo/lean-checkpoint-backup",
+  "private": true,
+  "release_id": 422682291,
+  "release_remains_draft": true,
+  "verified_data_commit": "2418845e5f9ede3832707cf91de2cc2bb349f069",
+  "main_readback_matched": true,
+  "original_files": 1087,
+  "original_bytes": 50541139865,
+  "verified_batches": 94,
+  "preexisting_assets_preserved": 44,
+  "checkpoint210_restore": {
+    "files": 12,
+    "bytes": 1017352298,
+    "exit_code": 0,
+    "all_SHA256_and_disk_readback_checks_passed": true
+  },
+  "report_assets": [
+    {
+      "asset_id": 673440136,
+      "name": "Paper_I_All_Checkpoints_20261024_Catalog.json",
+      "size_bytes": 1098420,
+      "sha256": "94d17d619f9ac1cd02764a88c4852acfdfcef63ad3426ba0a996d08dc74908fb",
+      "fresh_remote_download_matched": true,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_All_Checkpoints_20261024_Catalog.json"
+    },
+    {
+      "asset_id": 673440162,
+      "name": "Paper_I_All_Checkpoints_GitHub_Backup_Report_20261024.zip",
+      "size_bytes": 552807,
+      "sha256": "128cd5440762403894f586c715d14ff0a530c521064fc5463bc9445207b2e8a1",
+      "fresh_remote_download_matched": true,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_All_Checkpoints_GitHub_Backup_Report_20261024.zip"
+    }
+  ],
+  "evidence_artifact_id": 12577696846,
+  "evidence_artifact_sha256": "cdcb362bbed9a1ded25aa1904f6ef2e08297f5ae94f7ef021af397914f93d5df",
+  "downloaded_report_manifest_files_verified": 131,
+  "verification_job": {
+    "run_id": 40137426186,
+    "job_id": 121001815136,
+    "conclusion": "success"
+  },
+  "historical_unconfirmed_checkpoints": [
+    72,
+    73,
+    74,
+    75
+  ],
+  "progress_only_checkpoint": 109,
+  "mathematical_verification": "INCOMPLETE; no new Lean build or proof/axiom audit",
+  "local_state_loss": "Original workspace regular files became unavailable after uploader exited with code 0; cause not established. Final ledger was reconstructed from preserved GitHub receipt bytes, not recreated console logs.",
+  "automatic_workflow_trigger_removed": true
+}
