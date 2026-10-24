@@ -1,0 +1,10 @@
+test_conflicting_remote_asset_is_never_overwritten (test_upload_all_checkpoints.TransferIntegrityTests.test_conflicting_remote_asset_is_never_overwritten) ... ok
+test_receipt_with_missing_or_changed_remote_anchor_cannot_resume (test_upload_all_checkpoints.TransferIntegrityTests.test_receipt_with_missing_or_changed_remote_anchor_cannot_resume) ... ok
+test_remote_corruption_fails_and_partial_download_is_removed (test_upload_all_checkpoints.TransferIntegrityTests.test_remote_corruption_fails_and_partial_download_is_removed) ... ok
+test_remote_zip_payload_checked_against_manifest (test_upload_all_checkpoints.TransferIntegrityTests.test_remote_zip_payload_checked_against_manifest) ... ok
+test_staging_path_cannot_escape (test_upload_all_checkpoints.TransferIntegrityTests.test_staging_path_cannot_escape) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.015s
+
+OK
