@@ -5,6 +5,7 @@ import io
 import json
 from pathlib import Path
 import tempfile
+import subprocess
 import unittest
 from unittest.mock import patch
 
@@ -12,6 +13,29 @@ import upload_all_checkpoints as backup
 
 
 class TransferIntegrityTests(unittest.TestCase):
+    def test_read_retry_discards_partial_download_bytes(self):
+        output = io.BytesIO()
+        calls = 0
+        def response(*args, **kwargs):
+            nonlocal calls
+            calls += 1
+            if calls == 1:
+                kwargs['stdout'].write(b'partial')
+                return subprocess.CompletedProcess([], 1, b'', b'TLS handshake timeout')
+            kwargs['stdout'].write(b'complete')
+            return subprocess.CompletedProcess([], 0, b'', b'')
+        with patch.object(backup.subprocess, 'run', side_effect=response), patch.object(backup.time, 'sleep'), contextlib.redirect_stdout(io.StringIO()):
+            backup.gh(['api', 'repos/example/assets/1'], output=output)
+        self.assertEqual(calls, 2)
+        self.assertEqual(output.getvalue(), b'complete')
+
+    def test_ambiguous_mutation_is_not_automatically_retried(self):
+        failed = subprocess.CompletedProcess([], 1, b'', b'TLS handshake timeout')
+        with patch.object(backup.subprocess, 'run', return_value=failed) as call:
+            with self.assertRaises(RuntimeError):
+                backup.gh(['api', 'somewhere', '--method', 'POST'])
+            self.assertEqual(call.call_count, 1)
+
     def test_conflicting_remote_asset_is_never_overwritten(self):
         with tempfile.TemporaryDirectory() as tmp:
             f = Path(tmp) / 'sample.bin'

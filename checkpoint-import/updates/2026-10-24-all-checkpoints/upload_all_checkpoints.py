@@ -70,11 +70,23 @@ def gh(args, *, output=None, timeout=1800):
     env['GH_CONFIG_DIR'] = str(AUTH_DIR)
     env['GH_PROMPT_DISABLED'] = '1'
     env.pop('GH_DEBUG', None)
-    result = subprocess.run([str(GH), *args], stdout=output or subprocess.PIPE,
-                            stderr=subprocess.PIPE, env=env, timeout=timeout)
-    if result.returncode:
+    read_only = '--method' not in args and '-X' not in args
+    for attempt in range(4):
+        if attempt and output is not None:
+            output.seek(0)
+            output.truncate()
+        result = subprocess.run([str(GH), *args], stdout=output or subprocess.PIPE,
+                                stderr=subprocess.PIPE, env=env, timeout=timeout)
+        if result.returncode == 0:
+            break
         message = result.stderr.decode('utf-8', 'replace')[-2000:]
-        raise RuntimeError(f'gh failed ({result.returncode}): {message}')
+        transient = any(s in message.lower() for s in (
+            'timeout', 'timed out', 'connection reset', 'unexpected eof',
+            'http 502', 'http 503', 'http 504'))
+        if not (read_only and transient and attempt < 3):
+            raise RuntimeError(f'gh failed ({result.returncode}): {message}')
+        emit('read_only_connection_retry', attempt=attempt + 1)
+        time.sleep(2 ** (attempt + 1))
     if output is not None:
         return None
     return json.loads(result.stdout) if result.stdout.strip() else None

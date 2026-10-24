@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-24T14:02:27.628488+00:00",
+  "scope": "Abandoned official-helper partial downloads in task staging only; each corresponding original already has a verified remote backup",
+  "removed_files": [
+    {
+      "temporary_path": "staging/Paper_I_Lean_Checkpoint_161_Original_Route.zip.openai-download-9e7f5c1e3c5a4386a78104d2e8314df0",
+      "bytes": 213918760,
+      "verified_original_id": "libfile_fb1aa1cf46808191bf61d0c107092c33",
+      "original_sha256": "79c477837d9aa3921cf28dc84fc243a33b8c52d9e32b403986d038cdff411025",
+      "remote_asset_id": 672322609
+    },
+    {
+      "temporary_path": "staging/Paper_I_Lean_Checkpoint_162_Original_Route.zip.openai-download-7189972577b54a0a9c7a8a2c7e3e08f9",
+      "bytes": 211025920,
+      "verified_original_id": "libfile_0f1450e921dc81919a175f90c2c8b043",
+      "original_sha256": "e94935941aee91815418ea6a4682ebfe05751a99ecacbca21a4b0ee5c229eac2",
+      "remote_asset_id": 672326110
+    },
+    {
+      "temporary_path": "staging/Paper_I_Lean_Checkpoint_163_Original_Route.zip.openai-download-a2755f2a72fe4e408b57cbec330e89d3",
+      "bytes": 125829120,
+      "verified_original_id": "libfile_0f3ecb1aec688191bae8fa4ded27eeca",
+      "original_sha256": "a59b001f67409c5164ba687fb05b1b8ca4e1aab666ffacb9fbde2caaf78df621",
+      "remote_asset_id": 672331606
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_166_Progress.zip.openai-download-2bd13151c66b467792026bdb8e5bd3f3",
+      "bytes": 34537472,
+      "verified_original_id": "libfile_5d2bbc0533408191b4043fb2952d509b",
+      "original_sha256": "ddd9b508dea6325f1b06106396709e41e2a275ff080fa00c1901e981866dbd9e",
+      "remote_asset_id": 672361062
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_169_Progress.zip.openai-download-bf79ee176b6946178d44af9c6e4604a5",
+      "bytes": 1245184,
+      "verified_original_id": "libfile_e06f6d017ea081919bd9793863970c0d",
+      "original_sha256": "41e16fdbcccd53f039e26a76f8334f4adba8ff52a63db12b950411c776297c3f",
+      "remote_asset_id": 672362832
+    },
+    {
+      "temporary_path": "staging/Paper_I_Lean_Checkpoint_170_Original_Route.tar.zst.openai-download-9648fd1324de440286018a61e445ca26",
+      "bytes": 48496640,
+      "verified_original_id": "libfile_3e1f36651fe48191a39412ddbf819dc2",
+      "original_sha256": "b5e5499114f9d95d253c7727783bdd626142343cb10f17e6bc12dc09b68fa68d",
+      "remote_asset_id": 672362832
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_170_Progress.zip.openai-download-9b2e6ea6431c4fa19871793200fae0b0",
+      "bytes": 1441792,
+      "verified_original_id": "libfile_89026d0345a08191991693f413940322",
+      "original_sha256": "434193e2e1138574e3dd95b89e538a072b8523adf6ffd662808dffbb63f3565d",
+      "remote_asset_id": 672362832
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_171_Progress.zip.openai-download-53d75c3740fb4f92b27d66a9e5fb599a",
+      "bytes": 37847261,
+      "verified_original_id": "libfile_76e81656de14819185b8e2cacaf2ece0",
+      "original_sha256": "b91e17a9c35960e6b4362685600b9cea9284c7352d726fbad5c6665ad3f5fa03",
+      "remote_asset_id": 672364884
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_172_Progress.zip.openai-download-cc264709c2cb4f6ea8d2f8a33fa62990",
+      "bytes": 4128768,
+      "verified_original_id": "libfile_e18b2e0fc0e48191b35be36204c19d68",
+      "original_sha256": "ee638fab801a0c777be248561a508bff3007d2cf2175cab9ab6cc7ad14c9c660",
+      "remote_asset_id": 672364884
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_192_Original_Route.tar.zst.openai-download-2b9355a2b6294b0aa7397527720d5184",
+      "bytes": 167051264,
+      "verified_original_id": "libfile_c2345a19251c8191bfe01b7eb2604d67",
+      "original_sha256": "6e631411c67543558559b93de60e3211aa89b2cc9c853ccee75050ff732fadc5",
+      "remote_asset_id": 672390459
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_193_Original_Route.tar.zst.openai-download-4ead5ec9518544d3a932fa57d8f45d91",
+      "bytes": 184549376,
+      "verified_original_id": "libfile_1ce6ebff862c819198cd922f44982dbb",
+      "original_sha256": "b57229914fa8adf2fe62f64e57a7cc5b1616844df6aebc425cfc8d69caec3345",
+      "remote_asset_id": 672397778
+    },
+    {
+      "temporary_path": "staging/Tarry/Paper_I_Lean_Checkpoint_198_MasterChecklist.json.openai-download-73fc66c882c64c6c8a6558787b14e93c",
+      "bytes": 76611584,
+      "verified_original_id": "libfile_1ad630286bcc8191a5a302ac5ae85684",
+      "original_sha256": "e975ea6fb7a3553f03502cc3d93af1b181e19b6ea481d51c94ce12b28774851c",
+      "remote_asset_id": 672408263
+    }
+  ],
+  "removed_bytes": 1106683141
+}
