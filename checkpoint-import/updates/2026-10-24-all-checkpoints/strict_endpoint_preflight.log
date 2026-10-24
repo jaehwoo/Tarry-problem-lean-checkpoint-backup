@@ -1,0 +1,2 @@
+{"at": "2026-10-24T15:49:28.867444+00:00", "event": "remote_download_verified", "file": "Paper_I_All_Checkpoints_20261024_Part_087_8b129cf06977.tar.zst", "bytes": 343251736, "sha256": "8b129cf06977149dbc8eaa475364f797cde11f19941fe48da55d9d6ceb21acf8"}
+{"status": "PART87_FRESH_REMOTE_CONTAINER_AND_MEMBERS_VERIFIED_WITH_STRICT_DESTINATIONS", "asset_id": 672618401, "sha256": "8b129cf06977149dbc8eaa475364f797cde11f19941fe48da55d9d6ceb21acf8"}

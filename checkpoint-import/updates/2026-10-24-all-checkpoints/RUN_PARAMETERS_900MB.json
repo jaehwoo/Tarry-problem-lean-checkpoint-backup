@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-10-24T14:58:16.701835+00:00",
+  "argv": [
+    "python3",
+    "-u",
+    "upload_all_checkpoints.py",
+    "--helper",
+    "/workspace/scratch/9e45cd855c91/library_helpers_github_s5_jkme_/library_download.py",
+    "--max-batch-bytes",
+    "900000000"
+  ],
+  "uploader_sha256": "f6f8497a1c0d980fe4487afa9514164bc1c9a429564b454d5e6771968f084fc9",
+  "resumed_after_batch": 69,
+  "maximum_source_bytes_per_batch": 900000000,
+  "source_inventory_unchanged": true,
+  "verification_rules_unchanged": true,
+  "continuations": [
+    {
+      "at": "2026-10-24T15:25:37.003974+00:00",
+      "uploader_sha256": "6984903e14ab4f7f4611810e87f5cf039dd6dd1fa5f7af9a91b10371300e8b28",
+      "resumed_after_batch": 83,
+      "maximum_source_bytes_per_batch": 900000000,
+      "log": "all_upload_run_v7.log",
+      "reason": "Clean official-helper partials after a complete source is retained or its remote backup is verified"
+    }
+  ],
+  "strict_transport_continuation": {
+    "completed_batches_before_restart": 86,
+    "max_batch_bytes": 900000000,
+    "uploader_sha256": "f141a6c5d67b22752d4a1ba134745649a47bbb285b986486a540dab34363fb27",
+    "transport_sha256": "138290200c6db42e403b9a7e4847866e77cf8ffb7a625df7ce0b9a2c4d6c027e",
+    "log": "all_upload_run_v9.log",
+    "verification_policy_unchanged": true,
+    "endpoint_review": "ENDPOINT_REVIEW_AND_SAFER_TRANSPORT.json"
+  }
+}

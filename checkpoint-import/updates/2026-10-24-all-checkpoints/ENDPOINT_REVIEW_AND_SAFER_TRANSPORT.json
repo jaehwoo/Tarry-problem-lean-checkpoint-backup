@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-24T15:48:51.296356+00:00",
+  "event": "AUTO_REVIEW_REJECTED_UNEXPECTED_HOST",
+  "reported_host": "cafe.github.com",
+  "action": "Polling continuation of uploader session 61139",
+  "review_reason": "The upload command is authorized for GitHub, but this request targets the unexpected host cafe.github.com rather than a standard GitHub API or upload endpoint; its data handling and necessity are not established.",
+  "completed_files_at_stop": 1029,
+  "completed_batches_at_stop": 86,
+  "part87_asset_id": 672618401,
+  "part87_server_digest_matched": true,
+  "part87_fresh_readback_at_stop": false,
+  "uploader_stopped": true,
+  "underlying_cause": "Not established; no cafe URL found in backup source, GH_HOST was unset, CLI binary matched its recorded checksum.",
+  "materially_safer_alternative": {
+    "transport": "strict_github_transport.py",
+    "sha256": "138290200c6db42e403b9a7e4847866e77cf8ffb7a625df7ce0b9a2c4d6c027e",
+    "api_host": "api.github.com",
+    "upload_host": "uploads.github.com",
+    "upload_scope": "Only repository jaehwoo/lean-checkpoint-backup release 422682291",
+    "automatic_redirects": false,
+    "upload_redirects": "Always rejected; payload not replayed",
+    "download_redirects": "GET only; exact release-assets.githubusercontent.com repository-ID path; no credentials forwarded",
+    "credentials": "Retrieved from already-authorized CLI into memory only; never logged",
+    "TLS_and_environment_proxy": "Default validation and platform proxy configuration retained",
+    "test_log": "transfer_guard_tests_v9.log",
+    "live_checks": "See strict_endpoint_preflight.log and STRICT_ENDPOINT_AUDIT.jsonl; no completion claimed here"
+  },
+  "official_endpoint_documentation": [
+    "https://docs.github.com/rest/releases/assets",
+    "https://docs.github.com/en/actions/reference/runners/github-hosted-runners"
+  ],
+  "preflight_passed": {
+    "private_repository_metadata": true,
+    "part87_fresh_remote_container_and_members": true,
+    "observed_hosts": [
+      "api.github.com",
+      "release-assets.githubusercontent.com"
+    ],
+    "CDN_request_authenticated": false,
+    "log": "strict_endpoint_preflight.log"
+  },
+  "pagination_adjustment": {
+    "observed_host": "api.github.com",
+    "observed_path": "/repositories/1417233863/releases/422682291/assets",
+    "behavior": "Normalize only this exact numeric repository ID to the already-approved owner/name path, then enforce identical page resource and host",
+    "other_hosts_and_repository_IDs": "Rejected"
+  }
+}

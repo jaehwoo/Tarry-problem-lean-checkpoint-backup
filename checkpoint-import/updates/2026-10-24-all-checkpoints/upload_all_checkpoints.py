@@ -4,7 +4,7 @@
 No manuscript or Lean source is edited. Library downloads use the current
 official helper. A newly uploaded part is downloaded again and checked before
 its staged source copies are removed. Credentials remain in gh's auth store;
-this program neither reads nor prints authentication values.
+the strict transport retrieves the authorized CLI credential in memory only; it never logs it.
 """
 from __future__ import annotations
 
@@ -24,6 +24,7 @@ import time
 import urllib.parse
 import zipfile
 import zstandard
+import strict_github_transport
 
 ROOT = Path(__file__).resolve().parent
 WORKSPACE = ROOT.parent
@@ -93,7 +94,7 @@ def gh(args, *, output=None, timeout=1800):
 
 
 def api(endpoint, *args, **kw):
-    return gh(['api', endpoint, *args], **kw)
+    return strict_github_transport.api(endpoint, *args, gh=GH, auth_dir=AUTH_DIR, **kw)
 
 
 def assert_private_target():
@@ -294,7 +295,8 @@ def promote_download(entry):
     if reusable(entry) and downloaded.parent.is_dir():
         prefix = '.' + downloaded.name + '.'
         for partial in list(downloaded.parent.iterdir()):
-            if partial.is_file() and partial.name.startswith(prefix):
+            if partial.is_file() and (partial.name.startswith(prefix)
+                                      or partial.name.startswith(downloaded.name + '.openai-download-')):
                 partial.unlink()
 
 
@@ -414,7 +416,8 @@ def cleanup_verified_staging(state):
         if path.parent.is_dir():
             prefix = '.' + path.name + '.'
             for temporary in list(path.parent.iterdir()):
-                if temporary.name.startswith(prefix) and temporary.is_file():
+                if temporary.is_file() and (temporary.name.startswith(prefix)
+                                             or temporary.name.startswith(path.name + '.openai-download-')):
                     temporary.unlink()
 
 
@@ -539,6 +542,7 @@ def run(args):
                         'asset': asset['name'], 'asset_sha256': asset['digest'][7:]})
         receipt = {'batch': ordinal, 'verified_at': now(), 'source_files': len(records),
                    'uploader_sha256': SCRIPT_SHA256,
+                   'transport_sha256': sha256(Path(strict_github_transport.__file__)),
                    'source_bytes': source_bytes, 'new_payload_files': len(payloads),
                    'asset': clean_asset(asset) if asset else None, 'files': records,
                    'verification': 'All staged originals SHA-256 checked. New backup container downloaded from GitHub; whole container and every stored original checked.'}
