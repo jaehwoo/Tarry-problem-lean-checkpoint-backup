@@ -1,0 +1,133 @@
+{
+  "status": "CHECKPOINT210_RELEASE_ASSET_DIGESTS_MATCH_LOCAL",
+  "checked_at": "2026-10-24T12:25:27.903201+00:00",
+  "repository": "jaehwoo/lean-checkpoint-backup",
+  "release_id": 422682291,
+  "release_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/tag/untagged-5b530f3801cc70192ca2",
+  "scope": "All 12 current checkpoint210 deliverables; not all earlier checkpoint artifacts",
+  "verification": "Local SHA-256 and size compared with GitHub reported asset digest and size; no fresh remote download/restore performed in this backup request",
+  "files": [
+    {
+      "id": 672187514,
+      "name": "Paper_I_Lean_Checkpoint_210_Build_Evidence.zip",
+      "size_bytes": 25372837,
+      "state": "uploaded",
+      "digest": "sha256:3585539bd2c74b8f42b30b5a5fcde80314f255cffaf8b375904b63d83f567794",
+      "local_sha256": "3585539bd2c74b8f42b30b5a5fcde80314f255cffaf8b375904b63d83f567794",
+      "local_size_bytes": 25372837,
+      "matched": true
+    },
+    {
+      "id": 672187476,
+      "name": "Paper_I_Lean_Checkpoint_210_Checklist.zip",
+      "size_bytes": 20598544,
+      "state": "uploaded",
+      "digest": "sha256:a16d16e80e9c927adf638c686b10f0c0077800bfcb24665421d9be678182363e",
+      "local_sha256": "a16d16e80e9c927adf638c686b10f0c0077800bfcb24665421d9be678182363e",
+      "local_size_bytes": 20598544,
+      "matched": true
+    },
+    {
+      "id": 672187004,
+      "name": "Paper_I_Lean_Checkpoint_210_Compiled_Project_Cache.tar.zst",
+      "size_bytes": 206475322,
+      "state": "uploaded",
+      "digest": "sha256:c2ad35ef75ab729d997b8fe8f44c50845f86246e1ec39ce5968690ca6517adf3",
+      "local_sha256": "c2ad35ef75ab729d997b8fe8f44c50845f86246e1ec39ce5968690ca6517adf3",
+      "local_size_bytes": 206475322,
+      "matched": true
+    },
+    {
+      "id": 672187555,
+      "name": "Paper_I_Lean_Checkpoint_210_Correspondence.md",
+      "size_bytes": 83018,
+      "state": "uploaded",
+      "digest": "sha256:a2b7410cd6bbf1e0f12bb29212475cf30c2c6d0729d14f5b6dc86396d6e3bb34",
+      "local_sha256": "a2b7410cd6bbf1e0f12bb29212475cf30c2c6d0729d14f5b6dc86396d6e3bb34",
+      "local_size_bytes": 83018,
+      "matched": true
+    },
+    {
+      "id": 672187600,
+      "name": "Paper_I_Lean_Checkpoint_210_Delivery_Verification.json",
+      "size_bytes": 7903,
+      "state": "uploaded",
+      "digest": "sha256:ee65f9820189c6126cdffa3868d250813203d49570c99566d9511b7294e6efe3",
+      "local_sha256": "ee65f9820189c6126cdffa3868d250813203d49570c99566d9511b7294e6efe3",
+      "local_size_bytes": 7903,
+      "matched": true
+    },
+    {
+      "id": 672187581,
+      "name": "Paper_I_Lean_Checkpoint_210_Manifest.json",
+      "size_bytes": 1491531,
+      "state": "uploaded",
+      "digest": "sha256:512813fa81947a46d29c66cc2f24c318d7f1b5b178383b0103d4a8aa61c186c3",
+      "local_sha256": "512813fa81947a46d29c66cc2f24c318d7f1b5b178383b0103d4a8aa61c186c3",
+      "local_size_bytes": 1491531,
+      "matched": true
+    },
+    {
+      "id": 672187236,
+      "name": "Paper_I_Lean_Checkpoint_210_MasterChecklist.json",
+      "size_bytes": 160867135,
+      "state": "uploaded",
+      "digest": "sha256:9a3e6f746828868719b3bdcd0036e9b234041e7c8cd227f527588fec7f9d7a1c",
+      "local_sha256": "9a3e6f746828868719b3bdcd0036e9b234041e7c8cd227f527588fec7f9d7a1c",
+      "local_size_bytes": 160867135,
+      "matched": true
+    },
+    {
+      "id": 672187610,
+      "name": "Paper_I_Lean_Checkpoint_210_New_Sources.zip",
+      "size_bytes": 41660,
+      "state": "uploaded",
+      "digest": "sha256:ddfde5a1f5f3d22e0fd645d54a12e53b34c91010cdf400a9827e0f870555aa15",
+      "local_sha256": "ddfde5a1f5f3d22e0fd645d54a12e53b34c91010cdf400a9827e0f870555aa15",
+      "local_size_bytes": 41660,
+      "matched": true
+    },
+    {
+      "id": 672186419,
+      "name": "Paper_I_Lean_Checkpoint_210_Original_Route.tar.zst",
+      "size_bytes": 528996113,
+      "state": "uploaded",
+      "digest": "sha256:e88baec2560feecf84093da841667201b8c67678bb31ce6aac3fd69eb34ab7be",
+      "local_sha256": "e88baec2560feecf84093da841667201b8c67678bb31ce6aac3fd69eb34ab7be",
+      "local_size_bytes": 528996113,
+      "matched": true
+    },
+    {
+      "id": 672187623,
+      "name": "Paper_I_Lean_Checkpoint_210_Progress_A.zip",
+      "size_bytes": 33936290,
+      "state": "uploaded",
+      "digest": "sha256:fb6127fec79ee94e5397207d5aea55c66f53624a39100c0be6f7c44be88c396e",
+      "local_sha256": "fb6127fec79ee94e5397207d5aea55c66f53624a39100c0be6f7c44be88c396e",
+      "local_size_bytes": 33936290,
+      "matched": true
+    },
+    {
+      "id": 672187718,
+      "name": "Paper_I_Lean_Checkpoint_210_Progress_B.zip",
+      "size_bytes": 39387435,
+      "state": "uploaded",
+      "digest": "sha256:b710049eeec64e34fad5c6062a06205531f96af2af62f68e0c81839d65cf2d12",
+      "local_sha256": "b710049eeec64e34fad5c6062a06205531f96af2af62f68e0c81839d65cf2d12",
+      "local_size_bytes": 39387435,
+      "matched": true
+    },
+    {
+      "id": 672187563,
+      "name": "Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+      "size_bytes": 69539,
+      "state": "uploaded",
+      "digest": "sha256:cfc960a47c9b24f76d3f3b673ee85db27a7030a2e34f82aaba9c7cdb3f862e6d",
+      "local_sha256": "cfc960a47c9b24f76d3f3b673ee85db27a7030a2e34f82aaba9c7cdb3f862e6d",
+      "local_size_bytes": 69539,
+      "matched": true
+    }
+  ],
+  "total_bytes": 1017327327,
+  "all_matched": true
+}

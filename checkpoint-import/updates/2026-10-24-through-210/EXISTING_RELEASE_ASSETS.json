@@ -1,0 +1,262 @@
+[
+  {
+    "id": 416397838,
+    "name": "Paper I checkpoints 116–148 — private original archives",
+    "draft": true,
+    "tag_name": "",
+    "html_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/tag/untagged-d3885cf037e0cb27e80d",
+    "assets": [
+      {
+        "id": 653282272,
+        "name": "Paper_I_Lean_Checkpoint_116.zip",
+        "size_bytes": 139723482,
+        "digest": "sha256:bf817091c8ad3ef5c879b7c624fc0d79b52fb3f79f9c3da3728b3c6614d8693a",
+        "state": "uploaded"
+      },
+      {
+        "id": 653282723,
+        "name": "Paper_I_Lean_Checkpoint_117.zip",
+        "size_bytes": 153841600,
+        "digest": "sha256:ed23ec0318d633a3c8f33932981adadbd99b3c213f33e5c77df48d10adfd8d0f",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283214,
+        "name": "Paper_I_Lean_Checkpoint_118.zip",
+        "size_bytes": 173157437,
+        "digest": "sha256:2c2dc1511205116f3c0277d85d821f76b991f9a849ef4fc004f5d8d24aba7c22",
+        "state": "uploaded"
+      },
+      {
+        "id": 653286772,
+        "name": "Paper_I_Lean_Checkpoint_119.zip",
+        "size_bytes": 194212873,
+        "digest": "sha256:9c88a4db9037333b5e079c214e7cece0dafee28296324392d7f55ab75db70c4e",
+        "state": "uploaded"
+      },
+      {
+        "id": 653287441,
+        "name": "Paper_I_Lean_Checkpoint_120.zip",
+        "size_bytes": 222678226,
+        "digest": "sha256:49e5e835444ed3b9dca524ea1a0790a5397be6d12abe371659c9a71b32a48aa3",
+        "state": "uploaded"
+      },
+      {
+        "id": 653288156,
+        "name": "Paper_I_Lean_Checkpoint_121.zip",
+        "size_bytes": 267056398,
+        "digest": "sha256:95b0408430d7046802a3a8f776d99cf0bb7feb6cb632c221f3f83316a069e9e2",
+        "state": "uploaded"
+      },
+      {
+        "id": 653288934,
+        "name": "Paper_I_Lean_Checkpoint_122.zip",
+        "size_bytes": 312103474,
+        "digest": "sha256:e4cc041741b044552499d1d183478c7e47928d2d2cd1548036e3be24268987f9",
+        "state": "uploaded"
+      },
+      {
+        "id": 653299064,
+        "name": "Paper_I_Lean_Checkpoint_123.zip",
+        "size_bytes": 376310374,
+        "digest": "sha256:db6bacdd0cf2c15cb7bae40473a509b600086bc6e2ef6566dfc19a13b4411310",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283771,
+        "name": "Paper_I_Lean_Checkpoint_148_Build_Evidence.zip",
+        "size_bytes": 1336931,
+        "digest": "sha256:96a6e389147b41fca09f223e8be41c1954bf017f224eb54bc4ebb485d0c3fc28",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283795,
+        "name": "Paper_I_Lean_Checkpoint_148_Checklist.zip",
+        "size_bytes": 18098207,
+        "digest": "sha256:4834ba4778d6b1e4cfaf9118301d85c7255e775bc9bd7f8ed80dd7091e2a8c9c",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283846,
+        "name": "Paper_I_Lean_Checkpoint_148_Correspondence_Report.md",
+        "size_bytes": 36070,
+        "digest": "sha256:6eeb35e513ce8fc0a1198a82e2d667916983c182e9f92196ff6ed62cc93a3fd0",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283857,
+        "name": "Paper_I_Lean_Checkpoint_148_Delivery_Verification.json",
+        "size_bytes": 2655,
+        "digest": "sha256:b23af8a9c5a07c9d2320b83d854ddb99e89edcadfc2b371d4af62b88551c1839",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283870,
+        "name": "Paper_I_Lean_Checkpoint_148_New_Lean_Sources.zip",
+        "size_bytes": 55799,
+        "digest": "sha256:337dfb7bdebb86c5a0779756e49e8346bc44dd729d2003ebed2bb51cfd999a11",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283890,
+        "name": "Paper_I_Lean_Checkpoint_148_Package_Manifest.json",
+        "size_bytes": 1315812,
+        "digest": "sha256:0c9fb1a23d281e7225e6ff41c806d1a4452989e25813c1006b617c0a798679b7",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283919,
+        "name": "Paper_I_Lean_Checkpoint_148_Progress.zip",
+        "size_bytes": 18791101,
+        "digest": "sha256:01c0ec48df8e1f9dccf0e5f06fa970c475fd16460ddc22fc14ce476754049372",
+        "state": "uploaded"
+      },
+      {
+        "id": 653271079,
+        "name": "Paper_I_Lean_Checkpoint_148_Project_Part_1_of_3.zip",
+        "size_bytes": 481176687,
+        "digest": "sha256:57458d8614db6a6f96e4a219a9ff144e1a268f7b68cc5b886583aa4a881985df",
+        "state": "uploaded"
+      },
+      {
+        "id": 653273146,
+        "name": "Paper_I_Lean_Checkpoint_148_Project_Part_2_of_3.zip",
+        "size_bytes": 257926556,
+        "digest": "sha256:22ebf2bffdde85b3a0b8f74d9eeee818de634d9a99c7fcbfd93849ab5aaf08f8",
+        "state": "uploaded"
+      },
+      {
+        "id": 653273866,
+        "name": "Paper_I_Lean_Checkpoint_148_Project_Part_3_of_3.zip",
+        "size_bytes": 249243818,
+        "digest": "sha256:a53b9aff3ecd11cd02142b6fa9d67038e5fa1cc65cb9e253f5d763fc79592df8",
+        "state": "uploaded"
+      },
+      {
+        "id": 653283996,
+        "name": "Paper_I_Lean_Checkpoint_148_Verification_Report.pdf",
+        "size_bytes": 97842,
+        "digest": "sha256:3330e1b0312c5fa3de1e0c26a5755fa9022cc06d937eca76928947309f2806b5",
+        "state": "uploaded"
+      }
+    ]
+  },
+  {
+    "id": 413227169,
+    "name": "Paper I newer checkpoints through 115 — private originals",
+    "draft": true,
+    "tag_name": "paper-i-checkpoints-through-115-20261015",
+    "html_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/tag/untagged-dfada03160c72cbda47c",
+    "assets": [
+      {
+        "id": 641844465,
+        "name": "Paper_I_Newer_Archive_Audit.json.gz",
+        "size_bytes": 2999037,
+        "digest": "sha256:e6bc856eac13faae9f535a097fd9fdb38540bd2a65798e0fa5b34644919a1834",
+        "state": "uploaded"
+      },
+      {
+        "id": 641824592,
+        "name": "Paper_I_Newer_Originals_Part_01.zip",
+        "size_bytes": 676310002,
+        "digest": "sha256:f98fd6a384105e55eb6a84c00609524f4316848caf826756ab49c4619e29f0aa",
+        "state": "uploaded"
+      },
+      {
+        "id": 641830408,
+        "name": "Paper_I_Newer_Originals_Part_02.zip",
+        "size_bytes": 624581212,
+        "digest": "sha256:1d9ff7f3cb782cea381075cb55c9a96cfcdac991ce39c428d2c0e6222ae4a6ea",
+        "state": "uploaded"
+      },
+      {
+        "id": 641836776,
+        "name": "Paper_I_Newer_Originals_Part_03.zip",
+        "size_bytes": 229956174,
+        "digest": "sha256:50fb3f7069aa48c90752e5721fee8d7eaabb3d0f72f85922e9e15815bb63c201",
+        "state": "uploaded"
+      },
+      {
+        "id": 641839071,
+        "name": "Paper_I_Newer_Originals_Part_04.zip",
+        "size_bytes": 524900605,
+        "digest": "sha256:aaedbb21cda1106c584b44bdf1e7975a88f812bb9538f9eb0771e8c9b6cc9832",
+        "state": "uploaded"
+      }
+    ]
+  },
+  {
+    "id": 413240377,
+    "name": "Paper I checkpoint 116 progress — private addendum",
+    "draft": true,
+    "tag_name": "",
+    "html_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/tag/untagged-f3ccbcbc6a7cf788bf94",
+    "assets": [
+      {
+        "id": 641880174,
+        "name": "Paper_I_Lean_Checkpoint_116_Progress.zip",
+        "size_bytes": 4327720,
+        "digest": "sha256:9940e0e35a4d68c03974381988dd071721d1359cc12cf45e757183d5ff129785",
+        "state": "uploaded"
+      }
+    ]
+  },
+  {
+    "id": 411807641,
+    "name": "Paper I Lean checkpoints through 93 — private archive",
+    "draft": true,
+    "tag_name": "paper-i-checkpoints-through-93-20261013",
+    "html_url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/tag/untagged-db80079555d47e0b147f",
+    "assets": [
+      {
+        "id": 637403372,
+        "name": "Paper_I_Lean_Archive_Audit.json.gz",
+        "size_bytes": 6741357,
+        "digest": "sha256:db3730324e41b5ca26110fa1060cfea5c7c4c8eb3a4e3173db6168c247141774",
+        "state": "uploaded"
+      },
+      {
+        "id": 637379822,
+        "name": "Paper_I_Lean_Checkpoint_93.zip",
+        "size_bytes": 508328846,
+        "digest": "sha256:3b3acd29536a67077d915946a39198118d89475f075c114df4946143f46df5d5",
+        "state": "uploaded"
+      },
+      {
+        "id": 637380650,
+        "name": "Paper_I_Lean_History_Through_82.zip",
+        "size_bytes": 528211115,
+        "digest": "sha256:9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+        "state": "uploaded"
+      },
+      {
+        "id": 637382272,
+        "name": "Paper_I_Lean_Originals_Part_01.zip",
+        "size_bytes": 652216163,
+        "digest": "sha256:df59a77dff6c9dc1c81f2d9afce7629cd7dc1563d309a1871ff10c01a6d098f0",
+        "state": "uploaded"
+      },
+      {
+        "id": 637383219,
+        "name": "Paper_I_Lean_Originals_Part_02.zip",
+        "size_bytes": 692389112,
+        "digest": "sha256:4cd9899faf2f85d11143e571819580de7d86356b4c4a65682c7f16993c62cca1",
+        "state": "uploaded"
+      },
+      {
+        "id": 637384350,
+        "name": "Paper_I_Lean_Originals_Part_03.zip",
+        "size_bytes": 254755932,
+        "digest": "sha256:ad570cbe988d9050f08a6a2f7f2c2220ffc00c781e7b2ecba73b30f076959ad3",
+        "state": "uploaded"
+      },
+      {
+        "id": 637381390,
+        "name": "Paper_I_Lean_Working_Checkpoint_93.zip",
+        "size_bytes": 508160539,
+        "digest": "sha256:065889ea6e0b74b9e1a2e004dd918180278a01c7b619fbc5689e4bbbac064c92",
+        "state": "uploaded"
+      }
+    ]
+  }
+]
