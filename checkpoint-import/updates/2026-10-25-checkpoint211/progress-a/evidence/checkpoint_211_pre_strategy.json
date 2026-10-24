@@ -1,0 +1,44 @@
+{
+  "checkpoint": 211,
+  "full_gram_cases": 121,
+  "strict_nonzero_g_contractions": 300,
+  "strict_zero_g_s_moves": 24,
+  "scalar_norm_energy_checks": 363,
+  "exact_rational": true,
+  "passed": true,
+  "proof_input": false,
+  "stdlib_only": true,
+  "g_cross_factor": "9+64*w+84*w^2+24*w^3+1*w^4+64*v+784*v*w+1224*v*w^2+376*v*w^3+16*v*w^4+84*v^2+1224*v^2*w+2376*v^2*w^2+816*v^2*w^3+36*v^2*w^4+24*v^3+376*v^3*w+816*v^3*w^2+336*v^3*w^3+16*v^3*w^4+1*v^4+16*v^4*w+36*v^4*w^2+16*v^4*w^3+1*v^4*w^4+256*u+1456*u*w+1584*u*w^2+400*u*w^3+16*u*w^4+1456*u*v+12384*u*v*w+14400*u*v*w^2+3616*u*v*w^3+144*u*v*w^4+1584*u*v^2+14400*u*v^2*w+16416*u*v^2*w^2+3744*u*v^2*w^3+144*u*v^2*w^4+400*u*v^3+3616*u*v^3*w+3744*u*v^3*w^2+544*u*v^3*w^3+16*u*v^3*w^4+16*u*v^4+144*u*v^4*w+144*u*v^4*w^2+16*u*v^4*w^3+2856*u^2+11664*u^2*w+8100*u^2*w^2+1200*u^2*w^3+36*u^2*w^4+11664*u^2*v+75600*u^2*v*w+54000*u^2*v*w^2+6336*u^2*v*w^3+144*u^2*v*w^4+8100*u^2*v^2+54000*u^2*v^2*w+42336*u^2*v^2*w^2+3744*u^2*v^2*w^3+36*u^2*v^2*w^4+1200*u^2*v^3+6336*u^2*v^3*w+3744*u^2*v^3*w^2+336*u^2*v^3*w^3+36*u^2*v^4+144*u^2*v^4*w+36*u^2*v^4*w^2+9984*u^3+29600*u^3*w+14400*u^3*w^2+1200*u^3*w^3+16*u^3*w^4+29600*u^3*v+118400*u^3*v*w+54000*u^3*v*w^2+3616*u^3*v*w^3+16*u^3*v*w^4+14400*u^3*v^2+54000*u^3*v^2*w+16416*u^3*v^2*w^2+816*u^3*v^2*w^3+1200*u^3*v^3+3616*u^3*v^3*w+816*u^3*v^3*w^2+16*u^3*v^4+16*u^3*v^4*w+15650*u^4+29600*u^4*w+8100*u^4*w^2+400*u^4*w^3+1*u^4*w^4+29600*u^4*v+75600*u^4*v*w+14400*u^4*v*w^2+376*u^4*v*w^3+8100*u^4*v^2+14400*u^4*v^2*w+2376*u^4*v^2*w^2+400*u^4*v^3+376*u^4*v^3*w+1*u^4*v^4+9984*u^5+11664*u^5*w+1584*u^5*w^2+24*u^5*w^3+11664*u^5*v+12384*u^5*v*w+1224*u^5*v*w^2+1584*u^5*v^2+1224*u^5*v^2*w+24*u^5*v^3+2856*u^6+1456*u^6*w+84*u^6*w^2+1456*u^6*v+784*u^6*v*w+84*u^6*v^2+256*u^7+64*u^7*w+64*u^7*v+9*u^8",
+  "zero_g_y_factor": "25+400*v+900*v^2+400*v^3+25*v^4+400*u+8400*u*v+20400*u*v^2+9400*u*v^3+600*u*v^4+900*u^2+20400*u^2*v+59400*u^2*v^2+30600*u^2*v^3+2100*u^2*v^4+400*u^3+9400*u^3*v+30600*u^3*v^2+19600*u^3*v^3+1600*u^3*v^4+25*u^4+600*u^4*v+2100*u^4*v^2+1600*u^4*v^3+225*u^4*v^4",
+  "zero_g_x_factor": "225+1600*v+2100*v^2+600*v^3+25*v^4+1600*u+19600*u*v+30600*u*v^2+9400*u*v^3+400*u*v^4+2100*u^2+30600*u^2*v+59400*u^2*v^2+20400*u^2*v^3+900*u^2*v^4+600*u^3+9400*u^3*v+20400*u^3*v^2+8400*u^3*v^3+400*u^3*v^4+25*u^4+400*u^4*v+900*u^4*v^2+400*u^4*v^3+25*u^4*v^4",
+  "factor_term_counts": [
+    125,
+    25,
+    25
+  ],
+  "factor_constants": [
+    9,
+    25,
+    225
+  ],
+  "mixed_profile_counterexample_retained": true,
+  "new_lean_sources_exist": false,
+  "obstructions_reviewed": [
+    "195 scalar simultaneous saturation",
+    "197 affine-centering",
+    "198 complete energy order",
+    "202 zero-linear attenuation",
+    "203 automatic single-power balance and refuted mixed-profile g contraction",
+    "204 distinct elliptic invariant",
+    "207 pure cube exclusion",
+    "210 active-quintic reduction leaves pure quintic and degree>=6 branches"
+  ],
+  "conclusions": [
+    "Pure quintics have diagonal complete translation Gram; least energy is25*N4*min(1,s^2).",
+    "Contracting nonzero g strictly improves R/E for s!=0; at g=0 it does nothing and needs a separate s curve.",
+    "For g=0 move |s| toward1; at |s|=1,R/E=18/125, incompatible with A^4>=16 saturation.",
+    "s=0 or scalar c=0 has zero minimum energy and cannot satisfy the positive original stop.",
+    "Both deformations preserve the exact degree split10 or15. The universal mixed-profile contraction remains false."
+  ],
+  "simultaneous_saturation_scalar_checks": 3
+}
