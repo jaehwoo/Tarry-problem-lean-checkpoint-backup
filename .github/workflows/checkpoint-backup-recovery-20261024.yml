@@ -1,0 +1,48 @@
+name: One-time checkpoint backup recovery audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/checkpoint-backup-recovery-20261024.yml'
+      - 'checkpoint-import/updates/2026-10-24-all-checkpoints/recover_and_verify_remote_backup.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Run one-time checkpoint backup recovery audit'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check out saved backup tools
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Prepare pinned archive reader
+        run: |
+          python3 -m venv /tmp/checkpoint-backup-venv
+          /tmp/checkpoint-backup-venv/bin/pip install zstandard==0.25.0
+      - name: Test transfer guards, audit all receipts, and restore checkpoint 210
+        working-directory: checkpoint-import/updates/2026-10-24-all-checkpoints
+        run: |
+          /tmp/checkpoint-backup-venv/bin/python -m unittest -v test_strict_github_transport.py test_upload_all_checkpoints.py > recovery_guard_tests.log 2>&1
+          /tmp/checkpoint-backup-venv/bin/python -u recover_and_verify_remote_backup.py 2>&1 | tee recovery_execution.log
+      - name: Preserve recovery evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: checkpoint-backup-recovery-evidence
+          path: |
+            checkpoint-import/updates/2026-10-24-all-checkpoints/Paper_I_All_Checkpoints_GitHub_Backup_Report_20261024.zip
+            checkpoint-import/updates/2026-10-24-all-checkpoints/PUBLICATION_CANDIDATE.json
+            checkpoint-import/updates/2026-10-24-all-checkpoints/BACKUP_STATUS.md
+            checkpoint-import/updates/2026-10-24-all-checkpoints/ALL_CHECKPOINTS_ORIGINALS.csv
+            checkpoint-import/updates/2026-10-24-all-checkpoints/ALL_CHECKPOINTS_FINAL_REMOTE_AUDIT.json
+            checkpoint-import/updates/2026-10-24-all-checkpoints/recovery_execution.log
+            checkpoint-import/updates/2026-10-24-all-checkpoints/recovery_guard_tests.log
+            checkpoint-import/updates/2026-10-24-all-checkpoints/restore210_execution.log
+          if-no-files-found: error
+          retention-days: 90

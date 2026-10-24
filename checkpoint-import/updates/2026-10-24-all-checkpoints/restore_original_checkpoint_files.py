@@ -19,6 +19,7 @@ import tarfile
 import zipfile
 
 import zstandard
+import strict_github_transport
 
 REPO = 'jaehwoo/lean-checkpoint-backup'
 REPO_ID = 1417233863
@@ -29,14 +30,15 @@ def digest(path):
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
+def checkpoint_number(record, catalog):
+    value = record.get('checkpoint')
+    return catalog.get('checkpoint_aliases', {}).get(record['library_file_id']) if value is None else value
+
+
 def api(gh, endpoint, *, output=None):
-    cmd = [gh, 'api', endpoint]
-    if output is not None:
-        cmd += ['-H', 'Accept: application/octet-stream']
-    result = subprocess.run(cmd, stdout=output or subprocess.PIPE, stderr=subprocess.PIPE, timeout=1800)
-    if result.returncode:
-        raise RuntimeError(result.stderr.decode('utf-8', 'replace')[-2000:])
-    return json.loads(result.stdout) if output is None else None
+    options = ['-H', 'Accept: application/octet-stream'] if output is not None else []
+    return strict_github_transport.api(endpoint, *options, output=output, gh=gh,
+                                       auth_dir=os.environ.get('GH_CONFIG_DIR'))
 
 
 def destination_path(destination, record):
@@ -163,7 +165,7 @@ def main():
         raise RuntimeError('Unexpected backup repository')
     if args.all and catalog['status'] != 'ALL_INVENTORIED_ORIGINAL_BYTES_BACKED_UP':
         raise RuntimeError('The catalog is incomplete; a full restore is not certified')
-    records = [r for r in catalog['files'].values() if args.all or r.get('checkpoint') == args.checkpoint]
+    records = [r for r in catalog['files'].values() if args.all or checkpoint_number(r, catalog) == args.checkpoint]
     if not records:
         raise RuntimeError('No original artifacts for that checkpoint in this catalog; see the earlier history catalog')
     if args.destination.exists():
@@ -196,3 +198,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
