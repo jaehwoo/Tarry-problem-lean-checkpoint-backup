@@ -1,0 +1,438 @@
+{
+  "checkpoint": 211,
+  "units": [
+    "OriginalCubicQuinticRatio",
+    "OriginalCubicQuinticState",
+    "OriginalCubicQuinticBoundary"
+  ],
+  "declarations": [
+    {
+      "name": "PaperI.originalHyperbolicQuinticNormSq",
+      "kind": "def",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 10,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuinticYEnergy",
+      "kind": "def",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 11,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuinticXEnergy",
+      "kind": "def",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 12,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_ratio_boundary_values",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 14,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_norm_sq_pos",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 20,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_y_energy_pos",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 24,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_x_energy_pos",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 29,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_y_ratio_factor",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 33,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_x_ratio_factor",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 40,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_y_ratio_improves",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 47,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_x_ratio_improves",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 57,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_ratio_improvement_below",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 67,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_ratio_improvement_above",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 83,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_ratio_one_strict",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 99,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_energy_factor",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 108,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_min_below",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 113,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_min_above",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 120,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_ratio_even",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 127,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_min_ratio_improvement_pos",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 134,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalHyperbolicQuintic_min_ratio_improvement",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 156,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticNormSq",
+      "kind": "def",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 178,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticMinEnergy",
+      "kind": "def",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 181,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuintic_norm_pos",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 184,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuintic_energy_pos",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 189,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuintic_zero_data",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 193,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuintic_g_ratio_factor",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 204,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuintic_g_ratio_improves",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 213,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuintic_g_ratio_improvement",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticRatio",
+      "line": 224,
+      "source_sha256": "eff5a04f695c06a0c4c05a21edd02fa35d4eda37ec7821f784fa928e07089f0b",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState",
+      "kind": "def",
+      "module": "OriginalCubicQuinticState",
+      "line": 10,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_polynomial",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 15,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_profile",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 23,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_rank",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 30,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_norm_sq",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 39,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_x_energy",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 50,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_translation_lower",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 58,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_translation_attained",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 69,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_centered_quintic_expansion",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 80,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuinticState_continuous",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 106,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.originalCubicQuintic_scaled_g_cap",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticState",
+      "line": 123,
+      "source_sha256": "c9181f27821745416e291d1cacd928786b46d6910f7f78634038211a1f05a672",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_scaledCubicQuintic_norm_sq",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 9,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_scaledCubicQuintic_norm_pos",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 15,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_scaledCubicQuintic_translation_lower",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 22,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_scaledCubicQuintic_translation_attained",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 31,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_scaledCubicQuintic_far_closure_ratio",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 40,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_scaledCubicQuintic_not_mem_far_closure",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 75,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_centered_quintic_state_eq",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 120,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_centered_quintic_not_mem_far_closure",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 134,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_centered_far_closure_quintic_zero",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 144,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    },
+    {
+      "name": "PaperI.original_centered_far_closure_through_quintic_zero",
+      "kind": "theorem",
+      "module": "OriginalCubicQuinticBoundary",
+      "line": 156,
+      "source_sha256": "b93191d38761c550d835f723509d322d9fd05086aaa56d4364551a3500f5f747",
+      "origin": "new original-route proof work in checkpoint211"
+    }
+  ],
+  "external_contracts": [
+    "PaperI.PublishedRealSemialgebraicity",
+    "PaperI.PublishedSemialgebraicPuiseuxTail",
+    "PaperI.PublishedFiniteConnectedCover",
+    "PaperI.PublishedSemialgebraicHardtTriviality",
+    "PaperI.PublishedSemialgebraicCellDecomposition",
+    "PaperI.PublishedQuantitativeRealQE",
+    "PaperI.PublishedOneVariableMonotonicity",
+    "PaperI.PublishedOneVariableNashRegularity",
+    "PaperI.PublishedSemialgebraicPathConnectedness",
+    "PaperI.PublishedCompatibleSemialgebraicHardtTriviality",
+    "PaperI.PublishedPiecewiseNashExtensions",
+    "PaperI.PublishedSemialgebraicCurveSelection",
+    "PaperI.PublishedSemialgebraicDefinableChoice",
+    "PaperI.PublishedSemialgebraicDefinableChoice.mk",
+    "PaperI.PublishedSemialgebraicDefinableChoice.section_exists",
+    "PaperI.PublishedCylindricalInitialBandDecomposition",
+    "PaperI.PublishedEquispacedDividedDifferenceMeanValue",
+    "PaperI.PublishedBivariateNonsingularBezout"
+  ],
+  "new_external_contracts": [],
+  "body_query_roots": [
+    "PaperI.originalHyperbolicQuinticNormSq",
+    "PaperI.originalHyperbolicQuinticYEnergy",
+    "PaperI.originalHyperbolicQuinticXEnergy",
+    "PaperI.originalCubicQuinticNormSq",
+    "PaperI.originalCubicQuinticMinEnergy",
+    "PaperI.originalCubicQuinticState"
+  ],
+  "baseline_dependency_file": "reports/Checkpoint210_KernelProjectDependencies.json",
+  "baseline_dependency_sha256": "211ea9d411bd130bb1a21a7fc3a2772ac8e1013b359d555f11db22889e9310a4",
+  "baseline_dependency_records": 9209,
+  "source_preservation_file": "evidence/checkpoint_211_baseline.json",
+  "source_preservation_sha256": "48e9426cba4055db0da53e52794fdfeecc9c2276850016a67e15bb1450ceab9e",
+  "unchanged_baseline_files_checked": 1230,
+  "generated_query_status": "Not yet executed; no verification claim from generation"
+}

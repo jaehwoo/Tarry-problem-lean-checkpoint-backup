@@ -1,0 +1,24 @@
+{
+  "resolved": "For q=x-s*y*z+g*z^3, every original centered pure-quintic state T=(c*q^5,0) with s!=0,c!=0, natural k,N, real A>=2,B, exact split cap(if g=0 then2else3 )*5<=k and original A-stop is excluded from closure(originalFarBoundedFamily k N B). The actual squared norm is c^2*N_5 and attained minimum unit translation energy is c^2*25*N_4*min(1,s^2), in the original unweighted norm. Nonzero g is contracted; at g=0, |s| moves toward1, with |s|=1 incompatible with saturation. Both continuous curves preserve the exact cap and rank four. Applying210 derives a_1=a_2=a_3=a_4=a_5=0 and natDegree(f)>=6 for every remaining original centered zero-tangential far-closure profile, preserving its arbitrary constant and full-profile cap.",
+  "remaining": "Centered profiles supported in degrees>=6 with a_1=a_2=a_3=a_4=a_5=0 and inherited active-index balance remain. Pure squares, cubes, quartics and quintics, and all centered profiles with active degree2,3,4 or5 are excluded. General affine/mixed-curvature critical states, uniform bounded-window hwindow, all-P threshold, moved-root/graph, polynomial radius/finite jets, own centering, Borel labels, covering, packing and the main theorem remain unresolved or conditional.",
+  "next": "Before a further proof strategy, test the sixth-versus-higher comparison 36*N_5*N_n < n^2*N_6*N_(n-1) for n>=7, using the actual original norms. Check n=7,8,9,10 separately and the possible N_6>=N_1*N_5 plus n>=11 bound n^2>108. Include zero parameters, both signs, all-direction energies and the saved mixed-profile counterexample. If proved, apply inherited active-index balance to isolate an active sixth coefficient; a pure-sixth exclusion remains a separate task. None of these new comparisons is asserted proved here.",
+  "departure": "No original manuscript argument was abandoned or replaced. The pure-quintic shape-ratio identities and actual-state normalization bridge are auxiliary application checks for I625-I638 at I773, not literal manuscript intermediate statements or a substitute for the full original compact-minimum argument. I595-I607 and I699-I737 definitions and parameter ranges remain unchanged. No new manuscript error was established. The prior small-radius technical repair remains separate and unapplied.",
+  "module_locations": {
+    "OriginalCubicQuinticRatio": "I595-I607 original norm and stop; I699-I737 centered invariant; auxiliary shape comparisons for I625-I638 at I773",
+    "OriginalCubicQuinticState": "I595-I607 original unweighted norm and complete translation energy; I699-I737 exact state, degree split and rank",
+    "OriginalCubicQuinticBoundary": "I625-I638 at I773 proper pure-quintic compact-minimum application; I699-I737 original profile hypotheses and exact degree cap"
+  },
+  "required_kernel_dependencies": [
+    "PaperI.original_curve_strict_ratio_not_mem_far_closure",
+    "PaperI.original_centered_cubic_zero_linear_translation_lower",
+    "PaperI.original_centered_cubic_zero_linear_translation_attained",
+    "PaperI.originalCenteredCubicFamily_rank",
+    "PaperI.original_centered_far_closure_fifth_phase",
+    "PaperI.original_centered_cubic_fifth_norm",
+    "PaperI.original_centered_cubic_fourth_norm",
+    "PaperI.original_centered_far_closure_through_quartic_zero"
+  ],
+  "conditional_application_declarations": [],
+  "coupled_application_inputs": [],
+  "cross_chat_retrieval_result": "Personal-context retrieval across available Lean chats confirmed checkpoint210 as the latest mathematical batch and identified the recorded pure-quintic task. Restored/read its full correspondence, canonical checklist and fixed manuscript passages; no later checked pure-quintic result was found. Historical line-by-line reports and alternate-proof limitations remain preserved. Retrieval is not exhaustive access to all other chats."
+}

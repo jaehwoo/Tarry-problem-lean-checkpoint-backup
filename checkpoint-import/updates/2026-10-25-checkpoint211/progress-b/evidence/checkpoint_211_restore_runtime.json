@@ -1,0 +1,51 @@
+{
+  "stage": "runtime",
+  "passed": true,
+  "commands": [
+    {
+      "argv": [
+        "tar",
+        "--no-same-owner",
+        "--zstd",
+        "-xf",
+        "/workspace/scratch/9e45cd855c91/resume211/downloads/Tarry/Lean_4.19.0_Linux_Recovery.tar.zst",
+        "-C",
+        "/workspace/scratch/9e45cd855c91/resume211/tmp/lean_continuation_runtime"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "gcc",
+        "-shared",
+        "-fPIC",
+        "-o",
+        "/workspace/scratch/9e45cd855c91/resume211/tmp/lean_continuation_runtime/own_exe.so",
+        "/workspace/scratch/9e45cd855c91/resume211/work/PaperILean/tools/own_exe.c",
+        "-ldl"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "python3",
+        "tools/checkpoint125_restore_sources.py",
+        "/workspace/scratch/9e45cd855c91/resume211/source_kit",
+        "/workspace/scratch/9e45cd855c91/resume211/work/PaperILean/.lake/packages"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "python3",
+        "tools/lean_command.py",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "finished_utc": "2026-10-24T23:34:41.981387+00:00",
+  "source": "Saved compiler, nine exact git bundles, base125 compiled cache and210 project/cache delta (210); no pin changes.",
+  "proof_verification_claim": false
+}

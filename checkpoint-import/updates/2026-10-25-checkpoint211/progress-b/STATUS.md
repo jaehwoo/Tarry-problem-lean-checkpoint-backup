@@ -1,0 +1,1 @@
+Progress B: all three new Lean modules compiled successfully on unchanged final sources in pinned Lean4.19.0. The final axiom audit and root build are still running or pending. No full-project verification claim. Earlier run retained with source-change flag because the integration root import was appended during it. Manuscripts unchanged.

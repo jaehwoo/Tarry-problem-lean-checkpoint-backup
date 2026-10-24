@@ -1,0 +1,33 @@
+{
+  "stage": "cache",
+  "passed": true,
+  "commands": [
+    {
+      "argv": [
+        "tar",
+        "--no-same-owner",
+        "--zstd",
+        "-xf",
+        "/tmp/checkpoint211_base125.tar.zst",
+        "-C",
+        "/workspace/scratch/9e45cd855c91/resume211/work/PaperILean"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "tar",
+        "--no-same-owner",
+        "--zstd",
+        "-xf",
+        "/workspace/scratch/9e45cd855c91/resume211/downloads/Tarry/Paper_I_Lean_Checkpoint_210_Compiled_Project_Cache.tar.zst",
+        "-C",
+        "/workspace/scratch/9e45cd855c91/resume211/work/PaperILean"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "finished_utc": "2026-10-24T23:36:12.796018+00:00",
+  "source": "Saved compiler, nine exact git bundles, base125 compiled cache and210 project/cache delta (210); no pin changes.",
+  "proof_verification_claim": false
+}
