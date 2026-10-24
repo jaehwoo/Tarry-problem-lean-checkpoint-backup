@@ -1,3 +1,5 @@
+> **Complete checkpoint backup:** All 1,087 inventoried originals are saved. [Verified catalog and recovery report](checkpoint-import/updates/2026-10-24-all-checkpoints/BACKUP_STATUS.md). Historical checkpoints 72–75 remain unconfirmed.
+
 > 실제 연구 자료 보존: 확인된 Paper I 체크포인트 원본은 이 비공개 저장소의 Release 첨부 파일에, 목록·해시·복원 도구·원격 재다운로드 검사 결과는 [checkpoint-import](checkpoint-import/README.md)에 있습니다. 72–75번은 미확인입니다. 전체 합성 시험 자료는 `artifacts/Lean_Checkpoint_Backup_2026-10-13.zip`에 있습니다.
 
 # Lean checkpoint backup

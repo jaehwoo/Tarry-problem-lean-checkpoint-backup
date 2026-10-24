@@ -1,0 +1,37 @@
+{
+  "batch": 66,
+  "verified_at": "2026-10-24T14:47:46.451723+00:00",
+  "source_files": 1,
+  "uploader_sha256": "f6f8497a1c0d980fe4487afa9514164bc1c9a429564b454d5e6771968f084fc9",
+  "source_bytes": 367001724,
+  "new_payload_files": 1,
+  "asset": {
+    "id": 672515367,
+    "name": "Paper_I_All_Checkpoints_20261024_Part_066_f904e29b9cef.tar.zst",
+    "size": 366734555,
+    "state": "uploaded",
+    "digest": "sha256:f904e29b9cef12b54cefd980e57f61848231a20a1b18f4c38df6fb5ec563a743",
+    "release_id": 422682291
+  },
+  "files": [
+    {
+      "library_file_id": "libfile_d215a364ec7c8191ae92b7a5f2209450",
+      "version_id": null,
+      "library_path": "/Tarry/Paper_I_Lean_Checkpoint_125_Compiled_Cache_Part_1_of_4.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_125_Compiled_Cache_Part_1_of_4.zip",
+      "checkpoint": 125,
+      "size_bytes": 367001724,
+      "sha256": "738e450bd75294b3e64ab828e5217f89c3fca7235a33d59c5ff11005a5650b40",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_d215a364ec7c8191ae92b7a5f2209450/Paper_I_Lean_Checkpoint_125_Compiled_Cache_Part_1_of_4.zip",
+        "release_id": 422682291,
+        "asset_id": 672515367,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_066_f904e29b9cef.tar.zst",
+        "asset_sha256": "f904e29b9cef12b54cefd980e57f61848231a20a1b18f4c38df6fb5ec563a743"
+      },
+      "recorded_at": "2026-10-24T14:46:32.826318+00:00"
+    }
+  ],
+  "verification": "All staged originals SHA-256 checked. New backup container downloaded from GitHub; whole container and every stored original checked."
+}

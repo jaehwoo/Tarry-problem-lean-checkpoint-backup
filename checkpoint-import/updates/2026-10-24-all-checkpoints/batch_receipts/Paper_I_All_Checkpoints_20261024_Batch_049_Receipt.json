@@ -1,0 +1,31 @@
+{
+  "batch": 49,
+  "verified_at": "2026-10-24T14:32:38.122940+00:00",
+  "source_files": 1,
+  "uploader_sha256": "f6f8497a1c0d980fe4487afa9514164bc1c9a429564b454d5e6771968f084fc9",
+  "source_bytes": 528211115,
+  "new_payload_files": 0,
+  "asset": null,
+  "files": [
+    {
+      "library_file_id": "libfile_ac66a99a31948191b0146cd012b0a361",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_History_Through_82.zip",
+      "original_name": "Paper_I_Lean_History_Through_82.zip",
+      "checkpoint": null,
+      "size_bytes": 528211115,
+      "sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+      "status": "EXISTING_BYTES_MATCHED",
+      "restore_from": {
+        "release_id": 411807641,
+        "asset_id": 637380650,
+        "asset": "Paper_I_Lean_History_Through_82.zip",
+        "asset_sha256": "9a76d1d59bdfa6028bf7af407a56857007cb58760c6d9e4127c18ccfb6de3b55",
+        "member": null,
+        "prior_catalog": "earlier_sources_through93.json"
+      },
+      "recorded_at": "2026-10-24T14:32:29.925850+00:00"
+    }
+  ],
+  "verification": "All staged originals SHA-256 checked. New backup container downloaded from GitHub; whole container and every stored original checked."
+}

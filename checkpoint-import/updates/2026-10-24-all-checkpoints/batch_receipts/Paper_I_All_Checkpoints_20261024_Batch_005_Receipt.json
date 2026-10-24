@@ -1,0 +1,36 @@
+{
+  "batch": 5,
+  "verified_at": "2026-10-24T13:12:41.146377+00:00",
+  "source_files": 1,
+  "source_bytes": 793,
+  "new_payload_files": 1,
+  "asset": {
+    "id": 672305594,
+    "name": "Paper_I_All_Checkpoints_20261024_Part_005_b006840e7914.tar.zst",
+    "size": 806,
+    "state": "uploaded",
+    "digest": "sha256:b006840e7914b0d94c17c6bbdf58a8b402305314a4bcc50417c60948daddd843",
+    "release_id": 422682291
+  },
+  "files": [
+    {
+      "library_file_id": "libfile_031b6b364f4481919fb99a8b2a3ac7de",
+      "version_id": null,
+      "library_path": "/Checkpoint155_Delivery_Verification.json",
+      "original_name": "Checkpoint155_Delivery_Verification.json",
+      "checkpoint": 155,
+      "size_bytes": 793,
+      "sha256": "36014752dc61b06c938591e8344b7fb4a5346bedbcd084542831d6964363e60d",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_031b6b364f4481919fb99a8b2a3ac7de/Checkpoint155_Delivery_Verification.json",
+        "release_id": 422682291,
+        "asset_id": 672305594,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_005_b006840e7914.tar.zst",
+        "asset_sha256": "b006840e7914b0d94c17c6bbdf58a8b402305314a4bcc50417c60948daddd843"
+      },
+      "recorded_at": "2026-10-24T13:12:03.983044+00:00"
+    }
+  ],
+  "verification": "All staged originals SHA-256 checked. New backup container downloaded from GitHub; whole container and every stored original checked."
+}

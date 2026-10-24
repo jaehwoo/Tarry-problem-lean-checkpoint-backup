@@ -1,0 +1,200 @@
+{
+  "batch": 88,
+  "verified_at": "2026-10-24T15:54:12.679641+00:00",
+  "source_files": 10,
+  "uploader_sha256": "f141a6c5d67b22752d4a1ba134745649a47bbb285b986486a540dab34363fb27",
+  "transport_sha256": "138290200c6db42e403b9a7e4847866e77cf8ffb7a625df7ce0b9a2c4d6c027e",
+  "source_bytes": 547685545,
+  "new_payload_files": 8,
+  "asset": {
+    "id": 672666674,
+    "name": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+    "size": 9241230,
+    "state": "uploaded",
+    "digest": "sha256:aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe",
+    "release_id": 422682291
+  },
+  "files": [
+    {
+      "library_file_id": "libfile_e089bd5d53148191b4aaea74e94f1bdc",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_145_Project_Part_2_of_3.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_145_Project_Part_2_of_3.zip",
+      "checkpoint": 145,
+      "size_bytes": 257926556,
+      "sha256": "22ebf2bffdde85b3a0b8f74d9eeee818de634d9a99c7fcbfd93849ab5aaf08f8",
+      "status": "EXISTING_BYTES_MATCHED",
+      "restore_from": {
+        "release_id": 416397838,
+        "asset_id": 653273146,
+        "asset": "Paper_I_Lean_Checkpoint_148_Project_Part_2_of_3.zip",
+        "asset_sha256": "22ebf2bffdde85b3a0b8f74d9eeee818de634d9a99c7fcbfd93849ab5aaf08f8",
+        "member": null
+      },
+      "recorded_at": "2026-10-24T15:53:46.926207+00:00"
+    },
+    {
+      "library_file_id": "libfile_a0cc541b77c08191ad9e095dc5d3cfe8",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_145_Project_Part_3_of_3.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_145_Project_Part_3_of_3.zip",
+      "checkpoint": 145,
+      "size_bytes": 249243818,
+      "sha256": "a53b9aff3ecd11cd02142b6fa9d67038e5fa1cc65cb9e253f5d763fc79592df8",
+      "status": "EXISTING_BYTES_MATCHED",
+      "restore_from": {
+        "release_id": 416397838,
+        "asset_id": 653273866,
+        "asset": "Paper_I_Lean_Checkpoint_148_Project_Part_3_of_3.zip",
+        "asset_sha256": "a53b9aff3ecd11cd02142b6fa9d67038e5fa1cc65cb9e253f5d763fc79592df8",
+        "member": null
+      },
+      "recorded_at": "2026-10-24T15:53:47.349377+00:00"
+    },
+    {
+      "library_file_id": "libfile_b5853efb15a88191ba6253191a60cc66",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_145_Verification_Report.pdf",
+      "original_name": "Paper_I_Lean_Checkpoint_145_Verification_Report.pdf",
+      "checkpoint": 145,
+      "size_bytes": 100091,
+      "sha256": "8be040e54446746b03108f7f0b4dde292ecfcdeac66a251338dbcbef36ce0a47",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_b5853efb15a88191ba6253191a60cc66/Paper_I_Lean_Checkpoint_145_Verification_Report.pdf",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.350112+00:00"
+    },
+    {
+      "library_file_id": "libfile_35763a86b00081919e582dc06e111709",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_146_Build_Evidence.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_146_Build_Evidence.zip",
+      "checkpoint": 146,
+      "size_bytes": 1775637,
+      "sha256": "23fe04d361ad68d45e9318c8193e4c4cbcdfd53f24493574f3b3107a531d3f8e",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_35763a86b00081919e582dc06e111709/Paper_I_Lean_Checkpoint_146_Build_Evidence.zip",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.355403+00:00"
+    },
+    {
+      "library_file_id": "libfile_5a3367f5a5cc81919deb50c8ed88b749",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_146_Checklist.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_146_Checklist.zip",
+      "checkpoint": 146,
+      "size_bytes": 18062436,
+      "sha256": "97f90a33399fec00dc67d64164293ee772e612a86459d119202a58c9bc05f83e",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_5a3367f5a5cc81919deb50c8ed88b749/Paper_I_Lean_Checkpoint_146_Checklist.zip",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.386480+00:00"
+    },
+    {
+      "library_file_id": "libfile_0ca94571e1bc81919a947ca6a1e7aaaa",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_146_Correspondence_Report.md",
+      "original_name": "Paper_I_Lean_Checkpoint_146_Correspondence_Report.md",
+      "checkpoint": 146,
+      "size_bytes": 34389,
+      "sha256": "22bdce21e400cf2ba8318d3d9c7df56f93ea0e2813d5a6da26899b2c52c151cf",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_0ca94571e1bc81919a947ca6a1e7aaaa/Paper_I_Lean_Checkpoint_146_Correspondence_Report.md",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.387164+00:00"
+    },
+    {
+      "library_file_id": "libfile_7aedbe898a248191800c6af0f41da2a3",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_146_Delivery_Verification.json",
+      "original_name": "Paper_I_Lean_Checkpoint_146_Delivery_Verification.json",
+      "checkpoint": 146,
+      "size_bytes": 2526,
+      "sha256": "c038774ea304d4e68bfdefdccb4910c128468362580edccef6a9a725f5096c97",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_7aedbe898a248191800c6af0f41da2a3/Paper_I_Lean_Checkpoint_146_Delivery_Verification.json",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.387267+00:00"
+    },
+    {
+      "library_file_id": "libfile_1b86b8886240819196becb2debaa2b59",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_146_New_Lean_Sources.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_146_New_Lean_Sources.zip",
+      "checkpoint": 146,
+      "size_bytes": 54930,
+      "sha256": "4c8db5a4cfe430192bc2328990fc64ff4ae4f19a8924334c5404a3ebf6c12e58",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_1b86b8886240819196becb2debaa2b59/Paper_I_Lean_Checkpoint_146_New_Lean_Sources.zip",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.387393+00:00"
+    },
+    {
+      "library_file_id": "libfile_5b291b6edc0c8191ad087c22b0ee6123",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_Checkpoint_146_Package_Manifest.json",
+      "original_name": "Paper_I_Lean_Checkpoint_146_Package_Manifest.json",
+      "checkpoint": 146,
+      "size_bytes": 1285307,
+      "sha256": "bcadf885e56b52d22c2e2e4deb3ba7e2adbb6e410b290c02a7974fb703c7ebd6",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_5b291b6edc0c8191ad087c22b0ee6123/Paper_I_Lean_Checkpoint_146_Package_Manifest.json",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.388866+00:00"
+    },
+    {
+      "library_file_id": "libfile_ce58e1de097881918cc8b4c945b63a04",
+      "version_id": "2",
+      "library_path": "/Paper_I_Lean_Checkpoint_146_Progress.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_146_Progress.zip",
+      "checkpoint": 146,
+      "size_bytes": 19199855,
+      "sha256": "5cba36ec56264157245417c65dd4c06b8aa69d56276beda90227ab61a3abd6c0",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_ce58e1de097881918cc8b4c945b63a04/Paper_I_Lean_Checkpoint_146_Progress.zip",
+        "release_id": 422682291,
+        "asset_id": 672666674,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_088_aa2ab4a506e0.tar.zst",
+        "asset_sha256": "aa2ab4a506e02053fee999368e10032f6ba2a88e02efe0d5c8fb18d933ad58fe"
+      },
+      "recorded_at": "2026-10-24T15:53:47.426408+00:00"
+    }
+  ],
+  "verification": "All staged originals SHA-256 checked. New backup container downloaded from GitHub; whole container and every stored original checked."
+}

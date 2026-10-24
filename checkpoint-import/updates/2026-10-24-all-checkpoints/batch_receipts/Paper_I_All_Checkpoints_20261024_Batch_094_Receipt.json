@@ -1,0 +1,92 @@
+{
+  "batch": 94,
+  "verified_at": "2026-10-24T16:00:40.632666+00:00",
+  "source_files": 4,
+  "uploader_sha256": "f141a6c5d67b22752d4a1ba134745649a47bbb285b986486a540dab34363fb27",
+  "transport_sha256": "138290200c6db42e403b9a7e4847866e77cf8ffb7a625df7ce0b9a2c4d6c027e",
+  "source_bytes": 602414348,
+  "new_payload_files": 1,
+  "asset": {
+    "id": 672682005,
+    "name": "Paper_I_All_Checkpoints_20261024_Part_094_0679f66d719d.tar.zst",
+    "size": 75301,
+    "state": "uploaded",
+    "digest": "sha256:0679f66d719db33a3441621700324b94b5c02e31d0508927abfa21f80d3ebc8a",
+    "release_id": 422682291
+  },
+  "files": [
+    {
+      "library_file_id": "libfile_90e35ed3695c8191b594cdac44fd9c75",
+      "version_id": null,
+      "library_path": "/Tarry/Paper_I_Lean_Checkpoint_210_Original_Route.tar.zst",
+      "original_name": "Paper_I_Lean_Checkpoint_210_Original_Route.tar.zst",
+      "checkpoint": 210,
+      "size_bytes": 528996113,
+      "sha256": "e88baec2560feecf84093da841667201b8c67678bb31ce6aac3fd69eb34ab7be",
+      "status": "EXISTING_BYTES_MATCHED",
+      "restore_from": {
+        "release_id": 422682291,
+        "asset_id": 672186419,
+        "asset": "Paper_I_Lean_Checkpoint_210_Original_Route.tar.zst",
+        "asset_sha256": "e88baec2560feecf84093da841667201b8c67678bb31ce6aac3fd69eb34ab7be",
+        "member": null
+      },
+      "recorded_at": "2026-10-24T16:00:18.215412+00:00"
+    },
+    {
+      "library_file_id": "libfile_955ca070c8948191a08fdf4cb46743cd",
+      "version_id": null,
+      "library_path": "/Tarry/Paper_I_Lean_Checkpoint_210_Progress_A.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_210_Progress_A.zip",
+      "checkpoint": 210,
+      "size_bytes": 33936290,
+      "sha256": "fb6127fec79ee94e5397207d5aea55c66f53624a39100c0be6f7c44be88c396e",
+      "status": "EXISTING_BYTES_MATCHED",
+      "restore_from": {
+        "release_id": 422682291,
+        "asset_id": 672187623,
+        "asset": "Paper_I_Lean_Checkpoint_210_Progress_A.zip",
+        "asset_sha256": "fb6127fec79ee94e5397207d5aea55c66f53624a39100c0be6f7c44be88c396e",
+        "member": null
+      },
+      "recorded_at": "2026-10-24T16:00:18.315456+00:00"
+    },
+    {
+      "library_file_id": "libfile_4cf3821e96fc8191b011b5db3b4743fb",
+      "version_id": null,
+      "library_path": "/Tarry/Paper_I_Lean_Checkpoint_210_Progress_B.zip",
+      "original_name": "Paper_I_Lean_Checkpoint_210_Progress_B.zip",
+      "checkpoint": 210,
+      "size_bytes": 39387435,
+      "sha256": "b710049eeec64e34fad5c6062a06205531f96af2af62f68e0c81839d65cf2d12",
+      "status": "EXISTING_BYTES_MATCHED",
+      "restore_from": {
+        "release_id": 422682291,
+        "asset_id": 672187718,
+        "asset": "Paper_I_Lean_Checkpoint_210_Progress_B.zip",
+        "asset_sha256": "b710049eeec64e34fad5c6062a06205531f96af2af62f68e0c81839d65cf2d12",
+        "member": null
+      },
+      "recorded_at": "2026-10-24T16:00:18.475645+00:00"
+    },
+    {
+      "library_file_id": "libfile_6afa8172f7848191b2b21df76765197f",
+      "version_id": null,
+      "library_path": "/Tarry/Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+      "original_name": "Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+      "checkpoint": 210,
+      "size_bytes": 94510,
+      "sha256": "2f832321e145c321452a9b7502754c441fd4a66e82a04422c9d7756fdc403db3",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_6afa8172f7848191b2b21df76765197f/Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+        "release_id": 422682291,
+        "asset_id": 672682005,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_094_0679f66d719d.tar.zst",
+        "asset_sha256": "0679f66d719db33a3441621700324b94b5c02e31d0508927abfa21f80d3ebc8a"
+      },
+      "recorded_at": "2026-10-24T16:00:18.476153+00:00"
+    }
+  ],
+  "verification": "All staged originals SHA-256 checked. New backup container downloaded from GitHub; whole container and every stored original checked."
+}

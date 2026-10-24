@@ -1,0 +1,96 @@
+{
+  "status": "ORIGINAL_ARTIFACT_RESTORE_VERIFIED",
+  "verified_at": "2026-10-24T22:11:54.977008+00:00",
+  "checkpoint": 210,
+  "selected_files": 12,
+  "restored_files": 12,
+  "total_bytes": 1017352298,
+  "files": [
+    {
+      "library_file_id": "libfile_8d20f66047088191834ee4ce8abb8540",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Build_Evidence.zip",
+      "size_bytes": 25372837,
+      "sha256": "3585539bd2c74b8f42b30b5a5fcde80314f255cffaf8b375904b63d83f567794",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_49ccba81a2d8819193eb226e95fb8ccb",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Checklist.zip",
+      "size_bytes": 20598544,
+      "sha256": "a16d16e80e9c927adf638c686b10f0c0077800bfcb24665421d9be678182363e",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_0bf8a140f96c8191a24b7364524b980c",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Compiled_Project_Cache.tar.zst",
+      "size_bytes": 206475322,
+      "sha256": "c2ad35ef75ab729d997b8fe8f44c50845f86246e1ec39ce5968690ca6517adf3",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_2394a169caa08191a98c86f7b44ecea4",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Correspondence.md",
+      "size_bytes": 83018,
+      "sha256": "a2b7410cd6bbf1e0f12bb29212475cf30c2c6d0729d14f5b6dc86396d6e3bb34",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_149c7256e6748191927d497be26434de",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Delivery_Verification.json",
+      "size_bytes": 7903,
+      "sha256": "ee65f9820189c6126cdffa3868d250813203d49570c99566d9511b7294e6efe3",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_a04ad37ea8988191a3f31a4670537dd4",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Manifest.json",
+      "size_bytes": 1491531,
+      "sha256": "512813fa81947a46d29c66cc2f24c318d7f1b5b178383b0103d4a8aa61c186c3",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_72537e86c46c8191b5434422beeda235",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_MasterChecklist.json",
+      "size_bytes": 160867135,
+      "sha256": "9a3e6f746828868719b3bdcd0036e9b234041e7c8cd227f527588fec7f9d7a1c",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_17ab3e6f4ad881918c10a3cf3ab11b7e",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_New_Sources.zip",
+      "size_bytes": 41660,
+      "sha256": "ddfde5a1f5f3d22e0fd645d54a12e53b34c91010cdf400a9827e0f870555aa15",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_90e35ed3695c8191b594cdac44fd9c75",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Original_Route.tar.zst",
+      "size_bytes": 528996113,
+      "sha256": "e88baec2560feecf84093da841667201b8c67678bb31ce6aac3fd69eb34ab7be",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_955ca070c8948191a08fdf4cb46743cd",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Progress_A.zip",
+      "size_bytes": 33936290,
+      "sha256": "fb6127fec79ee94e5397207d5aea55c66f53624a39100c0be6f7c44be88c396e",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_4cf3821e96fc8191b011b5db3b4743fb",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Progress_B.zip",
+      "size_bytes": 39387435,
+      "sha256": "b710049eeec64e34fad5c6062a06205531f96af2af62f68e0c81839d65cf2d12",
+      "disk_readback_matched": true
+    },
+    {
+      "library_file_id": "libfile_6afa8172f7848191b2b21df76765197f",
+      "path": "/tmp/checkpoint210-restore-7k4_laf7/restored/Tarry/Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+      "size_bytes": 94510,
+      "sha256": "2f832321e145c321452a9b7502754c441fd4a66e82a04422c9d7756fdc403db3",
+      "disk_readback_matched": true
+    }
+  ],
+  "lean_build_performed": false,
+  "scope": "Original artifact bytes and disk readback; follow original instructions to assemble the Lean project"
+}

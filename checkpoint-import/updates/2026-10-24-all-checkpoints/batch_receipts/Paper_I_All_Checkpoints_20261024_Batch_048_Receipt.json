@@ -1,0 +1,91 @@
+{
+  "batch": 48,
+  "verified_at": "2026-10-24T14:32:18.940031+00:00",
+  "source_files": 4,
+  "uploader_sha256": "f6f8497a1c0d980fe4487afa9514164bc1c9a429564b454d5e6771968f084fc9",
+  "source_bytes": 619124327,
+  "new_payload_files": 4,
+  "asset": {
+    "id": 672478632,
+    "name": "Paper_I_All_Checkpoints_20261024_Part_048_96f676fbed77.tar.zst",
+    "size": 444944852,
+    "state": "uploaded",
+    "digest": "sha256:96f676fbed77d9cea83f7f29576341c0f0cd6157e32160f3181412ec9e970169",
+    "release_id": 422682291
+  },
+  "files": [
+    {
+      "library_file_id": "libfile_96343b79f6348191a9b841d26ad117a3",
+      "version_id": null,
+      "library_path": "/Tarry/Lean_4.19.0_Linux_Recovery.tar.zst",
+      "original_name": "Lean_4.19.0_Linux_Recovery.tar.zst",
+      "checkpoint": null,
+      "size_bytes": 343842845,
+      "sha256": "6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_96343b79f6348191a9b841d26ad117a3/Lean_4.19.0_Linux_Recovery.tar.zst",
+        "release_id": 422682291,
+        "asset_id": 672478632,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_048_96f676fbed77.tar.zst",
+        "asset_sha256": "96f676fbed77d9cea83f7f29576341c0f0cd6157e32160f3181412ec9e970169"
+      },
+      "recorded_at": "2026-10-24T14:30:42.868600+00:00"
+    },
+    {
+      "library_file_id": "libfile_c189a2ba26e481919ee2de4ec199396c",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_CAD_Route_Progress_2026-10-15.zip",
+      "original_name": "Paper_I_Lean_CAD_Route_Progress_2026-10-15.zip",
+      "checkpoint": null,
+      "size_bytes": 136110415,
+      "sha256": "60df068880db987ef2b9e6d0b40fe49404b4c9ea36eb34b93f611d5b708eddbd",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_c189a2ba26e481919ee2de4ec199396c/Paper_I_Lean_CAD_Route_Progress_2026-10-15.zip",
+        "release_id": 422682291,
+        "asset_id": 672478632,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_048_96f676fbed77.tar.zst",
+        "asset_sha256": "96f676fbed77d9cea83f7f29576341c0f0cd6157e32160f3181412ec9e970169"
+      },
+      "recorded_at": "2026-10-24T14:30:43.268809+00:00"
+    },
+    {
+      "library_file_id": "libfile_5523911e37148191896015c7096a0761",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_CAD_Route_Project_2026-10-15.zip",
+      "original_name": "Paper_I_Lean_CAD_Route_Project_2026-10-15.zip",
+      "checkpoint": null,
+      "size_bytes": 139067333,
+      "sha256": "3723ba9f253fa17cfccd1914dba843fc27b8de1c17b144bb9143e93a1cd12c7a",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_5523911e37148191896015c7096a0761/Paper_I_Lean_CAD_Route_Project_2026-10-15.zip",
+        "release_id": 422682291,
+        "asset_id": 672478632,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_048_96f676fbed77.tar.zst",
+        "asset_sha256": "96f676fbed77d9cea83f7f29576341c0f0cd6157e32160f3181412ec9e970169"
+      },
+      "recorded_at": "2026-10-24T14:30:44.061640+00:00"
+    },
+    {
+      "library_file_id": "libfile_f8134c62bea48191b57f5ab0c66eee6d",
+      "version_id": null,
+      "library_path": "/Paper_I_Lean_CAD_Route_Report_2026-10-15.pdf",
+      "original_name": "Paper_I_Lean_CAD_Route_Report_2026-10-15.pdf",
+      "checkpoint": null,
+      "size_bytes": 103734,
+      "sha256": "6a237b82c1bb7c93b220950a99f2a6387318f6759258a9d38cd2469a6e6691df",
+      "status": "NEW_REMOTE_BYTES_VERIFIED",
+      "restore_from": {
+        "member": "originals/libfile_f8134c62bea48191b57f5ab0c66eee6d/Paper_I_Lean_CAD_Route_Report_2026-10-15.pdf",
+        "release_id": 422682291,
+        "asset_id": 672478632,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_048_96f676fbed77.tar.zst",
+        "asset_sha256": "96f676fbed77d9cea83f7f29576341c0f0cd6157e32160f3181412ec9e970169"
+      },
+      "recorded_at": "2026-10-24T14:30:44.065385+00:00"
+    }
+  ],
+  "verification": "All staged originals SHA-256 checked. New backup container downloaded from GitHub; whole container and every stored original checked."
+}

@@ -1,0 +1,75 @@
+{
+  "status": "ALL_INVENTORIED_ORIGINALS_REMOTE_CATALOG_AUDITED",
+  "checked_at": "2026-10-24T22:11:56.206978+00:00",
+  "files": 1087,
+  "original_bytes": 50541139865,
+  "batches": 94,
+  "all_94_receipts_freshly_downloaded_and_SHA256_matched": true,
+  "inventory_freshly_downloaded_and_SHA256_matched": true,
+  "source_coverage_exactly_once": true,
+  "all_restore_asset_digests_match": true,
+  "preexisting_assets_unchanged": 44,
+  "restore_tests": [
+    149,
+    152,
+    210
+  ],
+  "new_restore_test": 210,
+  "same_name_variants": [
+    {
+      "name": "Paper_I_Lean_Checkpoint_116_Progress.zip",
+      "inventoried_sha256": "26c99ea8390662927436b640d80bdcacf6aca466bdc2d931fdec155eae24b9c1",
+      "inventoried_size": 7380541,
+      "inventoried_restore": {
+        "member": "originals/libfile_950d60ba874c8191ba543b113dc9a5b4/Paper_I_Lean_Checkpoint_116_Progress.zip",
+        "release_id": 422682291,
+        "asset_id": 672502346,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_060_1fe1feed6b90.tar.zst",
+        "asset_sha256": "1fe1feed6b907f58be5972e74dd62ec392f6fc8e3bae7c0a17db1f8fd3d15437"
+      },
+      "preserved_variant": {
+        "id": 641880174,
+        "name": "Paper_I_Lean_Checkpoint_116_Progress.zip",
+        "size": 4327720,
+        "state": "uploaded",
+        "digest": "sha256:9940e0e35a4d68c03974381988dd071721d1359cc12cf45e757183d5ff129785",
+        "release_id": 413240377
+      },
+      "fresh_variant_readback_matched": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+      "inventoried_sha256": "2f832321e145c321452a9b7502754c441fd4a66e82a04422c9d7756fdc403db3",
+      "inventoried_size": 94510,
+      "inventoried_restore": {
+        "member": "originals/libfile_6afa8172f7848191b2b21df76765197f/Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+        "release_id": 422682291,
+        "asset_id": 672682005,
+        "asset": "Paper_I_All_Checkpoints_20261024_Part_094_0679f66d719d.tar.zst",
+        "asset_sha256": "0679f66d719db33a3441621700324b94b5c02e31d0508927abfa21f80d3ebc8a"
+      },
+      "preserved_variant": {
+        "id": 672187563,
+        "name": "Paper_I_Lean_Checkpoint_210_Verification_Report.pdf",
+        "size": 69539,
+        "state": "uploaded",
+        "digest": "sha256:cfc960a47c9b24f76d3f3b673ee85db27a7030a2e34f82aaba9c7cdb3f862e6d",
+        "release_id": 422682291
+      },
+      "fresh_variant_readback_matched": true
+    }
+  ],
+  "historical_unconfirmed_checkpoints": [
+    72,
+    73,
+    74,
+    75
+  ],
+  "progress_only_checkpoint": 109,
+  "manuscript_or_Lean_modified": false,
+  "new_Lean_build_or_axiom_audit": false,
+  "mathematical_verification": "INCOMPLETE",
+  "execution_url": "https://github.com/jaehwoo/lean-checkpoint-backup/actions/runs/40137426186",
+  "local_state_loss": "Original workspace regular files became unavailable after uploader exited with code 0; cause not established. Final ledger was reconstructed from preserved GitHub receipt bytes, not recreated console logs.",
+  "byte_verification_scope": "Saved batch receipts record original SHA256 checks and fresh download/member verification for new containers. This final audit checks every receipt and remote restore digest, and freshly restores checkpoint 210. Earlier successful restore receipts for 149/152 are preserved."
+}
