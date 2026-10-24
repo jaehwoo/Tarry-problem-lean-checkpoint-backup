@@ -1,0 +1,40 @@
+{
+  "status": "GIT_CONTENTS_READ_BACK_MATCH_AND_EARLIER_ASSET_METADATA_UNCHANGED",
+  "checked_commit": "bc099fde49ac430ee325d3f167888f3772b2542a",
+  "repository": "jaehwoo/lean-checkpoint-backup",
+  "repository_id": 1417233863,
+  "visibility_at_check": "private",
+  "files": [
+    {
+      "path": "checkpoint-import/updates/2026-10-24-through-210/README.md",
+      "matched": true,
+      "git_blob_sha": "a198af6bc611cf0e85856a557cbf7b8fc996e9dd"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-24-through-210/SOURCE_INVENTORY.json",
+      "matched": true,
+      "git_blob_sha": "6b888bcb72327c60d3dd2918f902303d790e11bf"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-24-through-210/CHECKPOINT210_REMOTE_VERIFICATION.json",
+      "matched": true,
+      "git_blob_sha": "b20667f20d883f002ea83ca77327dfdfcbdb12d6"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-24-through-210/EXISTING_RELEASE_ASSETS.json",
+      "matched": true,
+      "git_blob_sha": "a1a28887327116665b0c9802009c9fcef4a7f532"
+    },
+    {
+      "path": "checkpoint-import/updates/2026-10-24-through-210/Paper_I_Lean_Checkpoint_210_Correspondence.md",
+      "matched": true,
+      "git_blob_sha": "44ef701c61f7fdd6e2f4c038fd802c49c6283398"
+    }
+  ],
+  "existing_release_assets_checked": 32,
+  "existing_asset_metadata_unchanged": true,
+  "checkpoint210_asset_count": 12,
+  "checkpoint210_asset_bytes": 1017327327,
+  "backup_all_checkpoints_complete": false,
+  "limitation": "Historical standalone files beyond those already held on GitHub remain unreconciled; browser unavailable after upload, state retrieval, and one runtime-reset timeout. No new remote byte download/restore test."
+}
