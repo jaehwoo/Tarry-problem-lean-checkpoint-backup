@@ -1,10 +1,6 @@
 name: Package verified checkpoint 211
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'checkpoint-import/updates/2026-10-25-checkpoint211/final/**'
 permissions:
   contents: write
 jobs:

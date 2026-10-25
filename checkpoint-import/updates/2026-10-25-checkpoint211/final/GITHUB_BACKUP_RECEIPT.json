@@ -1,0 +1,83 @@
+{
+  "checkpoint": 211,
+  "repository": "jaehwoo/lean-checkpoint-backup",
+  "release_id": 422682291,
+  "all_artifacts_read_back": true,
+  "full_project_preserves_all_parent_members": true,
+  "assets": [
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_Build_Evidence.zip",
+      "bytes": 70774231,
+      "sha256": "2f84b7c661ea3c132e4f08e9098c0ed51c2094b7516490dba36ae24f16984247",
+      "asset_id": 673638264,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_Build_Evidence.zip",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_Checklist.zip",
+      "bytes": 26886120,
+      "sha256": "91a2db7ef7a90a1dca91d18c47271451a29b84b37017f21a9144dab8e7e9f945",
+      "asset_id": 673638486,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_Checklist.zip",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_Correspondence.md",
+      "bytes": 162862,
+      "sha256": "fe02d09d734067be05d536b3253ba997e1b5b8b0eb5ed1802f571891e41084bc",
+      "asset_id": 673638555,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_Correspondence.md",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_Manifest.json",
+      "bytes": 1507283,
+      "sha256": "0026afe77bb21097567019f0d4b5c4a36ff01655d993ff6db857274297137a0a",
+      "asset_id": 673638569,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_Manifest.json",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_New_Lean_Sources.zip",
+      "bytes": 113519,
+      "sha256": "54827e3f31aef5cbce0a8ae235c0e3843e3589c0aa248b7b709a638226ae840c",
+      "asset_id": 673638610,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_New_Lean_Sources.zip",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_Original_Route.tar.zst",
+      "bytes": 543492223,
+      "sha256": "8b184856e286286efcf72fdca836c74b77908d114a0e7f69bbfd961e9a737eb7",
+      "asset_id": 673638648,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_Original_Route.tar.zst",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_Packaging_Receipt.json",
+      "bytes": 1639,
+      "sha256": "fdeb6bde15ebabe1744bd316d24d7e9bc491e8c13a8edc08ec2b28f7406c84a6",
+      "asset_id": 673639628,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_Packaging_Receipt.json",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_Verification_Summary.json",
+      "bytes": 1187220,
+      "sha256": "dd2243f4d1b6f7102267d292b9ba7749e36e13c9efddfb6e9a489a1ea8f311cb",
+      "asset_id": 673639709,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_Verification_Summary.json",
+      "fresh_download_verified": true
+    },
+    {
+      "name": "Paper_I_Lean_Checkpoint_211_SHA256SUMS.txt",
+      "bytes": 793,
+      "sha256": "ebd0558d0db44db6277827ed0d964af90cc62cb1804c4adf45538b83b85e0ff5",
+      "asset_id": 673639761,
+      "url": "https://github.com/jaehwoo/lean-checkpoint-backup/releases/download/untagged-5b530f3801cc70192ca2/Paper_I_Lean_Checkpoint_211_SHA256SUMS.txt",
+      "fresh_download_verified": true
+    }
+  ],
+  "proof_verification": "Recorded local Lean4.19.0 runs; this workflow checks reconstruction, transfer and restore integrity only.",
+  "verification_complete": false
+}
