@@ -1,0 +1,39 @@
+name: Package verified checkpoint 211
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'checkpoint-import/updates/2026-10-25-checkpoint211/final/**'
+permissions:
+  contents: write
+jobs:
+  package:
+    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Package and back up verified checkpoint 211'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Prepare archive reader
+        run: |
+          python3 -m venv /tmp/checkpoint211-venv
+          /tmp/checkpoint211-venv/bin/pip install zstandard==0.25.0
+      - name: Reconstruct, verify and back up the saved checkpoint
+        run: |
+          /tmp/checkpoint211-venv/bin/python -u checkpoint-import/updates/2026-10-25-checkpoint211/final/checkpoint211_publish.py 2>&1 | tee checkpoint211_packaging.log
+      - name: Save packaging and upload receipts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: checkpoint211-packaging-evidence
+          path: |
+            checkpoint211_packaging.log
+            checkpoint-import/updates/2026-10-25-checkpoint211/final/delivery/Paper_I_Lean_Checkpoint_211_GitHub_Receipt.json
+            checkpoint-import/updates/2026-10-25-checkpoint211/final/delivery/Paper_I_Lean_Checkpoint_211_Packaging_Receipt.json
+            checkpoint-import/updates/2026-10-25-checkpoint211/final/delivery/Paper_I_Lean_Checkpoint_211_SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 90
