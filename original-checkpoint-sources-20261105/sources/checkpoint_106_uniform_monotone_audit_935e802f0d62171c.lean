@@ -1,0 +1,28 @@
+import PaperILean.PublishedFormatMonotoneCuts
+
+set_option pp.proofs false
+
+#print PaperI.scalar_bad_fiber_eq_monotonicityBadSet
+#print axioms PaperI.scalar_bad_fiber_eq_monotonicityBadSet
+
+#print PaperI.published_uniform_monotone_cut_sets
+#print axioms PaperI.published_uniform_monotone_cut_sets
+
+#print PaperI.published_uniform_common_monotone_partition
+#print axioms PaperI.published_uniform_common_monotone_partition
+
+#print PaperI.published_uniform_graph_family_variation
+#print axioms PaperI.published_uniform_graph_family_variation
+
+#print PaperI.published_bounded_tuple_monotone_cut_sets
+#print axioms PaperI.published_bounded_tuple_monotone_cut_sets
+
+#print PaperI.published_bounded_sign_format_monotone_cut_sets
+#print axioms PaperI.published_bounded_sign_format_monotone_cut_sets
+
+#print PaperI.published_bounded_sign_format_common_partition
+#print axioms PaperI.published_bounded_sign_format_common_partition
+
+#print PaperI.published_bounded_sign_format_variation
+#print axioms PaperI.published_bounded_sign_format_variation
+

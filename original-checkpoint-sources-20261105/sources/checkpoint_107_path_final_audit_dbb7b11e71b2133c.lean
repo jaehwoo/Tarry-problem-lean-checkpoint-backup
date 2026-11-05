@@ -1,0 +1,110 @@
+import PaperILean.PublishedBoundedAnalyticPaths
+set_option pp.universes false
+#check PaperI.unitPathGraph
+#print axioms PaperI.unitPathGraph
+#check PaperI.SemialgebraicUnitPath
+#print axioms PaperI.SemialgebraicUnitPath
+#check PaperI.SemialgebraicUnitPath.source_mem
+#print axioms PaperI.SemialgebraicUnitPath.source_mem
+#check PaperI.SemialgebraicUnitPath.target_mem
+#print axioms PaperI.SemialgebraicUnitPath.target_mem
+#check PaperI.unitPathGraph_mem_iff
+#print axioms PaperI.unitPathGraph_mem_iff
+#check PaperI.SemialgebraicUnitPath.comp_continuousOn
+#print axioms PaperI.SemialgebraicUnitPath.comp_continuousOn
+#check PaperI.SemialgebraicUnitPath.comp_range_bound
+#print axioms PaperI.SemialgebraicUnitPath.comp_range_bound
+#check PaperI.ProjectionHardtData.chartGraph
+#print axioms PaperI.ProjectionHardtData.chartGraph
+#check PaperI.CompatibleProjectionHardtData
+#print axioms PaperI.CompatibleProjectionHardtData
+#check PaperI.endpointGraph
+#print axioms PaperI.endpointGraph
+#check PaperI.CompatibleProjectionHardtData.referenceEndpoint
+#print axioms PaperI.CompatibleProjectionHardtData.referenceEndpoint
+#check PaperI.CompatibleProjectionHardtData.chart_endpoint
+#print axioms PaperI.CompatibleProjectionHardtData.chart_endpoint
+#check PaperI.ProjectionHardtData.transportPath
+#print axioms PaperI.ProjectionHardtData.transportPath
+#check PaperI.ProjectionHardtData.transportPath_eq
+#print axioms PaperI.ProjectionHardtData.transportPath_eq
+#check PaperI.ProjectionHardtData.transportPath_mapsTo
+#print axioms PaperI.ProjectionHardtData.transportPath_mapsTo
+#check PaperI.ProjectionHardtData.transportPath_continuousOn
+#print axioms PaperI.ProjectionHardtData.transportPath_continuousOn
+#check PaperI.CompatibleProjectionHardtData.transportPath_endpoints
+#print axioms PaperI.CompatibleProjectionHardtData.transportPath_endpoints
+#check PaperI.liftedUnitPathGraph
+#print axioms PaperI.liftedUnitPathGraph
+#check PaperI.liftedUnitPathGraph_definable
+#print axioms PaperI.liftedUnitPathGraph_definable
+#check PaperI.hardtTransportGraph
+#print axioms PaperI.hardtTransportGraph
+#check PaperI.hardtTransportGraph_definable
+#print axioms PaperI.hardtTransportGraph_definable
+#check PaperI.hardtTransportGraph_mem_iff
+#print axioms PaperI.hardtTransportGraph_mem_iff
+#check PaperI.hardtPathGraphUnion
+#print axioms PaperI.hardtPathGraphUnion
+#check PaperI.hardtPathGraphUnion_definable
+#print axioms PaperI.hardtPathGraphUnion_definable
+#check PaperI.hardtPathGraphUnion_fiber
+#print axioms PaperI.hardtPathGraphUnion_fiber
+#check PaperI.CompatibleProjectionHardtData.uniform_path_sign_format
+#print axioms PaperI.CompatibleProjectionHardtData.uniform_path_sign_format
+#check PaperI.ConnectedHardtIndex
+#print axioms PaperI.ConnectedHardtIndex
+#check PaperI.instFintypeConnectedHardtIndex
+#print axioms PaperI.instFintypeConnectedHardtIndex
+#check PaperI.ProjectionHardtData.reference_preconnected
+#print axioms PaperI.ProjectionHardtData.reference_preconnected
+#check PaperI.connectedHardtPathGraphUnion
+#print axioms PaperI.connectedHardtPathGraphUnion
+#check PaperI.connectedHardtPathGraphUnion_definable
+#print axioms PaperI.connectedHardtPathGraphUnion_definable
+#check PaperI.connectedHardtPathGraphUnion_fiber
+#print axioms PaperI.connectedHardtPathGraphUnion_fiber
+#check PaperI.CompatibleProjectionHardtData.uniform_connected_path_sign_format
+#print axioms PaperI.CompatibleProjectionHardtData.uniform_connected_path_sign_format
+#check PaperI.PublishedSemialgebraicPathConnectedness
+#print axioms PaperI.PublishedSemialgebraicPathConnectedness
+#check PaperI.PublishedCompatibleSemialgebraicHardtTriviality
+#print axioms PaperI.PublishedCompatibleSemialgebraicHardtTriviality
+#check PaperI.published_marked_family_uniform_path_format
+#print axioms PaperI.published_marked_family_uniform_path_format
+#check PaperI.published_bounded_tuple_path_format
+#print axioms PaperI.published_bounded_tuple_path_format
+#check PaperI.published_bounded_sign_format_paths
+#print axioms PaperI.published_bounded_sign_format_paths
+#check PaperI.published_bounded_sign_format_piecewise_analytic_paths
+#print axioms PaperI.published_bounded_sign_format_piecewise_analytic_paths
+#check PaperI.SemialgebraicUnitPath.mk
+#print axioms PaperI.SemialgebraicUnitPath.mk
+#check PaperI.SemialgebraicUnitPath.toFun
+#print axioms PaperI.SemialgebraicUnitPath.toFun
+#check PaperI.SemialgebraicUnitPath.continuousOn
+#print axioms PaperI.SemialgebraicUnitPath.continuousOn
+#check PaperI.SemialgebraicUnitPath.mapsTo
+#print axioms PaperI.SemialgebraicUnitPath.mapsTo
+#check PaperI.SemialgebraicUnitPath.source
+#print axioms PaperI.SemialgebraicUnitPath.source
+#check PaperI.SemialgebraicUnitPath.target
+#print axioms PaperI.SemialgebraicUnitPath.target
+#check PaperI.SemialgebraicUnitPath.semialgebraic
+#print axioms PaperI.SemialgebraicUnitPath.semialgebraic
+#check PaperI.CompatibleProjectionHardtData.mk
+#print axioms PaperI.CompatibleProjectionHardtData.mk
+#check PaperI.CompatibleProjectionHardtData.toProjectionHardtData
+#print axioms PaperI.CompatibleProjectionHardtData.toProjectionHardtData
+#check PaperI.CompatibleProjectionHardtData.chart_semialgebraic
+#print axioms PaperI.CompatibleProjectionHardtData.chart_semialgebraic
+#check PaperI.CompatibleProjectionHardtData.compatible
+#print axioms PaperI.CompatibleProjectionHardtData.compatible
+#check PaperI.PublishedSemialgebraicPathConnectedness.mk
+#print axioms PaperI.PublishedSemialgebraicPathConnectedness.mk
+#check PaperI.PublishedSemialgebraicPathConnectedness.path
+#print axioms PaperI.PublishedSemialgebraicPathConnectedness.path
+#check PaperI.PublishedCompatibleSemialgebraicHardtTriviality.mk
+#print axioms PaperI.PublishedCompatibleSemialgebraicHardtTriviality.mk
+#check PaperI.PublishedCompatibleSemialgebraicHardtTriviality.projection_trivialization
+#print axioms PaperI.PublishedCompatibleSemialgebraicHardtTriviality.projection_trivialization

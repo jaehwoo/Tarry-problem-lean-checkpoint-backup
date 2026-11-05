@@ -1,0 +1,1248 @@
+{
+  "sources": [
+    {
+      "path": "sources/001_dimension_cell_obstructions_0_76a399692aded08c.lean",
+      "sha256": "76a399692aded08c07724ad73f896e0399e16aad4bc6c79a27e7167def8d5bf1",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/001_dimension_cell_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/001_graph_composition_obstructions_0_0551fcff7d00c28c.lean",
+      "sha256": "0551fcff7d00c28c13edc495fd424e8ecc7387fb19cbe38edb2269339cbeca2b",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/001_graph_composition_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/001_prenex_obstructions_0_327dc1866d62e5f7.lean",
+      "sha256": "327dc1866d62e5f75c0e5c8c4e928a4c8dcf71ad3e6739aa0389e6cc366b9631",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/001_prenex_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/002_dimension_cell_obstructions_fixed_0_57d276320e2098ce.lean",
+      "sha256": "57d276320e2098ce31f488022bfefa09282f4820759fa47580c3490f22f5312c",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/002_dimension_cell_obstructions_fixed_0.lean"
+      ]
+    },
+    {
+      "path": "sources/002_prenex_obstructions_fixed_0_d1fac96e020081b0.lean",
+      "sha256": "d1fac96e020081b0837111826d9e198874f83c31e94982f76eed38a9f7a04d70",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/002_prenex_obstructions_fixed_0.lean"
+      ]
+    },
+    {
+      "path": "sources/002_regular_fiber_prestrategy_0_971e47fe233e0af4.lean",
+      "sha256": "971e47fe233e0af4ec2b434ae699b067582d33716df703ba0b570e3eb4e17dfb",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/002_regular_fiber_prestrategy_0.lean"
+      ]
+    },
+    {
+      "path": "sources/003_JointParameterVolume_d32b9c3c2ac0f4ec.lean",
+      "sha256": "d32b9c3c2ac0f4eca18869ab3a8c72c8b95dc8f5b8292c061ab7471fb3aa373f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/003_JointParameterVolume.lean"
+      ]
+    },
+    {
+      "path": "sources/003_RingTermPolynomial_a05a68be64b728c2.lean",
+      "sha256": "a05a68be64b728c2a0965734b098fca4d97ca0dafa4ffcedb7652cbf12288d5f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/003_RingTermPolynomial.lean"
+      ]
+    },
+    {
+      "path": "sources/003_regular_fiber_prestrategy_fixed_0_bcaf81b421ddfd8b.lean",
+      "sha256": "bcaf81b421ddfd8b5c065980940b755e58e5b6caa7baeef948a23f96bc7f6398",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/003_regular_fiber_prestrategy_fixed_0.lean"
+      ]
+    },
+    {
+      "path": "sources/003_uniform_conditioning_obstructions_0_211a26c9a3518515.lean",
+      "sha256": "211a26c9a3518515c753035540da43fd4dfd4669ae8965e91c4a7550c5d6b513",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/003_uniform_conditioning_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/004_GeometricSemialgebraicDimension_ae17478a27cdba04.lean",
+      "sha256": "ae17478a27cdba04cabc278454ebc9433d4a4a52b2160a0b6f4b335b3dd1de07",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/004_GeometricSemialgebraicDimension.lean"
+      ]
+    },
+    {
+      "path": "sources/004_RegularCoefficientInjectivePartition_ea6859f26717e713.lean",
+      "sha256": "ea6859f26717e713b2c26df17fa0b0439c34d0d99577a31c80e3ef414ad3d2c4",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/004_RegularCoefficientInjectivePartition.lean"
+      ]
+    },
+    {
+      "path": "sources/004_RingTermPolynomial_7cb4bf14b5c60689.lean",
+      "sha256": "7cb4bf14b5c60689a1b204bc9193bc09de1391e0f0ad1e42a39153b42e2333ac",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/004_RingTermPolynomial.lean"
+      ]
+    },
+    {
+      "path": "sources/005_CommonMonotonePartition_80944da9db7ac1ec.lean",
+      "sha256": "80944da9db7ac1ec4b91f5b319b3204cb413ff1cc764060b27d855000f0f8d08",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/005_CommonMonotonePartition.lean"
+      ]
+    },
+    {
+      "path": "sources/006_derivative_epsilon_draft_0_38b8dff5bb41602f.lean",
+      "sha256": "38b8dff5bb41602f9fe846f4d57dbca1c2bc4988c831bd881e11956e6206e688",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/006_derivative_epsilon_draft_0.lean"
+      ]
+    },
+    {
+      "path": "sources/006_uniform_conditioning_obstructions_fixed_0_3826104926b66222.lean",
+      "sha256": "3826104926b66222e3fbfce6394a9d26eb7cf62960d0e796ca5b4d8cedb5a9bf",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/006_uniform_conditioning_obstructions_fixed_0.lean"
+      ]
+    },
+    {
+      "path": "sources/007_FiniteMultiplicityMeasure_bda03fbe5fba07d7.lean",
+      "sha256": "bda03fbe5fba07d70ba51ed13d45523ba5c4759c1a06f741a4c6706971d63890",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/007_FiniteMultiplicityMeasure.lean"
+      ]
+    },
+    {
+      "path": "sources/007_RegularCoefficientInjectivePartition_e83f4cd3f2269389.lean",
+      "sha256": "e83f4cd3f22693899cfd45ec3de377d0ba4b4d10df38e0b0d0c9487f56162018",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/007_RegularCoefficientInjectivePartition.lean"
+      ]
+    },
+    {
+      "path": "sources/007_jet_norm_volume_obstructions_0_0fd4255ba2df01f9.lean",
+      "sha256": "0fd4255ba2df01f96db1992b03bee0da2be141bb8fe96ec74baf532ed6cd04aa",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/007_jet_norm_volume_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/007_uniform_conditioning_obstructions_final_0_924f37bf0fdcec39.lean",
+      "sha256": "924f37bf0fdcec39badead379ff821e60531fa10b5a472f246a42e0636bd9ee3",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/007_uniform_conditioning_obstructions_final_0.lean"
+      ]
+    },
+    {
+      "path": "sources/008_FiniteMonotoneVariation_9bdfc98273d1f811.lean",
+      "sha256": "9bdfc98273d1f811ba9543a79a3bac1d46e475a7caaf38d96c26798934fb9fcf",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/008_FiniteMonotoneVariation.lean"
+      ]
+    },
+    {
+      "path": "sources/008_RingQuantifierFreeMatrix_f59fb72c9553c7f3.lean",
+      "sha256": "f59fb72c9553c7f32430f41f6f446d45e57043e73a3d73a6837e8eb0e23ee460",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/008_RingQuantifierFreeMatrix.lean"
+      ]
+    },
+    {
+      "path": "sources/008_jet_norm_volume_obstructions_fixed_0_bcfd4001f131287d.lean",
+      "sha256": "bcfd4001f131287def0b61cda488507784ecfafcb1fa4c993415bf1f09a50399",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/008_jet_norm_volume_obstructions_fixed_0.lean"
+      ]
+    },
+    {
+      "path": "sources/010_MarkedHardtPathTransport_6bfe64510aafee9d.lean",
+      "sha256": "6bfe64510aafee9d1a97594db452c7e08efa4dbe407d2e69805464016f65d8f3",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/010_MarkedHardtPathTransport.lean"
+      ]
+    },
+    {
+      "path": "sources/010_QuantifiedPolynomialFormat_4ad5b11601dbc2c5.lean",
+      "sha256": "4ad5b11601dbc2c525c00fe1116892dc4fe6ef94404680156dd15cf70e703c35",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/010_QuantifiedPolynomialFormat.lean"
+      ]
+    },
+    {
+      "path": "sources/011_FiniteMultiplicityMeasure_12476dfb22b645d4.lean",
+      "sha256": "12476dfb22b645d493c10fb4aadab55f5f7ea776602ec94b6a8bd279f49ee3f8",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/011_FiniteMultiplicityMeasure.lean"
+      ]
+    },
+    {
+      "path": "sources/011_HigherJetNormWindow_b4124e6788a0d7db.lean",
+      "sha256": "b4124e6788a0d7dbc2dc89284de0d025e97e53d8dbeb3806b2ccf0eddd2ad368",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/011_HigherJetNormWindow.lean"
+      ]
+    },
+    {
+      "path": "sources/011_RegularCoefficientInjectivePartition_56bce6707437971e.lean",
+      "sha256": "56bce6707437971e54f0c3fae6e3151fa7750d01ac7449da6995f3a323d63c4f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/011_RegularCoefficientInjectivePartition.lean"
+      ]
+    },
+    {
+      "path": "sources/012_PublishedSemialgebraicCellDecomposition_964622fe600d409a.lean",
+      "sha256": "964622fe600d409a9c332eaf705f09d4ea1d99088b24ea40641ca11b2944ed9d",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/012_PublishedSemialgebraicCellDecomposition.lean"
+      ]
+    },
+    {
+      "path": "sources/012_raw_uniform_prestrategy_0_7c67c190d7410e74.lean",
+      "sha256": "7c67c190d7410e74f2d5be9951ed314cc742d1f49c0d1bc1fbf383d2e9e44fd1",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/012_raw_uniform_prestrategy_0.lean"
+      ]
+    },
+    {
+      "path": "sources/012_regular_polynomial_prestrategy_0_c94da2dc905b10d4.lean",
+      "sha256": "c94da2dc905b10d4749e0a767ad8843b0c7175953a5417d02155aa736abecd17",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/012_regular_polynomial_prestrategy_0.lean"
+      ]
+    },
+    {
+      "path": "sources/013_jet_norm_api_0_e5d613ec28043937.lean",
+      "sha256": "e5d613ec280439377e5613152d476796e47ce2611e8db3c9ec689d63f506d0a4",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/013_jet_norm_api_0.lean"
+      ]
+    },
+    {
+      "path": "sources/013_raw_uniform_prestrategy_fixed_0_43778b10fe85ed51.lean",
+      "sha256": "43778b10fe85ed51beaf3e95ebc6f131178cb6145f7bb0f591b2081e52df74d5",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/013_raw_uniform_prestrategy_fixed_0.lean"
+      ]
+    },
+    {
+      "path": "sources/014_FiniteMonotoneVariation_33ba442ebdaf5558.lean",
+      "sha256": "33ba442ebdaf55583f5984f8fcac31aaa6bbf4f5c95b6d7cdbf9ad2d8e1b287b",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/014_FiniteMonotoneVariation.lean"
+      ]
+    },
+    {
+      "path": "sources/014_GraphDerivativeDefinability_13a1e08de4e5fd4c.lean",
+      "sha256": "13a1e08de4e5fd4c96bdb25f9ecf5783010f4cb11fdde551981d661dc2c30b6f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/014_GraphDerivativeDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/015_raw_uniform_prestrategy_final_0_30a62d6a235a1d67.lean",
+      "sha256": "30a62d6a235a1d675b1e60b4288a1f791f0768937a82ea2ec2f9595752706cf7",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/015_raw_uniform_prestrategy_final_0.lean"
+      ]
+    },
+    {
+      "path": "sources/016_FiniteMultiplicityVolume_c8f8f5b6c48cafb0.lean",
+      "sha256": "c8f8f5b6c48cafb0694d16e462f2bc0c97674b30e9671e88956d56e857482595",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/016_FiniteMultiplicityVolume.lean"
+      ]
+    },
+    {
+      "path": "sources/016_regular_polynomial_prestrategy_fixed_0_45f26ab7247c3ffe.lean",
+      "sha256": "45f26ab7247c3ffe2b7de49ce7f49fd5518b01bffb684422900640e0912544e9",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/016_regular_polynomial_prestrategy_fixed_0.lean"
+      ]
+    },
+    {
+      "path": "sources/016_ring_compiler_audit_0_dc5269aaeb5e4b0f.lean",
+      "sha256": "dc5269aaeb5e4b0f540c64ae19e22502c3626b9a60343b2783d4ac0bf69e03bb",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/016_ring_compiler_audit_0.lean"
+      ]
+    },
+    {
+      "path": "sources/017_GraphMonotonicityDefinability_f0ef0027a5ca661c.lean",
+      "sha256": "f0ef0027a5ca661cc3386b7b169f2b5b81e0a4983244907cc7a111ae1136e605",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/017_GraphMonotonicityDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/017_MarkedHardtPathTransport_2b0e39f719550777.lean",
+      "sha256": "2b0e39f719550777e78cf455376a58d4591befbf1b43c8c7d0d53ee9ca75f9c9",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/017_MarkedHardtPathTransport.lean"
+      ]
+    },
+    {
+      "path": "sources/018_RegularCoefficientFiberPolynomial_9e7541e1c0538c44.lean",
+      "sha256": "9e7541e1c0538c4420513afae95ecefb6fd684e7e122886e8a717036189d267d",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/018_RegularCoefficientFiberPolynomial.lean"
+      ]
+    },
+    {
+      "path": "sources/019_GraphDerivativeDefinability_6c0844329a07806b.lean",
+      "sha256": "6c0844329a07806bf0c5083bf50d850339e69d80d9d59382059bef8247796d11",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/019_GraphDerivativeDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/019_HigherJetNormWindow_d410e0fd0d0b9a1f.lean",
+      "sha256": "d410e0fd0d0b9a1fc1125a9b87f1714025cc59da8685c1cdd6caa33330b1e47c",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/019_HigherJetNormWindow.lean"
+      ]
+    },
+    {
+      "path": "sources/019_geometric_fiber_audit_0_f7d2a93851393b1a.lean",
+      "sha256": "f7d2a93851393b1ae4092343a74d20882cdd23047fc2a0b2d53cb57a4cdf4b33",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/019_geometric_fiber_audit_0.lean"
+      ]
+    },
+    {
+      "path": "sources/020_SelectedGraphMeasurability_e5ba4546ed727729.lean",
+      "sha256": "e5ba4546ed727729c2c181105a0cb5d732126954ccb5074a94c9fda69f35cc41",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/020_SelectedGraphMeasurability.lean"
+      ]
+    },
+    {
+      "path": "sources/020_raw_prenex_audit_0132c482f79f936a.lean",
+      "sha256": "0132c482f79f936a3f7644519786bf4f0f9b0ca25b10029dcd1f3a0ea17e44a1",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/020_raw_prenex_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/021_GraphMonotonicityDefinability_6ed4a087429ac636.lean",
+      "sha256": "6ed4a087429ac636bc1fe8938854da98f0bc9691e3f7d3ca743100eb19bece84",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/021_GraphMonotonicityDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/022_PublishedRawFormulaConditioning_14d50465294ccde0.lean",
+      "sha256": "14d50465294ccde01c1e1c5964eb58cc4082fbbd4e6f2956c60a91741943a8fa",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/022_PublishedRawFormulaConditioning.lean"
+      ]
+    },
+    {
+      "path": "sources/023_GraphDerivativeDefinability_301094aacc005112.lean",
+      "sha256": "301094aacc005112f64e81958538f87c52006b7ab696882e2aa27a853cff4fa4",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/023_GraphDerivativeDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/023_GraphMonotonicityDefinability_fdf462b73f5f8e17.lean",
+      "sha256": "fdf462b73f5f8e1730bac5d6bedd6cdb346d24931dd527df3e71f2b96e0a4737",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/023_GraphMonotonicityDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/024_PublishedRawFormulaConditioning_9aa41eda5e809d3f.lean",
+      "sha256": "9aa41eda5e809d3f664bba20b500b998a283498a398bc477845ec44dd044830f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/024_PublishedRawFormulaConditioning.lean"
+      ]
+    },
+    {
+      "path": "sources/024_RegularCoefficientVolume_af3869f49f9f2edf.lean",
+      "sha256": "af3869f49f9f2edf10f542a85821b08086d1531ff53cf41609decb381fba4ffb",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/024_RegularCoefficientVolume.lean"
+      ]
+    },
+    {
+      "path": "sources/026_GraphDerivativeDefinability_8a53b64729b0f9a7.lean",
+      "sha256": "8a53b64729b0f9a7aa970a97ed93bdc967bcc38bf27b769ab804f39a36c45e11",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/026_GraphDerivativeDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/027_EndpointParameterFamily_1ae752fcfad39da0.lean",
+      "sha256": "1ae752fcfad39da03c147d5b0a82e1b3bddb06d6aa9c7b2f8abaa06a6924ca18",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/027_EndpointParameterFamily.lean"
+      ]
+    },
+    {
+      "path": "sources/027_positive_block_obstructions_0_01a8cfb50883a828.lean",
+      "sha256": "01a8cfb50883a82832a710f53cb4a90d6d8ca8d8458d485b4d91ea00df7e0d47",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/027_positive_block_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/028_GraphMonotonicityDefinability_7047cb041cc07c37.lean",
+      "sha256": "7047cb041cc07c37d8b81575f0abf742c6b872b4ea34dbc0bb02f15b47529274",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/028_GraphMonotonicityDefinability.lean"
+      ]
+    },
+    {
+      "path": "sources/028_quantified_format_audit_0_63487bee09735f9a.lean",
+      "sha256": "63487bee09735f9a9a2339244e547a395beccbd202bf599564813020943a3f45",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/028_quantified_format_audit_0.lean"
+      ]
+    },
+    {
+      "path": "sources/028_raw_uniform_types_axioms_0_6270eb258a5dbacd.lean",
+      "sha256": "6270eb258a5dbacd0a8599a5027bc849d81e17ef78143d8b175bf1dea5c083e1",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_drafts/028_raw_uniform_types_axioms_0.lean"
+      ]
+    },
+    {
+      "path": "sources/029_quantified_format_audit_final_0_b38c440c30d2a427.lean",
+      "sha256": "b38c440c30d2a4273d50f1e955d9df12636d107001c3ff07b4ca994d661b7260",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/029_quantified_format_audit_final_0.lean"
+      ]
+    },
+    {
+      "path": "sources/029_regular_fiber_types_axioms_0_f9f6d9bab6a3aeb7.lean",
+      "sha256": "f9f6d9bab6a3aeb7f54d7d62f1fb382cfc5699d7e393b89a305ea0552853d2ba",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/029_regular_fiber_types_axioms_0.lean"
+      ]
+    },
+    {
+      "path": "sources/030_EndpointParameterFamily_3001492e24512c33.lean",
+      "sha256": "3001492e24512c33d5984676ac01682a5a3e5a4f5d9c461d6c0d81f6593e6b1b",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/030_EndpointParameterFamily.lean"
+      ]
+    },
+    {
+      "path": "sources/030_local_propagation_audit_0_6a1689e07a8048c7.lean",
+      "sha256": "6a1689e07a8048c7742b6ca91b741accdb7aafc97b36a336d4533096e9b99c50",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/030_local_propagation_audit_0.lean"
+      ]
+    },
+    {
+      "path": "sources/031_quantified_format_audit_pass_0_5771b850832fce0d.lean",
+      "sha256": "5771b850832fce0ddd5772458e58b86ca1a6c71e9ce670108610b18d63018a01",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/031_quantified_format_audit_pass_0.lean"
+      ]
+    },
+    {
+      "path": "sources/032_jet_norm_volume_type_axiom_audit_0_c821d3e300af7fb4.lean",
+      "sha256": "c821d3e300af7fb41e12ee64490822ae3485c65a8ec06423eda281fcc15f413f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/032_jet_norm_volume_type_axiom_audit_0.lean"
+      ]
+    },
+    {
+      "path": "sources/032_quantified_conditioning_audit_0_12eb214b24e22eb9.lean",
+      "sha256": "12eb214b24e22eb98358042c73733099f634e5411fd482ed9f80cd80f781f268",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_drafts/032_quantified_conditioning_audit_0.lean"
+      ]
+    },
+    {
+      "path": "sources/033_EndpointParameterFamily_0abbbda54423cf12.lean",
+      "sha256": "0abbbda54423cf1289f3d095c3ca8820124465c93fd423e687954696dc9c1dec",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/033_EndpointParameterFamily.lean"
+      ]
+    },
+    {
+      "path": "sources/034_JointRegularCoefficientVolume_74f64c086779d7dd.lean",
+      "sha256": "74f64c086779d7ddbc89ed0367bea95cc653c07e202d05c705c579d9a6d688d8",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/034_JointRegularCoefficientVolume.lean"
+      ]
+    },
+    {
+      "path": "sources/034_jet_norm_volume_boundaries_0_7c9a68cab8d0252c.lean",
+      "sha256": "7c9a68cab8d0252c5bffcbfcdd5cb80c95a24a4b66988ff364f89ab135609726",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/034_jet_norm_volume_boundaries_0.lean"
+      ]
+    },
+    {
+      "path": "sources/035_ConnectedHardtPathGraphAssembly_bdf9eae489d7acd0.lean",
+      "sha256": "bdf9eae489d7acd0f70802b825dc8cface5ab8ad5ce985155f20cef673e2643c",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/035_ConnectedHardtPathGraphAssembly.lean"
+      ]
+    },
+    {
+      "path": "sources/035_PublishedScalarFiniteFibers_1a9a5a05ddffab89.lean",
+      "sha256": "1a9a5a05ddffab8927b60093b11aae4c432adbe3beb57547c461f732b49728f3",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/035_PublishedScalarFiniteFibers.lean"
+      ]
+    },
+    {
+      "path": "sources/037_scalar_slice_obstructions_0_436a6fa051b764c4.lean",
+      "sha256": "436a6fa051b764c4eb0993f03bf8d09f36f658fd23f15ccd581c0848a2b521bc",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/037_scalar_slice_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/038_JointRegularCoefficientVolume_9435f6611cd5d873.lean",
+      "sha256": "9435f6611cd5d87396c8e784c1c986dcc0387e800dd09d17a8bb2092246a8d9a",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/038_JointRegularCoefficientVolume.lean"
+      ]
+    },
+    {
+      "path": "sources/039_GraphScalarSlice_92a3d1d359fbacfd.lean",
+      "sha256": "92a3d1d359fbacfd708109c0ce3d26902dce5bd1012799a89beeea5c1bed86d8",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/039_GraphScalarSlice.lean"
+      ]
+    },
+    {
+      "path": "sources/041_GraphScalarSlice_c25b43647b429198.lean",
+      "sha256": "c25b43647b429198c6f6c835ba6a9b90008011164edfe9e0df6fb60748b6b5cd",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/041_GraphScalarSlice.lean"
+      ]
+    },
+    {
+      "path": "sources/044_area_axioms_0_a3ecfa4087d3a3d3.lean",
+      "sha256": "a3ecfa4087d3a3d3bc3b33b4d9a8416c0d9ef5528d18802251c903eef2b16dde",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/044_area_axioms_0.lean"
+      ]
+    },
+    {
+      "path": "sources/046_PublishedFormatMonotoneCuts_2d54651620a95e75.lean",
+      "sha256": "2d54651620a95e75246215790f5d826a0a9947dd2b14e64409196c64ff98312f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/046_PublishedFormatMonotoneCuts.lean"
+      ]
+    },
+    {
+      "path": "sources/047_PublishedEndpointPaths_eb2030f9b247e1f0.lean",
+      "sha256": "eb2030f9b247e1f002c0d26d1312d5f91d545e675df5a9f3cfa0557ee8b54c04",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_drafts/047_PublishedEndpointPaths.lean"
+      ]
+    },
+    {
+      "path": "sources/047_PublishedFormatMonotoneCuts_8c298e03bdf7cdcd.lean",
+      "sha256": "8c298e03bdf7cdcd9e4788157ff396d7146d98d3932b00c732bf1e20333ea8fb",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/047_PublishedFormatMonotoneCuts.lean"
+      ]
+    },
+    {
+      "path": "sources/049_PublishedFormatMonotoneCuts_7e2ab26347e1c6cb.lean",
+      "sha256": "7e2ab26347e1c6cb0cb8457ce1ae3627214e64ea15cdc0003a8bc8b6d0cc429d",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/049_PublishedFormatMonotoneCuts.lean"
+      ]
+    },
+    {
+      "path": "sources/050_format_cuts_diagnostic_0_805dc78f0b5b01c6.lean",
+      "sha256": "805dc78f0b5b01c6e941d919820fdb808cc54ff1becc3a634352e93fc2369c0d",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/050_format_cuts_diagnostic_0.lean"
+      ]
+    },
+    {
+      "path": "sources/051_composed_scalar_reindex_obstructions_0_be1ff338fc79559f.lean",
+      "sha256": "be1ff338fc79559fbedf18cede11720092b43e2b9ea3b24e2e2520739fc05778",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_drafts/051_composed_scalar_reindex_obstructions_0.lean"
+      ]
+    },
+    {
+      "path": "sources/OneDivisionCoefficientBlockAxiomAudit_0fd3e6d9c3e7cce4.lean",
+      "sha256": "0fd3e6d9c3e7cce425d8530ba3126d33ba86745deed41ce9d739725297cae9ce",
+      "original_member_chain": [
+        "DifferentiationCoefficientChange_Compiled_Checkpoint.zip",
+        "accepted_base/OneDivisionCoefficientBlock_Source_Evidence.zip",
+        "project/evidence/OneDivisionCoefficientBlock_Attempts/Final_Axiom_Audit_01/source/PaperILean/OneDivisionCoefficientBlockAxiomAudit.lean"
+      ]
+    },
+    {
+      "path": "sources/OneDivisionCoefficientBlockAxiomAudit_50a11dfdbc2bd81d.lean",
+      "sha256": "50a11dfdbc2bd81daf24652b73576380b22402f7a377ab91c02fc355f6a5e778",
+      "original_member_chain": [
+        "DifferentiationCoefficientChange_Compiled_Checkpoint.zip",
+        "accepted_base/OneDivisionCoefficientBlock_Source_Evidence.zip",
+        "project/PaperILean/OneDivisionCoefficientBlockAxiomAudit.lean"
+      ]
+    },
+    {
+      "path": "sources/OneDivisionCoefficientBlockAxiomAudit_57c1f15a0b036889.lean",
+      "sha256": "57c1f15a0b036889d32a2ea3d5bf0dcfaec684a258b3f5a7a7b69b8241200618",
+      "original_member_chain": [
+        "DifferentiationCoefficientChange_Compiled_Checkpoint.zip",
+        "accepted_base/OneDivisionCoefficientBlock_Source_Evidence.zip",
+        "project/evidence/OneDivisionCoefficientBlock_Attempts/Final_Axiom_Audit_02/source/PaperILean/OneDivisionCoefficientBlockAxiomAudit.lean"
+      ]
+    },
+    {
+      "path": "sources/OneDivisionCoefficientBlock_283e579b4ffd2211.lean",
+      "sha256": "283e579b4ffd2211ca771678fb49c469f045613c5de8cfaa9263b25a17e442a3",
+      "original_member_chain": [
+        "DifferentiationCoefficientChange_Compiled_Checkpoint.zip",
+        "accepted_base/OneDivisionCoefficientBlock_Source_Evidence.zip",
+        "project/evidence/OneDivisionCoefficientBlock_Attempts/Stage_01/source/PaperILean/OneDivisionCoefficientBlock.lean"
+      ]
+    },
+    {
+      "path": "sources/OneDivisionCoefficientBlock_79438a8e54fa6e62.lean",
+      "sha256": "79438a8e54fa6e626fc1c8fd6d441c3eadf851333c9081d111c6e33a5b6a2f22",
+      "original_member_chain": [
+        "DifferentiationCoefficientChange_Compiled_Checkpoint.zip",
+        "accepted_base/OneDivisionCoefficientBlock_Source_Evidence.zip",
+        "project/evidence/OneDivisionCoefficientBlock_Attempts/Stage_03/source/PaperILean/OneDivisionCoefficientBlock.lean"
+      ]
+    },
+    {
+      "path": "sources/OneDivisionCoefficientBlock_e9bfe5481802a349.lean",
+      "sha256": "e9bfe5481802a34972f5941fe04776e566ca2303edfdbee46f221fd4bc86af9b",
+      "original_member_chain": [
+        "DifferentiationCoefficientChange_Compiled_Checkpoint.zip",
+        "accepted_base/OneDivisionCoefficientBlock_Source_Evidence.zip",
+        "project/evidence/OneDivisionCoefficientBlock_Attempts/Stage_02/source/PaperILean/OneDivisionCoefficientBlock.lean"
+      ]
+    },
+    {
+      "path": "sources/PaperILean_213064ca2d7e52ff.lean",
+      "sha256": "213064ca2d7e52ff4a3f25fa77c7d918f568c5fee189e3212a742c02d25ed1ec",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/PaperILean.lean"
+      ]
+    },
+    {
+      "path": "sources/PaperILean_2c1ae653c653f12d.lean",
+      "sha256": "2c1ae653c653f12dc60792fb36b0f8f70469804a8ed3b3de09609e8f832df6d0",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "PaperILean.lean"
+      ]
+    },
+    {
+      "path": "sources/PaperILean_3d84542eb58ea56e.lean",
+      "sha256": "3d84542eb58ea56e29abcf28e4fad857cca072872af0fe4cf10814ebdfcca3b9",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/PaperILean.lean"
+      ]
+    },
+    {
+      "path": "sources/PaperILean_a8b2e7b34c2bfc86.lean",
+      "sha256": "a8b2e7b34c2bfc86d7b2e6cd6b422c07c6d90cc54ec3ead170c7c2e7e37aff01",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/PaperILean.lean"
+      ]
+    },
+    {
+      "path": "sources/PaperILean_b1b25a5c57c95546.lean",
+      "sha256": "b1b25a5c57c9554676d525c951309f0beb06b94b88d4c5d156d45524d15a84c2",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/PaperILean.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_104_dimension_cells_audit_0ef392f010e8d038.lean",
+      "sha256": "0ef392f010e8d038bb24694b57c1c81281903eb105290b6cf222e8a202112274",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_dimension_cells_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_104_dimension_cells_final_audit_ecd44baf44afa4dd.lean",
+      "sha256": "ecd44baf44afa4ddbc24dc05c7a02061df09c297825ac6e1f05b3ea81475fc39",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_dimension_cells_final_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_104_finite_variation_audit_a092f0669d2347c7.lean",
+      "sha256": "a092f0669d2347c7f385c7a90f0dd6c7b81f107c247eb4b578eb6293ae6a17a4",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_104_Build_Evidence.zip",
+        "evidence/checkpoint_104_finite_variation_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_105_common_partition_audit_0fceb6c7c3e7765e.lean",
+      "sha256": "0fceb6c7c3e7765e74a5291e6999d862466132211fb6f477f327f0dce9d332ec",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_common_partition_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_105_quantitative_qualitative_audit_3ce3dbbdd5d5b4a5.lean",
+      "sha256": "3ce3dbbdd5d5b4a5e0364792e7796fc90ac935644262ab91b0c7563a750a6273",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_quantitative_qualitative_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_105_raw_prenex_audit_808c908f8d6aee8a.lean",
+      "sha256": "808c908f8d6aee8a4ea7c88648e2476afb9b60624556b0721f2aa35c042c8890",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_105_Build_Evidence.zip",
+        "evidence/checkpoint_105_raw_prenex_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_106_composed_variation_audit_c3d7ae1b4ea2b50f.lean",
+      "sha256": "c3d7ae1b4ea2b50f2cebabd098d3cbbd6d81bd37dbddf85bf6a68095d5522700",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_composed_variation_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_106_graph_bad_audit_b5f3a4651fa8ac39.lean",
+      "sha256": "b5f3a4651fa8ac39aa692f0fdb200101bc36c5b13f385663b688f90065126140",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_graph_bad_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_106_graph_composition_audit_923d3dbcf4852dfd.lean",
+      "sha256": "923d3dbcf4852dfd0401c7eb957f663efab0049561e404e98c19f8ceb00012bd",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_graph_composition_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_106_scalar_cuts_audit_e30c16e316da280f.lean",
+      "sha256": "e30c16e316da280f6f3cba0f776e972578739c24c3380a358ef5a5212ef08b6c",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_scalar_cuts_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_106_scalar_slice_audit_2388f8f92ec12dd9.lean",
+      "sha256": "2388f8f92ec12dd93772ea2abd69b04b293ad590b7777b8fadf168cb6ec8ace8",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_scalar_slice_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_106_uniform_monotone_audit_935e802f0d62171c.lean",
+      "sha256": "935e802f0d62171c885fa872e9f55aa729230e7d0dac37f9da23813bfc201bf2",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_106_Build_Evidence.zip",
+        "evidence/checkpoint_106_uniform_monotone_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_107_analytic_axiom_audit_6a44ec2063a4d034.lean",
+      "sha256": "6a44ec2063a4d0347ed73b5d73dd86c6a5c8b91a8fb874bfe1fd9826c91a4898",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_analytic_axiom_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_107_analytic_boundary_examples_bef909f1f870fcbb.lean",
+      "sha256": "bef909f1f870fcbb5d0ee62d4bf9cc6fa5dd84d22768372fade828fb9ccdd251",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_analytic_boundary_examples.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_107_endpoint_parameter_family_audit_e993d5a9217aa57a.lean",
+      "sha256": "e993d5a9217aa57aba699e03594ead3c7c9ce379c5b9f2ffbd60d64780ca060f",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_endpoint_parameter_family_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_107_endpoint_paths_final_audit_896d3263b285f297.lean",
+      "sha256": "896d3263b285f297d21347bbbf1b79c2123faa68078cc80750c15e6809e0807a",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_endpoint_paths_final_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_107_fubini_audit_47df2c7786c3769c.lean",
+      "sha256": "47df2c7786c3769ca4559680a729c444694e86fbc472168112cff4126068c4d1",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_fubini_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_107_path_final_audit_dbb7b11e71b2133c.lean",
+      "sha256": "dbb7b11e71b2133c9dace1ff3dd6f69b7eb8009980d6d83b4e1372b5ef544aa8",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_path_final_audit.lean"
+      ]
+    },
+    {
+      "path": "sources/checkpoint_107_relation_composition_audit_650869ef45edc991.lean",
+      "sha256": "650869ef45edc9912e23caceb449c13402d61384486e207477b25a2f204dffaf",
+      "original_member_chain": [
+        "Paper_I_Original_Centerline_Route_After123_Recovered_Project.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_108.zip",
+        "PaperILean/checkpoints/Paper_I_Lean_Checkpoint_107_Build_Evidence.zip",
+        "evidence/checkpoint_107_relation_composition_audit.lean"
+      ]
+    }
+  ]
+}

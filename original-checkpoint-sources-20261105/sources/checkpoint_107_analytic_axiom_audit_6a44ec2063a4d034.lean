@@ -1,0 +1,88 @@
+import PaperILean.DerivativeSignSubdivision
+import PaperILean.GraphDerivativeDefinability
+import PaperILean.PublishedScalarAnalyticity
+import PaperILean.SemialgebraicPathAnalyticity
+
+set_option pp.universes true
+set_option pp.fullNames true
+
+#check @PaperI.DerivativeSignOn
+#print axioms PaperI.DerivativeSignOn
+
+#check @PaperI.monotoneOn_or_antitoneOn_of_derivative_sign
+#print axioms PaperI.monotoneOn_or_antitoneOn_of_derivative_sign
+
+#check @PaperI.constantOn_of_zero_derivative
+#print axioms PaperI.constantOn_of_zero_derivative
+
+#check @PaperI.closed_monotonicity_of_derivative_sign
+#print axioms PaperI.closed_monotonicity_of_derivative_sign
+
+#check @PaperI.monotone_cut_intervals_of_derivative_sign
+#print axioms PaperI.monotone_cut_intervals_of_derivative_sign
+
+#check @PaperI.common_partition_of_derivative_sign_cuts
+#print axioms PaperI.common_partition_of_derivative_sign_cuts
+
+#check @PaperI.family_variation_le_of_derivative_sign_cuts
+#print axioms PaperI.family_variation_le_of_derivative_sign_cuts
+
+#check @PaperI.monotone_cut_intervals_of_analytic_derivative_sign
+#print axioms PaperI.monotone_cut_intervals_of_analytic_derivative_sign
+
+#check @PaperI.family_variation_le_of_analytic_derivative_sign_cuts
+#print axioms PaperI.family_variation_le_of_analytic_derivative_sign_cuts
+
+#check @PaperI.hasDerivAt_iff_polynomial_remainder
+#print axioms PaperI.hasDerivAt_iff_polynomial_remainder
+
+#check @PaperI.graphDerivativeRelation
+#print axioms PaperI.graphDerivativeRelation
+
+#check @PaperI.graphDerivativeRelation_realize_iff
+#print axioms PaperI.graphDerivativeRelation_realize_iff
+
+#check @PaperI.graphDerivativeRelation_realize_iff_of_local_graph
+#print axioms PaperI.graphDerivativeRelation_realize_iff_of_local_graph
+
+#check @PaperI.graphDerivativeRelation_realize_iff_on_interval
+#print axioms PaperI.graphDerivativeRelation_realize_iff_on_interval
+
+#check @PaperI.realPolynomial_lt_definable
+#print axioms PaperI.realPolynomial_lt_definable
+
+#check @PaperI.graphDerivativeRelation_definable
+#print axioms PaperI.graphDerivativeRelation_definable
+
+#check @PaperI.published_graphDerivativeRelation_sign_description
+#print axioms PaperI.published_graphDerivativeRelation_sign_description
+
+#check @PaperI.PublishedOneVariableNashRegularity
+#print axioms PaperI.PublishedOneVariableNashRegularity
+
+#check @PaperI.published_finite_family_analytic_exceptions
+#print axioms PaperI.published_finite_family_analytic_exceptions
+
+#check @PaperI.published_finite_pi_analytic_exceptions
+#print axioms PaperI.published_finite_pi_analytic_exceptions
+
+#check @PaperI.published_finite_pi_analytic_cut_intervals
+#print axioms PaperI.published_finite_pi_analytic_cut_intervals
+
+#check @PaperI.unitPath_open_coordinate_graph_definable
+#print axioms PaperI.unitPath_open_coordinate_graph_definable
+
+#check @PaperI.published_unitPath_open_coordinate_graph_sign_description
+#print axioms PaperI.published_unitPath_open_coordinate_graph_sign_description
+
+#check @PaperI.SemialgebraicUnitPath.published_finite_analytic_exceptions
+#print axioms PaperI.SemialgebraicUnitPath.published_finite_analytic_exceptions
+
+#check @PaperI.SemialgebraicUnitPath.published_finite_analytic_cut_intervals
+#print axioms PaperI.SemialgebraicUnitPath.published_finite_analytic_cut_intervals
+
+#check @PaperI.PublishedOneVariableNashRegularity.mk
+#print axioms PaperI.PublishedOneVariableNashRegularity.mk
+
+#check @PaperI.PublishedOneVariableNashRegularity.finite_nonanalytic_locus
+#print axioms PaperI.PublishedOneVariableNashRegularity.finite_nonanalytic_locus

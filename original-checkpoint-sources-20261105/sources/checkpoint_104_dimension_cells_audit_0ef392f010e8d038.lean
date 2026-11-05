@@ -1,0 +1,72 @@
+import PaperILean.PublishedSemialgebraicCellDecomposition
+
+#check @PaperI.openUnitCube
+#print axioms PaperI.openUnitCube
+#check @PaperI.openUnitCube_nonempty
+#print axioms PaperI.openUnitCube_nonempty
+#check @PaperI.openUnitCube_zero_subsingleton
+#print axioms PaperI.openUnitCube_zero_subsingleton
+#check @PaperI.cubeMapGraph
+#print axioms PaperI.cubeMapGraph
+#check @PaperI.HasSemialgebraicCubeInjection
+#print axioms PaperI.HasSemialgebraicCubeInjection
+#check @PaperI.HasGeometricSemialgebraicDimension
+#print axioms PaperI.HasGeometricSemialgebraicDimension
+#check @PaperI.nonempty_of_semialgebraicCubeInjection
+#print axioms PaperI.nonempty_of_semialgebraicCubeInjection
+#check @PaperI.geometricSemialgebraicDimension_neg_one_iff
+#print axioms PaperI.geometricSemialgebraicDimension_neg_one_iff
+#check @PaperI.geometricSemialgebraicDimension_empty_iff
+#print axioms PaperI.geometricSemialgebraicDimension_empty_iff
+#check @PaperI.cubeDimension_eq_zero_of_geometric_dimension_zero
+#print axioms PaperI.cubeDimension_eq_zero_of_geometric_dimension_zero
+#check @PaperI.geometric_dimension_le_zero_empty_or_zero
+#print axioms PaperI.geometric_dimension_le_zero_empty_or_zero
+#check @PaperI.SemialgebraicCellDecomposition
+#print axioms PaperI.SemialgebraicCellDecomposition
+#check @PaperI.PublishedSemialgebraicCellDecomposition
+#print axioms PaperI.PublishedSemialgebraicCellDecomposition
+#check @PaperI.SemialgebraicCellDecomposition.cubeInjection
+#print axioms PaperI.SemialgebraicCellDecomposition.cubeInjection
+#check @PaperI.SemialgebraicCellDecomposition.cell_dimension_zero
+#print axioms PaperI.SemialgebraicCellDecomposition.cell_dimension_zero
+#check @PaperI.SemialgebraicCellDecomposition.point_cell_of_dimension_zero
+#print axioms PaperI.SemialgebraicCellDecomposition.point_cell_of_dimension_zero
+#check @PaperI.SemialgebraicCellDecomposition.finite_of_dimension_zero
+#print axioms PaperI.SemialgebraicCellDecomposition.finite_of_dimension_zero
+#check @PaperI.published_finite_of_geometric_dimension_zero
+#print axioms PaperI.published_finite_of_geometric_dimension_zero
+#check @PaperI.published_totallyDisconnected_of_geometric_dimension_zero
+#print axioms PaperI.published_totallyDisconnected_of_geometric_dimension_zero
+#check @PaperI.published_finite_of_geometric_dimension_le_zero
+#print axioms PaperI.published_finite_of_geometric_dimension_le_zero
+#check @PaperI.published_totallyDisconnected_of_geometric_dimension_le_zero
+#print axioms PaperI.published_totallyDisconnected_of_geometric_dimension_le_zero
+#check @PaperI.openUnitCube_isPreconnected
+#print axioms PaperI.openUnitCube_isPreconnected
+#check @PaperI.PublishedSemialgebraicCellDecomposition.toFiniteConnectedCover
+#print axioms PaperI.PublishedSemialgebraicCellDecomposition.toFiniteConnectedCover
+#check @PaperI.SemialgebraicCellDecomposition.mk
+#print axioms PaperI.SemialgebraicCellDecomposition.mk
+#check @PaperI.SemialgebraicCellDecomposition.count
+#print axioms PaperI.SemialgebraicCellDecomposition.count
+#check @PaperI.SemialgebraicCellDecomposition.cell
+#print axioms PaperI.SemialgebraicCellDecomposition.cell
+#check @PaperI.SemialgebraicCellDecomposition.dimension
+#print axioms PaperI.SemialgebraicCellDecomposition.dimension
+#check @PaperI.SemialgebraicCellDecomposition.subset
+#print axioms PaperI.SemialgebraicCellDecomposition.subset
+#check @PaperI.SemialgebraicCellDecomposition.cover
+#print axioms PaperI.SemialgebraicCellDecomposition.cover
+#check @PaperI.SemialgebraicCellDecomposition.disjoint
+#print axioms PaperI.SemialgebraicCellDecomposition.disjoint
+#check @PaperI.SemialgebraicCellDecomposition.cell_semialgebraic
+#print axioms PaperI.SemialgebraicCellDecomposition.cell_semialgebraic
+#check @PaperI.SemialgebraicCellDecomposition.chart
+#print axioms PaperI.SemialgebraicCellDecomposition.chart
+#check @PaperI.SemialgebraicCellDecomposition.chart_semialgebraic
+#print axioms PaperI.SemialgebraicCellDecomposition.chart_semialgebraic
+#check @PaperI.PublishedSemialgebraicCellDecomposition.mk
+#print axioms PaperI.PublishedSemialgebraicCellDecomposition.mk
+#check @PaperI.PublishedSemialgebraicCellDecomposition.cell_decomposition
+#print axioms PaperI.PublishedSemialgebraicCellDecomposition.cell_decomposition

@@ -1,0 +1,24 @@
+import PaperILean.OriginalJetWindowVolume
+set_option pp.universes true
+#check @PaperI.higherSymmetricJetPart
+#print axioms PaperI.higherSymmetricJetPart
+#check @PaperI.higherJetCoefficientPart
+#print axioms PaperI.higherJetCoefficientPart
+#check @PaperI.completeJetSymmetricMap_higherJetCoefficientPart
+#print axioms PaperI.completeJetSymmetricMap_higherJetCoefficientPart
+#check @PaperI.iteratedFDeriv_higherJetCoefficientPart
+#print axioms PaperI.iteratedFDeriv_higherJetCoefficientPart
+#check @PaperI.higherJetCoefficientPart_eq_of_degree_ge_two
+#print axioms PaperI.higherJetCoefficientPart_eq_of_degree_ge_two
+#check @PaperI.jetTensorHSNorm_higherJetCoefficientPart
+#print axioms PaperI.jetTensorHSNorm_higherJetCoefficientPart
+#check @PaperI.jetTensorHSNorm_affine_positive
+#print axioms PaperI.jetTensorHSNorm_affine_positive
+#check @PaperI.completeJetHSNorm_higher_affine_bound
+#print axioms PaperI.completeJetHSNorm_higher_affine_bound
+#check @PaperI.exists_higherJet_coefficient_radius
+#print axioms PaperI.exists_higherJet_coefficient_radius
+#check @PaperI.jetCoefficientBox_measure_scaled
+#print axioms PaperI.jetCoefficientBox_measure_scaled
+#check @PaperI.affineJet_window_volume_original_norm_route
+#print axioms PaperI.affineJet_window_volume_original_norm_route

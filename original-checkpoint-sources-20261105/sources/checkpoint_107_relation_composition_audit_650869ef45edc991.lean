@@ -1,0 +1,29 @@
+import PaperILean.SemialgebraicRelationComposition
+
+#check @PaperI.relationGraphComposition
+#print axioms PaperI.relationGraphComposition
+
+#check @PaperI.relationGraphComposition_mem
+#print axioms PaperI.relationGraphComposition_mem
+
+#check @PaperI.relationGraphComposition_definable
+#print axioms PaperI.relationGraphComposition_definable
+
+#check @PaperI.relationGraphCompositionParametric
+#print axioms PaperI.relationGraphCompositionParametric
+
+#check @PaperI.relationGraphCompositionParametric_mem
+#print axioms PaperI.relationGraphCompositionParametric_mem
+
+#check @PaperI.relationGraphCompositionParametric_definable
+#print axioms PaperI.relationGraphCompositionParametric_definable
+
+#check @PaperI.relationGraphCompositionParametric_eq_partialGraph
+#print axioms PaperI.relationGraphCompositionParametric_eq_partialGraph
+
+#check @PaperI.relationGraphCompositionParametric_eq_graph_on_domain
+#print axioms PaperI.relationGraphCompositionParametric_eq_graph_on_domain
+
+#check @PaperI.hasPolynomialSignDescription_uniform_fiber_sign_format
+#print axioms PaperI.hasPolynomialSignDescription_uniform_fiber_sign_format
+

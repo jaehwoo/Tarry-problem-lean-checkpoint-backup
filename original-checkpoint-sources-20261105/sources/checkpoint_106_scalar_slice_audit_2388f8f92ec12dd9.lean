@@ -1,0 +1,7 @@
+import PaperILean.GraphScalarSlice
+#check @PaperI.openScalarGraph_eq_empty_of_le
+#print axioms PaperI.openScalarGraph_eq_empty_of_le
+#check @PaperI.openScalarGraph_has_sign_description_of_joint_graph
+#print axioms PaperI.openScalarGraph_has_sign_description_of_joint_graph
+#check @PaperI.published_openScalarGraph_sign_description
+#print axioms PaperI.published_openScalarGraph_sign_description

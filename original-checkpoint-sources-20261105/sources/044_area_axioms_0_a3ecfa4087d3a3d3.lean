@@ -1,0 +1,27 @@
+import PaperILean.RegularCoefficientPowerVolume
+#check PaperI.exists_measurable_injective_partition_of_det_ne_zero
+#print axioms PaperI.exists_measurable_injective_partition_of_det_ne_zero
+#check PaperI.image_piece_count_le_fiber_card
+#print axioms PaperI.image_piece_count_le_fiber_card
+#check PaperI.tsum_image_measure_le_of_fiber_bound
+#print axioms PaperI.tsum_image_measure_le_of_fiber_bound
+#check PaperI.measure_le_inverse_jacobian_mul_image
+#print axioms PaperI.measure_le_inverse_jacobian_mul_image
+#check PaperI.finite_multiplicity_measure_le
+#print axioms PaperI.finite_multiplicity_measure_le
+#check PaperI.finite_fiber_bound_mono
+#print axioms PaperI.finite_fiber_bound_mono
+#check PaperI.regular_preimage_measure_le
+#print axioms PaperI.regular_preimage_measure_le
+#check PaperI.published_regularCoefficient_preimage_volume_bound
+#print axioms PaperI.published_regularCoefficient_preimage_volume_bound
+#check PaperI.published_definable_regularCoefficient_volume_bound
+#print axioms PaperI.published_definable_regularCoefficient_volume_bound
+#check PaperI.published_regularPolynomial_preimage_volume_bound
+#print axioms PaperI.published_regularPolynomial_preimage_volume_bound
+#check PaperI.nat_add_one_le_pow_of_two_le
+#print axioms PaperI.nat_add_one_le_pow_of_two_le
+#check PaperI.multiplicity_inverse_rpow_le
+#print axioms PaperI.multiplicity_inverse_rpow_le
+#check PaperI.published_regularCoefficient_preimage_power_volume_bound
+#print axioms PaperI.published_regularCoefficient_preimage_power_volume_bound
