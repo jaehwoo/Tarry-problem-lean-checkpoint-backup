@@ -1,0 +1,3344 @@
+[
+  {
+    "path": "current/PaperILean/ActualDSections.lean",
+    "sha256": "d871b06976b7cb2c084282918c303e2ed8f0942f230ca5a0fd79f15b78160148",
+    "source_artifact": "RegularSections_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/ActualDSections.lean"
+  },
+  {
+    "path": "current/PaperILean/ActualOrderedPathStage.lean",
+    "sha256": "9c48ac0e0cb9e6383800254ff9461d674e86fa7f4fac338b85a4bf435e506231",
+    "source_artifact": "OrderedPath_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/ActualOrderedPathStage.lean"
+  },
+  {
+    "path": "current/PaperILean/ActualSectionFactor.lean",
+    "sha256": "c3c0adaea22cb084e22281e82ccae00575562546c18f912859e18e55da605376",
+    "source_artifact": "SectionAssignment_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/ActualSectionFactor.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineCharacterTargets.lean",
+    "sha256": "1960d651f5f2920bf2085eba63cd97b9376923ca68b03ed2fede87eb7e4ab7a1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AffineCharacterTargets.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineConditioningCompact.lean",
+    "sha256": "7566b48276ceaf685c53347ac3a21eca4b645824546f21b704a27874fea96961",
+    "source_artifact": "UniformConditioning_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/AffineConditioningCompact.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineConditioningDefinable.lean",
+    "sha256": "17f3b162f93c0a9498ef636117a1514097453a13bfff979294f56c3cd1902ce6",
+    "source_artifact": "UniformConditioning_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/AffineConditioningDefinable.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineFieldPolynomial.lean",
+    "sha256": "9254f94a0ddaa7b416c4c3f876398f1159a5c67decf58f81450cb43913967b46",
+    "source_artifact": "UniformConditioning_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/AffineFieldPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineJetCenterDerivative.lean",
+    "sha256": "c40a7b638a74adf88b2cb3cab480367b03548c3996ab70f1caf06a227185d3b1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AffineJetCenterDerivative.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineJetDerivatives.lean",
+    "sha256": "2e62c453b402bb4010a0e7d1219decb436852d516d36eef5e13c21a609044112",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AffineJetDerivatives.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineNormalPairDegree.lean",
+    "sha256": "43940086b61967b26986fec272526ff4d3a189665a194bdce64af59f22fcb567",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AffineNormalPairDegree.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineNormalizationMatrices.lean",
+    "sha256": "93b2810a904146f0cbb393470c48f41ec0f2e8ccb18c84e639702983f832d7df",
+    "source_artifact": "Normalization_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/AffineNormalizationMatrices.lean"
+  },
+  {
+    "path": "current/PaperILean/AffinePullback.lean",
+    "sha256": "940ac8151f3c3b527faa339c005c00b273684b42bb4ef22435ffffb9fae21df6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AffinePullback.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineVectorFieldCoefficient.lean",
+    "sha256": "289c308dd01f27b441527861cde15919f17d001661078586967c726756459daa",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AffineVectorFieldCoefficient.lean"
+  },
+  {
+    "path": "current/PaperILean/AffineVectorFieldPolynomial.lean",
+    "sha256": "0115f6adb87f40f13b1f09dc5adaaa2d6d8f9cc770f9927314286aa33e3a3fd5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AffineVectorFieldPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/AllClosurePointGerms.lean",
+    "sha256": "63aa36750a4a7c28fa6d359a738b4004a6620fbf0bc205fd70d10e049bd379ad",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllClosurePointGerms.lean"
+  },
+  {
+    "path": "current/PaperILean/AllDimAffineCharacterTargets.lean",
+    "sha256": "816905718fd102d92a1f944a9538a5385e4d948b7aec64670aa30931e23f2cdb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllDimAffineCharacterTargets.lean"
+  },
+  {
+    "path": "current/PaperILean/AllDimAffinePullback.lean",
+    "sha256": "85864c3c477a4318cb1a08ca43affb6e92857af73c117ea0fc595bfde4967608",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllDimAffinePullback.lean"
+  },
+  {
+    "path": "current/PaperILean/AllDimCoefficientModel.lean",
+    "sha256": "40a838a17ecde03b563081a0b1b16d3161666e76849251833561793648063cb9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllDimCoefficientModel.lean"
+  },
+  {
+    "path": "current/PaperILean/AllDimCoefficientSpace.lean",
+    "sha256": "6866a21b144d0e9129f4e56a726da9dd70ecf106a4e54befb9dd1a4a84b468be",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllDimCoefficientSpace.lean"
+  },
+  {
+    "path": "current/PaperILean/AllDimDiagonalCharacter.lean",
+    "sha256": "29771fba1c98466fb1cf7facc5cb75c4225307fc65813b93542bc27309401c5d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllDimDiagonalCharacter.lean"
+  },
+  {
+    "path": "current/PaperILean/AllDimIndexWeights.lean",
+    "sha256": "ef8eb852929cd37061de92dfa86017ddca21c0c05fff96c6658cd7b13774af66",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllDimIndexWeights.lean"
+  },
+  {
+    "path": "current/PaperILean/AllDimPolynomialQuotient.lean",
+    "sha256": "100aed9f8a5675423afc796f5aacc08b8a3f61c8a46dbf401fd89ba9a3be45dc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AllDimPolynomialQuotient.lean"
+  },
+  {
+    "path": "current/PaperILean/AnalyticGraphPieces.lean",
+    "sha256": "4b1b491d6333b5db6be46b54de336b96a2a6cb29d99e72eda5f5a61cb6cc55d2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AnalyticGraphPieces.lean"
+  },
+  {
+    "path": "current/PaperILean/AnalyticPieceFiber.lean",
+    "sha256": "e5dd8d74e654c88ff913ec31a677277691b16c527619d14fe8200c1ea3f5f4a2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AnalyticPieceFiber.lean"
+  },
+  {
+    "path": "current/PaperILean/AnalyticSignCutRefinement.lean",
+    "sha256": "50569059f7cb6c97fc5bc71de886c8a699f629392d219d33d2f99d1e8421baaf",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AnalyticSignCutRefinement.lean"
+  },
+  {
+    "path": "current/PaperILean/AnisotropicSkewBounds.lean",
+    "sha256": "c214b733152a2b88dfd330b29736df5749b2d1ff9693a4187335e666665b86ad",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AnisotropicSkewBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/AttainedMaximumDefinability.lean",
+    "sha256": "5ff31d4f8a74b387bf443174d3191059416a22cd771a955c5fc8c0bf63a15045",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AttainedMaximumDefinability.lean"
+  },
+  {
+    "path": "current/PaperILean/AttainedMinimumDefinability.lean",
+    "sha256": "49d0e27afa8c8a1cc7d85605057fa4136c88148537657794f760751c403f5f79",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AttainedMinimumDefinability.lean"
+  },
+  {
+    "path": "current/PaperILean/AugmentedOrbit.lean",
+    "sha256": "1dccc691ad4e45f3ee38b2e92eb456394178b8b4a636d618c69bcfa091afc2bf",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AugmentedOrbit.lean"
+  },
+  {
+    "path": "current/PaperILean/AugmentedOrbitEuclidean.lean",
+    "sha256": "19b35eb0ae289b31a508c2a549698dd9081b57e7f8254085758d1a38e26c4248",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AugmentedOrbitEuclidean.lean"
+  },
+  {
+    "path": "current/PaperILean/AugmentedOrbitStatePolynomials.lean",
+    "sha256": "40ca74883e663ac943156e1c69ee47e51f90ed5e235f88b9c841a5ee67dfddb6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AugmentedOrbitStatePolynomials.lean"
+  },
+  {
+    "path": "current/PaperILean/AugmentedPhysicalAffine.lean",
+    "sha256": "a58dc8efa9a83cd6dea15f6f4a4d06e102f8d8326cd6c597996db9a7fb0940e3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AugmentedPhysicalAffine.lean"
+  },
+  {
+    "path": "current/PaperILean/AugmentedStateSpace.lean",
+    "sha256": "e26680c62e962b03ed86c5b295aeb296b654ae82d1d4f669333b5c40ab9c4894",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AugmentedStateSpace.lean"
+  },
+  {
+    "path": "current/PaperILean/AugmentedStoppedTopology.lean",
+    "sha256": "4077d0b7c049207cb8b3d74e94730f4675d006faf82c492630234d5c45c508a7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/AugmentedStoppedTopology.lean"
+  },
+  {
+    "path": "current/PaperILean/BalanceSpectralBounds.lean",
+    "sha256": "b03e59c2322ff75be35f7ca545936d141238f9dd1ce398e74885c91ca7738d20",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/BalanceSpectralBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/BivariatePolynomialRootBound.lean",
+    "sha256": "be758dbda1b299c3439573ee45d2c982a5bc82fdf5358c1192cfe30ab19f3877",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/BivariatePolynomialRootBound.lean"
+  },
+  {
+    "path": "current/PaperILean/BoundedCenterLattice.lean",
+    "sha256": "6598e29f8aed4dde01bd8d7d6cd8e4efe5c12ca8b81493827fd0754a2ea59742",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/BoundedCenterLattice.lean"
+  },
+  {
+    "path": "current/PaperILean/BoundedJetCenterVariation.lean",
+    "sha256": "d417bacf63279582161908b52c13a9f3e635961fb2b3198ad1d2afe468ab4397",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/BoundedJetCenterVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/BoundedPathOriginalVariation.lean",
+    "sha256": "890037c45d027e0f4f00b6a1369bb924a848fa9267973f3dbc72766e7988a52a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/BoundedPathOriginalVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/BoundedPolynomialTuple.lean",
+    "sha256": "c9b830c14e2c893afde5477aaa94f84489780cf4fead811880b6cf5704bf620b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/BoundedPolynomialTuple.lean"
+  },
+  {
+    "path": "current/PaperILean/BoundedQuantifiedFormat.lean",
+    "sha256": "438be872e4a0504e574fb1a5e994058426f865e69e68fedbcb6b0d619f2ec177",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/BoundedQuantifiedFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/CellChartInterpolation.lean",
+    "sha256": "fba845ee30e39bf38f416df873eb9ee45ef4c39c92aeaff1b2eac6314dcc8470",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CellChartInterpolation.lean"
+  },
+  {
+    "path": "current/PaperILean/CellChartPathFamily.lean",
+    "sha256": "dbd7ebac772f534ce5cee7ffa3f0669ff171acce0d74835efad8bfa8621b796d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CellChartPathFamily.lean"
+  },
+  {
+    "path": "current/PaperILean/CellChartPathGraph.lean",
+    "sha256": "515e01f2fa06412259e3b3573baec4c27800f17a2aeb64965a79fa2882ca3ec6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CellChartPathGraph.lean"
+  },
+  {
+    "path": "current/PaperILean/CharacterCombinatorics.lean",
+    "sha256": "7c388816a39125ef098965e1f50d8e5d30dc763d6661fc9d2ea83fb47d663584",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CharacterCombinatorics.lean"
+  },
+  {
+    "path": "current/PaperILean/CoefficientChange.lean",
+    "sha256": "f05c217c3414aab6ac5e136fa3a224715163d2dc8c5158d887e1bf066d4fc5d2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CoefficientChange.lean"
+  },
+  {
+    "path": "current/PaperILean/CoefficientFrameBounds.lean",
+    "sha256": "01409cd8275d3f145871305490a5db3c9c8c24f02a3b81bd87db3c5a1fddcbc2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CoefficientFrameBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/CoefficientJetBounds.lean",
+    "sha256": "6f70c72370139462680490bd4abc7cb5890d710339ab5a8bfa6e0d386441e0ec",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CoefficientJetBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/CoefficientModel.lean",
+    "sha256": "79e0f20f262fe8e0065b05d13c27d63da72a2d3575369d7f32171e2ad5e0a806",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CoefficientModel.lean"
+  },
+  {
+    "path": "current/PaperILean/CommonMonotonePartition.lean",
+    "sha256": "112a92a73dbca3fd607e28bdda4363879fda82bb97d0e7a2391c813a709910f6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CommonMonotonePartition.lean"
+  },
+  {
+    "path": "current/PaperILean/CompactFamilyMaximum.lean",
+    "sha256": "18bf35d7de1e9838fe86c698629a358623b8ccf0a3b54999760eea2e8e2d2ccd",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CompactFamilyMaximum.lean"
+  },
+  {
+    "path": "current/PaperILean/ComparisonDifferentialBound.lean",
+    "sha256": "5772ef981815930093cb74bc9a01c495b33272f9efa7375ba5b3ab5efade7376",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ComparisonDifferentialBound.lean"
+  },
+  {
+    "path": "current/PaperILean/CompatibleHardtForMonotonicity.lean",
+    "sha256": "294e0af065f7def4dde5897fb37d65f6856b50e2edd0c8410953d696ecac50e5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CompatibleHardtForMonotonicity.lean"
+  },
+  {
+    "path": "current/PaperILean/CompleteJetNormEquivalence.lean",
+    "sha256": "886ca9cfc0dca7509087c42005ebc32b9a47bc5051c2c1008e236c3ffbaedd41",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CompleteJetNormEquivalence.lean"
+  },
+  {
+    "path": "current/PaperILean/CompleteJetTaylorTransport.lean",
+    "sha256": "4042b116325f9d7091004aa368cc4d1ac025d8fbc7db9f61c895301725d2e942",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CompleteJetTaylorTransport.lean"
+  },
+  {
+    "path": "current/PaperILean/CompleteSymmetricJetEquiv.lean",
+    "sha256": "7ec6838167494d4c7112e2b89b84b20fb7b6751b394279c19deb0a354225ef43",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CompleteSymmetricJetEquiv.lean"
+  },
+  {
+    "path": "current/PaperILean/ComponentHardtSections.lean",
+    "sha256": "b382597caa05f1f87bc67d0e0e3700e410b797c24f3b4cf9287b7992f59643d2",
+    "source_artifact": "RegularSections_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/ComponentHardtSections.lean"
+  },
+  {
+    "path": "current/PaperILean/ConnectedCoverSignFormat.lean",
+    "sha256": "57a9ddbba0459ea8981c737ede10b68eeb6ad9eb32b46a056dbeedf545dc8245",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ConnectedCoverSignFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/ConnectedHardtPathGraphAssembly.lean",
+    "sha256": "7978b17f2438b96f5cf698fd3647ea0feeae37db00dd78a9d16a048d70292fda",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ConnectedHardtPathGraphAssembly.lean"
+  },
+  {
+    "path": "current/PaperILean/CoordinatePathFormat.lean",
+    "sha256": "5af489ec16198289e8df9e1b21e26c12459c5431cb5f118eeda0e9b4deeb0005",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CoordinatePathFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveGermFamilyFormat.lean",
+    "sha256": "cf29133db61f3c5fe92e7363acc96b454df3cb74b5106e19fdbf632e9d8eae38",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveGermFamilyFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveGermFamilyOriginalVariation.lean",
+    "sha256": "818a45335c1ae821c99888da81ab51d4fe3b7bcf9b0405cccf970613965a7841",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveGermFamilyOriginalVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveGermFamilyRescale.lean",
+    "sha256": "46b67a268762df97f7e73a9d37b1a6c37bf2de3bc35dc9b565eb294a1e8b707f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveGermFamilyRescale.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveGermOriginalVariation.lean",
+    "sha256": "2822ac34cc7dd9590900e251d520f8444ac407bcd007bbeb9bf85294af9a255d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveGermOriginalVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveGermRestriction.lean",
+    "sha256": "534dd41ba1357148b60599747284b0e0636f0320a0b9481f37cfd535089aa147",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveGermRestriction.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveGermSemialgebraic.lean",
+    "sha256": "c554bd7b4ef347b40b7ddb9ee91f7420d84b6ebfbd05b2b8cd64351eefaa27ee",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveGermSemialgebraic.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveSelectionGerm.lean",
+    "sha256": "05c5302861598af4b5a0c352077170bee3f5ba93db6e01cde93057c21408cf4c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveSelectionGerm.lean"
+  },
+  {
+    "path": "current/PaperILean/CurveSelectionRescale.lean",
+    "sha256": "0d0da13871a47cf5e77f41cc8c1a0b96cca7ce6ce837af5996eca72f910666b1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CurveSelectionRescale.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalAttachmentGerms.lean",
+    "sha256": "bfc2141cd29e9730db3f7a611ddf4c584f3e7a3063b02519d00b64f6ca4a0ffb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalAttachmentGerms.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalCADInput.lean",
+    "sha256": "ecaa3cece0ca339fc0963cdc455df08bef71cfd3696689162986f90715acc68e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalCADInput.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalClosurePaths.lean",
+    "sha256": "1571faa5f85536af83f5764416442757152cffd844f0aecb70aa35e91ff24619",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalClosurePaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalDefinableChoice.lean",
+    "sha256": "6f0a1dc3757ef016b20e56e1e4dea78284f7013e32cc450bfc7ff1ebd6898bf9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalDefinableChoice.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalEndpointFormats.lean",
+    "sha256": "61e917ab38f1ecfcc5f04c39a042b4de8fcd9f979c5218d0753881338ecea9a7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalEndpointFormats.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalFiberCoordinates.lean",
+    "sha256": "f9930f9a9686719c44457f29185491b6f1e32a0f989e25a2aebd6c9ad324bf67",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalFiberCoordinates.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalFiberPaths.lean",
+    "sha256": "eef496a3227fcc3623acb6b2dc812a92cbba302dd4edbf4d0962c2d2842c3d6e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalFiberPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalFiniteFiberSections.lean",
+    "sha256": "1bf7a72356f99e9d58fd113293708563604a6c58df9e264955a50846d8647f70",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalFiniteFiberSections.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalFiniteGraphCover.lean",
+    "sha256": "146146ee920256419cef982820309110b3b85c2dfe2ab018a2ea03907f2fc946",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalFiniteGraphCover.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalGermAttachment.lean",
+    "sha256": "85d44696e118759e8c16b1fb0de9d13e0b891a7df96adfe1bfda03be4406ee04",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalGermAttachment.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalJointConnectedPaths.lean",
+    "sha256": "c236e863870d65670643d5cece06dd41b2e27660e19a175bb64cc6c206716538",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalJointConnectedPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalJointCurveSelection.lean",
+    "sha256": "d0203efc062912fe54693539ca299f85c802a4735f6281593a4086bc412c9e6c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalJointCurveSelection.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalJointPathData.lean",
+    "sha256": "f0d97b55714f25e5247c3fb536dfb7661641904c2c808716ba77db5240423a72",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalJointPathData.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalJointSelector.lean",
+    "sha256": "05c89bd9065c9b5a0f835102acade9d976d874f8b0066a394f254007262a7aaa",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalJointSelector.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalLiftFiberGeometry.lean",
+    "sha256": "e9900384b67c110421c179e8d6996cb6ed5ca9759586648529b9d905b53561a1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalLiftFiberGeometry.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalLiftPaths.lean",
+    "sha256": "17c435d88beca30fe1a3580c1aed652fdb99b7139071cf644520bfc8d772cdd2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalLiftPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalLiftSection.lean",
+    "sha256": "a6c56f43ae780bd36aae5b6eac13215363eeb7c9f2454e5155de7042401a9644",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalLiftSection.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalOrientedChainPaths.lean",
+    "sha256": "269d71e145713ada36ec2b576083c6ab608265dc3ee8d2edc8a6f24ca2ca641a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalOrientedChainPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalPathGraphs.lean",
+    "sha256": "dc9e7f251a6cb1ea4e970c47907b59fdfeda3d31ecc31e07f519808ac6fee26a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalPathGraphs.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalRationalGraphs.lean",
+    "sha256": "10e5885721930916ce41381fd1aed0b4b00156bec68008793294d82c0f7aab94",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalRationalGraphs.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSectionAlgebra.lean",
+    "sha256": "3631a0d16ddf57f8ce5f9bc9ed63a95d7ba3fdebc126c173e7a11a1ab7da7b58",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSectionAlgebra.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSelectedChainPaths.lean",
+    "sha256": "032fc19214e3f65c85e5162c6ff1de50ff7457c5c85a5fd0513475a4e9f03f6c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSelectedChainPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSliceCoordinates.lean",
+    "sha256": "01e945046f792811e222ab090926a337812781562a0021c74a1f174d2c1eb1c3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSliceCoordinates.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSliceGraphs.lean",
+    "sha256": "a082f37d7e7df8f2b90de07d9f114fdb26045dd2083de038247ba6e2a92caf8b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSliceGraphs.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSlicedAttachments.lean",
+    "sha256": "5ddfb671ca72c20aec557d195b4a8076fdf6920fe53a5adf399131f365e1b489",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSlicedAttachments.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSlicedFamilies.lean",
+    "sha256": "6c432de452bb2bc4333884c826b2b97ca56484147f97ba69955cfdc60ce319d7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSlicedFamilies.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSlicedFamilyFormats.lean",
+    "sha256": "8f60f1a312b6e6cccc7b36add8d4c4fe35b9cef1b65e39aa3953fae6e5f83773",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSlicedFamilyFormats.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalSlicedPaths.lean",
+    "sha256": "281ef206c5064a091323a605b83a44445bd61215a7a067f06cbbdbd9296703e3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalSlicedPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalTowerPaths.lean",
+    "sha256": "d3b69773aeffb4bf69926ba4037d80ee64ef0ee63b8be18287d3cc60b238e5e2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalTowerPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/CylindricalTowerSection.lean",
+    "sha256": "bfd8cc63baa0e83782ed0946b000b4f2f01ba19ddb0e0d9248cf0a027d2d286f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/CylindricalTowerSection.lean"
+  },
+  {
+    "path": "current/PaperILean/DComparisonCoefficients.lean",
+    "sha256": "cca600b71742383502702407b9ae633ab5451ddc44fcfbb75c9ba4be06dc3ec7",
+    "source_artifact": "DComparison_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/DComparisonCoefficients.lean"
+  },
+  {
+    "path": "current/PaperILean/DGaugeWidthCalculus.lean",
+    "sha256": "8af8f7cc430e3d0d745bbcbc784deee342874f515f24e94a5592343b527292a4",
+    "source_artifact": "DGaugeWidths_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/DGaugeWidthCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/DerivativeSignCutConstruction.lean",
+    "sha256": "c2c988f6e956b3c53bdd1f83ba5acbb55f9aae87d1f7fab177750ee10738a1ce",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DerivativeSignCutConstruction.lean"
+  },
+  {
+    "path": "current/PaperILean/DerivativeSignSubdivision.lean",
+    "sha256": "3cbbe73d993af3bc05c294e5b96bd5444d6524478b0e0bf1fcc52e8624240fde",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DerivativeSignSubdivision.lean"
+  },
+  {
+    "path": "current/PaperILean/DeterminantRowPerturbation.lean",
+    "sha256": "96315f99a79dcdcda8033339f192e258fed79b254916f843726128288ee11f19",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DeterminantRowPerturbation.lean"
+  },
+  {
+    "path": "current/PaperILean/DiagonalCharacter.lean",
+    "sha256": "9503a0030b3c8c5d0ad0ff25f732d12b6a6455685b32ff3706c1d330d1baa693",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DiagonalCharacter.lean"
+  },
+  {
+    "path": "current/PaperILean/DiagonalExponentialDifferential.lean",
+    "sha256": "2eab90324a05396cbeeb206cd8e9d139135218fc1a2aea0e5c20c4385f9d596e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DiagonalExponentialDifferential.lean"
+  },
+  {
+    "path": "current/PaperILean/DirectionalCoefficientBounds.lean",
+    "sha256": "2134a2c5add0ba3085f41e0103285d5101e91977b9cc6a0822802a29b0c941ac",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DirectionalCoefficientBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/DirectionalCoefficientJets.lean",
+    "sha256": "e54f2dd74575e2da742dc83dbfcf217b974518d2456027d8ce0436cc67f99fa6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DirectionalCoefficientJets.lean"
+  },
+  {
+    "path": "current/PaperILean/DirectionalHessian.lean",
+    "sha256": "1291a0cc7ef540bb1f0ec35df8bb263038675e0d17a1b4e22365b41797724b7a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DirectionalHessian.lean"
+  },
+  {
+    "path": "current/PaperILean/DirectionalPolynomialDerivatives.lean",
+    "sha256": "a06490ae6e90216d58eec46bc46d283f19a043b828328370e467d3480c0b09db",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/DirectionalPolynomialDerivatives.lean"
+  },
+  {
+    "path": "current/PaperILean/EllipsoidGeometry.lean",
+    "sha256": "c69822b1d9120ca4f63155f7b9bac0cefed822bf6e5f539001479a7e030376d7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/EllipsoidGeometry.lean"
+  },
+  {
+    "path": "current/PaperILean/EllipsoidVolume.lean",
+    "sha256": "01647daee814b7194fbbf410c97cecd424f4e2c467ea87d0d298d8fd0b5a64a3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/EllipsoidVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/EndpointParameterFamily.lean",
+    "sha256": "0c5cffa2393513f357ec203faf84aa98409502f2e03937321ade57d8ad968b71",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/EndpointParameterFamily.lean"
+  },
+  {
+    "path": "current/PaperILean/ExceptionalDSections.lean",
+    "sha256": "7907679f057bf2d1071c0fc1bf168ae10b53d22bca114281c539cef2ba23f219",
+    "source_artifact": "ExceptionalDSections_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/ExceptionalDSections.lean"
+  },
+  {
+    "path": "current/PaperILean/ExceptionalFiberPackingStage.lean",
+    "sha256": "b3a938defd8bb0593b71999ce4d1aa711b0463759ac8e7f410081c822331a800",
+    "source_artifact": "ExceptionalPacking_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/ExceptionalFiberPackingStage.lean"
+  },
+  {
+    "path": "current/PaperILean/ExceptionalPackingBounds.lean",
+    "sha256": "17f5f107ff295269747915844fa0051d30f9b85996d681be5a756cae8b2134b1",
+    "source_artifact": "ExceptionalPacking_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/ExceptionalPackingBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/ExponentialFrameConnectivity.lean",
+    "sha256": "267a5331301d603b0e16ffaf595f7a579381cbc8a76a1eee60bf39bfc346424b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ExponentialFrameConnectivity.lean"
+  },
+  {
+    "path": "current/PaperILean/ExponentialSumCalculus.lean",
+    "sha256": "17415b5516e27601a03fe4c9aee85654e25017aba47e8894b1c687bab8c97139",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ExponentialSumCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/FGaugeWidthCalculus.lean",
+    "sha256": "a689e3bbfe75aa2b42d94b67f6d8dc7dc87e2b581f6b7899b4ea45a0d84de7c1",
+    "source_artifact": "FBox_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FGaugeWidthCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/FamilyMaximumFirstOrderGraph.lean",
+    "sha256": "642cd5a99506868d86135833bcc8ba0d5b9b64a57a9a1ae2d32084fae483856c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FamilyMaximumFirstOrderGraph.lean"
+  },
+  {
+    "path": "current/PaperILean/FamilyMaximumPowerUpper.lean",
+    "sha256": "3436e8d115d53c2b5ca3ac163acf33af336e906a22b39d8ad086a7fe6d142006",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FamilyMaximumPowerUpper.lean"
+  },
+  {
+    "path": "current/PaperILean/FiberClosureRelation.lean",
+    "sha256": "d238cb0950438d655760ef6341e40f147c8d62bfb03ceb9b09e6484e546f4176",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiberClosureRelation.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteAxisCuts.lean",
+    "sha256": "ff7ce9adc009e2a2426810cf3fc55604a1151def2f394b79e72256c5467e3896",
+    "source_artifact": "ExceptionalDSections_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FiniteAxisCuts.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteBorelSectionAssembly.lean",
+    "sha256": "4ea4c82bd114431be5ea78e55c5e4e8a4817f13b55df4d5ddfc000949f53c397",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteBorelSectionAssembly.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteClosureAttachment.lean",
+    "sha256": "f53c5d5804b1d1d3a3befdee8f7498b2bf53ce4a42495e66174ed33356195c34",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteClosureAttachment.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteConnectedCover.lean",
+    "sha256": "af1edb3f8d860bac45d3fafa482e08340ca6230ef87fcfe77362cd620ae39b36",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteConnectedCover.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteCylindricalGerms.lean",
+    "sha256": "86300c0b1debb0aed7f539fff4457a1c235a86a6da315eda26ee6de7ee0536d4",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteCylindricalGerms.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteDefinableSelection.lean",
+    "sha256": "bafba5f2ca67417602068df8655083472d834ccfd7b72c7a86f160fed6bb296d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteDefinableSelection.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteExceptionalCuts.lean",
+    "sha256": "4bcefb852c414f49a892de539bc5f202c4cd7889776af48c8edf4c66e88db834",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteExceptionalCuts.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteMeasureGluing.lean",
+    "sha256": "77af45c3bf900fe976b1ed098075b9a562ed2e5d28b67defc080e53820d4c1ed",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteMeasureGluing.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteMeasurePacking.lean",
+    "sha256": "3d35540ba124dcd94a971095e91b157696962a9a7d9cdfb77fecb957c4104c66",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteMeasurePacking.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteMonotoneVariation.lean",
+    "sha256": "b215b1bf980aff7194c983a24168824864901bceb9ef77911eed1e34057ddbc8",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteMonotoneVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/FinitePieceAnalyticCuts.lean",
+    "sha256": "4f13ac75e02262091d7e722ea6f5b40b19b819b815249a7201a8040ced961912",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FinitePieceAnalyticCuts.lean"
+  },
+  {
+    "path": "current/PaperILean/FinitePieceFTC.lean",
+    "sha256": "c907a9d96ff8a511f55080249d69854237f6643934aceba1abcdb3b7b2db5710",
+    "source_artifact": "OrderedPath_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FinitePieceFTC.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteSampleEnvelope.lean",
+    "sha256": "7d9ca5a00a96e3a1e60c1650487e331540b68649da6b16f0821523701dbc4b96",
+    "source_artifact": "FixedNet_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FiniteSampleEnvelope.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteSelectorGraphs.lean",
+    "sha256": "d1aeae44559900bcabdb209a9da9c86849d97a6a81ef63592b712380bf3cf94c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FiniteSelectorGraphs.lean"
+  },
+  {
+    "path": "current/PaperILean/FiniteSignIntegralBounds.lean",
+    "sha256": "eb208487fd93cde74908bd370d33e2bd837e5bf092f489071a625be794b7497c",
+    "source_artifact": "QuantitativePath_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FiniteSignIntegralBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/FittedRateErrorStage.lean",
+    "sha256": "d8d7f5520eed7c7d2b83e5d21fe3ee19a041115755581c894d2f9e6b210b1708",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FittedRateErrorStage.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedDBodyControl.lean",
+    "sha256": "5d49e2bcd76160c0918b33a0d0724cfb72e6e2e2166e32507be4a12ddb60347a",
+    "source_artifact": "FixedDRelative_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedDBodyControl.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedDComponentBound.lean",
+    "sha256": "a79dcfcc851c6d097fee9f0fe3d22308ca2e93bd82b9e3c12a08a484107bcc15",
+    "source_artifact": "FixedDRelative_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedDComponentBound.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedDFiberComponents.lean",
+    "sha256": "cc455710ea8c1b7a30a59cf5a5211271c8d8778caa9ed4dc2ab1b1fa087e420b",
+    "source_artifact": "FixedDCount_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedDFiberComponents.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedDRelativeStage.lean",
+    "sha256": "6b65d7819845eff7a623a410880427f86ec11980cee72f14a5b71263b0c61e24",
+    "source_artifact": "FixedDRelative_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedDRelativeStage.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedDVariationStage.lean",
+    "sha256": "c0c9090e01071a0e077e01be37d37a3b916b0b2fa1a72d872700c588a841374b",
+    "source_artifact": "QuantitativePath_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedDVariationStage.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedFBoxCover.lean",
+    "sha256": "fa0ea3841abadf6bcea6863ce1e15b176e2e10af3df6b3fa8dde736bd6c54072",
+    "source_artifact": "FixedFNet_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedFBoxCover.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedFNetStage.lean",
+    "sha256": "d5831d614585665fa9f9f4520653a6e20bcd68e0545ade24a222e1d861088457",
+    "source_artifact": "FixedFNet_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedFNetStage.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedFSliceRounding.lean",
+    "sha256": "47a2b9ad43898c5146e455e101baaf442b516d0c76e61832acb74897e8a65ccd",
+    "source_artifact": "FixedFNet_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedFSliceRounding.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedNetCoefficientStage.lean",
+    "sha256": "754da956da49132e67b11d51094fbfd0b41f97eb530fbfff8e26a42da233f8ae",
+    "source_artifact": "FixedNet_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/FixedNetCoefficientStage.lean"
+  },
+  {
+    "path": "current/PaperILean/FlowPerturbationTolerance.lean",
+    "sha256": "fa15a2deb80b84b3933ac9b63b7d3251a8c54e0425b855b49806f8f82fb1fb01",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/FlowPerturbationTolerance.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameBalance.lean",
+    "sha256": "81594df275337d201f1591289b55c2bd6cf02e5e8dbf6b24a21e72ab70bc731e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameBalance.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameCenterLattice.lean",
+    "sha256": "0a8022c77708d06242a41fc1109f44a1b56723130102f3cbd7dbf1f21cbd7d27",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameCenterLattice.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameComparisonComposition.lean",
+    "sha256": "56e92efceb93ceb0c0d03f49012f3b317c43054c112831e904d782966258d8e6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameComparisonComposition.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameCriticalMinimum.lean",
+    "sha256": "4ad1a29ae0f7281b6da39b8892f87d8437743d6493b8e5881c13a434e9e427c5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameCriticalMinimum.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameEllipsoidQuotient.lean",
+    "sha256": "870283f23cfe59b9351abb3b061f9750db8137c5581e29c9a15f42b420ae93a1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameEllipsoidQuotient.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameEnergy.lean",
+    "sha256": "533bb910887f9bf55040f5d1217688244a1440b03ecab89228aea4c6f5728cef",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameEnergy.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameEnergyContinuity.lean",
+    "sha256": "b47a81f0479358eb89508ae4f15204fc89ee904d9576b9369f70dd7d962d1d2b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameEnergyContinuity.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameEnergyMixedDerivative.lean",
+    "sha256": "44b016c879e20e2667042551025a174996dc60cd15b0afe01aba65e3427480c5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameEnergyMixedDerivative.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameEnergySmoothness.lean",
+    "sha256": "c7bf4ec22421a7f9c0e04ea51de0533e35ef0b05aef02241b4863d7caec4c774",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameEnergySmoothness.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameExponentialSpectral.lean",
+    "sha256": "3ff6393d088ae8db463e3cdee27010aef35547267d33aaaf43da61a31e241237",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameExponentialSpectral.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameFirstVariationSmoothness.lean",
+    "sha256": "654a566b2c642fad758f12a7e6dd4fb81aa56348b70ad931f0e7002eb67b5ef7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameFirstVariationSmoothness.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameLogEnergyRecentering.lean",
+    "sha256": "b8015d12954b79ad614c179c7a79d175992cef1d275b96dcc08a4ba5408eb399",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameLogEnergyRecentering.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameMinimumAttainment.lean",
+    "sha256": "6eeefda02c11ec73b90a8b3f2fe7fb9b3f6ed8f26c21a4d55f69de9d21171528",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameMinimumAttainment.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameMinimumUniqueness.lean",
+    "sha256": "89a5d477e3551400b130c487202990137f7c32bab858093679136f645545af67",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameMinimumUniqueness.lean"
+  },
+  {
+    "path": "current/PaperILean/FramePolarLogEnergy.lean",
+    "sha256": "ac1a2271cf622404013048bf566a4f2db68549c2632adb9b0fec3a3e49ea44f5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FramePolarLogEnergy.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameSingularDecomposition.lean",
+    "sha256": "14c7e82243f5a4ad33c84af9661e45b3181998ea749dd114d68241a6892295e7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameSingularDecomposition.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameSingularValues.lean",
+    "sha256": "24d2c1421e48633e1005ea6c3409ad06507888d30137845ae85e2f7a6ab416d7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameSingularValues.lean"
+  },
+  {
+    "path": "current/PaperILean/FrameSublevelBounds.lean",
+    "sha256": "b05e27fe3df9b54386725c6e1784349d178af6de72b789445c148f458dfb7bbb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FrameSublevelBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/FreeSliceCoordinates.lean",
+    "sha256": "81f355ed683549a62bcea294208b981e3d0b5badb713df530604b9c9d6b76f4e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FreeSliceCoordinates.lean"
+  },
+  {
+    "path": "current/PaperILean/FreeSliceRows.lean",
+    "sha256": "300b26d500691200e2506bdf9b69909a2791b7cb497aac33a069f49d85aabce4",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FreeSliceRows.lean"
+  },
+  {
+    "path": "current/PaperILean/FullFrameEnergyConvexity.lean",
+    "sha256": "dfe926563cdd0312b1354211069b1ebf6d7937b7c2c3117e033b68942ab2134b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FullFrameEnergyConvexity.lean"
+  },
+  {
+    "path": "current/PaperILean/FullFrameSecondVariation.lean",
+    "sha256": "85e0f796ade90f554b54c4487197a13131ebfc9fe6b63012586a85d1bdd8ebf1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/FullFrameSecondVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/GaussHDerivative.lean",
+    "sha256": "6fc2f2c911d1ff7136c69d805ab890f0ef69a73fe5edabb0f7fd2776e3a8c8cf",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GaussHDerivative.lean"
+  },
+  {
+    "path": "current/PaperILean/GaussHTransverseJacobian.lean",
+    "sha256": "68988898d1772d66e13aafd0f3192c65c43788fec0c8cecf2969303b2d0b6978",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GaussHTransverseJacobian.lean"
+  },
+  {
+    "path": "current/PaperILean/GeneralAffineCharacter.lean",
+    "sha256": "47c159b7c5bcd9f0d9753faf10e9735e47dbd42daf25e7695b9b8dcb170f9b04",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GeneralAffineCharacter.lean"
+  },
+  {
+    "path": "current/PaperILean/GeometricSemialgebraicDimension.lean",
+    "sha256": "ef7f4bb0d935adf2f6280d7b17ab489105ce0da67bd7a4459e3501dcb9a9e1e9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GeometricSemialgebraicDimension.lean"
+  },
+  {
+    "path": "current/PaperILean/GlobalHorizontalFrame.lean",
+    "sha256": "a0202ef01eb1c2f82467e3fb27ffea7fd8c123d6effcfc3556b0b0ca432aa2ed",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GlobalHorizontalFrame.lean"
+  },
+  {
+    "path": "current/PaperILean/GradedBlockProjection.lean",
+    "sha256": "ba4e0f1b4b694e90d1ceee73b1926850433246ef2ba9badd2bb122dba53d044b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GradedBlockProjection.lean"
+  },
+  {
+    "path": "current/PaperILean/GradedSamplingStability.lean",
+    "sha256": "d69b56fc71cbc56e2a3fc75d270a31ae59cdf3b2a5aca0eac789cb7e51f5af79",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GradedSamplingStability.lean"
+  },
+  {
+    "path": "current/PaperILean/GramCertificatePolynomials.lean",
+    "sha256": "69720a8679c23b2792dc6d7d26b609d098b589d752af355bdcc7c318b77e2f1f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GramCertificatePolynomials.lean"
+  },
+  {
+    "path": "current/PaperILean/GramPseudoinverseNorm.lean",
+    "sha256": "9d47872c3866f2e28220b9c71e1ea4120db331c5f97c75e5ed1f9879fd49188c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GramPseudoinverseNorm.lean"
+  },
+  {
+    "path": "current/PaperILean/GraphDerivativeDefinability.lean",
+    "sha256": "50ff43bef43509057cad8189e208a53b19cffcc8c02a22489094b528b5b6875e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GraphDerivativeDefinability.lean"
+  },
+  {
+    "path": "current/PaperILean/GraphDerivativeLoci.lean",
+    "sha256": "12e160ca6c838c76da5d1b64162edaf0529dcc36164d73a00bc19928f976e4be",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GraphDerivativeLoci.lean"
+  },
+  {
+    "path": "current/PaperILean/GraphMonotonicityDefinability.lean",
+    "sha256": "7cd33f8103cb01efe56f89ccbded0b68579a1ed0461af093dfe218afeb946e37",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GraphMonotonicityDefinability.lean"
+  },
+  {
+    "path": "current/PaperILean/GraphScalarSlice.lean",
+    "sha256": "dc228f9b22d85dff9b0b5ddc8dd410886454593648f8a9272d242cc2fc7bbd9f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/GraphScalarSlice.lean"
+  },
+  {
+    "path": "current/PaperILean/HaarCosetMeasure.lean",
+    "sha256": "d49ebca14b44b5559201542707d480e65e6f67492a8ca9e5057841325ebea89f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/HaarCosetMeasure.lean"
+  },
+  {
+    "path": "current/PaperILean/HardtPathGraphAssembly.lean",
+    "sha256": "95874c578f0a648d96503cfcdba037ae8825a6b73be762c062c35b0225102ba7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/HardtPathGraphAssembly.lean"
+  },
+  {
+    "path": "current/PaperILean/HardtTransportedCells.lean",
+    "sha256": "bf86c17d3d6c9b5d48091f5f7262509c74d9854c32f0868932ae937fe59f8339",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/HardtTransportedCells.lean"
+  },
+  {
+    "path": "current/PaperILean/HorizontalCriticalityBound.lean",
+    "sha256": "ffaffdacdae65a04532843839ac0d024d211528c017422c34679fc4d1211f205",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/HorizontalCriticalityBound.lean"
+  },
+  {
+    "path": "current/PaperILean/HorizontalFrameAlgebra.lean",
+    "sha256": "7c2e35062646a199d1f361d52a932934670706d11b0895d30e2336d5688b5f6c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/HorizontalFrameAlgebra.lean"
+  },
+  {
+    "path": "current/PaperILean/HorizontalFrameContinuation.lean",
+    "sha256": "21647fcd4057aa4ec2cb174d03e7d85a41b1197254181dcf74bfe910a8dd4dfe",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/HorizontalFrameContinuation.lean"
+  },
+  {
+    "path": "current/PaperILean/I2385ProductHaar.lean",
+    "sha256": "e40340858bde803ca79afa7665dc96561f4e9cc384866341d756bf21b6efff01",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/I2385ProductHaar.lean"
+  },
+  {
+    "path": "current/PaperILean/IndexCombinatorics.lean",
+    "sha256": "fb9afbe346d6b4f9b96effb4ffa27f914b8357438f4d1d3a783d812c5276a0e3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/IndexCombinatorics.lean"
+  },
+  {
+    "path": "current/PaperILean/IntegerPointBoxes.lean",
+    "sha256": "bc3368960c90465107b2ba728dddda84ae4a74a7fcaffce6a920e6dfe0aca7c5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/IntegerPointBoxes.lean"
+  },
+  {
+    "path": "current/PaperILean/InverseTaylorRecovery.lean",
+    "sha256": "dc3a7fca830fc1edcb7d86c2b0cc691fc8447c8402e8ab37d3949172a13cd1b9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/InverseTaylorRecovery.lean"
+  },
+  {
+    "path": "current/PaperILean/IteratedPolynomialDerivatives.lean",
+    "sha256": "c03a130bc4a96653f4cb9600c30ee19e19060c8f10f3a592d911096de3fc0ec7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/IteratedPolynomialDerivatives.lean"
+  },
+  {
+    "path": "current/PaperILean/JointAttachmentPaths.lean",
+    "sha256": "6909644a44af8f86d42a1cf3c1b4f099e3af6950f3ecfcf56407095407e8dce4",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointAttachmentPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/JointBivariateRegularRelation.lean",
+    "sha256": "9ef1b0a3bb91cfe54bfa28cd560fe6799760a17646beae50ed16904a45329c14",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointBivariateRegularRelation.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCellAttachments.lean",
+    "sha256": "7f61c3a16dea378f0de855ff694b34bef4f20e24891dd4d03be0daf311e3a363",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCellAttachments.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCellChainDomains.lean",
+    "sha256": "72900d4eaadd5f6ee00008ee01ea975051c8dbbb95ce46a9c350ff2940e89c38",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCellChainDomains.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCellChainSelectionFormat.lean",
+    "sha256": "336dda380872ae77d1e23139cea38119f18b7321ffc3742235ef65d02a11060a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCellChainSelectionFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCellChains.lean",
+    "sha256": "21f8a864f45f904930769fdf1dacc728f4403dfac41f93cb933c6ee7cb249e19",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCellChains.lean"
+  },
+  {
+    "path": "current/PaperILean/JointChartSectionPaths.lean",
+    "sha256": "7d957c596d972f928122fec04921631ecb8ec24017d242a765d005a2d2763c59",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointChartSectionPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCurveSelection.lean",
+    "sha256": "3aed84ced9500b41696add202bb29e2aa3413920af9b1a87d3f489187cc06a9a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCurveSelection.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCurveSelectionFormat.lean",
+    "sha256": "57e20af967700734a1b24ee6c3a4aea376330b31d13d319227a4f535efea17f5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCurveSelectionFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCurveSelectionPaths.lean",
+    "sha256": "90f92aee0c492dfe5d138357a450d183e1b346b595f282d090076cae451396c0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCurveSelectionPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCurveSelectionRegularity.lean",
+    "sha256": "ad973e49fecb5494fc71d3dc054b6cdd9922fb8412292da5afa09ff5bd590da5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCurveSelectionRegularity.lean"
+  },
+  {
+    "path": "current/PaperILean/JointCurveSelectionRelations.lean",
+    "sha256": "2ec3952587c4dde3434d6e5f049e459bc14f0e36fb5bbf7df5821c9cb07f1b18",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointCurveSelectionRelations.lean"
+  },
+  {
+    "path": "current/PaperILean/JointFrameEnergySmoothness.lean",
+    "sha256": "1d9cd92c221f97712fbe8b168b4100c665a7eb6f936e6fb56c43819c30a88fa7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointFrameEnergySmoothness.lean"
+  },
+  {
+    "path": "current/PaperILean/JointHalfRadiusPaths.lean",
+    "sha256": "85b70efc8aab63d6cf31acab43595d8fa271610442c2593cfa3e23419f54003b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointHalfRadiusPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/JointOrientedCellChains.lean",
+    "sha256": "e53401d8378248a1d990b69e2b6ef7ab0ac4445ef2e4558d24fbd2c8087a39ad",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointOrientedCellChains.lean"
+  },
+  {
+    "path": "current/PaperILean/JointParameterVolume.lean",
+    "sha256": "68d63eec5af11f7007f113f24abe0dbed305bac96d3b5cda606ee2daa1f9d9ed",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointParameterVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/JointPathAssembly.lean",
+    "sha256": "e5f0c1a1f339a301b98c16cfca8e00bb971830a4f41d576cba64366bcb7b6432",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointPathAssembly.lean"
+  },
+  {
+    "path": "current/PaperILean/JointPlanarCellCover.lean",
+    "sha256": "b6e8c74b277fab9b83738a547dcae7fc62905674f8f6b98b0c02179f990fc950",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointPlanarCellCover.lean"
+  },
+  {
+    "path": "current/PaperILean/JointPolynomialSmoothness.lean",
+    "sha256": "ed826a6d1105fa1f96e7f38b15747fdf75ec2f0ab3956d0988c90f2ec4ecdec0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointPolynomialSmoothness.lean"
+  },
+  {
+    "path": "current/PaperILean/JointUnitPathGraphs.lean",
+    "sha256": "17bc3d01b53286c5c29187018dd924268ecc22a74a5c3baabad382b0555da5ea",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/JointUnitPathGraphs.lean"
+  },
+  {
+    "path": "current/PaperILean/LeastSingularValueContinuity.lean",
+    "sha256": "b5577ff4c57f823247cd4bbd861887cfbdbc282a186f2f0751ba0255f9c17017",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LeastSingularValueContinuity.lean"
+  },
+  {
+    "path": "current/PaperILean/LinearNonautonomousODE.lean",
+    "sha256": "d8fa3735e4505818d201c911a9425d493d71883810f7247c6cab8d9a7456efd9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LinearNonautonomousODE.lean"
+  },
+  {
+    "path": "current/PaperILean/LocalHorizontalFrame.lean",
+    "sha256": "ba51136d23f251be0c47d18120e36cb8a01fc53ff1c6f2a638092ca898802d01",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LocalHorizontalFrame.lean"
+  },
+  {
+    "path": "current/PaperILean/LocalNonautonomousODE.lean",
+    "sha256": "69a6cc52ab0e827a48baede6758ed10cff67280f74e94ee67da3dc34d1337fe1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LocalNonautonomousODE.lean"
+  },
+  {
+    "path": "current/PaperILean/LogEnergyFirstDerivative.lean",
+    "sha256": "686081a5191d676227b875071ee8b19a1193a1360e6bec74c23fa87260744c8f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LogEnergyFirstDerivative.lean"
+  },
+  {
+    "path": "current/PaperILean/LogEnergyGradient.lean",
+    "sha256": "85d4b9590fb3d75c623daf659d150dabcd5386a6b4a419c0b6956e00cc90d773",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LogEnergyGradient.lean"
+  },
+  {
+    "path": "current/PaperILean/LogEnergyHessianFormula.lean",
+    "sha256": "a1d0ae01bd6ec92cdcc574c3513689d926348ac9ca23686d31b471300240fa5e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LogEnergyHessianFormula.lean"
+  },
+  {
+    "path": "current/PaperILean/LogEnergySourceHessian.lean",
+    "sha256": "c418327a237da32d9b5760c52076e0c65c1fc8d2501dab15293272dfdbffcd32",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LogEnergySourceHessian.lean"
+  },
+  {
+    "path": "current/PaperILean/LogSpectralChainAlgebra.lean",
+    "sha256": "cd5430388224055b1947c7fcc87c8c997d6f9a086f3928057989e515906a261b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/LogSpectralChainAlgebra.lean"
+  },
+  {
+    "path": "current/PaperILean/MainStatement.lean",
+    "sha256": "b61788efffc708f193249a0a0e134e646402f9c198965873349ad64eab14ef74",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MainStatement.lean"
+  },
+  {
+    "path": "current/PaperILean/MarkedHardtPathTransport.lean",
+    "sha256": "4d4af3c600d5de6675d1ce405eed24de30cbf955120a2dcfc683475d6d450f5f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MarkedHardtPathTransport.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixCubeLabels.lean",
+    "sha256": "79fefd5bfdc6b03abcfc56aec243e2fed77244927d4c1588fb9d10823a75fc42",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixCubeLabels.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixCubePacking.lean",
+    "sha256": "a5c8b5e074276cbcf270372a5e7a864a1ddb965fb59b0bfb343e61be8f89adaa",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixCubePacking.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixExpLogDifferential.lean",
+    "sha256": "75a32cd0d606d718d4c4bd146afa12aa8eea6b8803093b6e6bc3575dc1f7305f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixExpLogDifferential.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixExpLogInverse.lean",
+    "sha256": "8a5fd93b39551478cc52101e861e8c709fcfc2cdd03accf7b961d63e7a070f91",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixExpLogInverse.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixExponentialCurve.lean",
+    "sha256": "2159ce9793006c0625881bac3de89436a4026f28c0b5c3a700516ebc8d326125",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixExponentialCurve.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixExponentialDerivative.lean",
+    "sha256": "86308ff292483a0aefd13bc91b6c41112d10f22d030a9cf93a1780735c656524",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixExponentialDerivative.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixExponentialDifferential.lean",
+    "sha256": "ba814ffb2469682c7bf5804ffde330f55c4a09aef3e294a5aba8f41f8e80b8ac",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixExponentialDifferential.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixFrameFirstVariation.lean",
+    "sha256": "98c03eb39eb7186b1722fb58eb97028f7654731aa62e76df8f0d8daa7cb0916d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixFrameFirstVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixFrameSecondVariation.lean",
+    "sha256": "73f36eb40143587d62b2429a94ef45205fd411df771d2c83f8f1844f5905ef51",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixFrameSecondVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixLogAnalytic.lean",
+    "sha256": "b6bf5c9d890cfb4061a39978aa77e0e1583c7bae4e977592fd354f03986792c7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixLogAnalytic.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixLogContinuity.lean",
+    "sha256": "f77d8bb3abe631742fbfb94de0f0e88f0df5cf3ce4e7484b7f32144007735845",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixLogContinuity.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixLogDerivative.lean",
+    "sha256": "5c838f83a687ba3ca3851c42a3f96b8f2f6e21da8235ba8999f30f9f3b5a61de",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixLogDerivative.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixLogEnergyModel.lean",
+    "sha256": "296c7e6da2b2635622353f62fea0e628bfec5f1afa695b6c140a0f9ebfcf3230",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixLogEnergyModel.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixLogInverse.lean",
+    "sha256": "c265bbf6f389f6da794ab76fa263f68d18e2fd2385c483444dfef7c7061ab242",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixLogInverse.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixLogSeries.lean",
+    "sha256": "b2de9e8d35d3005970627084609670efe113125867e852532708d420614780f2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixLogSeries.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixOrthogonalReduction.lean",
+    "sha256": "044875aca57f348a00baeae70626e34499515899d4074cc47caa48d7357af312",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixOrthogonalReduction.lean"
+  },
+  {
+    "path": "current/PaperILean/MatrixTraceSquareDifferential.lean",
+    "sha256": "bd40983c87d72f8cdfa101de72676da8217eea51028b7c3d2f831095a6ee1632",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MatrixTraceSquareDifferential.lean"
+  },
+  {
+    "path": "current/PaperILean/MiddleCutoffAssembly.lean",
+    "sha256": "c01edfa0daaa8f44a92c68b81f6e8ad7303b6cde8d00839d5d4de1f327109a40",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MiddleCutoffAssembly.lean"
+  },
+  {
+    "path": "current/PaperILean/MiddleSingularMinMax.lean",
+    "sha256": "b8accf038fd06e23c255d68051c8547e5d1900383231e30fca7c5a0e01bb006d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MiddleSingularMinMax.lean"
+  },
+  {
+    "path": "current/PaperILean/MiddleSingularNorm.lean",
+    "sha256": "34c320032b300d98da44e18d35c8a366b7ead6cc42d3668e0bdeb1dac1ceba99",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MiddleSingularNorm.lean"
+  },
+  {
+    "path": "current/PaperILean/MiddleSingularPlane.lean",
+    "sha256": "cc00021cf1000427308a6a16f115b24dbb5605309e8023008156cb0e7d2fc27c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MiddleSingularPlane.lean"
+  },
+  {
+    "path": "current/PaperILean/MiddleSingularStage.lean",
+    "sha256": "3d9760c62445239635c3bd7fed21d8c0fc09341a786c97049363886680446fe6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MiddleSingularStage.lean"
+  },
+  {
+    "path": "current/PaperILean/MinimizerJetBounds.lean",
+    "sha256": "6c3a665c7ea16d3621cee060d75e85dfac3ac070aac911b2db7de8b2e80129bc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MinimizerJetBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/MinimizerLowerBounds.lean",
+    "sha256": "b961c0f32bf1bbff9e87c9302db1bfffd03c5cac1709bc6cfc777540951a18ae",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MinimizerLowerBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/MinimizerSpectralBounds.lean",
+    "sha256": "2d4464cbda9ea68c25a677e15fb1a1efa3aa69486d69d3586998f91ad6db2ae5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MinimizerSpectralBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/MinimizerTranslationStop.lean",
+    "sha256": "543077a646b46da372a188a30070b690c0f78572e1562c08d624477f8cdd5f1c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MinimizerTranslationStop.lean"
+  },
+  {
+    "path": "current/PaperILean/MinimizingFrameComparison.lean",
+    "sha256": "2146392365cf015f2b859382a8b9f7062a665ca0b558acbe3344b887c6f5ea86",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MinimizingFrameComparison.lean"
+  },
+  {
+    "path": "current/PaperILean/MixedJetCoefficients.lean",
+    "sha256": "9d91664bb244eea3553e9da9090c9a0a0d02d460752108974ef08867e56cec9f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MixedJetCoefficients.lean"
+  },
+  {
+    "path": "current/PaperILean/MonotonicityBadSet.lean",
+    "sha256": "1220c50f6956ab8274b90c033a7d15cfd2dca0df9f89a9d29af6f1866c334108",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MonotonicityBadSet.lean"
+  },
+  {
+    "path": "current/PaperILean/MovingFrameCriticality.lean",
+    "sha256": "b9d9eb1e957d80ebc30d11964a260cc99f51e53767901a3f8cb7bf20f056d699",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/MovingFrameCriticality.lean"
+  },
+  {
+    "path": "current/PaperILean/NecessitySeedJacobianDifferential.lean",
+    "sha256": "7acefeaf47617deec79375f5fea3562741e20f34ff372b6e61abfb5eb1bacaa6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NecessitySeedJacobianDifferential.lean"
+  },
+  {
+    "path": "current/PaperILean/NonconstantPolynomialProduct.lean",
+    "sha256": "7032e4f916e49a5e2861bcd140f8cd12bee872755ec83a85bee56fb34a5adf2b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NonconstantPolynomialProduct.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalColumnRank.lean",
+    "sha256": "29aa1bf9ededaa8d16b2bac8bd6ff75bd3697a0728d2e59b0eb7b62f174f8848",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalColumnRank.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalColumnRepresentation.lean",
+    "sha256": "0bac159e2f72e360630b4235f0b5c2684c10e1e0f25ffea2b285aefdd918300d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalColumnRepresentation.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalFibersCount.lean",
+    "sha256": "a11582d27f06c5af26845033a6c6f28e2c5d366e321b5f547b3ed86104119cf1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalFibersCount.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalFibersJets.lean",
+    "sha256": "9cf954c2cc949fb20899fd2cfe8c2b01e96a657b26fb69ab05500066c2e61c09",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalFibersJets.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalFibersStage.lean",
+    "sha256": "70039809ba3ddd1468921cbd265bc5bc890f7edeb514eeb7aebf7a03399b808e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalFibersStage.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalJacobianDeterminant.lean",
+    "sha256": "8793b75a63754ef80c8022d2db8b8c339b1a1514b306b79ba4e3e71e94f7a061",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalJacobianDeterminant.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalJacobianDifferential.lean",
+    "sha256": "973e82f6a436ac46df2f9882989936b37fc985c2a9ad63441b50ff640afcaced",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalJacobianDifferential.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalJacobianStage.lean",
+    "sha256": "ec83a9207bce13ecc642b899452e78102b85017475f90d5495234d8f2e885f4a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalJacobianStage.lean"
+  },
+  {
+    "path": "current/PaperILean/NormalOrbitLeastSingularValue.lean",
+    "sha256": "b34cb80fd9baa7b7616d4acfaa42007c94123c14f9a54c528a1ca6f9a6cb6a02",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NormalOrbitLeastSingularValue.lean"
+  },
+  {
+    "path": "current/PaperILean/NullFiberCoordinates.lean",
+    "sha256": "281267ae142868458843cf173009dde2230ebb1eb27db4be4e019fc1302e9cca",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NullFiberCoordinates.lean"
+  },
+  {
+    "path": "current/PaperILean/NullGraphRawConstraints.lean",
+    "sha256": "727311f6f756008ef4f11a42d3d11b79dd23e1c14b9b3e7c1e252d3e9e3126b3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NullGraphRawConstraints.lean"
+  },
+  {
+    "path": "current/PaperILean/NullGraphTransverseJacobian.lean",
+    "sha256": "48440369d56cc0ab1afe8a405cd6b76b81a77d1b5713495ad643d34d1255e257",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/NullGraphTransverseJacobian.lean"
+  },
+  {
+    "path": "current/PaperILean/OrderedGramBasisCertificate.lean",
+    "sha256": "319f5afcfbf60413b33fbff7fce0f487f4df3d7498e888332f18987fcf08b39f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OrderedGramBasisCertificate.lean"
+  },
+  {
+    "path": "current/PaperILean/OrderedGramMatrixCertificate.lean",
+    "sha256": "c6ee978d63ae05f7605865f1f517a80f305877be94797f3398093d97cc0bf420",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OrderedGramMatrixCertificate.lean"
+  },
+  {
+    "path": "current/PaperILean/OrderedIntegralPerturbation.lean",
+    "sha256": "f3fde065352f207dd588eaba741a7c7f3a10e0a38ffd8e84f0d5a41a622e2728",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/OrderedIntegralPerturbation.lean"
+  },
+  {
+    "path": "current/PaperILean/OrderedSingularBasis.lean",
+    "sha256": "4d031bed881e38f351b22675199a78456d10b531a1a6f2e018f688f8acf263ac",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OrderedSingularBasis.lean"
+  },
+  {
+    "path": "current/PaperILean/OrderedSingularValueContinuity.lean",
+    "sha256": "682c2df49ea0bf45504f29807bfbbc8052d7e3e22b9e11d7de4cb382d117a124",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OrderedSingularValueContinuity.lean"
+  },
+  {
+    "path": "current/PaperILean/OrientedSpectralBasis.lean",
+    "sha256": "d3ece06ccf6562e67b77cdb7b27e7a574009ef42b481b62a76b8869076a61f61",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OrientedSpectralBasis.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalAffineDeterminant.lean",
+    "sha256": "7c1264e5d268f52a65e28a4fd98a058892e6315ba6ddde87854567405b4047ac",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalAffineDeterminant.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalAffinePerturbationBounds.lean",
+    "sha256": "7988bd5b73bf5f5837456c5487cdc5b42b168a3f1ff5afbafcc8187bffd4b821",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalAffinePerturbationBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalBivariatePolynomialJacobian.lean",
+    "sha256": "2757c4d6493f8c998d00d401e582f964722b9a7a32c2a1eaf58b00d0a8ff0d82",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalBivariatePolynomialJacobian.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalDGauge.lean",
+    "sha256": "fbe04641f64f7980829745c02a3a034ab9dd488d96f4d67d2d00ba09560599ea",
+    "source_artifact": "DGauge_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/OriginalDGauge.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalDGaugeBox.lean",
+    "sha256": "734f0397d553ceababca549a1a8d895cd7d7c45a96b26ffcc9c04172a290b63d",
+    "source_artifact": "DGaugeWidths_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/OriginalDGaugeBox.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalDGaugeMultiplyback.lean",
+    "sha256": "cc62ce436b941ff01a7364fc86fb46bb44ab329e7ba688ad0781d9e62afb0236",
+    "source_artifact": "DGauge_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/OriginalDGaugeMultiplyback.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalDGaugeWidths.lean",
+    "sha256": "c168ad8ae87f013e4a169970c6224f664ebbc5da77238873d5994a04bd46e950",
+    "source_artifact": "DGaugeWidths_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/OriginalDGaugeWidths.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalEigenvectorFrameBound.lean",
+    "sha256": "94d28fb02c8e00a2e33af9e587b8f7717af060fe31c505d0fc3118b0ba3a4829",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalEigenvectorFrameBound.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalFBox.lean",
+    "sha256": "911f73d208939776aff1b6e3929505f248979f6675f00253e8665414eb924357",
+    "source_artifact": "FBox_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/OriginalFBox.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalFBoxStage.lean",
+    "sha256": "42489f3cb51648a7ee5938785e05c6f0735a641858754afab0200dcb665c04ea",
+    "source_artifact": "FBox_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/OriginalFBoxStage.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalFGauge.lean",
+    "sha256": "5de6ae472dc0e5335b183f48c7e10c5083b41e67e9eeb5546ad6e62c159b00e2",
+    "source_artifact": "DComparison_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/OriginalFGauge.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalFrameHaarFiber.lean",
+    "sha256": "80c508fa5dc342a27467257e5f0c9e6503e15efc4a7f8f37b048492ce6eb79df",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalFrameHaarFiber.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalFrameHaarFiberLiteral.lean",
+    "sha256": "ba2fc3c7a371af89a8d9be08af727a59c594dbfa88074fa2062c87a01bc9252d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalFrameHaarFiberLiteral.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussBodyApplication.lean",
+    "sha256": "9aa7befdf19238ae992ef9334ed0b8e17b07855459f48106f3ced1a540406cab",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussBodyApplication.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussBodyCalculus.lean",
+    "sha256": "455a8f2b8ef5a84f47dce50c7a106dff8c1ac4984abeb26ed45e6f00b2ce4629",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussBodyCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussBodyCoefficientBounds.lean",
+    "sha256": "8996403aa298939c257185a9e472438cbe968b128ba3c5253a2f56dd3b9453f1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussBodyCoefficientBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussBodyMatrix.lean",
+    "sha256": "5261bb0c0b2b2719377758810321369932b3ae0d4df280929b89cf45c3b25552",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussBodyMatrix.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussBodyNeighborhood.lean",
+    "sha256": "1e7baf005efa6cc76d7b35d4132cc8d6c4f4bfc0a49d8fdf91399ef3d346221a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussBodyNeighborhood.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussBodyPathBounds.lean",
+    "sha256": "f87d1a3d21df7e5536c488f716ab5be1ffa482a975949563ef168a2b930d3c06",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussBodyPathBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussChartRegularity.lean",
+    "sha256": "c54cb61880e95e0319cfc814bc5bb297b2faa38b4433664338594ba7a0f9c71e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussChartRegularity.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussCoefficientPerturbation.lean",
+    "sha256": "ac4dc4ac6f6e29729a5cd0c35b0462c144b0bb910c76242d9f91883ad605bb90",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussCoefficientPerturbation.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussCommonRootCover.lean",
+    "sha256": "6a4097265332ed6efc5bed79d587948afb63e86b636b323bb6df977d538a3e8b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussCommonRootCover.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussConditionedBody.lean",
+    "sha256": "4658fb7f08aa495dc30739c15fd21c71760371b702cc1621cab3dea50655c584",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussConditionedBody.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussFixedFrameArea.lean",
+    "sha256": "7215e5b3b4fd297bdcf56cf8256aa98241a2f236cb292eebcd6321be4e337549",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussFixedFrameArea.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussFrozenBodyBounds.lean",
+    "sha256": "844e9780450db124f5945494a2a463a50f854035f05af81bd3a9a0717d766042",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussFrozenBodyBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussFrozenCoefficientBounds.lean",
+    "sha256": "f7b11ba55df3424fb557c5168ee22e6f9b959ef1803f6d2b65fa9365820737b5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussFrozenCoefficientBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussFrozenThird.lean",
+    "sha256": "60b4b0bb3f9b18a2232221fbfec8334a06e72f2b262fae243daf98e2085d4834",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussFrozenThird.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussGraphJetComponents.lean",
+    "sha256": "39a30d496b716d6f2a0bb76a305cd13d276c893bf5006a237348035a82090525",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussGraphJetComponents.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussInverseChart.lean",
+    "sha256": "4fea9a863568cafd7f197ae7a974497b8f25c32791bdecf13b65c441e08b54f9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussInverseChart.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussJointPolynomial.lean",
+    "sha256": "3ec7ef54b6b65ac30f8d7b2ac8ce6b89b56f8216438a294c3afeae00b76dd29e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussJointPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussNormalFrame.lean",
+    "sha256": "c76cf26fcb4cef10d59087ab05acebe1d456b2523e5547733ae7d6e425e2089a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussNormalFrame.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussNormalizedApplication.lean",
+    "sha256": "679f9fa2dd084f6ef01f5bc252f9f398c6fde2db5a405be0c6047ba16cc59a61",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussNormalizedApplication.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussParameterIFT.lean",
+    "sha256": "cd2174a70cd9bd68cb9c9daeade1652f86fc1959f13fde8757d269e2052c8ead",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussParameterIFT.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussPlanarCharts.lean",
+    "sha256": "39b5c1608824734016c98cf99278356e864218241eccb9fa680b3eef20638e00",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussPlanarCharts.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussPolynomialDegree.lean",
+    "sha256": "0519c8daa154a47ebd2bc03d5ffca50579df55eb97f57cd90304fbd384720e5a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussPolynomialDegree.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussPullbackCalculus.lean",
+    "sha256": "f960be24047a752fa3dfc8d3979e76bda687b9b005c6a5df807b1cc27fcbb2a0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussPullbackCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussRelativeFrameIntegration.lean",
+    "sha256": "5b6248cdb2401a7f30fd54920c4aea184515358bf2152e243bf134e6428f6799",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussRelativeFrameIntegration.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussRootIsolation.lean",
+    "sha256": "19ffd1edd9d0e1eaaa01de9443f8a04db10da5ceb6f40a7e9d84540183cc4bd0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussRootIsolation.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussRootJacobian.lean",
+    "sha256": "914690f040e1f304cfe022a88901373f7e33c27a8182eb996cb104137fc35437",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussRootJacobian.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussRootSlice.lean",
+    "sha256": "497e31b0cd8039a68ee7bd6b4cac795adc27ca57c3d276c71007a0716d14845b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussRootSlice.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussSameInverse.lean",
+    "sha256": "df55d768318d663f385e5dbaf229a345d547c77b600601a38e5f07d1b0194945",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussSameInverse.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussSelectedRegularity.lean",
+    "sha256": "fd440aacc5dc5f0c77e98cf3709e334b73e54f1a6f286e4e39f2ef73219d333c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussSelectedRegularity.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalGaussShearThird.lean",
+    "sha256": "17c6f6e596cfebf8d3b2c5687bdfee2648eb29a8f9af48abccb02994ce898582",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalGaussShearThird.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarArbitraryPhase.lean",
+    "sha256": "fc01e4c19be7bf86861aaac336829f6b036cbb40cca6cebfb7650f446ad20d41",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarArbitraryPhase.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarOrbitBody.lean",
+    "sha256": "bbd0a13eadc08931b69bf211a9a6dc2ad2b66c30e48c39bdc42883d9da303b54",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarOrbitBody.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarOrbitPolynomial.lean",
+    "sha256": "0f410d0e1fd56e965253392d0b9c9b152856c2ed82918266fdd4c2e1e3ecf7a6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarOrbitPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowActualPath.lean",
+    "sha256": "ae8cdc61dc18fccaa325eae57323f23df3866a9e78b1d4dfa6cffc1a4f64abd6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowActualPath.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowArbitrary.lean",
+    "sha256": "e3ae5e1f3b1da43735ab0cd8197e4b86c0febca57e14a01bcb4c51925b03f6d0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowArbitrary.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowBoxes.lean",
+    "sha256": "f7448dc30efbb4539fabe364cef004ace97c6e521fbfb0723c94df03dc98904e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowBoxes.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowComponentPaths.lean",
+    "sha256": "33f01c7c94686d65cec9d5946ec64cafa9ead59cf411d24ab7109bd793739600",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowComponentPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowEndpoint.lean",
+    "sha256": "6b299ff581ea5beda0554d5ea5701718ed2c83104c3aa8751671acdeb87242df",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowEndpoint.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowGluing.lean",
+    "sha256": "59cf0ac2ea87c01cedf348b57cc55a50eadf7a10e8e637b5f782b9e0eb62895c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowGluing.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowMeasures.lean",
+    "sha256": "dfcd7ea3a7fb8995afac94d79fc9e8080bf47a8f66093d5cb4b4b8cb4c4facc6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowMeasures.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowPathCuts.lean",
+    "sha256": "07b0ef3b28a2e4d4ef19eb9322a4566b8bd020ceabcc5462ca1791e454d04083",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowPathCuts.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowPieces.lean",
+    "sha256": "4d0bc2a88f2ceabd27a67798e0046c9c446514ed1d8683316cb8d2e04c6f8a96",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowPieces.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowPivot.lean",
+    "sha256": "5ad76b25f1def8ab07d336298220169ce6851a81300e4fdfcb0bbe07c7ac1fe3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowPivot.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowPowerBound.lean",
+    "sha256": "8df0947480a349152eb97e2d0e8a9e48dd68f78e4b36a48878f8c708a0bfaa84",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowPowerBound.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowRelativeStage.lean",
+    "sha256": "127705781308fcb3f048095898c78d50809d4251a787eb4f814cf71a0ec6f26d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowRelativeStage.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowRightCoset.lean",
+    "sha256": "879986a231c1311988d27f83e55d1e777afbf167c58fa2f2e006c53fdda5970b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowRightCoset.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowScale.lean",
+    "sha256": "940d0df36ad2cc216ad04f0f6337696ab5a13902c8b9595631e4290345100c32",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowScale.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowSingularValue.lean",
+    "sha256": "3718acbf69ea60887652053c28c131bd966e8a3afa13b4ce28fb790df61f34cc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowSingularValue.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowSubgroups.lean",
+    "sha256": "50942809ebd29f78af05f00df7e5dc77efad4d2f5d662be9004470a3074e2d99",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowSubgroups.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowVariation.lean",
+    "sha256": "777af3b302a33d0d3c741ac265159e06a29e0770c5f2b6d242971ae33c41e81f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowVariation.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalHaarWindowVolume.lean",
+    "sha256": "e3ad4cc001c92f999b4b7ac45cd72599a1a9fbc32baa0a44d8c127c859c957fd",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalHaarWindowVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalImplicitSection.lean",
+    "sha256": "1b9b12b28c7059caa1cf5dc5baa809b69d2195a05ab0bb3d9b1f76f13e567bf6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalImplicitSection.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalMiddleCutoff.lean",
+    "sha256": "fbab315403d12b5ad9268672ec557c089f724d4d1343f82fca110b57d9cdc7ef",
+    "source_artifact": "OriginalMiddleCutoff_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/OriginalMiddleCutoff.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalGraph.lean",
+    "sha256": "9723ecaa414d135bcf74f1f67ed6edf47d508c726d044498a0f8d446341c72b6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalGraph.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalGraphCalculus.lean",
+    "sha256": "4d20a0cc39e773f440e75240c1c6bebe2c8e83e5c20ace02db75fcb3703fe440",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalGraphCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalGraphSmooth.lean",
+    "sha256": "ee166d08e22d917d292917f88fc2fb8d94db61e2304e730b9a38a00f6cd755c1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalGraphSmooth.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalImplicitFunction.lean",
+    "sha256": "b77b2871b6d07588fd5010e5f3b6d299d14ec1d04d251322781c4bdcb82a8ae6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalImplicitFunction.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalJetBounds.lean",
+    "sha256": "67d6b3d5450e649b18617e03de982f837de4c39049db9a80d1b5178ac19d1364",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalJetBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalJetCalculus.lean",
+    "sha256": "54e015924f3454d5783d6f68bfd84710bf766c26392f54c95660f80bb6062ee0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalJetCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalPhaseJetBounds.lean",
+    "sha256": "9dbb89adff2e27fc65f06717b6abeb9d32f83dfc5ddb82048beda1e62e525f70",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalPhaseJetBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalPolynomial.lean",
+    "sha256": "d04eb756688ef59963de2060055d2eb57dc8946977000286eeb3ef7c59862b63",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNormalThirdRecursion.lean",
+    "sha256": "fefeea092fef552eb6688bc4b99d87ab20c3c03dd58e28d19d0e855e3c7bee1e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNormalThirdRecursion.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNullPhysicalPivot.lean",
+    "sha256": "0c30b6dd51bbab6caff445a16ab4428d36fdc37cb0159158b0c11edc17b8ad05",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNullPhysicalPivot.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalNullPivot.lean",
+    "sha256": "d802b0c228a2b1e8154d3813137dff242a1df86b2b7ad6f28346fc4b623a9c72",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalNullPivot.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalOrthogonalCharacter.lean",
+    "sha256": "80f459b412b806997cf1a41a42f17b0a74c6484dce2133142cbf4bf0637966d0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalOrthogonalCharacter.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalQuadraticGaussBox.lean",
+    "sha256": "709c496e3a23d3965bbdc537e5cccb0ba87f2235648deb7b43ef6c8bf58d8584",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalQuadraticGaussBox.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalQuadraticGaussCoefficients.lean",
+    "sha256": "2599057abbde27d9afacc43273bc3404ebdef6382fadeae3978375aef2118eab",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalQuadraticGaussCoefficients.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalQuadraticGaussFrame.lean",
+    "sha256": "4e041bbdd223bd14c854f662c172a0c05d0ee85de35858c9df744aa6c54018eb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalQuadraticGaussFrame.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalQuadraticGaussGraph.lean",
+    "sha256": "b750157542e66afb49afcc57e1276f6b527b9a2b0bf302820460bee413b638a8",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalQuadraticGaussGraph.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalSamplingComparisons.lean",
+    "sha256": "2a867d39138b7dec69cf491f83e690e82ad22439ca0b3345757c543b4d4e2e8d",
+    "source_artifact": "FixedNet_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/OriginalSamplingComparisons.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalSpectralHessian.lean",
+    "sha256": "3b698288044be1431407fba66d5139c7125fdb59c45ad871e80fedd6769867ce",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalSpectralHessian.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalTensorExponential.lean",
+    "sha256": "a3d9e3bfaf557af7b18506b9b410a0577fb39d4e489adb5fe4a441dc89014194",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalTensorExponential.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalUpperBodyFlow.lean",
+    "sha256": "dd3cff0eb663d75e4edaa917139aa3b63c7011c102ab6bfc5656c28c86733ae2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalUpperBodyFlow.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalUpperFlowPerturbation.lean",
+    "sha256": "14ee27c312661e512b9d8e2ce00a324511ba438c0cbfac0f12bfe30f90c6ca76",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/OriginalUpperFlowPerturbation.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalUpperIntegralBounds.lean",
+    "sha256": "bdc418487f9202da1175c5fe0f83dd06c2cb633b9126915317dc5f523f04f84d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalUpperIntegralBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalUpperNormalPullback.lean",
+    "sha256": "2b521179503f55581b2941d11391ec2300053e2325441a41e308048f6245c644",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalUpperNormalPullback.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalUpperNormalization.lean",
+    "sha256": "e026873e0cc05eb5925779a37d917116b8da4e72a7e59e70d7bf1114a5360e0b",
+    "source_artifact": "Normalization_Source_Evidence_20261103.zip",
+    "source_member": "new_sources/PaperILean/OriginalUpperNormalization.lean"
+  },
+  {
+    "path": "current/PaperILean/OriginalUpperOrderedIntegrals.lean",
+    "sha256": "3638be16f678744163f472b0b3b0d0939391bda9ca548a382de7ad2ef2689cd9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OriginalUpperOrderedIntegrals.lean"
+  },
+  {
+    "path": "current/PaperILean/OrthonormalFlagIntersection.lean",
+    "sha256": "48d2cae039ee2c48e9df4734f4801aa2aeeb343b9c4645aa800932ffa2ad63ae",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/OrthonormalFlagIntersection.lean"
+  },
+  {
+    "path": "current/PaperILean/ParameterImplicitFunction.lean",
+    "sha256": "f3c7480aa7481f7c8665f4baee4894ad387d9277a8f0edc066ec410d6c302b9a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ParameterImplicitFunction.lean"
+  },
+  {
+    "path": "current/PaperILean/ParametricPolynomialBounds.lean",
+    "sha256": "aec5956e51f052491a70e542eedaad678ec8fe66d813ee98d18017a0b56636ae",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ParametricPolynomialBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/PhysicalGaussBody.lean",
+    "sha256": "370a2b1861311907f487892d13d02b396207c27df11fce62072520ed26b55e4c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PhysicalGaussBody.lean"
+  },
+  {
+    "path": "current/PaperILean/PhysicalGaussPivot.lean",
+    "sha256": "857289b4779e7fbbe8838439ccfe3ac991989c1c12c9a479d962dc017ea186a8",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PhysicalGaussPivot.lean"
+  },
+  {
+    "path": "current/PaperILean/PhysicalH0Conditional.lean",
+    "sha256": "45daef997113678e662bfcf3a5864d7d398a9473b4f6cb1c29af967ef4ff22fe",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PhysicalH0Conditional.lean"
+  },
+  {
+    "path": "current/PaperILean/PhysicalH0Inverse.lean",
+    "sha256": "cfe08c9a6db0b7be94e993a5ce7caa13a461b841422dd0c92f1b72223d966283",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PhysicalH0Inverse.lean"
+  },
+  {
+    "path": "current/PaperILean/PiecewiseOrderedIntegrals.lean",
+    "sha256": "5b776f3141f8874c5fd134b976bcecfaca7ce35e8937a5f37724ccd2c5664fdd",
+    "source_artifact": "OrderedPath_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/PiecewiseOrderedIntegrals.lean"
+  },
+  {
+    "path": "current/PaperILean/PlanarCylindricalCellGeometry.lean",
+    "sha256": "0f896da9ef119dde5599b60be7664ed815f835b329d72ce5f76ea25e37bd5f2d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PlanarCylindricalCellGeometry.lean"
+  },
+  {
+    "path": "current/PaperILean/PlanarCylindricalCells.lean",
+    "sha256": "a2cf34df1781a7c34201f76e67670c94d4d6c2c4d88f4a2c361806b5cb4fb4c6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PlanarCylindricalCells.lean"
+  },
+  {
+    "path": "current/PaperILean/PlanarGraphRefinement.lean",
+    "sha256": "c57dd34e7e20282ad54666dbbf634b429aed85aaae364b2d4620891d9b68bcd7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PlanarGraphRefinement.lean"
+  },
+  {
+    "path": "current/PaperILean/PlanarRelativeEndpoints.lean",
+    "sha256": "7f3c91c45debb310715414555f0684467a416af4830acc40edf262c8cde469fd",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PlanarRelativeEndpoints.lean"
+  },
+  {
+    "path": "current/PaperILean/PlanarSlicedCellGeometry.lean",
+    "sha256": "8b1d4bc314fb26f4d959d29ce50d2db89724b2d9fe9f3496337b27c0388aa789",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PlanarSlicedCellGeometry.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialDerivativeCoefficients.lean",
+    "sha256": "aeb9fe6344ff1e78560df2d33be781d9e3fafd4d4db7ca5e6a923e2049c83231",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialDerivativeCoefficients.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialDerivativeVanishing.lean",
+    "sha256": "bde0d8a79ac29c5dd9d42cac20bbff12a90b6e49783f2eff5911e40bd5d29c8b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialDerivativeVanishing.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialDifferentiation.lean",
+    "sha256": "e57ccaab1f7d32c84cc95ea674f9a107df015651c1848f97b90354c0e036d11d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialDifferentiation.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialFiberDegree.lean",
+    "sha256": "1c50ed6409276f41ad6e8fdd4388d87f8c38adf068de2cf5911e56080bbcaed5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialFiberDegree.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialFiberFormat.lean",
+    "sha256": "d296b3f84dece7dd12cf0960affb69ce7b86c5969b3ca60af053d694e7bf1a2f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialFiberFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialJointMeasurability.lean",
+    "sha256": "e922e2e7c2a436392611d5821a58d73aa114c22d19ed8936614021648ef12212",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialJointMeasurability.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialLineTaylor.lean",
+    "sha256": "6310e343d1f970276d304567b54b6b97a6c6eb2b5c8a09371aa800f5d49252dc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialLineTaylor.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialQuotient.lean",
+    "sha256": "31feb8e27ca5fc8a49bdc3be193b3b9679bb4ea3c759c4a78fe133ab29d70b93",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialQuotient.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialRelationGlobalLower.lean",
+    "sha256": "43b50e4f6022fd4dd9ea73fe2e22d52bf7d168da21abba3682e4a38a3c836148",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialRelationGlobalLower.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialRelationGlobalUpper.lean",
+    "sha256": "40abae0c7791bb445d8681f2089bda39da5502a91e525e72d5868257560f09d6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialRelationGlobalUpper.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialRootUpperBound.lean",
+    "sha256": "98ddbe62beeb31a8dee0e3e8082fbf2f361b505466d0c55e81395966462ca0c3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialRootUpperBound.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialSignDefinability.lean",
+    "sha256": "bee10e5e145bef64f807c98524c4dca36d82cea71b65339d586d3ceae5ded273",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialSignDefinability.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialSignDescription.lean",
+    "sha256": "bf9e0cf1470eca43e038ae84cd5ad1172c6ee2d54eef2b46230adea90ae046e5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialSignDescription.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialSignNeighborhood.lean",
+    "sha256": "91e105de9f19663c8412a3b912de5d7cf2e5309bea32ed6fad3a6a1c4a5cd9c1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialSignNeighborhood.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialSignPullback.lean",
+    "sha256": "1d7ed567d24019f4ea4dfabcbfd07256f0a15ac4b3ef1cf51fb2fe09eb360784",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialSignPullback.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialSignPullbackDegree.lean",
+    "sha256": "2cd5db77488b0ecb60c8e7e9b95b251320c83acf9eddd90f6a8a51126860d299",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialSignPullbackDegree.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialSingularValueDefinability.lean",
+    "sha256": "440b40f1e0cb052aa1046e3425a6d8cd6669a04ce9758ff8856232b44d752cca",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialSingularValueDefinability.lean"
+  },
+  {
+    "path": "current/PaperILean/PolynomialTensorSymmetry.lean",
+    "sha256": "85dc19c1904032af46dfc28e5c8a8aee0aaf9b4d4ec1e8eda23a6d47117a40df",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PolynomialTensorSymmetry.lean"
+  },
+  {
+    "path": "current/PaperILean/PositivePolynomialRootBound.lean",
+    "sha256": "2cabcdcfe85626e0e22785d02aee9889315bec47bd8e945b0a802f4696a85780",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PositivePolynomialRootBound.lean"
+  },
+  {
+    "path": "current/PaperILean/PreparedBodyNormalization.lean",
+    "sha256": "2135149c13e46e11bab0849e0915645a6b59782ef963c61146807185072042ca",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PreparedBodyNormalization.lean"
+  },
+  {
+    "path": "current/PaperILean/PreparedPhysicalNorms.lean",
+    "sha256": "57a2a8fab10139b5340dc3ee48a92dc591777488d832fa42e31f9e6969d9991a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PreparedPhysicalNorms.lean"
+  },
+  {
+    "path": "current/PaperILean/PreparedPhysicalStage.lean",
+    "sha256": "8f7988675657efcb99e75d0caa5f6e665be7cef448876b0210b99e4e0b0108a6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PreparedPhysicalStage.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedBoundedFormatPaths.lean",
+    "sha256": "d902b5c47f0058c8ca4417825f4eb51e6fd3efcd81117e49c638699aa2a7ca23",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedBoundedFormatPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedDefinableChoice.lean",
+    "sha256": "36f8ca5365795f7f6c9f2311e954c81d8aa830e9231703099d8aa3732a63346a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedDefinableChoice.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedEndpointPaths.lean",
+    "sha256": "484bc91fe556eec62576f6415cf09dca77faa434b053bcbe3fd542be1251f228",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedEndpointPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedFiberFormatComponents.lean",
+    "sha256": "3a9924490387d4ceeb4c73a4c618e38183ee9d803563b1b1e113f67a803d6aa0",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedFiberFormatComponents.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedFiniteConnectedCover.lean",
+    "sha256": "08a9ac50425671eaa0ae426a7039c4663b47f8549250c9a44332b5b9916f4821",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedFiniteConnectedCover.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedFormatAnalyticCuts.lean",
+    "sha256": "2d0ca83b71a636b6d5dfebd1e20022d408359d5836818372d0f167938e4eb8cd",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedFormatAnalyticCuts.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedFormatComponents.lean",
+    "sha256": "63f2b3395cad13d869b4c1c929826b72b81d9ec31cb68e64d81019d8ae7c2f2f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedFormatComponents.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedFormatDerivativeSignCuts.lean",
+    "sha256": "08fded24a3fabc2624fcc094f60203567727a39511c9700ea2452d0f5ec176f2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedFormatDerivativeSignCuts.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedGaussRootCount.lean",
+    "sha256": "01184ab4eaecbb49cd208f9da7c5afec52611f94003d3fa1f775be5453f886cc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedGaussRootCount.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedGeometricFiberBounds.lean",
+    "sha256": "b24b3f361b2eaaa94935ccb051923a7dc2935a471190eda9805be731c29a8e7b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedGeometricFiberBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedHardtTriviality.lean",
+    "sha256": "bd94c334abe0bbe1a390db66a8be73fe869f0db16f2f19fbffeebb50ac3508d8",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedHardtTriviality.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedNondifferentiabilityBounds.lean",
+    "sha256": "82bed9252b5348d57666fc4b1b34fe4c825848f03f42b9c442c05dbf64ae0653",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedNondifferentiabilityBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedOriginalScalarSubdivision.lean",
+    "sha256": "6a896dae40a5d16087f9fddb52cd89edb4c9c4102ac7ee79a016e71e958a695c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedOriginalScalarSubdivision.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedPiecewiseNashExtensions.lean",
+    "sha256": "5e1ffd6d12145fce22a6cef33bbd8d0bc1df7838452ce94ad55e7787d16e2da2",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedPiecewiseNashExtensions.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedQuantifiedConditioning.lean",
+    "sha256": "c7a64eb852340af32a1a043c75e8f03518c350ec72afb9b3ca1b8308159c6335",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedQuantifiedConditioning.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedQuantitativeQE.lean",
+    "sha256": "76541e54b3dbd1ecba1c19eec76a032bdf8ffd0b7a0a03e1372d35d9de52bfbd",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedQuantitativeQE.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedRawFormulaConditioning.lean",
+    "sha256": "811c0e49861e9a78200e76bba82343826b7bcff633cac0dfd9d726b914172ed6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedRawFormulaConditioning.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedRealAlgebraicAssumptions.lean",
+    "sha256": "47012f495e92ff5a5a7baabb1abf843659dfa3190d176e210b065e008780b5da",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedRealAlgebraicAssumptions.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedScalarAnalyticity.lean",
+    "sha256": "fc32d8bd5a5404a21c67b351cec3048bcaf6824ae1b56dc676ca6366754fbbf3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedScalarAnalyticity.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedScalarCompositionFormat.lean",
+    "sha256": "cc3ccd7eeda8131ce411969d177a10084c5fcfd22f130bb319b26df2a6ee1354",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedScalarCompositionFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedScalarFiniteFibers.lean",
+    "sha256": "27681618fe73c034008ca595c2fb25b9a5ee1c23462a9a88d79cc239a8b08441",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedScalarFiniteFibers.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedScalarMonotonicity.lean",
+    "sha256": "df7dca490013bbe34443b281cac7eb6ac4944339125fd0cd02a31045ce1d9f02",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedScalarMonotonicity.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedSemialgebraicCellDecomposition.lean",
+    "sha256": "f81376384548153a01cde88b9ba608f24f53b821a5c1bcfba045780e2ff6e8f7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedSemialgebraicCellDecomposition.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedSemialgebraicPaths.lean",
+    "sha256": "61dba7a6abcebe7b6faf903d69c736980340a16f3e8ad95190c0117974ea64ed",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedSemialgebraicPaths.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedSemialgebraicSelection.lean",
+    "sha256": "896d8fd3a2111f0ac2af2570b048c2d5cb21fa173cda9a136b2c082bab9e404b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedSemialgebraicSelection.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedUniformAnalyticCuts.lean",
+    "sha256": "a2ed79d0df4a6e23fadcb30f3cf0ea83b2aeefbb12c8f1a425c844d27ab7b33e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedUniformAnalyticCuts.lean"
+  },
+  {
+    "path": "current/PaperILean/PublishedUniformComponents.lean",
+    "sha256": "6825b4ea432d5f16b6d9aeb896b09b7381d4209ebe5ff40911a31505de9b0f9e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/PublishedUniformComponents.lean"
+  },
+  {
+    "path": "current/PaperILean/QuantifiedPolynomialFormat.lean",
+    "sha256": "1bba8ad459cd1df9c3fa8345508de370046bd461049f1354085518a5d95fb2f7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/QuantifiedPolynomialFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/QuantitativeQEImpliesQualitative.lean",
+    "sha256": "b8aa11e8cc53afad256dff0bd37cd85e59bdcbe861ae9d18fe02ba5247f3b8d7",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/QuantitativeQEImpliesQualitative.lean"
+  },
+  {
+    "path": "current/PaperILean/RankOneAffinePhase.lean",
+    "sha256": "b087b62cf0d7365918cc4f5aa3da5bc18a9e989f0ebfb7b4938ff26f48defeb9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RankOneAffinePhase.lean"
+  },
+  {
+    "path": "current/PaperILean/RankOneMatrixFactor.lean",
+    "sha256": "795918bf70f2593fce63a83bba20094a609e5920bf1e7e79d4fc18906fef6b3a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RankOneMatrixFactor.lean"
+  },
+  {
+    "path": "current/PaperILean/RankOnePositivity.lean",
+    "sha256": "152bb7abb327bdbc5b63753cf94ff60018b0a728f880d42fd9fbee12e72a6b2e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RankOnePositivity.lean"
+  },
+  {
+    "path": "current/PaperILean/RawFormulaPolynomialPrenex.lean",
+    "sha256": "9d0dfa74acf2c33d460f91d38b55c7d27621e7bc88f36b63e277679d238544fb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RawFormulaPolynomialPrenex.lean"
+  },
+  {
+    "path": "current/PaperILean/RawJetContractionBounds.lean",
+    "sha256": "ab86ff88bc3691c458dcb0174d66b04edece4f700efbe6a678b32361d70e3d69",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RawJetContractionBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/RawJetUniformBounds.lean",
+    "sha256": "13a41fb23b33d797cd31438455c0acb37d4df8ee46657371457d86c5037113ff",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RawJetUniformBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/RawPrenexRealization.lean",
+    "sha256": "7fa50721ddd2d056e06be379980ea5bd896eb224be7d3cdca6f7c8b2d47cbdff",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RawPrenexRealization.lean"
+  },
+  {
+    "path": "current/PaperILean/RealPolynomialDefinability.lean",
+    "sha256": "027b0aafb438f5f0866042e3171c0638b977b180019239fd985d8004271cf63c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RealPolynomialDefinability.lean"
+  },
+  {
+    "path": "current/PaperILean/RealPolynomialGrowthBounds.lean",
+    "sha256": "da139dd959155164c830f04f5fc73bf4da518681beccdbfea4dba04ee52a392d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RealPolynomialGrowthBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/RectangularSingularValues.lean",
+    "sha256": "8e8c989da74dd0eec85ffc676e8ef5d5f1309b79f796ae744467a435bdaef02d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RectangularSingularValues.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularCoefficientFiberBounds.lean",
+    "sha256": "3cd33d856630691c17c68807e64dffc250e9168a01d88b91119a6960d567ac76",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RegularCoefficientFiberBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularCoefficientFiberPolynomial.lean",
+    "sha256": "3e84e9a7d27f8dda7c342dc48559b5ff4567369d2a1ca7dc26caea5328262e15",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RegularCoefficientFiberPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularCoefficientFiberTopology.lean",
+    "sha256": "ba9e2e05cf7767849c8904a5cb18e2af0f60b6302c982518e1d2b8f1af71c706",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RegularCoefficientFiberTopology.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularSectionAssignmentStage.lean",
+    "sha256": "a1b566922996e59f08944983b225de199fe1c8393e228902d85c234035918521",
+    "source_artifact": "SectionAssignment_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/RegularSectionAssignmentStage.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularSectionDifferential.lean",
+    "sha256": "f41f2cf2b320f115b39f1470476507a3775de1ceffabcd4ca8e1151942d4d308",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RegularSectionDifferential.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularSectionPseudoinverse.lean",
+    "sha256": "1e5fb303be320e60d584a3f4733ca943291da5c75c69369825c2aa51e61075b5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RegularSectionPseudoinverse.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularSectionRates.lean",
+    "sha256": "d2ff6a13d645c0d167377f9a4eccf36db1bfe27ce4b2a8e92ec60298a974da5d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RegularSectionRates.lean"
+  },
+  {
+    "path": "current/PaperILean/RegularUnitIntervalPacking.lean",
+    "sha256": "ea53ee48907446e3baad9386dc5d23a756135d2bdb2550902f43903830b894fb",
+    "source_artifact": "UnitPacking_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/RegularUnitIntervalPacking.lean"
+  },
+  {
+    "path": "current/PaperILean/RelativeFrameBootstrap.lean",
+    "sha256": "925c6812862695205686affed92cad6d7d7eeb89932355091cb76b093f596409",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RelativeFrameBootstrap.lean"
+  },
+  {
+    "path": "current/PaperILean/RelativeFrameCalculus.lean",
+    "sha256": "88dbcdb6e93b4bb8dd7ed6c5e551073422ffb44510f25784a2a78c1d5c001823",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RelativeFrameCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/RelativeOrientationPacking.lean",
+    "sha256": "929f8bfae30accb7e34acb05282c932b2c0f87d6372b6bf2770eaebd2cdcdcba",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RelativeOrientationPacking.lean"
+  },
+  {
+    "path": "current/PaperILean/RingQuantifierFreeMatrix.lean",
+    "sha256": "21e6b967c0cd7d193a929a3adf17aa251ac8323a2973d79efb0e410b5a77725b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RingQuantifierFreeMatrix.lean"
+  },
+  {
+    "path": "current/PaperILean/RingTermPolynomial.lean",
+    "sha256": "e3dba450768589eb2c11c582f8d3e18ebdee49fa1f14275874ad2e782ee3c557",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RingTermPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartDomains.lean",
+    "sha256": "4f432f40639097c4af6e20df4b7e0458b36ea560a63075bf8de7f9120f1c5359",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartDomains.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartJacobian.lean",
+    "sha256": "57fe1c27dd5257c4bf8187bc227345fb957f5426b41ddc2655fa6781dc4f084a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartJacobian.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartMeasurability.lean",
+    "sha256": "44b1cf18059faad55878808f39d820537a979bb9cfa019e3c4cddebefe7d6956",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartMeasurability.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartPatchMeasure.lean",
+    "sha256": "1eba4db51639a174ce6972937cf27cea61e79246e5cb3b75317c431c3110cc01",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartPatchMeasure.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartRegularity.lean",
+    "sha256": "a41faa2035e2e6f2bac1e11a1c1da1c7878b0abf607ebd219c80d4c6de2c7256",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartRegularity.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartSmoothness.lean",
+    "sha256": "d47dcfb9643924d959aeb4941646d56499d6f03b7b8780ce7ebed925dc6ec5a6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartSmoothness.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartTranslation.lean",
+    "sha256": "b44a0a53535fecc0ffe876c6ed933b439ab609dd9ebef9f05919da202d9dbfcc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartTranslation.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationChartVolume.lean",
+    "sha256": "43ba53e0008ad53878872e37ce76085704aecf62a91bdfadbcba34ad0632226f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationChartVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationExponential.lean",
+    "sha256": "6d5decf10ad8c5412becb3c4f2d34bc2dae9286350ad055f9048271d7b64779f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationExponential.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationExponentialChart.lean",
+    "sha256": "58a0a92a036d1c668d6542efeecfecefc0341ec08ad2ab72f434a7a4488329b8",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationExponentialChart.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationGroupTopology.lean",
+    "sha256": "c4575d84ed9c7f93e644047bbbf964cb29ac033c45b6526e7f5b03ea54e120b1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationGroupTopology.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationHaarIdentification.lean",
+    "sha256": "1064c1ed8457d55daeaf9dafd31b1b896527ddcffa2ec8ce005faca975f9d81a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationHaarIdentification.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationHaarMeasure.lean",
+    "sha256": "a02974550f558ed8c0141d21c8d1eb91f1c09d38f02ad1c986d886ccbe7855cb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationHaarMeasure.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationHaarVolume.lean",
+    "sha256": "5259984ed1771f540e3747264cce2fe39ded3015f82477b46bcc17a862c4a2bd",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationHaarVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationInvariantVolume.lean",
+    "sha256": "df89126bd196f3919b0302b5da6ad4a52ed369941d469218fac427e2aaf6a0eb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationInvariantVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationLogChart.lean",
+    "sha256": "be445ec2eea0ac9bf63f5e79c7fb9f61719d043465126cce6783f1f0ff84c7cb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationLogChart.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationNeighborhoods.lean",
+    "sha256": "3eb84a9407a09b472423c4b8b4aa9a6a048d2f26383e33fa0a47eb20a62c85f6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationNeighborhoods.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationOrientationFrames.lean",
+    "sha256": "d20debab724398069ef9b0c895e8dfcad03b9b63347a1bad366d752d0861ec52",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationOrientationFrames.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationOrientationPacking.lean",
+    "sha256": "f195e7f94ca29513510a11d9654c54b007f273efe7021c0c0d899b7614c9cc99",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationOrientationPacking.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationSingularApproximation.lean",
+    "sha256": "4179960a2a27a778f6ebcd61033a596d84168d02f978b8492d10482db2aa5f6c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationSingularApproximation.lean"
+  },
+  {
+    "path": "current/PaperILean/RotationTangentCoordinates.lean",
+    "sha256": "ee09ad1c81141a14f91be5401fb7c74ad385594f8683f25ca1776284c51d7477",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/RotationTangentCoordinates.lean"
+  },
+  {
+    "path": "current/PaperILean/SPDFrameCompactness.lean",
+    "sha256": "09ba0300117f41b630ccaa1d385dd30b285eccddfabdbcf4044a3be343f0df47",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SPDFrameCompactness.lean"
+  },
+  {
+    "path": "current/PaperILean/SPDFrameRepresentative.lean",
+    "sha256": "6f47421fa27b3efa42f36e39d1020374b9ea6b3ab686adac30e8ab06290e5a02",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SPDFrameRepresentative.lean"
+  },
+  {
+    "path": "current/PaperILean/SampleMinorVolume.lean",
+    "sha256": "3905adcfff64bf77359025bc6f5f0a2c4b4d2f9d4016b36df1c3a6a28f809826",
+    "source_artifact": "FixedNet_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/SampleMinorVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/SamplingDeterminantStability.lean",
+    "sha256": "e1fded3ea8cf7d0d80f6cd8c7ee1df970e18bf47ef52e9a3e103dc056ad05f5d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SamplingDeterminantStability.lean"
+  },
+  {
+    "path": "current/PaperILean/ScalarFrameBarrier.lean",
+    "sha256": "cd676c5905e312ad1e470a153a8b49985cdb28bfaa32c46879d21ef4f63ffd0c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ScalarFrameBarrier.lean"
+  },
+  {
+    "path": "current/PaperILean/ScalarFrontierTopology108.lean",
+    "sha256": "fb8f9505457ef20abd8725f3bb642e4c3a3f9cefe4894f75164dec57dbc79b81",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ScalarFrontierTopology108.lean"
+  },
+  {
+    "path": "current/PaperILean/ScalarLogEnergy.lean",
+    "sha256": "eded00a1fe490241311a6e03837853bc6668e04491bb88e9c38f18b7e389f466",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ScalarLogEnergy.lean"
+  },
+  {
+    "path": "current/PaperILean/ScalarLogSpectralDerivatives.lean",
+    "sha256": "faf0a042937c396fa93d8276ef88b91178f6d4589e941b9acc9f47f476a9c1ae",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ScalarLogSpectralDerivatives.lean"
+  },
+  {
+    "path": "current/PaperILean/ScalarRelationComposition.lean",
+    "sha256": "b5932178eb77e2f9482dc455d4e396adcaacfbfaba9e5bc4528808fec75f728a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ScalarRelationComposition.lean"
+  },
+  {
+    "path": "current/PaperILean/ScalarSemialgebraicFrontier108.lean",
+    "sha256": "80b2f1dc62be184c7ef7c10dc94b92cf37cc0a6dc52ca4c0c18ee34d333ec2ed",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ScalarSemialgebraicFrontier108.lean"
+  },
+  {
+    "path": "current/PaperILean/SecondDerivativeAlgebra.lean",
+    "sha256": "6de5856232c1739be5638ce6e9fc59b0f303449d1ef01aed6801d2634735cc38",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SecondDerivativeAlgebra.lean"
+  },
+  {
+    "path": "current/PaperILean/SectionBodyNormStage.lean",
+    "sha256": "c3a0fe27426dbeea5becfbb86974e870fe39c63d2c3fb8948239e98ac4d3133c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SectionBodyNormStage.lean"
+  },
+  {
+    "path": "current/PaperILean/SectionDColumnBound.lean",
+    "sha256": "a864b8da1fdaa5798382c71458c0d1a9f767a37c347799b5f165e3d675e22e4b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SectionDColumnBound.lean"
+  },
+  {
+    "path": "current/PaperILean/SectionIntegralCalculus.lean",
+    "sha256": "090b75c63d951d92a39fe0197797398d26ade3be29f3ccd73550107229159ea8",
+    "source_artifact": "SectionIntegral_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/SectionIntegralCalculus.lean"
+  },
+  {
+    "path": "current/PaperILean/SectionIntegralReadouts.lean",
+    "sha256": "bd010b795277f1d056179a12b548f5a90cc4fcea1a1cc7adb6c9f8ff49c74535",
+    "source_artifact": "SectionIntegral_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/SectionIntegralReadouts.lean"
+  },
+  {
+    "path": "current/PaperILean/SectionIntegralStage.lean",
+    "sha256": "bc81425e4e13996bfeb9f01c7e3ea9f3555046d30a26d39991d09dad3064a6c2",
+    "source_artifact": "SectionIntegral_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/SectionIntegralStage.lean"
+  },
+  {
+    "path": "current/PaperILean/SectionIntervalFlow.lean",
+    "sha256": "b29d2c82cd5434f2e4d2c65dc697d7cf03fe5bfa96295ea6a10bc7d39657f13b",
+    "source_artifact": "UnitPacking_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/SectionIntervalFlow.lean"
+  },
+  {
+    "path": "current/PaperILean/SectionIntervalTransport.lean",
+    "sha256": "af63bfccb2b843df6fd8a6f8507f09e954243c31ff1bd3e7545cde20ecfab51a",
+    "source_artifact": "UnitPacking_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/SectionIntervalTransport.lean"
+  },
+  {
+    "path": "current/PaperILean/SelectedGraphMeasurability.lean",
+    "sha256": "c6df3962b0258b78d6b0e5e0ae42fffe3906262e19b6768dad5b67ec153a8f59",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SelectedGraphMeasurability.lean"
+  },
+  {
+    "path": "current/PaperILean/SemialgebraicPathData.lean",
+    "sha256": "9feeefe378e8e14e8494db896d6320b8b37137afe89b06025419ad9fa46140bc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SemialgebraicPathData.lean"
+  },
+  {
+    "path": "current/PaperILean/SemialgebraicPathOperations.lean",
+    "sha256": "5f9d9262902dea3012921ba886786eb0e1eca7858b6052a75179e8fb25d7c93b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SemialgebraicPathOperations.lean"
+  },
+  {
+    "path": "current/PaperILean/SemialgebraicRelationComposition.lean",
+    "sha256": "af6e638ba8aab85031d2e26b55beadda4d6bcd2b0c59611aab9aeda6ee3f0e32",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SemialgebraicRelationComposition.lean"
+  },
+  {
+    "path": "current/PaperILean/ShortHStage.lean",
+    "sha256": "0c2f6b73c3105db3c207b4ed5997d97e5422136334a65bf5285ae8f3a846976e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/ShortHStage.lean"
+  },
+  {
+    "path": "current/PaperILean/SignGraphPolynomialRelation.lean",
+    "sha256": "5bc4716c3697ef3bb20101c2587dc949cc9785217fae0522cf5c7180d3b79ec9",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SignGraphPolynomialRelation.lean"
+  },
+  {
+    "path": "current/PaperILean/SignGraphPowerLower.lean",
+    "sha256": "428d861fe1a7d061f106dd30166432070654e683696903ddfbac745e5022ee3d",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SignGraphPowerLower.lean"
+  },
+  {
+    "path": "current/PaperILean/SignGraphPowerUpper.lean",
+    "sha256": "64f11d0bcae48b941f19701f1c251dcf84a2d43d3ea5131d3fb5c0c381392a9f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SignGraphPowerUpper.lean"
+  },
+  {
+    "path": "current/PaperILean/SimultaneousKernelPair.lean",
+    "sha256": "c8b1dae25b4eff506769946df0d0e5af26f540a37d7dabb41d4f7bb2e8ccf2ff",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SimultaneousKernelPair.lean"
+  },
+  {
+    "path": "current/PaperILean/SingleValuedGraphDomain.lean",
+    "sha256": "7a1520288cdac6697ba2db4c83c6a98febabae68da5f7de6cb358839a8fbc721",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SingleValuedGraphDomain.lean"
+  },
+  {
+    "path": "current/PaperILean/SingularValueEuclideanBounds.lean",
+    "sha256": "dd3b4a0deff6dea1cd0adf6b411ac95ea27e4d46842ae9448f541a9a31d8effa",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SingularValueEuclideanBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/SkewCoordinateVolume.lean",
+    "sha256": "758eed3c55c76111c3517ee108efdcdcb3000d9483dac7bcef66a52abea1e466",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SkewCoordinateVolume.lean"
+  },
+  {
+    "path": "current/PaperILean/SmoothMinimizingGram.lean",
+    "sha256": "34ee209a055d450accd67be33a4409a3e36c784b18dea8b4f0b9f729c4c1ebde",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SmoothMinimizingGram.lean"
+  },
+  {
+    "path": "current/PaperILean/SpectralCothKernel.lean",
+    "sha256": "0aef0916b56f82a91c982d72a1e07a935a2a3af95499d4c192a34d849d5ad441",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SpectralCothKernel.lean"
+  },
+  {
+    "path": "current/PaperILean/SpectralFrameBarrier.lean",
+    "sha256": "24b40147580b4dfbcc07b999b5357678a82a6b913d9e1e802ee763e7646400ef",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SpectralFrameBarrier.lean"
+  },
+  {
+    "path": "current/PaperILean/SpectralHessianForm.lean",
+    "sha256": "46694c46004dbbdef5eaacbbba51ecdf71f62683150e9472af36cd27dc6c55e5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SpectralHessianForm.lean"
+  },
+  {
+    "path": "current/PaperILean/SpectralLogBounds.lean",
+    "sha256": "9067180fa1f3f9e0635fe533bcf47b12609ef4092453c664fcec747e2c942599",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SpectralLogBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedFourthCompactMinimum.lean",
+    "sha256": "426d485529243beb663f21feee95b4aecb202bb5cd935e8f5fc017d8af4a5632",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedFourthCompactMinimum.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedKernelPair.lean",
+    "sha256": "a7ea56acd43a69471026b61a253bb47e997f06cd60dea3ae6b3a560b1728eeed",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedKernelPair.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedMinimumFirstOrderGraphs.lean",
+    "sha256": "f1395d32eb8f496e3e97fb50fe1f1088c86379275013a75fabf7992ee688193a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedMinimumFirstOrderGraphs.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedMinimumPolynomialRelations.lean",
+    "sha256": "e937d739fdc3e54ba6b9c3a3cc21d36d8cd49ef291dda22897e61bd1e727f5eb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedMinimumPolynomialRelations.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedMinimumPowerLower.lean",
+    "sha256": "15cb37af86bd5b631410ae5103a3f7d10500745f19e730beb89bf55a52fdd883",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedMinimumPowerLower.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedNormalColumns.lean",
+    "sha256": "9f8e2a031c04575d0722b2d52eaf18a09d057adc73d18748e728f245d8bfdd08",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedNormalColumns.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedNormalCompactMinimum.lean",
+    "sha256": "4da938104d794294a8fdefa6af51b80ff0ce878ac7132bf9cfa94fa9a2df62da",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedNormalCompactMinimum.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedOrbitAlgebraicCertificates.lean",
+    "sha256": "e6bc17aef49a7650bb43a3d25158b763a2900d042f0ce57650aa6b8eab841038",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedOrbitAlgebraicCertificates.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedOrbitFirstOrderGraphs.lean",
+    "sha256": "2975aa2a6273a6015d0e918a0125c4ef4f89954a527e9942b0eb61aa352e92a5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedOrbitFirstOrderGraphs.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedOrbitRank.lean",
+    "sha256": "62421e3260d582bf5cd300059b51cd5b4e57a2457021769544eeab990d724264",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedOrbitRank.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedOrbitSingularValues.lean",
+    "sha256": "d28cb3e9f9ab3b20b2b813d4542ee360e2d6ee1f3e4c2680b36b0e234978af5a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedOrbitSingularValues.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedSpectralMinimum.lean",
+    "sha256": "a6b478d5e1fdbfaefd2165c9ff771fc6d68ec83ba2f06202e6bbe666cde50c71",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedSpectralMinimum.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedStatePolynomialFamily.lean",
+    "sha256": "0a5f8bb04fe6d9b31c0026668ef804b4eff5f373667ee8fda8c399aeb3d2fcc3",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedStatePolynomialFamily.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedTranslationNonconstant.lean",
+    "sha256": "b3154af63e29f72d87ea36aa6d399a274a743e25ba0dfc62cd1e4c85c93d8b56",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedTranslationNonconstant.lean"
+  },
+  {
+    "path": "current/PaperILean/StoppedWindowNonempty.lean",
+    "sha256": "4f1d24d36050a5392f30218d10c3e0e42f244415bd384c7c6c4e3f95933d887c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/StoppedWindowNonempty.lean"
+  },
+  {
+    "path": "current/PaperILean/SymmetricCongruence.lean",
+    "sha256": "aedf86145c59018260ad0fa406443910785285bd79c8167eef111e0dd48092d6",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SymmetricCongruence.lean"
+  },
+  {
+    "path": "current/PaperILean/SymmetricFrameChartHessian.lean",
+    "sha256": "893440269c0423ad8ff69c6698662378329fc1f576d25b98cd5e09e67db7cd03",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SymmetricFrameChartHessian.lean"
+  },
+  {
+    "path": "current/PaperILean/SymmetricFrameHessianInvertible.lean",
+    "sha256": "683d5cc179d6bd0ad9bb33d3962223298d58a3a38804281157d069f50f872433",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SymmetricFrameHessianInvertible.lean"
+  },
+  {
+    "path": "current/PaperILean/SymmetricGramCoordinates.lean",
+    "sha256": "d6871f7866be52204545b06da5d92b971d6eda368bd8204fec3397bcde12d1e1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SymmetricGramCoordinates.lean"
+  },
+  {
+    "path": "current/PaperILean/SymmetricLogSmoothness.lean",
+    "sha256": "b53504ce29abb429104947a7793540fcb83343b147ab67937eea30633a2c983f",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SymmetricLogSmoothness.lean"
+  },
+  {
+    "path": "current/PaperILean/SymmetricMatrixExponential.lean",
+    "sha256": "5296258a509529b0d3661be5460745108525d7c133dec3b329443c1dae86b2fb",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SymmetricMatrixExponential.lean"
+  },
+  {
+    "path": "current/PaperILean/SymmetricTensorPolynomial.lean",
+    "sha256": "5bf32f1482fa00bc62b86cb7c322f197d001ddc35eaafb0f70a7f911f695f43b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/SymmetricTensorPolynomial.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorContractionBounds.lean",
+    "sha256": "a0ffb2f325887f30458a5394fc6fcac3a50e11a7feecee25f5bb36faffeec820",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorContractionBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorContractionGram.lean",
+    "sha256": "7bb5d2189e93e6df77499bdd8e75da833f589aa43a749d8a24ca8fd839ce124e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorContractionGram.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorEvaluationBounds.lean",
+    "sha256": "8b20b57001fc9f442b50d50c28e4e90e57177950af2a67c1055c3b34d0149f7a",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorEvaluationBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorExponentialSums.lean",
+    "sha256": "3213e2765475f168d032abb54e2114fbe38fd936e4ea3771d13456b526b9cedc",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorExponentialSums.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorFrameBounds.lean",
+    "sha256": "ad9c7d2824ffbf6ba03116983531fd7d0fab62b95e6a6e1fab8f33d69e83789c",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorFrameBounds.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorFrameVariations.lean",
+    "sha256": "41bb4270291e0a2135238e76e7ea6de1ddf4c30e32659eddadd0b155f7eba54b",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorFrameVariations.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorOperatorComparison.lean",
+    "sha256": "039db10f468895a64e796a1be4d0170aa70d1db93acee5b1e7db7d1d4a7eea0e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorOperatorComparison.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorOrthogonalInvariance.lean",
+    "sha256": "e3894f0d970f478d7a90fae063d74a1fde05a74d7bf9bf2c0112ff607fe35e26",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorOrthogonalInvariance.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorPairingDerivative.lean",
+    "sha256": "f485519552624e9db3c6c2d44faabc8c58a19b25634a39357b2e2f83760104ae",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorPairingDerivative.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorSlotAction.lean",
+    "sha256": "89a16928dea314b0517fdbcd324a1248a112b6534011fb974b3cda1a14854ce5",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorSlotAction.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorSlotSpectral.lean",
+    "sha256": "cb5dbf8473b4bc9055abea8514db98389d45ea29a6c6ec33111dad77405a73e1",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorSlotSpectral.lean"
+  },
+  {
+    "path": "current/PaperILean/TensorSlotSymmetry.lean",
+    "sha256": "15d19910fb169fddcea2c6d0f384a54679616e36ebb0de4ede1945eac9923c39",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TensorSlotSymmetry.lean"
+  },
+  {
+    "path": "current/PaperILean/TranslationGramBound.lean",
+    "sha256": "8b906ef1900c10eabecccb1ee698d2c7dc27b47062f8f11a2a86a7df75825a19",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TranslationGramBound.lean"
+  },
+  {
+    "path": "current/PaperILean/TranslationRightFrameStability.lean",
+    "sha256": "38a193f1d6fe6533d7dae102bb11a196f47b1a09c6498594d89ad89aff357b12",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TranslationRightFrameStability.lean"
+  },
+  {
+    "path": "current/PaperILean/TranslationStopStability.lean",
+    "sha256": "39c761bc3dc497b13aa296a31873fa43bff6eb8e735ca0618517bcfaf130aa54",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/TranslationStopStability.lean"
+  },
+  {
+    "path": "current/PaperILean/UniformAffineConditioning.lean",
+    "sha256": "bddd1405ebe03033d0175efdf6e2e2284afafbdcda0acd3a47cbccc324eee000",
+    "source_artifact": "UniformConditioning_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/UniformAffineConditioning.lean"
+  },
+  {
+    "path": "current/PaperILean/UniformComponentSections.lean",
+    "sha256": "262491bd74f27582f93ff139012cdf5c5c75b478a38356588e50784818525b08",
+    "source_artifact": "RegularSections_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/UniformComponentSections.lean"
+  },
+  {
+    "path": "current/PaperILean/UniformComponentSignFormat.lean",
+    "sha256": "c0ceec31c64b970a208338bf15ad0884677ea076e3a2f90f5676fbe683567853",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/UniformComponentSignFormat.lean"
+  },
+  {
+    "path": "current/PaperILean/UniformScalarFrontier.lean",
+    "sha256": "b8aef08984cdad458c54bebabf503ec7b3f59b65cfae01ffd15cc92b1e65c674",
+    "source_artifact": "ExceptionalDSections_Source_Evidence_20261104.zip",
+    "source_member": "new_sources/PaperILean/UniformScalarFrontier.lean"
+  },
+  {
+    "path": "current/PaperILean/UniversalPolynomialFamily.lean",
+    "sha256": "37a877b69e8a2aafdada088a54ed499e45cb403aebb32329adfb3839da021621",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/UniversalPolynomialFamily.lean"
+  },
+  {
+    "path": "current/PaperILean/UniversalSignFamily.lean",
+    "sha256": "c41ad8d37b5965563b76192fe10bfeef2423f1f5f73d9fa8f59d406fa1ba1a32",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/UniversalSignFamily.lean"
+  },
+  {
+    "path": "current/PaperILean/UpperAffineCoefficientDetOne.lean",
+    "sha256": "dfe35694398880fe88e16399678788a3262531d8aba0d376b66161dccdc9855e",
+    "source_artifact": "FlowPerturbation_Source_Evidence_20261103.zip",
+    "source_member": "accepted_sources/PaperILean/UpperAffineCoefficientDetOne.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedDSliceRounding.lean",
+    "sha256": "a3942e1e64d1e5e19eb6dc6cd34bebcae3dbd71dda2207b306efd47f5394dee3",
+    "source_artifact": "FixedDNet_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/FixedDSliceRounding.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedDNetStage.lean",
+    "sha256": "e31d07e1f9326f5690fccbed67f849726d3107d16a17f391380bf1448ca47177",
+    "source_artifact": "FixedDNet_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/FixedDNetStage.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedANetStage.lean",
+    "sha256": "0c336b6dd520a39bfca2ba230774f6f5b11991ea91dfd19b80948a0b0ec418cb",
+    "source_artifact": "FixedANet_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/FixedANetStage.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedASliceRounding.lean",
+    "sha256": "267f18a530bc37d9862271d7d0556f0b74feb1efb3e2ce0507781d654e6b282e",
+    "source_artifact": "FixedANet_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/FixedASliceRounding.lean"
+  },
+  {
+    "path": "current/PaperILean/FixedABoxComparisons.lean",
+    "sha256": "23af8e07ef8710b12b2241fd0360d911dec134102690f2e3b060383ffa612105",
+    "source_artifact": "FixedANet_Source_Evidence_20261105.zip",
+    "source_member": "new_sources/PaperILean/FixedABoxComparisons.lean"
+  }
+]
