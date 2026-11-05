@@ -1,0 +1,326 @@
+[
+  {
+    "path": "portfolio/other-saved-sources/Audit_dba32b12b1d019ae.lean",
+    "sha256": "dba32b12b1d019aefdb8d10ebd08368e9a6b2ab022bda2832e1b0ae1d2c89dc1",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/Audit.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/AuditKinds_a31efbed21e8ba3e.lean",
+    "sha256": "a31efbed21e8ba3e589ba6108a6d18be6b8c1f18288c3bdb94e1cfac7c656a7e",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/AuditKinds.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/audit_kind_attempts/attempt_001/AuditKinds.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/AuditStart_a1bbbab1cbe86eea.lean",
+    "sha256": "a1bbbab1cbe86eeaf7deeebf79c6ec6e79130cba5faa4d8eafc38fbf362aed2f",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/AuditStart.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/AuditStructural_267ba34e068f9193.lean",
+    "sha256": "267ba34e068f9193c6b3b6a711abb98280dd0afddad5675f561cde7225e7be8e",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/AuditStructural.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/Structural_Replay_Attempts/attempt_003/AuditStructural.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/Full_Integration_e82371115776f4fb.lean",
+    "sha256": "e82371115776f4fb9ac4c5c3508a0ac38d7da6b184ac67ea00613e519a757e1c",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/Full_Integration.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/PaperILean/PortfolioAtlasNorms.lean",
+    "sha256": "3d8f53e488aadde556775bc2238eb501decfa0942c258245a4abad0c9deed4f3",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/PaperILean/PortfolioAtlasNorms.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioAtlasNorms/attempt_004/PortfolioAtlasNorms.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "PaperILean/PortfolioAtlasNorms.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioAtlasNorms/attempt_004/PortfolioAtlasNorms.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/PaperILean/PortfolioAtlasOverlap.lean",
+    "sha256": "d32530464f6991de97e5cceca3022047e35b48cb3fb96419ae897d31a7f8cf0e",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/PaperILean/PortfolioAtlasOverlap.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioAtlasOverlap/attempt_002/PortfolioAtlasOverlap.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "PaperILean/PortfolioAtlasOverlap.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioAtlasOverlap/attempt_002/PortfolioAtlasOverlap.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/PaperILean/PortfolioAtlasStage.lean",
+    "sha256": "98284e233ae24eb5af68413709de6cc2b11c6b976fe4784a5985b838c3750b5c",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/PaperILean/PortfolioAtlasStage.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioAtlasStage/attempt_001/PortfolioAtlasStage.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "PaperILean/PortfolioAtlasStage.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioAtlasStage/attempt_001/PortfolioAtlasStage.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/PaperILean/PortfolioHolder.lean",
+    "sha256": "006e33f5647c9737e4749af5ca3754974812c756db98c9e420b4be83dd45ece2",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/PaperILean/PortfolioHolder.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioHolder/attempt_004/PortfolioHolder.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "PaperILean/PortfolioHolder.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioHolder/attempt_004/PortfolioHolder.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/PaperILean/PortfolioHolderEnvelope.lean",
+    "sha256": "ebd783c1777a5f0c6eff704fe9749c9ee0047706f575d4455f62f60744c5ce03",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/PaperILean/PortfolioHolderEnvelope.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioHolderEnvelope/attempt_001/PortfolioHolderEnvelope.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "PaperILean/PortfolioHolderEnvelope.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioHolderEnvelope/attempt_001/PortfolioHolderEnvelope.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/PrintSignatures_181a71ec0b365b16.lean",
+    "sha256": "181a71ec0b365b16bc05544d40aeddd06f429d13a16786ff514cab15b0dd5600",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/PrintSignatures.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/PrintTypes_36de706f652bf72e.lean",
+    "sha256": "36de706f652bf72e45bfbe87394d31b7adfa079398c5152fc7ade7595d830076",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/PrintTypes.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/AuditStructural_c9b832bf4ab64ca1.lean",
+    "sha256": "c9b832bf4ab64ca1cbd95c21cac2bbc563836f46898f759ece1253646505d96e",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/Structural_Replay_Attempts/attempt_001/AuditStructural.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/AuditStructural_c5627b78097293f5.lean",
+    "sha256": "c5627b78097293f594457a66136318622c5bb94638f7de7ca74b8c8a78149fbd",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/Structural_Replay_Attempts/attempt_002/AuditStructural.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/PortfolioAtlasNorms_cee347d95f1a7519.lean",
+    "sha256": "cee347d95f1a751918b58aeafeeb7e13a97314394395f145d39660f09916fbf6",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioAtlasNorms/attempt_001/PortfolioAtlasNorms.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioAtlasNorms/attempt_002/PortfolioAtlasNorms.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioAtlasNorms/attempt_001/PortfolioAtlasNorms.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioAtlasNorms/attempt_002/PortfolioAtlasNorms.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/PortfolioAtlasNorms_72eff31c816a2273.lean",
+    "sha256": "72eff31c816a227397255efcb7fbc5d09b78b649b8a90b1a608ad168b4bb3ad9",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioAtlasNorms/attempt_003/PortfolioAtlasNorms.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioAtlasNorms/attempt_003/PortfolioAtlasNorms.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/PortfolioAtlasOverlap_85d3ddabc6dd004c.lean",
+    "sha256": "85d3ddabc6dd004cf8feb37d2ac6fb53b0ce63ecb43fbacc253e6a2626212a54",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioAtlasOverlap/attempt_001/PortfolioAtlasOverlap.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioAtlasOverlap/attempt_001/PortfolioAtlasOverlap.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/PortfolioHolder_811ff01574af52cc.lean",
+    "sha256": "811ff01574af52cc176080c404f0c78882222e94d9e8c2382524a24c6e641445",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioHolder/attempt_001/PortfolioHolder.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioHolder/attempt_002/PortfolioHolder.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioHolder/attempt_001/PortfolioHolder.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioHolder/attempt_002/PortfolioHolder.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/PortfolioHolder_b1c1fd79b6ef1f93.lean",
+    "sha256": "b1c1fd79b6ef1f93801c368be8a1931ec5d5ebbbdc68e77735fcf718d6a6842e",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Two_Whole_Audited_Checkpoint_20261105.zip",
+        "member": "verification/first_two/evidence/attempts/PortfolioHolder/attempt_003/PortfolioHolder.lean"
+      },
+      {
+        "checkpoint": "Portfolio_Two_Whole_Compiled_Checkpoint_20261105.zip",
+        "member": "evidence/attempts/PortfolioHolder/attempt_003/PortfolioHolder.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/Audit_49a70276cdc5315c.lean",
+    "sha256": "49a70276cdc5315cc34c0ecebfdd4ddacac983b3ec8134b095b2fbed6e352fe8",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Preauthor_Checkpoint_20261105.zip",
+        "member": "Audit.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/AuditKinds_6f6de2cd664a8a16.lean",
+    "sha256": "6f6de2cd664a8a16e5f70d844b0330207e1a8b6be4ec7135de5febc5171915f7",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Preauthor_Checkpoint_20261105.zip",
+        "member": "AuditKinds.lean"
+      }
+    ]
+  },
+  {
+    "path": "portfolio/other-saved-sources/AuditStart_cd9973666e6d6b35.lean",
+    "sha256": "cd9973666e6d6b35126771f209dbd6b9660ca18fe38b9249b3298c9cee6e78bc",
+    "origins": [
+      {
+        "checkpoint": "Portfolio_Preauthor_Checkpoint_20261105.zip",
+        "member": "AuditStart.lean"
+      }
+    ]
+  }
+]

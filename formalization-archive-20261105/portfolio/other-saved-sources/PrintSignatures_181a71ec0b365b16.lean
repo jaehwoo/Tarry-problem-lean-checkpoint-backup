@@ -1,0 +1,8 @@
+import PaperILean.PortfolioHolderEnvelope
+import PaperILean.PortfolioHolder
+import PaperILean.PortfolioAtlasNorms
+import PaperILean.PortfolioAtlasOverlap
+import PaperILean.PortfolioAtlasStage
+#check PaperI.PortfolioHolder.weighted_incidence_whole
+#check PaperI.PortfolioHolder.finite_moment_real_interpretation
+#check PaperI.PortfolioAtlasStage.projected_packing_from_regular_normalization
