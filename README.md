@@ -1,12 +1,24 @@
-> **Complete checkpoint backup:** All 1,087 inventoried originals are saved. [Verified catalog and recovery report](checkpoint-import/updates/2026-10-24-all-checkpoints/BACKUP_STATUS.md). Historical checkpoints 72–75 remain unconfirmed.
+> **Earlier checkpoint-import backup:** All 1,087 originals inventoried in that effort are saved. [Verified catalog and recovery report](checkpoint-import/updates/2026-10-24-all-checkpoints/BACKUP_STATUS.md). Historical checkpoints 72–75 remain unconfirmed.
 
-> 실제 연구 자료 보존: 확인된 Paper I 체크포인트 원본은 이 비공개 저장소의 Release 첨부 파일에, 목록·해시·복원 도구·원격 재다운로드 검사 결과는 [checkpoint-import](checkpoint-import/README.md)에 있습니다. 72–75번은 미확인입니다. 전체 합성 시험 자료는 `artifacts/Lean_Checkpoint_Backup_2026-10-13.zip`에 있습니다.
+> 실제 연구 자료 보존: 확인된 Paper I 체크포인트 원본은 이 저장소의 Release 첨부 파일에, 목록·해시·복원 도구·원격 재다운로드 검사 결과는 [checkpoint-import](checkpoint-import/README.md)에 있습니다. 72–75번은 미확인입니다. 전체 합성 시험 자료는 `artifacts/Lean_Checkpoint_Backup_2026-10-13.zip`에 있습니다.
 
 # Lean checkpoint backup
 
 원본을 읽기만 하고, 별도 bare Git 저장소에 체크포인트를 남기는 Python 도구입니다. 프로젝트, 고정 원고, 원고–Lean 대응 보고서·의존성 체인, 검증 로그, 지속 체크리스트를 함께 보존합니다. Git 커밋 생성만으로 성공을 판정하지 않습니다.
 
 도구 패키지에는 설정 예시, 33개 자동 테스트, 합성 프로젝트 두 버전과 복원 결과가 들어 있습니다. `RECOVERY_STATUS.md`, `IMPLEMENTATION_REPORT.md`는 실제 자료 업로드 이전의 초기 시험 기록입니다. 이후 보존한 실제 원고·프로젝트의 범위와 원격 확인 결과는 [checkpoint-import/README.md](checkpoint-import/README.md)를 보십시오.
+
+## Public formalization archives — November 5, 2026
+
+This repository was made public on November 5, 2026. The following archives preserve original Lean sources, historical verification reports, and source provenance. They are research records, not a claim that the manuscript's main theorem has been formally verified.
+
+- [Current Lean source snapshot](formalization/): 557 modules with a source provenance index.
+- [Historical sources and verification reports](formalization-archive-20261105/): 3,898 distinct historical source texts and 207 PDF reports, with a documented reconstruction procedure and SHA-256 checks for the distributed archive.
+- [Recovered checkpoint sources](original-checkpoint-sources-20261105/): 112 distinct historical source texts with provenance records.
+
+Historical sources may include incomplete attempts. The main theorem remains incomplete; consult the saved verification reports for the documented scope, retained assumptions, and unresolved obligations of individual results.
+
+The backup utility documented below currently supports private-repository synchronization only.
 
 ## 실행 환경과 빠른 시험
 
