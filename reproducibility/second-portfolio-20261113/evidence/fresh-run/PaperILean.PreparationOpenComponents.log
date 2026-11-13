@@ -1,0 +1,2 @@
+PaperILean/PreparationOpenComponents.lean:96:5: warning: unused variable `hc`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

@@ -1,0 +1,4 @@
+PaperILean/PreparedCenterlineInterval.lean:85:71: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+PaperILean/PreparedCenterlineInterval.lean:116:66: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

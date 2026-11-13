@@ -1,0 +1,2 @@
+PaperILean/LocalHorizontalFrame.lean:97:45: warning: unused variable `hpos`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

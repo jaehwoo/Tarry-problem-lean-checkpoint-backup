@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "phases": [
+    {
+      "phase": "lean-version",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0
+    },
+    {
+      "phase": "fresh-build",
+      "command": [
+        "lake",
+        "env",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/compile_sources.py",
+        "--output",
+        "/workspace/scratch/caa07c54e1c2/package/run-results/fresh-reproduction",
+        "--jobs",
+        "4",
+        "--module-timeout",
+        "180",
+        "--total-timeout",
+        "3600"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "output": "/workspace/scratch/caa07c54e1c2/package/run-results/fresh-reproduction",
+  "source_check": {
+    "status": "PASS",
+    "source_count": 598,
+    "checkpoint_sources": 25,
+    "missing_dependencies": {},
+    "source_option_overrides": [
+      {
+        "module": "PaperILean.SymmetricMatrixExponential",
+        "option": "maxHeartbeats",
+        "value": 30000,
+        "line": 15
+      },
+      {
+        "module": "PaperILean.DiagonalExponentialDifferential",
+        "option": "maxHeartbeats",
+        "value": 800000,
+        "line": 14
+      },
+      {
+        "module": "PaperILean.MatrixOrthogonalReduction",
+        "option": "maxHeartbeats",
+        "value": 800000,
+        "line": 13
+      },
+      {
+        "module": "PaperILean.JointFrameEnergySmoothness",
+        "option": "maxHeartbeats",
+        "value": 600000,
+        "line": 11
+      },
+      {
+        "module": "PaperILean.LogEnergyHessianFormula",
+        "option": "maxHeartbeats",
+        "value": 400000,
+        "line": 11
+      },
+      {
+        "module": "PaperILean.LogEnergySourceHessian",
+        "option": "maxHeartbeats",
+        "value": 400000,
+        "line": 8
+      },
+      {
+        "module": "PaperILean.LogEnergyGradient",
+        "option": "maxHeartbeats",
+        "value": 400000,
+        "line": 10
+      },
+      {
+        "module": "PaperILean.LogEnergyFirstDerivative",
+        "option": "maxHeartbeats",
+        "value": 100000,
+        "line": 13
+      },
+      {
+        "module": "PaperILean.OriginalSpectralHessian",
+        "option": "maxHeartbeats",
+        "value": 800000,
+        "line": 14
+      },
+      {
+        "module": "PaperILean.MatrixLogAnalytic",
+        "option": "maxHeartbeats",
+        "value": 800000,
+        "line": 11
+      },
+      {
+        "module": "PaperILean.PreparationGoodComponents",
+        "option": "maxHeartbeats",
+        "value": 1000000,
+        "line": 13
+      },
+      {
+        "module": "PaperILean.OriginalUniformDistanceBandFormat",
+        "option": "maxHeartbeats",
+        "value": 1000000,
+        "line": 14
+      },
+      {
+        "module": "PaperILean.UniformDistanceBandFormat",
+        "option": "maxHeartbeats",
+        "value": 1000000,
+        "line": 16
+      },
+      {
+        "module": "PaperILean.UniformPlanarCellCover",
+        "option": "maxHeartbeats",
+        "value": 1000000,
+        "line": 15
+      },
+      {
+        "module": "PaperILean.UniformLocalFrontierFormat",
+        "option": "maxHeartbeats",
+        "value": 1000000,
+        "line": 12
+      },
+      {
+        "module": "PaperILean.PublishedOpenMonotoneCuts",
+        "option": "maxHeartbeats",
+        "value": 1000000,
+        "line": 15
+      },
+      {
+        "module": "PaperILean.UniformClosedArcGraph",
+        "option": "maxHeartbeats",
+        "value": 1000000,
+        "line": 11
+      }
+    ],
+    "errors": []
+  },
+  "installed_pins": {
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0"
+  }
+}

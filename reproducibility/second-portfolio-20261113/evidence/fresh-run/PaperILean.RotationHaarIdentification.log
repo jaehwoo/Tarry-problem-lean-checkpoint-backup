@@ -1,0 +1,2 @@
+PaperILean/RotationHaarIdentification.lean:77:50: warning: unused variable `he`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

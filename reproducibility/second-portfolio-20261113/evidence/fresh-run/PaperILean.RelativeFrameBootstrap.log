@@ -1,0 +1,2 @@
+PaperILean/RelativeFrameBootstrap.lean:14:28: warning: unused variable `hq`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

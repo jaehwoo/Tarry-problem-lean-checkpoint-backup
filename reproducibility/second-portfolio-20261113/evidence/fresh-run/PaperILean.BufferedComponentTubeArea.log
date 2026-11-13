@@ -1,0 +1,9 @@
+Try this: ring_nf
+PaperILean/BufferedComponentTubeArea.lean:44:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+PaperILean/BufferedComponentTubeArea.lean:44:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+PaperILean/BufferedComponentTubeArea.lean:72:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+PaperILean/BufferedComponentTubeArea.lean:72:34: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

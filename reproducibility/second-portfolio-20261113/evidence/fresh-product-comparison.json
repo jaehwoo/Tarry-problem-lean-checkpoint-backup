@@ -1,0 +1,308 @@
+{
+  "scope": "Byte comparison only; see build and endpoint-audit records for verification status.",
+  "matched": 50,
+  "different": 0,
+  "missing": 0,
+  "products": [
+    {
+      "product": "PaperILean/AffineAreaFibers.ilean",
+      "historical_sha256": "83a52152f712e8531e29034a12f1d72fa5ccb9ccbde27aaa22579a48f083dbd1",
+      "fresh_sha256": "83a52152f712e8531e29034a12f1d72fa5ccb9ccbde27aaa22579a48f083dbd1",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaFibers.olean",
+      "historical_sha256": "69c489c2094d91efdf98da16d670b3cbc6888c62766456d3a758003d13b65882",
+      "fresh_sha256": "69c489c2094d91efdf98da16d670b3cbc6888c62766456d3a758003d13b65882",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaFiniteMultiplicity.ilean",
+      "historical_sha256": "1affd622a2f3663b4c9965c7336fb0c4103138d0b44b7022de611bae8d3e713b",
+      "fresh_sha256": "1affd622a2f3663b4c9965c7336fb0c4103138d0b44b7022de611bae8d3e713b",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaFiniteMultiplicity.olean",
+      "historical_sha256": "8f58178a0d93577575c2fddd8d400d6ca5874485c6a946e3d1a83dd21be3650d",
+      "fresh_sha256": "8f58178a0d93577575c2fddd8d400d6ca5874485c6a946e3d1a83dd21be3650d",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaGeometry.ilean",
+      "historical_sha256": "f54edba2bfc680c6cce03891da974486138e109b0dc10c19385383d2f5ac0cf9",
+      "fresh_sha256": "f54edba2bfc680c6cce03891da974486138e109b0dc10c19385383d2f5ac0cf9",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaGeometry.olean",
+      "historical_sha256": "adf638f462858a576c0afe42ced806fbf4769b0fad0ac0999df070778778754f",
+      "fresh_sha256": "adf638f462858a576c0afe42ced806fbf4769b0fad0ac0999df070778778754f",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaIntegral.ilean",
+      "historical_sha256": "34eb762e8f016599bd6748cd480ab47ee29b65fdbcd255de2bf7cf54a016d64f",
+      "fresh_sha256": "34eb762e8f016599bd6748cd480ab47ee29b65fdbcd255de2bf7cf54a016d64f",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaIntegral.olean",
+      "historical_sha256": "ce2e58921f31ebc0dc512082a37a197cb24235344cef7062aaf72bdcad42ff45",
+      "fresh_sha256": "ce2e58921f31ebc0dc512082a37a197cb24235344cef7062aaf72bdcad42ff45",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaWhole.ilean",
+      "historical_sha256": "c52f7f96fb61f99a0a906d47679fe0f906ec7b1bb9c0d6c740b129464a58559a",
+      "fresh_sha256": "c52f7f96fb61f99a0a906d47679fe0f906ec7b1bb9c0d6c740b129464a58559a",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/AffineAreaWhole.olean",
+      "historical_sha256": "68404065e583720985e6d8a750c080c17685d28bfc210afa00b08ee2d0e62055",
+      "fresh_sha256": "68404065e583720985e6d8a750c080c17685d28bfc210afa00b08ee2d0e62055",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripBounds.ilean",
+      "historical_sha256": "7922f432659f5ddfc5487e19529524fcbd3ff784d379e715278a137759e0795f",
+      "fresh_sha256": "7922f432659f5ddfc5487e19529524fcbd3ff784d379e715278a137759e0795f",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripBounds.olean",
+      "historical_sha256": "6c28e486264dfdc1f6fe5094a2b667457b29999957cf7caa257fd5e7c0e6ce56",
+      "fresh_sha256": "6c28e486264dfdc1f6fe5094a2b667457b29999957cf7caa257fd5e7c0e6ce56",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripFixedFormat.ilean",
+      "historical_sha256": "5a78277365a92e3e5c9feb855d008ef30891d47f07de3b88b2eb1b40aed577fb",
+      "fresh_sha256": "5a78277365a92e3e5c9feb855d008ef30891d47f07de3b88b2eb1b40aed577fb",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripFixedFormat.olean",
+      "historical_sha256": "44f4aa65149ed3f63c6d31fced8d01d80b9d555f57056d1e48c3d0447c766866",
+      "fresh_sha256": "44f4aa65149ed3f63c6d31fced8d01d80b9d555f57056d1e48c3d0447c766866",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripFormat.ilean",
+      "historical_sha256": "567d00e37369627b87dbefbfc770a49c290a1042fc825d0b154dec7526d2b551",
+      "fresh_sha256": "567d00e37369627b87dbefbfc770a49c290a1042fc825d0b154dec7526d2b551",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripFormat.olean",
+      "historical_sha256": "0c341fe77a800c112ca77d9ee6091c9caaa23cb9378fd3f1a581be6360b0b6c3",
+      "fresh_sha256": "0c341fe77a800c112ca77d9ee6091c9caaa23cb9378fd3f1a581be6360b0b6c3",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripJetGraphs.ilean",
+      "historical_sha256": "34ca6baa11e0b0684fe23e94cdcc41b6964cdb40091b0ea9af18039c612462bf",
+      "fresh_sha256": "34ca6baa11e0b0684fe23e94cdcc41b6964cdb40091b0ea9af18039c612462bf",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripJetGraphs.olean",
+      "historical_sha256": "100193282e4fa249b0238e5916b512cb84c4316aa609d66f3fb1a24092995b6a",
+      "fresh_sha256": "100193282e4fa249b0238e5916b512cb84c4316aa609d66f3fb1a24092995b6a",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripJointFamily.ilean",
+      "historical_sha256": "cca15f86b07abf50c2fd61c29bfc61c6711d7661508861e323caee34f99e4769",
+      "fresh_sha256": "cca15f86b07abf50c2fd61c29bfc61c6711d7661508861e323caee34f99e4769",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripJointFamily.olean",
+      "historical_sha256": "3a6f58c35660b1422288df3d9a3463cb88a78108be31b4b15a9c526660ac918b",
+      "fresh_sha256": "3a6f58c35660b1422288df3d9a3463cb88a78108be31b4b15a9c526660ac918b",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripOpenSections.ilean",
+      "historical_sha256": "578e4e9556cb05112da2029021b31aa512b9fbb335779f782e599f562e72d8df",
+      "fresh_sha256": "578e4e9556cb05112da2029021b31aa512b9fbb335779f782e599f562e72d8df",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripOpenSections.olean",
+      "historical_sha256": "0bf2056e23cc6caefd72d9822f40ed82a9bc63ee1105bcba07b69457048708a3",
+      "fresh_sha256": "0bf2056e23cc6caefd72d9822f40ed82a9bc63ee1105bcba07b69457048708a3",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripPlanarClosure.ilean",
+      "historical_sha256": "3e040ee99eb6455be33a6a5e0f682a3274ead9afa3fe3b7baa8dccf3569036cd",
+      "fresh_sha256": "3e040ee99eb6455be33a6a5e0f682a3274ead9afa3fe3b7baa8dccf3569036cd",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripPlanarClosure.olean",
+      "historical_sha256": "61a925490bc61cedef7baa5b799c80474f9cc8d46f0ccfc503b03645c422c8b2",
+      "fresh_sha256": "61a925490bc61cedef7baa5b799c80474f9cc8d46f0ccfc503b03645c422c8b2",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripQuantitative.ilean",
+      "historical_sha256": "e514c74f5d81ca1342f62d2dbac158543b223b38fca80fc9062d3f7de586152f",
+      "fresh_sha256": "e514c74f5d81ca1342f62d2dbac158543b223b38fca80fc9062d3f7de586152f",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripQuantitative.olean",
+      "historical_sha256": "7a4f5bc1f3ab964b75d7fd2ee1d2f6737e6568313d3e81ba01746fef8fd322f8",
+      "fresh_sha256": "7a4f5bc1f3ab964b75d7fd2ee1d2f6737e6568313d3e81ba01746fef8fd322f8",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripRegularLocus.ilean",
+      "historical_sha256": "ed8012eb4576a586fc453f441ddf67f6f5c64e3476c2d8ac68aa51e0c8846a89",
+      "fresh_sha256": "ed8012eb4576a586fc453f441ddf67f6f5c64e3476c2d8ac68aa51e0c8846a89",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripRegularLocus.olean",
+      "historical_sha256": "fa5f8157e87daea565363f1fdf6c0e0582988cf2b96ac694e0ed5437d1cf4eee",
+      "fresh_sha256": "fa5f8157e87daea565363f1fdf6c0e0582988cf2b96ac694e0ed5437d1cf4eee",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripSectionPreparation.ilean",
+      "historical_sha256": "1e1a43556ef11ed84f92472bd50b27ea68352c7b8a087b704b53a0c4fc81c95e",
+      "fresh_sha256": "1e1a43556ef11ed84f92472bd50b27ea68352c7b8a087b704b53a0c4fc81c95e",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripSectionPreparation.olean",
+      "historical_sha256": "b1f1ac13981fe917b81051161cd3ac5816a03ebc7d9d796cabd40597d24f2ceb",
+      "fresh_sha256": "b1f1ac13981fe917b81051161cd3ac5816a03ebc7d9d796cabd40597d24f2ceb",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripSmoothSections.ilean",
+      "historical_sha256": "e64e820e8cb0daf7208a704202010f0b76772ac1bfe42d6b4c99fbda0adbf327",
+      "fresh_sha256": "e64e820e8cb0daf7208a704202010f0b76772ac1bfe42d6b4c99fbda0adbf327",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripSmoothSections.olean",
+      "historical_sha256": "3172995ba554f14ce558a2206bb4444d4d2e2ae0ce8b828812fd25500e333ff2",
+      "fresh_sha256": "3172995ba554f14ce558a2206bb4444d4d2e2ae0ce8b828812fd25500e333ff2",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripThresholdSets.ilean",
+      "historical_sha256": "007233ef0d97033c65d306ad9e6e9f1eebac8112c84723d5d82779b66e703539",
+      "fresh_sha256": "007233ef0d97033c65d306ad9e6e9f1eebac8112c84723d5d82779b66e703539",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripThresholdSets.olean",
+      "historical_sha256": "3eee59e15018a05da5a60d84c69caaa39e51b31bd8a9b501d8e8a9de37cd849d",
+      "fresh_sha256": "3eee59e15018a05da5a60d84c69caaa39e51b31bd8a9b501d8e8a9de37cd849d",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripWhole.ilean",
+      "historical_sha256": "0b272695e404f4c1b6c5496ff018f8055dc12f2417045323aeffe5d0e532c5ee",
+      "fresh_sha256": "0b272695e404f4c1b6c5496ff018f8055dc12f2417045323aeffe5d0e532c5ee",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/GoodStripWhole.olean",
+      "historical_sha256": "51e930166d76e55beb42bd1df30ed54d7de61eb53ef8510e4a33a964245899fe",
+      "fresh_sha256": "51e930166d76e55beb42bd1df30ed54d7de61eb53ef8510e4a33a964245899fe",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarArea.ilean",
+      "historical_sha256": "adb64c40cf91c78c2bce0a09000c1b3aa1f957c9a1bca094bc8f04c50ae39d66",
+      "fresh_sha256": "adb64c40cf91c78c2bce0a09000c1b3aa1f957c9a1bca094bc8f04c50ae39d66",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarArea.olean",
+      "historical_sha256": "19b6fe798bbed60a0a1d993ea27232dbb44cf79ae07d242dc494b9ac7ddf046d",
+      "fresh_sha256": "19b6fe798bbed60a0a1d993ea27232dbb44cf79ae07d242dc494b9ac7ddf046d",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarCoframe.ilean",
+      "historical_sha256": "733fc361a8a02d71b5d186b1676c110607773cd24a692b39196e6b78f73dd64a",
+      "fresh_sha256": "733fc361a8a02d71b5d186b1676c110607773cd24a692b39196e6b78f73dd64a",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarCoframe.olean",
+      "historical_sha256": "d6b2d1da26ce12829a68ba7b2dae53c35ffc15bd06835c40828fd9db5546b4a6",
+      "fresh_sha256": "d6b2d1da26ce12829a68ba7b2dae53c35ffc15bd06835c40828fd9db5546b4a6",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarFormat.ilean",
+      "historical_sha256": "5759d5e82b9fdc2ad2a1e90faf0c9aa5735a7c1a358db28d45997ba046c4eeb9",
+      "fresh_sha256": "5759d5e82b9fdc2ad2a1e90faf0c9aa5735a7c1a358db28d45997ba046c4eeb9",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarFormat.olean",
+      "historical_sha256": "65b94ab7d4780ba49ce15eed70ab0349bca96cea588b8a43e7a89a9877fda757",
+      "fresh_sha256": "65b94ab7d4780ba49ce15eed70ab0349bca96cea588b8a43e7a89a9877fda757",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarGeometry.ilean",
+      "historical_sha256": "b61cc1cba61e3532859a57cc80066bbb02b6665fba4765e51c6014bb2f98cdd5",
+      "fresh_sha256": "b61cc1cba61e3532859a57cc80066bbb02b6665fba4765e51c6014bb2f98cdd5",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarGeometry.olean",
+      "historical_sha256": "5d2856678816ef83f17080501466d975a83713a98bb7c89759a758d6871f64d9",
+      "fresh_sha256": "5d2856678816ef83f17080501466d975a83713a98bb7c89759a758d6871f64d9",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarSource.ilean",
+      "historical_sha256": "cd948af14137aa164a3251a5f85df0b3e8b7dd55018b9aa96c96478e7d0c0ba4",
+      "fresh_sha256": "cd948af14137aa164a3251a5f85df0b3e8b7dd55018b9aa96c96478e7d0c0ba4",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarSource.olean",
+      "historical_sha256": "18441ef25a999bca5a069a212895934fc7f43cc74c62bc0055c165f7f05c7398",
+      "fresh_sha256": "18441ef25a999bca5a069a212895934fc7f43cc74c62bc0055c165f7f05c7398",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarTrajectory.ilean",
+      "historical_sha256": "bd7de5e1edf7bcad585017c4462848854c1d079388e0f7d7d3b7b4a64924b8a2",
+      "fresh_sha256": "bd7de5e1edf7bcad585017c4462848854c1d079388e0f7d7d3b7b4a64924b8a2",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarTrajectory.olean",
+      "historical_sha256": "d4aafb56317736dee094508e8b9d1e1c143f050cada8f63a3bf96c2c8f8b55a8",
+      "fresh_sha256": "d4aafb56317736dee094508e8b9d1e1c143f050cada8f63a3bf96c2c8f8b55a8",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarWhole.ilean",
+      "historical_sha256": "701a21d039734164263fa4b10b704cda82045e1defa8f2161aee0d784d8ecc68",
+      "fresh_sha256": "701a21d039734164263fa4b10b704cda82045e1defa8f2161aee0d784d8ecc68",
+      "status": "MATCH"
+    },
+    {
+      "product": "PaperILean/ParabolicCollarWhole.olean",
+      "historical_sha256": "c94652cc30310f6c91ddba25aa959b7fe60f6efb4d2f237ee4477025652c87e1",
+      "fresh_sha256": "c94652cc30310f6c91ddba25aa959b7fe60f6efb4d2f237ee4477025652c87e1",
+      "status": "MATCH"
+    }
+  ]
+}

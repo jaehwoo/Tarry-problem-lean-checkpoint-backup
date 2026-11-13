@@ -1,0 +1,22 @@
+{
+  "lean_version": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "compiler_sha256": "92c3d35b5bfaa5e0fea413a775d504cf46cd95e1345df61c2274f76779e7e023",
+  "compiler_archive_sha256": "6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe",
+  "os": "Linux",
+  "machine": "x86_64",
+  "python": "3.12.14",
+  "mathlib_cache": {
+    "provider": "Mathlib official cache",
+    "requested_modules": 6641,
+    "final_status": "PASS",
+    "log": "mathlib-cache-limited.log",
+    "third_party_cache_reused": true,
+    "first_party_cache_reused": false
+  },
+  "initial_cache_failures": {
+    "first_attempt_failed_downloads": 4402,
+    "second_attempt_failed_downloads": 2586,
+    "cause": "HTTP 429",
+    "resolution": "Third attempt used task-scoped curl parallel-max=4 and rate=4/s; all remaining files downloaded; 6641 entries unpacked."
+  }
+}

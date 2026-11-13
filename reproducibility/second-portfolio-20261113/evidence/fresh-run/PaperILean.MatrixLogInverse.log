@@ -1,0 +1,2 @@
+PaperILean/MatrixLogInverse.lean:21:44: warning: unused variable `hr`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

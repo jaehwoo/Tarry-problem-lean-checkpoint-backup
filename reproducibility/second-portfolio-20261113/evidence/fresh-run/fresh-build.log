@@ -1,0 +1,24 @@
+compiled=25 failed_or_blocked=0 remaining=573 latest=PaperILean.NonconstantPolynomialProduct code=0
+compiled=50 failed_or_blocked=0 remaining=548 latest=PaperILean.DirectionalPolynomialDerivatives code=0
+compiled=75 failed_or_blocked=0 remaining=523 latest=PaperILean.BoundedQuantifiedFormat code=0
+compiled=100 failed_or_blocked=0 remaining=498 latest=PaperILean.CurveSelectionRescale code=0
+compiled=125 failed_or_blocked=0 remaining=473 latest=PaperILean.OriginalGaussInverseChart code=0
+compiled=150 failed_or_blocked=0 remaining=448 latest=PaperILean.MatrixTraceSquareDifferential code=0
+compiled=175 failed_or_blocked=0 remaining=423 latest=PaperILean.SymmetricCongruence code=0
+compiled=200 failed_or_blocked=0 remaining=398 latest=PaperILean.RegularCoefficientFiberBounds code=0
+compiled=225 failed_or_blocked=0 remaining=373 latest=PaperILean.RawJetUniformBounds code=0
+compiled=250 failed_or_blocked=0 remaining=348 latest=PaperILean.CylindricalLiftFiberGeometry code=0
+compiled=275 failed_or_blocked=0 remaining=323 latest=PaperILean.CylindricalFiberPaths code=0
+compiled=300 failed_or_blocked=0 remaining=298 latest=PaperILean.FiniteMeasurePacking code=0
+compiled=325 failed_or_blocked=0 remaining=273 latest=PaperILean.FrameEnergyMixedDerivative code=0
+compiled=350 failed_or_blocked=0 remaining=248 latest=PaperILean.FrameCriticalMinimum code=0
+compiled=375 failed_or_blocked=0 remaining=223 latest=PaperILean.PlanarTangentProjection code=0
+compiled=400 failed_or_blocked=0 remaining=198 latest=PaperILean.EllipsoidGeometry code=0
+compiled=425 failed_or_blocked=0 remaining=173 latest=PaperILean.JointPlanarConeTests code=0
+compiled=450 failed_or_blocked=0 remaining=148 latest=PaperILean.BoundedDistanceMinimum code=0
+compiled=475 failed_or_blocked=0 remaining=123 latest=PaperILean.OriginalDyadicCoreAssignment code=0
+compiled=500 failed_or_blocked=0 remaining=98 latest=PaperILean.PublishedOpenMonotoneCuts code=0
+compiled=525 failed_or_blocked=0 remaining=73 latest=PaperILean.RotationChartRegularity code=0
+compiled=550 failed_or_blocked=0 remaining=48 latest=PaperILean.RotationChartPatchMeasure code=0
+compiled=575 failed_or_blocked=0 remaining=23 latest=PaperILean.OriginalRoundedComponentStrip code=0
+PASS

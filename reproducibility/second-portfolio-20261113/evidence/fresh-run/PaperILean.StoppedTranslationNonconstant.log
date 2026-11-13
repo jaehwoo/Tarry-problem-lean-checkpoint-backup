@@ -1,0 +1,2 @@
+PaperILean/StoppedTranslationNonconstant.lean:45:4: warning: try 'simp at hi' instead of 'simpa using hi'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`

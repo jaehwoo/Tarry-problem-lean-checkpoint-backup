@@ -1,0 +1,251 @@
+PaperI.ParabolicCollar.parabolic_collars_local_boxes (hQQE : PaperI.PublishedQuantitativeRealQE)
+  (hCell : PaperI.PublishedFiniteConnectedCover) (hHardt : PaperI.PublishedSemialgebraicHardtTriviality)
+  (hQE : PaperI.PublishedRealSemialgebraicity) (s D K : ℕ) :
+  ∃ sOut DOut N,
+    ∀ {P m δ c M : ℝ},
+      2 ≤ P →
+        1 ≤ m →
+          0 ≤ δ →
+            0 < c →
+              c ≤ 1 →
+                (P ^ K)⁻¹ ≤ c →
+                  4 * m < M →
+                    ∀ (C : ℕ),
+                      P ^ C * δ * m ^ 3 ≤ 1 / 16 →
+                        ∀ (E : Set PaperI.BoundedCharacteristic.Plane) (d v : PaperI.BoundedCharacteristic.Plane → ℝ)
+                          (retained : PaperI.BoundedCharacteristic.Plane → Prop),
+                          (∀ p ∈ E, retained p) →
+                            ∀ (a b a' b' : ℝ),
+                              a ≤ b →
+                                ∀ (γ γ' : ℝ → PaperI.BoundedCharacteristic.Plane) (A ν r : ℝ → ℝ),
+                                  ContinuousOn r (Set.Ioo a' b') →
+                                    Set.BijOn r (Set.Ioo a' b') (Set.Ioo a b) →
+                                      (∀ z ∈ Set.Ioo a' b', γ (r z) = γ' z) →
+                                        ∀ (box : ℝ → Set PaperI.BoundedCharacteristic.Plane),
+                                          (∀ z ∈ Set.Ioo a b,
+                                              IsOpen (box z) ∧
+                                                box z ⊆ E ∧
+                                                  γ z ∈ box z ∧
+                                                    PaperI.BoundedCharacteristic.HasACBuffer (box z) d (γ z) M ∧
+                                                      (∀ p ∈ box z,
+                                                          ContDiffAt ℝ 1 d p ∧
+                                                            DifferentiableAt ℝ v p ∧
+                                                              (fderiv ℝ d p) (d p, 1) = v p ∧
+                                                                |(fderiv ℝ d p) (1, 0)| ≤ P ^ C * δ ∧
+                                                                  |(fderiv ℝ v p) (1, 0)| ≤ P ^ C * δ ∧
+                                                                    |(fderiv ℝ v p) (d p, 1)| ≤ P ^ C * δ ∧
+                                                                      |v p| ≤ P ^ C) ∧
+                                                        HasDerivAt (fun t => (γ t).1) (A z) z ∧
+                                                          HasDerivAt (fun t => (γ t).2) (ν z) z ∧
+                                                            A z - d (γ z) * ν z = 1 ∧ |ν z| ≤ 1) →
+                                            ∀ (B : Finset (MvPolynomial (Unit ⊕ Fin 4) ℝ)),
+                                              B.card ≤ s →
+                                                (∀ p ∈ B, p.totalDegree ≤ D) →
+                                                  PaperI.PolynomialSignDetermined B
+                                                      (PaperI.ParabolicCollar.originalSeedGraph a' b' γ' d v) →
+                                                    let Ω := PaperI.ParabolicCollar.fluxRectangle a b (c * m);
+                                                    let Ψ := PaperI.ParabolicCollar.collarMap γ d v;
+                                                    (∀ x ∈ Ω,
+                                                        let p := γ (x 0);
+                                                        let Jd := (fderiv ℝ d p) (1, 0);
+                                                        let V' :=
+                                                          (fderiv ℝ v p) (1, 0) + ν (x 0) * (fderiv ℝ v p) (d p, 1);
+                                                        let L :=
+                                                          PaperI.ParabolicCollar.matrixMap
+                                                            (PaperI.ParabolicCollar.collarJac (A (x 0)) (ν (x 0)) (d p)
+                                                              (v p) (Jd + ν (x 0) * v p) V' (x 1));
+                                                        let Cₜ :=
+                                                          d p + v p * x 1 -
+                                                            d (PaperI.ParabolicCollar.collarPoint γ d v x);
+                                                        let U :=
+                                                          PaperI.ParabolicCollar.coframeMatrix L.det (ν (x 0)) Cₜ;
+                                                        let V :=
+                                                          PaperI.ParabolicCollar.inverseCoframe L.det (ν (x 0)) Cₜ;
+                                                        PaperI.ParabolicCollar.collarPoint γ d v x ∈ E ∧
+                                                          retained (PaperI.ParabolicCollar.collarPoint γ d v x) ∧
+                                                            HasFDerivAt Ψ L x ∧
+                                                              L.det = 1 + Jd * x 1 + V' * x 1 ^ 2 / 2 ∧
+                                                                (PaperI.ParabolicCollar.thetaMap
+                                                                          (d
+                                                                            (PaperI.ParabolicCollar.collarPoint γ d v
+                                                                              x))).comp
+                                                                      L =
+                                                                    PaperI.ParabolicCollar.matrixMap U ∧
+                                                                  U * V = 1 ∧
+                                                                    V * U = 1 ∧
+                                                                      ⋯ ≤ P ^ (4 + K + N) ∧ ⋯ ≤ P ^ (4 + K + N)) ∧
+                                                      (∀ (y : PaperI.ParabolicCollar.Coordinates),
+                                                          Finite ↑{x | x ∈ Ω ∧ Ψ x = y} ∧
+                                                            Nat.card ↑{x | x ∈ Ω ∧ Ψ x = y} ≤ N) ∧
+                                                        MeasurableSet (Ψ '' Ω) ∧
+                                                          (P ^ (4 + K + N))⁻¹ * m * (b - a) ≤
+                                                              MeasureTheory.volume.real (Ψ '' Ω) ∧
+                                                            MeasureTheory.volume.real (Ψ '' Ω) ≤
+                                                                P ^ (4 + K + N) * m * (b - a) ∧
+                                                              ∃ B',
+                                                                B'.card ≤ sOut ∧
+                                                                  (∀ p ∈ B', p.totalDegree ≤ DOut) ∧
+                                                                    PaperI.PolynomialSignDetermined B'
+                                                                      (PaperI.ParabolicCollar.originalCollarGraph a' b'
+                                                                        (c * m) γ' d v)
+PaperI.GoodStrips.derivative_good_points_rectangle (hDD : PaperI.PublishedEquispacedDividedDifferenceMeanValue)
+  (hCell : PaperI.PublishedFiniteConnectedCover) (hHardt : PaperI.PublishedSemialgebraicHardtTriviality)
+  (hQE : PaperI.PublishedRealSemialgebraicity) (hNash : PaperI.PublishedPiecewiseNashExtensions) {ι : Type} [Fintype ι]
+  (sA dA sG dG N : ℕ) :
+  ∃ D,
+    1 ≤ D ∧
+      ∀ (G : ι → Set (Fin 3 → ℝ)) (J : ι → Finset (MvPolynomial (Fin 3) ℝ)),
+        (∀ (i : ι), (J i).card ≤ sG) →
+          (∀ (i : ι), ∀ q ∈ J i, q.totalDegree ≤ dG) →
+            (∀ (i : ι), PaperI.PolynomialSignDetermined (J i) (G i)) →
+              ∀ (f : ι → ℝ × ℝ → ℝ) (M : ι → ℝ) (x0 x1 y0 y1 : ℝ),
+                let R := PaperI.GoodStrips.Rect x0 x1 y0 y1;
+                let L := x1 - x0;
+                let W := y1 - y0;
+                x0 < x1 →
+                  y0 < y1 →
+                    (∀ (i : ι), ∀ z ∈ R, ∀ (w : ℝ), ![z.1, z.2, w] ∈ G i ↔ w = f i z) →
+                      (∀ (i : ι), 0 ≤ M i) →
+                        ((∀ (i : ι), ∀ z ∈ R, |f i z| ≤ M i) →
+                            ∀ (ε : ℝ),
+                              0 < ε →
+                                ∃ U,
+                                  MeasurableSet U ∧
+                                    U ⊆ R ∧
+                                      MeasureTheory.volume (R \ U) ≤ ENNReal.ofReal (ε * L * W) ∧
+                                        (∀ z ∈ U,
+                                            ∀ (i : ι) (a b : ℕ),
+                                              a + b ≤ N →
+                                                |PaperI.GoodStrips.Jet (f i) a b z| ≤
+                                                  D * (1 / min ε 1) ^ (4 * N) * M i / (L ^ a * W ^ b)) ∧
+                                          ∃ V, IsOpen V ∧ U ⊆ V ∧ ∀ (i : ι), AnalyticOnNhd ℝ (f i) V) ∧
+                          ∀ (S : Set (Fin 2 → ℝ)) (F : Finset (MvPolynomial (Fin 2) ℝ)),
+                            F.card ≤ sA →
+                              (∀ q ∈ F, q.totalDegree ≤ dA) →
+                                PaperI.PolynomialSignDetermined F S →
+                                  ∀ (A : Set (ℝ × ℝ)),
+                                    A = {z | ![z.1, z.2] ∈ S} ∩ R →
+                                      (∀ (i : ι), ∀ z ∈ A, |f i z| ≤ M i) →
+                                        ∀ (q : ℝ),
+                                          0 < q →
+                                            q ≤ 1 →
+                                              ENNReal.ofReal q * MeasureTheory.volume R ≤ MeasureTheory.volume A →
+                                                ∃ U,
+                                                  MeasurableSet U ∧
+                                                    U ⊆ A ∧
+                                                      ENNReal.ofReal (1 / 2 * q ^ max 1 (4 * N) * L * W) ≤
+                                                          MeasureTheory.volume U ∧
+                                                        (∀ z ∈ U,
+                                                            ∀ (i : ι) (a b : ℕ),
+                                                              a + b ≤ N →
+                                                                |PaperI.GoodStrips.Jet (f i) a b z| ≤
+                                                                  D * 2 ^ (4 * N) * (1 / q) ^ max 1 (4 * N) * M i /
+                                                                    (L ^ a * W ^ b)) ∧
+                                                          ∃ V, IsOpen V ∧ U ⊆ V ∧ ∀ (i : ι), AnalyticOnNhd ℝ (f i) V
+PaperI.derivative_good_points_curved_strips.{u, v} (hDD : PaperI.PublishedEquispacedDividedDifferenceMeanValue)
+  (hCAD : PaperI.PublishedCylindricalInitialBandDecomposition) (hCell : PaperI.PublishedSemialgebraicCellDecomposition)
+  (hHardt : PaperI.PublishedCompatibleSemialgebraicHardtTriviality) (hQE : PaperI.PublishedRealSemialgebraicity)
+  (hPiece : PaperI.PublishedPiecewiseNashExtensions) (hMono : PaperI.PublishedOneVariableMonotonicity) (s d N : ℕ)
+  (c r : ℝ) :
+  ∃ Nc H K m,
+    2 ≤ H ∧
+      0 < K ∧
+        0 < m ∧
+          ∃ C,
+            1 ≤ C ∧
+              ∀ (b : (Fin s → Bool × Bool) → Bool),
+                ∃ D,
+                  D.count ≤ Nc ∧
+                    ∃ B,
+                      (∀ (i : Fin D.count)
+                          (p : ↑(PaperI.originalJointPositiveWidthDomain (Fin s × (Fin 2 → Fin (d + 1))))),
+                          (PaperI.projectionFiber (D.part i) ↑p).Nonempty →
+                            PaperI.OriginalBorelStripFamily.ComponentStripAt D i (B i) H K N C p ∧
+                              ∀ (P : ℝ),
+                                2 ≤ P →
+                                  P ^ (-c) / 2 ≤ ↑p (Sum.inr ()) →
+                                    PaperI.OriginalBorelStripFamily.RoundedComponentAt D i (B i) N (P ^ m) p) ∧
+                        ∀ (Ω : Type u) (Λ : Type v) (active : Ω → Λ → Prop)
+                          (param : Ω → Fin s × (Fin 2 → Fin (d + 1)) → ℝ) (radius : Ω → ℝ) (point : Ω → Λ → Fin 2 → ℝ)
+                          (ω : Ω) (E : Set (WithLp 2 (Fin 2 → ℝ))),
+                          IsOpen E →
+                            Bornology.IsBounded E →
+                              0 ≤ radius ω →
+                                ⇑(WithLp.equiv 2 (Fin 2 → ℝ)) '' E =
+                                    PaperI.projectionFiber (PaperI.universalPolynomialBooleanSet (Fin 2) s d b)
+                                      (param ω) →
+                                  ⇑(WithLp.equiv 2 (Fin 2 → ℝ)) '' E ⊆ PaperI.planarCoordinateBox (radius ω) →
+                                    ∀ (P mass : ℝ),
+                                      2 ≤ P →
+                                        (∀ (j : Λ),
+                                            active ω j →
+                                              P ^ (-c) ≤
+                                                Metric.infDist ((WithLp.equiv 2 (Fin 2 → ℝ)).symm (point ω j)) Eᶜ) →
+                                          (∀ (u : Fin 2 → ℝ),
+                                              {j |
+                                                    active ω j ∧
+                                                      (WithLp.equiv 2 (Fin 2 → ℝ)).symm (point ω j) ∈
+                                                        PaperI.planarSquare u (P ^ (-c))}.Finite ∧
+                                                ↑{j |
+                                                        active ω j ∧
+                                                          (WithLp.equiv 2 (Fin 2 → ℝ)).symm (point ω j) ∈
+                                                            PaperI.planarSquare u (P ^ (-c))}.ncard ≤
+                                                  P ^ r * mass) →
+                                            PaperI.OriginalDyadicPackingBounds D active param radius point ω m P mass ∧
+                                              ∀ (j : Λ) (k : ℤ) (i : Fin D.count),
+                                                PaperI.originalDyadicComponentAssigned D active param radius point ω j k
+                                                    i →
+                                                  let p := PaperI.originalDyadicPositiveParameters param radius k ω;
+                                                  let L :=
+                                                    PaperI.roundedDyadicScale
+                                                      (PaperI.originalJointComponentScale D i ↑p);
+                                                  let W := PaperI.roundedDyadicScale (2 ^ k);
+                                                  let I :=
+                                                    {j' |
+                                                      PaperI.originalDyadicComponentAssigned D active param radius point
+                                                        ω j' k i};
+                                                  let S :=
+                                                    PaperI.originalAssignedPlanarStrip D B active param radius point ω
+                                                      j;
+                                                  let J := Set.Icc ((B i).left p) ((B i).right p);
+                                                  let ζ := fun x => (B i).graph (p, x);
+                                                  Metric.diam
+                                                        ((fun j' => (WithLp.equiv 2 (Fin 2 → ℝ)).symm (point ω j')) ''
+                                                          I) ≤
+                                                      L ∧
+                                                    1 ≤ W ∧
+                                                      W ≤ L ∧
+                                                        S ⊆ E ∧
+                                                          MeasurableSet S ∧
+                                                            L * W / P ^ m ≤ ⋯.real S ∧
+                                                              (∀ (j' : Λ), ⋯) ∧ AnalyticOnNhd ℝ ζ J ∧ ⋯
+PaperI.AffineArea.algebraic_surface_packing_cutoff (hbez : PaperI.RationalCount.PublishedNonsingularBezout) (D : ℕ) :
+  ∃ C,
+    0 < C ∧
+      ∀ (G : PaperI.AffineArea.Equation),
+        G ≠ 0 →
+          MvPolynomial.totalDegree G ≤ D →
+            ∀ (c : PaperI.AffineArea.Plane → ℝ) (U E : Set PaperI.AffineArea.Plane),
+              IsOpen U →
+                ContDiffOn ℝ 2 c U →
+                  MeasurableSet E →
+                    E ⊆ U →
+                      (∀ x ∈ U, (MvPolynomial.eval (PaperI.GraphCurvatureDensity.graph c x)) G = 0) →
+                        (∀ x ∈ U, PaperI.AffineArea.gradient G (PaperI.GraphCurvatureDensity.graph c x) ≠ 0) →
+                          ∀ (κ : ℝ),
+                            0 < κ →
+                              (∀ x ∈ E, κ ≤ |(PaperI.GraphCurvatureDensity.hessian c x).det|) →
+                                ∀ (B : Matrix (Fin 3) (Fin 3) ℝ),
+                                  B.det ≠ 0 →
+                                    ∀ (b center : PaperI.AffineSurfaceDerivatives.Space) (R : ℝ),
+                                      0 ≤ R →
+                                        (∀ x ∈ E,
+                                            (EuclideanSpace.equiv (Fin 3) ℝ).symm
+                                                (PaperI.AffineSurfaceDerivatives.affine B b
+                                                  (PaperI.GraphCurvatureDensity.graph c) x) ∈
+                                              Metric.closedBall ((EuclideanSpace.equiv (Fin 3) ℝ).symm center) R) →
+                                          MeasureTheory.volume E ≤
+                                              ENNReal.ofReal (C * R ^ (3 / 2) * κ ^ (-1 / 4) * |B.det| ^ (-1 / 2)) ∧
+                                            MeasureTheory.volume E ≠ ⊤ ∧
+                                              (MeasureTheory.volume E).toReal ≤
+                                                C * R ^ (3 / 2) * κ ^ (-1 / 4) * |B.det| ^ (-1 / 2)

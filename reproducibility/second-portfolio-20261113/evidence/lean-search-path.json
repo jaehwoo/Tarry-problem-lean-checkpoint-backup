@@ -1,0 +1,17 @@
+{
+  "lean_path": [
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/Cli/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/batteries/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/Qq/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/aesop/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/plausible/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/package/.lake/build/lib/lean",
+    "/workspace/scratch/caa07c54e1c2/tools/lean-4.19.0-linux/lib/lean"
+  ],
+  "all_roots_in_standalone_package_or_official_toolchain": true,
+  "historical_project_paths_present": false
+}

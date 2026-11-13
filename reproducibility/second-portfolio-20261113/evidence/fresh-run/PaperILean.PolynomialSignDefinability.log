@@ -1,0 +1,4 @@
+PaperILean/PolynomialSignDefinability.lean:55:25: warning: try 'simp at hb' instead of 'simpa using hb'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+PaperILean/PolynomialSignDefinability.lean:88:25: warning: try 'simp at hb' instead of 'simpa using hb'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`

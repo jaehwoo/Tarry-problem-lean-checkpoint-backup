@@ -1,0 +1,4 @@
+PaperILean/OriginalGaussBodyCoefficientBounds.lean:13:15: warning: unused variable `hM`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperILean/OriginalGaussBodyCoefficientBounds.lean:20:54: warning: unused variable `hM`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

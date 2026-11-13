@@ -1,0 +1,9 @@
+import PaperILean.ParabolicCollarSource
+import PaperILean.GoodStripWhole
+import PaperILean.GoodStripPlanarClosure
+import PaperILean.AffineAreaWhole
+
+#check PaperI.ParabolicCollar.parabolic_collars_local_boxes
+#check PaperI.GoodStrips.derivative_good_points_rectangle
+#check PaperI.derivative_good_points_curved_strips
+#check PaperI.AffineArea.algebraic_surface_packing_cutoff

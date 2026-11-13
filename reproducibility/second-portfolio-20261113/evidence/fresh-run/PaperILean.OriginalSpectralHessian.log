@@ -1,0 +1,6 @@
+PaperILean/OriginalSpectralHessian.lean:115:32: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+PaperILean/OriginalSpectralHessian.lean:115:44: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+PaperILean/OriginalSpectralHessian.lean:209:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

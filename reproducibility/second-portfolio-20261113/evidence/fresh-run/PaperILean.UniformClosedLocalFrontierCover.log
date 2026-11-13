@@ -1,0 +1,2 @@
+PaperILean/UniformClosedLocalFrontierCover.lean:31:8: warning: try 'simp at hk' instead of 'simpa using hk'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`

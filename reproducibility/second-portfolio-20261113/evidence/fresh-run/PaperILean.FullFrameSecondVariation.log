@@ -1,0 +1,10 @@
+PaperILean/FullFrameSecondVariation.lean:19:26: warning: unused variable `r`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperILean/FullFrameSecondVariation.lean:25:9: warning: unused variable `r`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperILean/FullFrameSecondVariation.lean:26:9: warning: unused variable `r`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+PaperILean/FullFrameSecondVariation.lean:64:4: warning: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+PaperILean/FullFrameSecondVariation.lean:89:4: warning: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`

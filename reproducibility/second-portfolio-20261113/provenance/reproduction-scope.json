@@ -1,0 +1,9 @@
+{
+  "source_count": 598,
+  "target_source_count": 25,
+  "source_commit": "12f7745a8963901f321d8c9ede8825a94501459b",
+  "source_manifest_sha256": "68eeec8837d96969ea5d1f071f36a3606a54002fc10a779281d0beb4c9f64d86",
+  "original_verification_summary_sha256": "b86ae8271352121bbfa43f5a1ac676f7223a57d0022e6733b92268ba2fbe2c7a",
+  "mathematical_proof_files_modified": false,
+  "historical_project_products_used_for_new_build": false
+}

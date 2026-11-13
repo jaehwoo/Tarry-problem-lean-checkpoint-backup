@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "unchanged_package_passes",
+    "source_byte_change_rejected",
+    "missing_dependency_rejected",
+    "dependency_pin_change_rejected"
+  ]
+}

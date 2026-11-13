@@ -1,0 +1,4 @@
+PaperILean/OriginalGaussRootJacobian.lean:85:31: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+PaperILean/OriginalGaussRootJacobian.lean:85:31: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`

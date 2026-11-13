@@ -1,0 +1,3 @@
+Try this: ring_nf
+PaperILean/SemialgebraicPathOperations.lean:58:2: warning: 'congr 2' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`

@@ -1,0 +1,2 @@
+PaperILean/OriginalNormalPolynomial.lean:66:16: warning: unused variable `hmk`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
