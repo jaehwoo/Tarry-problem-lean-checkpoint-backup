@@ -1,0 +1,411 @@
+{
+  "lean_toolchain": "leanprover/lean4:v4.19.0",
+  "compiler_revision": "6caaee842e94",
+  "dependency_pins": {
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0"
+  },
+  "module_order": [
+    "PaperILean.MainStatement",
+    "PaperILean.CoefficientModel",
+    "PaperILean.PolynomialQuotient",
+    "PaperILean.AffinePullback",
+    "PaperILean.PolynomialDifferentiation",
+    "PaperILean.IteratedPolynomialDerivatives",
+    "PaperILean.AffineJetDerivatives",
+    "PaperILean.PolynomialTensorSymmetry",
+    "PaperILean.PolynomialDerivativeCoefficients",
+    "PaperILean.MixedJetCoefficients",
+    "PaperILean.CoefficientJetBounds",
+    "PaperILean.SymmetricTensorPolynomial",
+    "PaperILean.DirectionalPolynomialDerivatives",
+    "PaperILean.PolynomialLineTaylor",
+    "PaperILean.CompleteJetTaylorTransport",
+    "PaperILean.CompleteSymmetricJetEquiv",
+    "PaperILean.TensorContractionBounds",
+    "PaperILean.BoundedJetCenterVariation",
+    "PaperILean.DirectionalCoefficientJets",
+    "PaperILean.AffineVectorFieldPolynomial",
+    "PaperILean.AffineVectorFieldCoefficient",
+    "PaperILean.AllDimCoefficientSpace",
+    "PaperILean.AllDimCoefficientModel",
+    "PaperILean.AllDimPolynomialQuotient",
+    "PaperILean.AllDimAffinePullback",
+    "PaperILean.NormalFibersJets",
+    "PaperILean.NormalJacobianDeterminant",
+    "PaperILean.NormalJacobianDifferential",
+    "PaperILean.NecessitySeedJacobianDifferential",
+    "PaperILean.PaperIIDegreeLift",
+    "PaperILean.PaperIIVOutputBand",
+    "PaperILean.PaperIITwoQuadraticCharts",
+    "PaperILean.PaperIIPreparedCurvedSeed",
+    "PaperILean.PaperIIQuarticConnection"
+  ],
+  "sources": {
+    "PaperILean.AffineJetDerivatives": {
+      "path": "PaperILean/AffineJetDerivatives.lean",
+      "sha256": "2e62c453b402bb4010a0e7d1219decb436852d516d36eef5e13c21a609044112",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AffineJetDerivatives.lean",
+      "imports": [
+        "PaperILean.AffinePullback",
+        "PaperILean.IteratedPolynomialDerivatives",
+        "Mathlib.Analysis.Calculus.ContDiff.Basic"
+      ]
+    },
+    "PaperILean.AffinePullback": {
+      "path": "PaperILean/AffinePullback.lean",
+      "sha256": "940ac8151f3c3b527faa339c005c00b273684b42bb4ef22435ffffb9fae21df6",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AffinePullback.lean",
+      "imports": [
+        "PaperILean.PolynomialQuotient",
+        "Mathlib.Algebra.MvPolynomial.Funext",
+        "Mathlib.LinearAlgebra.Matrix.NonsingularInverse"
+      ]
+    },
+    "PaperILean.AffineVectorFieldCoefficient": {
+      "path": "PaperILean/AffineVectorFieldCoefficient.lean",
+      "sha256": "289c308dd01f27b441527861cde15919f17d001661078586967c726756459daa",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AffineVectorFieldCoefficient.lean",
+      "imports": [
+        "PaperILean.AffineVectorFieldPolynomial"
+      ]
+    },
+    "PaperILean.AffineVectorFieldPolynomial": {
+      "path": "PaperILean/AffineVectorFieldPolynomial.lean",
+      "sha256": "0115f6adb87f40f13b1f09dc5adaaa2d6d8f9cc770f9927314286aa33e3a3fd5",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AffineVectorFieldPolynomial.lean",
+      "imports": [
+        "PaperILean.DirectionalCoefficientJets"
+      ]
+    },
+    "PaperILean.AllDimAffinePullback": {
+      "path": "PaperILean/AllDimAffinePullback.lean",
+      "sha256": "85864c3c477a4318cb1a08ca43affb6e92857af73c117ea0fc595bfde4967608",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AllDimAffinePullback.lean",
+      "imports": [
+        "PaperILean.AllDimPolynomialQuotient",
+        "Mathlib.Algebra.MvPolynomial.Funext",
+        "Mathlib.LinearAlgebra.Matrix.NonsingularInverse"
+      ]
+    },
+    "PaperILean.AllDimCoefficientModel": {
+      "path": "PaperILean/AllDimCoefficientModel.lean",
+      "sha256": "40a838a17ecde03b563081a0b1b16d3161666e76849251833561793648063cb9",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AllDimCoefficientModel.lean",
+      "imports": [
+        "PaperILean.AllDimCoefficientSpace",
+        "Mathlib.RingTheory.MvPolynomial.Basic",
+        "Mathlib.LinearAlgebra.Isomorphisms",
+        "Mathlib.Data.Sym.Card",
+        "Mathlib.Tactic.Linarith"
+      ]
+    },
+    "PaperILean.AllDimCoefficientSpace": {
+      "path": "PaperILean/AllDimCoefficientSpace.lean",
+      "sha256": "6866a21b144d0e9129f4e56a726da9dd70ecf106a4e54befb9dd1a4a84b468be",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AllDimCoefficientSpace.lean",
+      "imports": [
+        "PaperILean.MainStatement"
+      ]
+    },
+    "PaperILean.AllDimPolynomialQuotient": {
+      "path": "PaperILean/AllDimPolynomialQuotient.lean",
+      "sha256": "100aed9f8a5675423afc796f5aacc08b8a3f61c8a46dbf401fd89ba9a3be45dc",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/AllDimPolynomialQuotient.lean",
+      "imports": [
+        "PaperILean.AllDimCoefficientModel"
+      ]
+    },
+    "PaperILean.BoundedJetCenterVariation": {
+      "path": "PaperILean/BoundedJetCenterVariation.lean",
+      "sha256": "d417bacf63279582161908b52c13a9f3e635961fb2b3198ad1d2afe468ab4397",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/BoundedJetCenterVariation.lean",
+      "imports": [
+        "PaperILean.TensorContractionBounds"
+      ]
+    },
+    "PaperILean.CoefficientJetBounds": {
+      "path": "PaperILean/CoefficientJetBounds.lean",
+      "sha256": "6f70c72370139462680490bd4abc7cb5890d710339ab5a8bfa6e0d386441e0ec",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/CoefficientJetBounds.lean",
+      "imports": [
+        "PaperILean.MixedJetCoefficients"
+      ]
+    },
+    "PaperILean.CoefficientModel": {
+      "path": "PaperILean/CoefficientModel.lean",
+      "sha256": "79e0f20f262fe8e0065b05d13c27d63da72a2d3575369d7f32171e2ad5e0a806",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/CoefficientModel.lean",
+      "imports": [
+        "PaperILean.MainStatement",
+        "Mathlib.RingTheory.MvPolynomial.Basic",
+        "Mathlib.LinearAlgebra.Isomorphisms",
+        "Mathlib.Data.Sym.Card",
+        "Mathlib.Tactic.Linarith"
+      ]
+    },
+    "PaperILean.CompleteJetTaylorTransport": {
+      "path": "PaperILean/CompleteJetTaylorTransport.lean",
+      "sha256": "4042b116325f9d7091004aa368cc4d1ac025d8fbc7db9f61c895301725d2e942",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/CompleteJetTaylorTransport.lean",
+      "imports": [
+        "PaperILean.PolynomialLineTaylor",
+        "PaperILean.AffineJetDerivatives"
+      ]
+    },
+    "PaperILean.CompleteSymmetricJetEquiv": {
+      "path": "PaperILean/CompleteSymmetricJetEquiv.lean",
+      "sha256": "7ec6838167494d4c7112e2b89b84b20fb7b6751b394279c19deb0a354225ef43",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/CompleteSymmetricJetEquiv.lean",
+      "imports": [
+        "PaperILean.SymmetricTensorPolynomial",
+        "PaperILean.CompleteJetTaylorTransport",
+        "Mathlib.Algebra.MvPolynomial.Funext"
+      ]
+    },
+    "PaperILean.DirectionalCoefficientJets": {
+      "path": "PaperILean/DirectionalCoefficientJets.lean",
+      "sha256": "e54f2dd74575e2da742dc83dbfcf217b974518d2456027d8ce0436cc67f99fa6",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/DirectionalCoefficientJets.lean",
+      "imports": [
+        "PaperILean.CompleteSymmetricJetEquiv",
+        "PaperILean.BoundedJetCenterVariation"
+      ]
+    },
+    "PaperILean.DirectionalPolynomialDerivatives": {
+      "path": "PaperILean/DirectionalPolynomialDerivatives.lean",
+      "sha256": "a06490ae6e90216d58eec46bc46d283f19a043b828328370e467d3480c0b09db",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/DirectionalPolynomialDerivatives.lean",
+      "imports": [
+        "PaperILean.PolynomialDerivativeCoefficients"
+      ]
+    },
+    "PaperILean.IteratedPolynomialDerivatives": {
+      "path": "PaperILean/IteratedPolynomialDerivatives.lean",
+      "sha256": "c03a130bc4a96653f4cb9600c30ee19e19060c8f10f3a592d911096de3fc0ec7",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/IteratedPolynomialDerivatives.lean",
+      "imports": [
+        "PaperILean.PolynomialDifferentiation"
+      ]
+    },
+    "PaperILean.MainStatement": {
+      "path": "PaperILean/MainStatement.lean",
+      "sha256": "b61788efffc708f193249a0a0e134e646402f9c198965873349ad64eab14ef74",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/MainStatement.lean",
+      "imports": [
+        "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+        "Mathlib.MeasureTheory.Measure.Lebesgue.Basic",
+        "Mathlib.MeasureTheory.Function.LpSeminorm.Defs",
+        "Mathlib.Analysis.Calculus.ContDiff.Defs",
+        "Mathlib.Analysis.SpecialFunctions.Complex.Log"
+      ]
+    },
+    "PaperILean.MixedJetCoefficients": {
+      "path": "PaperILean/MixedJetCoefficients.lean",
+      "sha256": "9d91664bb244eea3553e9da9090c9a0a0d02d460752108974ef08867e56cec9f",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/MixedJetCoefficients.lean",
+      "imports": [
+        "PaperILean.PolynomialDerivativeCoefficients",
+        "PaperILean.AffineJetDerivatives"
+      ]
+    },
+    "PaperILean.NecessitySeedJacobianDifferential": {
+      "path": "PaperILean/NecessitySeedJacobianDifferential.lean",
+      "sha256": "7acefeaf47617deec79375f5fea3562741e20f34ff372b6e61abfb5eb1bacaa6",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/NecessitySeedJacobianDifferential.lean",
+      "imports": [
+        "PaperILean.AllDimAffinePullback",
+        "PaperILean.NormalJacobianDifferential",
+        "Mathlib.Tactic"
+      ]
+    },
+    "PaperILean.NormalFibersJets": {
+      "path": "PaperILean/NormalFibersJets.lean",
+      "sha256": "9cf954c2cc949fb20899fd2cfe8c2b01e96a657b26fb69ab05500066c2e61c09",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/NormalFibersJets.lean",
+      "imports": [
+        "PaperILean.PolynomialLineTaylor",
+        "Mathlib.Algebra.MvPolynomial.Monad",
+        "Mathlib.Analysis.Calculus.Deriv.Prod"
+      ]
+    },
+    "PaperILean.NormalJacobianDeterminant": {
+      "path": "PaperILean/NormalJacobianDeterminant.lean",
+      "sha256": "8793b75a63754ef80c8022d2db8b8c339b1a1514b306b79ba4e3e71e94f7a061",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/NormalJacobianDeterminant.lean",
+      "imports": [
+        "Mathlib.LinearAlgebra.Matrix.Determinant.Basic",
+        "Mathlib.Data.Real.Basic",
+        "Mathlib.Tactic.Ring"
+      ]
+    },
+    "PaperILean.NormalJacobianDifferential": {
+      "path": "PaperILean/NormalJacobianDifferential.lean",
+      "sha256": "973e82f6a436ac46df2f9882989936b37fc985c2a9ad63441b50ff640afcaced",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/NormalJacobianDifferential.lean",
+      "imports": [
+        "PaperILean.NormalFibersJets",
+        "Mathlib.Analysis.Calculus.FDeriv.Prod",
+        "Mathlib.Analysis.Calculus.FDeriv.Mul",
+        "Mathlib.Data.Matrix.Notation",
+        "PaperILean.NormalJacobianDeterminant"
+      ]
+    },
+    "PaperILean.PolynomialDerivativeCoefficients": {
+      "path": "PaperILean/PolynomialDerivativeCoefficients.lean",
+      "sha256": "aeb9fe6344ff1e78560df2d33be781d9e3fafd4d4db7ca5e6a923e2049c83231",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/PolynomialDerivativeCoefficients.lean",
+      "imports": [
+        "PaperILean.IteratedPolynomialDerivatives",
+        "Mathlib.Data.Nat.Factorial.Basic"
+      ]
+    },
+    "PaperILean.PolynomialDifferentiation": {
+      "path": "PaperILean/PolynomialDifferentiation.lean",
+      "sha256": "e57ccaab1f7d32c84cc95ea674f9a107df015651c1848f97b90354c0e036d11d",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/PolynomialDifferentiation.lean",
+      "imports": [
+        "PaperILean.CoefficientModel",
+        "Mathlib.Algebra.MvPolynomial.PDeriv",
+        "Mathlib.Analysis.Calculus.ContDiff.Operations",
+        "Mathlib.Analysis.Calculus.FDeriv.Mul",
+        "Mathlib.Analysis.Calculus.FDeriv.Pi"
+      ]
+    },
+    "PaperILean.PolynomialLineTaylor": {
+      "path": "PaperILean/PolynomialLineTaylor.lean",
+      "sha256": "6310e343d1f970276d304567b54b6b97a6c6eb2b5c8a09371aa800f5d49252dc",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/PolynomialLineTaylor.lean",
+      "imports": [
+        "PaperILean.DirectionalPolynomialDerivatives",
+        "Mathlib.Analysis.Calculus.IteratedDeriv.Defs",
+        "Mathlib.Analysis.Calculus.Deriv.Polynomial",
+        "Mathlib.Algebra.Polynomial.Eval.Degree",
+        "Mathlib.Algebra.Polynomial.BigOperators"
+      ]
+    },
+    "PaperILean.PolynomialQuotient": {
+      "path": "PaperILean/PolynomialQuotient.lean",
+      "sha256": "31feb8e27ca5fc8a49bdc3be193b3b9679bb4ea3c759c4a78fe133ab29d70b93",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/PolynomialQuotient.lean",
+      "imports": [
+        "PaperILean.CoefficientModel"
+      ]
+    },
+    "PaperILean.PolynomialTensorSymmetry": {
+      "path": "PaperILean/PolynomialTensorSymmetry.lean",
+      "sha256": "85dc19c1904032af46dfc28e5c8a8aee0aaf9b4d4ec1e8eda23a6d47117a40df",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/PolynomialTensorSymmetry.lean",
+      "imports": [
+        "PaperILean.IteratedPolynomialDerivatives",
+        "Mathlib.Analysis.Analytic.IteratedFDeriv"
+      ]
+    },
+    "PaperILean.SymmetricTensorPolynomial": {
+      "path": "PaperILean/SymmetricTensorPolynomial.lean",
+      "sha256": "5bf32f1482fa00bc62b86cb7c322f197d001ddc35eaafb0f70a7f911f695f43b",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/SymmetricTensorPolynomial.lean",
+      "imports": [
+        "PaperILean.PolynomialTensorSymmetry",
+        "PaperILean.CoefficientJetBounds"
+      ]
+    },
+    "PaperILean.TensorContractionBounds": {
+      "path": "PaperILean/TensorContractionBounds.lean",
+      "sha256": "a0ffb2f325887f30458a5394fc6fcac3a50e11a7feecee25f5bb36faffeec820",
+      "origin": "https://github.com/jaehwoo/Tarry-problem-lean-checkpoint-backup/blob/12f7745a8963901f321d8c9ede8825a94501459b/formalization/current/PaperILean/TensorContractionBounds.lean",
+      "imports": [
+        "PaperILean.SymmetricTensorPolynomial",
+        "PaperILean.CompleteJetTaylorTransport",
+        "Mathlib.Analysis.InnerProductSpace.PiL2",
+        "Mathlib.Analysis.NormedSpace.Multilinear.Curry"
+      ]
+    },
+    "PaperILean.PaperIIDegreeLift": {
+      "path": "PaperILean/PaperIIDegreeLift.lean",
+      "sha256": "a03e88faf0b42393b1b4315d41d361652c7d797c0991af065830396db2dd505b",
+      "origin": "Published Paper II proof module",
+      "imports": [
+        "PaperILean.AllDimAffinePullback",
+        "Mathlib.RingTheory.MvPolynomial.Homogeneous"
+      ]
+    },
+    "PaperILean.PaperIIVOutputBand": {
+      "path": "PaperILean/PaperIIVOutputBand.lean",
+      "sha256": "49eb9e22685b0e49bd24b2144f31be02c16d23866ec11eb50e35c2fda28e3fb5",
+      "origin": "Published Paper II proof module",
+      "imports": [
+        "Mathlib.Analysis.Calculus.ContDiff.Basic",
+        "Mathlib.Data.Set.Card",
+        "Mathlib.Analysis.Calculus.FDeriv.Mul",
+        "Mathlib.Analysis.Calculus.FDeriv.Prod",
+        "Mathlib.LinearAlgebra.Matrix.Determinant.Basic",
+        "Mathlib.MeasureTheory.Measure.Lebesgue.Basic",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Ring"
+      ]
+    },
+    "PaperILean.PaperIITwoQuadraticCharts": {
+      "path": "PaperILean/PaperIITwoQuadraticCharts.lean",
+      "sha256": "906b0071f43326fd573bfd04b2e85926cd4ab195cc6e3c27d23284a94a7723da",
+      "origin": "Published Paper II proof module",
+      "imports": [
+        "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Ring"
+      ]
+    },
+    "PaperILean.PaperIIPreparedCurvedSeed": {
+      "path": "PaperILean/PaperIIPreparedCurvedSeed.lean",
+      "sha256": "6a141ff3dad3ca0774412642d918eacd4061d308152ffedc6a7e83d9b9102d88",
+      "origin": "Published Paper II proof module",
+      "imports": [
+        "PaperILean.PaperIIVOutputBand",
+        "Mathlib.Analysis.Calculus.ContDiff.Operations",
+        "Mathlib.Analysis.Calculus.Deriv.Comp",
+        "Mathlib.Analysis.Calculus.FDeriv.Symmetric"
+      ]
+    },
+    "PaperILean.PaperIIQuarticConnection": {
+      "path": "PaperILean/PaperIIQuarticConnection.lean",
+      "sha256": "96a75a626c5cd46bb140fd100de9ab830abfb6b43825d9064b2e56e7d68095f5",
+      "origin": "Published Paper II proof module",
+      "imports": [
+        "PaperILean.NecessitySeedJacobianDifferential",
+        "PaperILean.AffineVectorFieldCoefficient",
+        "PaperILean.PolynomialDerivativeCoefficients",
+        "Mathlib.Analysis.Calculus.Deriv.Prod",
+        "Mathlib.Analysis.Calculus.FDeriv.Symmetric",
+        "Mathlib.RingTheory.MvPolynomial.Homogeneous"
+      ]
+    }
+  },
+  "new_proof_modules": [
+    "PaperILean.PaperIIDegreeLift",
+    "PaperILean.PaperIIVOutputBand",
+    "PaperILean.PaperIITwoQuadraticCharts",
+    "PaperILean.PaperIIPreparedCurvedSeed",
+    "PaperILean.PaperIIQuarticConnection"
+  ],
+  "project_sources_sha256": "773d619d5fd3b9558cff4505c3e59344f4684c87ed6803c42c40e80b6892180f",
+  "root_module_sha256": "a35f732b571a7600e0a5fa6e50a213af5368362c62ac597e5a88a23f93e6afdc",
+  "local_import_count": 34,
+  "inherited_source_revision": "12f7745a8963901f321d8c9ede8825a94501459b",
+  "source_proof_limits": {
+    "maxHeartbeats": 200000,
+    "maxRecDepth": 512,
+    "workers": 1,
+    "overrides": false
+  }
+}

@@ -1,0 +1,3810 @@
+{
+  "reference": "Audited Lean 4.19.0 Paper II portfolio, 13 November 2026",
+  "proof_modules": [
+    "PaperILean.PaperIIDegreeLift",
+    "PaperILean.PaperIIVOutputBand",
+    "PaperILean.PaperIITwoQuadraticCharts",
+    "PaperILean.PaperIIPreparedCurvedSeed",
+    "PaperILean.PaperIIQuarticConnection"
+  ],
+  "safe_kind_type_body": {
+    "PaperII.DegreeLift.combinedColumns._proof_12": [
+      "theorem",
+      "300442438",
+      "3705304081"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_monomialExponent": [
+      "theorem",
+      "1897024382",
+      "3688304025"
+    ],
+    "PaperII.DegreeLift.sampleEntry_eq_affineCoefficientMap._proof_13": [
+      "theorem",
+      "1420389269",
+      "379392119"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_11": [
+      "theorem",
+      "1777787282",
+      "523944454"
+    ],
+    "PaperII.DegreeLift.Poly": [
+      "definition",
+      "3972626760",
+      "3156422849"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_pow_of_linear_bound": [
+      "theorem",
+      "1593622132",
+      "4045463415"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_pow_sub_of_constant_difference._proof_2": [
+      "theorem",
+      "2834514821",
+      "776727304"
+    ],
+    "PaperII.DegreeLift.lowerMinor.eq_1": [
+      "theorem",
+      "1563818580",
+      "2781571424"
+    ],
+    "PaperII.DegreeLift.TopIndex": [
+      "definition",
+      "2179427294",
+      "3220345368"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_prod_sub_of_constant_differences._proof_1": [
+      "theorem",
+      "3634087299",
+      "1553836201"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_prod_sub_of_constant_differences._proof_4": [
+      "theorem",
+      "1090522703",
+      "3534776129"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_prod_sub_of_constant_differences": [
+      "theorem",
+      "1893018872",
+      "2879147626"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.coeff_coefficientPolynomial": [
+      "theorem",
+      "749330744",
+      "1709519359"
+    ],
+    "PaperII.DegreeLift.lowerMinor": [
+      "definition",
+      "106539056",
+      "744324559"
+    ],
+    "PaperII.DegreeLift.combinedMinor.eq_1": [
+      "theorem",
+      "3924278377",
+      "1389100837"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.exponent_injective": [
+      "theorem",
+      "2024693968",
+      "3001218010"
+    ],
+    "PaperII.DegreeLift.sampleEntry_eq_affineCoefficientMap": [
+      "theorem",
+      "2809672883",
+      "3793264893"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_6": [
+      "theorem",
+      "2567571887",
+      "975856300"
+    ],
+    "PaperII.DegreeLift.affine_leading_monomial_coeff": [
+      "theorem",
+      "960548502",
+      "708748634"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_8": [
+      "theorem",
+      "3026589497",
+      "3554786722"
+    ],
+    "PaperII.DegreeLift.oldColumn": [
+      "definition",
+      "388644584",
+      "3951278219"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_9": [
+      "theorem",
+      "131412032",
+      "4165724393"
+    ],
+    "PaperII.DegreeLift.combinedColumns": [
+      "definition",
+      "183235390",
+      "1305361586"
+    ],
+    "PaperII.DegreeLift.homogeneousMinor": [
+      "definition",
+      "947991525",
+      "1675802356"
+    ],
+    "PaperII.DegreeLift.exponent_oldColumn": [
+      "theorem",
+      "3380879073",
+      "66250953"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_pow_sub_of_constant_difference._proof_1": [
+      "theorem",
+      "3701118134",
+      "950052764"
+    ],
+    "PaperII.DegreeLift.sampleEntry.eq_1": [
+      "theorem",
+      "4259905161",
+      "403968837"
+    ],
+    "PaperII.DegreeLift.combinedRows._proof_13": [
+      "theorem",
+      "901252652",
+      "446939262"
+    ],
+    "PaperII.DegreeLift.combinedColumns.eq_1": [
+      "theorem",
+      "3091918419",
+      "3292926560"
+    ],
+    "PaperII.DegreeLift.combinedMinor_eq_blocks": [
+      "theorem",
+      "238677484",
+      "419452890"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_4": [
+      "theorem",
+      "2773613566",
+      "970971698"
+    ],
+    "PaperII.DegreeLift.oldColumn._proof_1": [
+      "theorem",
+      "478682504",
+      "4212222619"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_5": [
+      "theorem",
+      "514645782",
+      "3100576504"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_prod_of_linear_bounds": [
+      "theorem",
+      "662513870",
+      "2957476384"
+    ],
+    "PaperI.AllDim.affinePolynomialMap.eq_1": [
+      "theorem",
+      "539791863",
+      "2394198728"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_10": [
+      "theorem",
+      "4191610944",
+      "928436866"
+    ],
+    "PaperII.DegreeLift.sampleEntry": [
+      "definition",
+      "1348416023",
+      "200850274"
+    ],
+    "PaperII.DegreeLift.combinedRows.eq_1": [
+      "theorem",
+      "1801724720",
+      "2691958560"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_prod_sub_of_constant_differences._proof_3": [
+      "theorem",
+      "97340347",
+      "1365627336"
+    ],
+    "PaperII.DegreeLift.instFintypeTopIndex": [
+      "definition",
+      "62354548",
+      "68816995"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_prod_sub_of_constant_differences._proof_2": [
+      "theorem",
+      "2638725780",
+      "4032796723"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_7": [
+      "theorem",
+      "1545711335",
+      "2409379550"
+    ],
+    "PaperII.DegreeLift.combinedRows": [
+      "definition",
+      "507242275",
+      "2607473895"
+    ],
+    "PaperII.DegreeLift.oldColumn._proof_2": [
+      "theorem",
+      "1223692322",
+      "1375889225"
+    ],
+    "PaperII.DegreeLift.block_triangular_degree_lift": [
+      "theorem",
+      "3238723758",
+      "3882742760"
+    ],
+    "_private.PaperILean.PaperIIDegreeLift.0.PaperII.DegreeLift.degree_pow_sub_of_constant_difference": [
+      "theorem",
+      "76275910",
+      "3299756185"
+    ],
+    "PaperII.DegreeLift.combinedColumns._proof_3": [
+      "theorem",
+      "1958332226",
+      "799774436"
+    ],
+    "PaperII.DegreeLift.combinedMinor": [
+      "definition",
+      "2216698022",
+      "2563386657"
+    ],
+    "PaperII.VOutputBand.graphY": [
+      "definition",
+      "4006346231",
+      "3963844834"
+    ],
+    "_private.PaperILean.PaperIIVOutputBand.0.PaperII.VOutputBand.restoreJacobian": [
+      "theorem",
+      "3317203680",
+      "1453207843"
+    ],
+    "PaperII.VOutputBand.graphZ": [
+      "definition",
+      "4006346231",
+      "3675088706"
+    ],
+    "_private.PaperILean.PaperIIVOutputBand.0.PaperII.VOutputBand.graphPartial_contDiffAt": [
+      "theorem",
+      "1316320489",
+      "253889623"
+    ],
+    "PaperII.VOutputBand.ordinaryJacobian": [
+      "definition",
+      "3121699769",
+      "2219094317"
+    ],
+    "PaperII.VOutputBand.signed_band_eq": [
+      "theorem",
+      "1051878343",
+      "3477768490"
+    ],
+    "PaperII.VOutputBand.actualRateAtlas": [
+      "definition",
+      "254919802",
+      "2866340462"
+    ],
+    "_private.PaperILean.PaperIIVOutputBand.0.PaperII.VOutputBand.actualRateAtlas_eq": [
+      "theorem",
+      "4064315144",
+      "1869673022"
+    ],
+    "PaperII.VOutputBand.graphY.eq_1": [
+      "theorem",
+      "2588712210",
+      "1089776661"
+    ],
+    "PaperII.VOutputBand.replace_restoreCubic": [
+      "theorem",
+      "3836432918",
+      "2564804356"
+    ],
+    "PaperII.VOutputBand.GraphPlane": [
+      "definition",
+      "3931117990",
+      "2111132404"
+    ],
+    "_private.PaperILean.PaperIIVOutputBand.0.PaperII.VOutputBand.differentiableAt_replaceCubic": [
+      "theorem",
+      "1328447167",
+      "1773909154"
+    ],
+    "PaperII.VOutputBand.graphPartial": [
+      "definition",
+      "2187051329",
+      "3936444219"
+    ],
+    "PaperII.VOutputBand.ordinary_graph_row": [
+      "theorem",
+      "4278387777",
+      "1390251436"
+    ],
+    "PaperII.VOutputBand.replaceCubic": [
+      "definition",
+      "403349779",
+      "3194343984"
+    ],
+    "PaperII.VOutputBand.graphPartial.eq_1": [
+      "theorem",
+      "3723229770",
+      "2068258164"
+    ],
+    "PaperII.VOutputBand.signed_band_eq._proof_5": [
+      "theorem",
+      "2241400653",
+      "3017452447"
+    ],
+    "PaperII.VOutputBand.signed_band_volume": [
+      "theorem",
+      "3300947252",
+      "3861921536"
+    ],
+    "PaperII.VOutputBand.restore_replaceCubic": [
+      "theorem",
+      "48910534",
+      "3423769798"
+    ],
+    "PaperII.VOutputBand.signed_band_eq._proof_4": [
+      "theorem",
+      "2518456698",
+      "3114519514"
+    ],
+    "PaperII.VOutputBand.band_interval_in_coefficient_map": [
+      "theorem",
+      "3787250106",
+      "2747658058"
+    ],
+    "PaperII.VOutputBand.graphZ.eq_1": [
+      "theorem",
+      "51116113",
+      "1330897641"
+    ],
+    "PaperII.VOutputBand.signed_band_eq._proof_2": [
+      "theorem",
+      "3477561553",
+      "428590648"
+    ],
+    "PaperII.VOutputBand.signed_band_eq._proof_3": [
+      "theorem",
+      "1911706618",
+      "715324021"
+    ],
+    "PaperII.VOutputBand.replaceCubic._proof_1": [
+      "theorem",
+      "2983472025",
+      "4158467669"
+    ],
+    "PaperII.VOutputBand.replaceCubic.eq_1": [
+      "theorem",
+      "798050740",
+      "820414360"
+    ],
+    "PaperII.VOutputBand.nullRate": [
+      "definition",
+      "4006346231",
+      "1258544916"
+    ],
+    "PaperII.VOutputBand.restoreCubic": [
+      "definition",
+      "403349779",
+      "1002291921"
+    ],
+    "_private.PaperILean.PaperIIVOutputBand.0.PaperII.VOutputBand.ordinaryJacobian_row": [
+      "theorem",
+      "2434908456",
+      "901621872"
+    ],
+    "PaperII.VOutputBand.actualRateAtlas.eq_1": [
+      "theorem",
+      "2206116695",
+      "3941079516"
+    ],
+    "_private.PaperILean.PaperIIVOutputBand.0.PaperII.VOutputBand.transformed_atlas_jacobians": [
+      "theorem",
+      "563127990",
+      "3015117112"
+    ],
+    "PaperII.VOutputBand.nullRate.eq_1": [
+      "theorem",
+      "1879342369",
+      "4229001326"
+    ],
+    "PaperII.VOutputBand.restoreCubic.eq_1": [
+      "theorem",
+      "998680846",
+      "108696012"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.C.eq_1": [
+      "theorem",
+      "2211725426",
+      "1247178694"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.b.eq_1": [
+      "theorem",
+      "3732592301",
+      "3821192506"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.b": [
+      "definition",
+      "333224625",
+      "2221337313"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.A": [
+      "definition",
+      "333224625",
+      "2283472155"
+    ],
+    "PaperII.TwoQuadraticCharts.conditionedEndpoints": [
+      "definition",
+      "657931117",
+      "3487830261"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.C": [
+      "definition",
+      "333224625",
+      "3753098513"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.A.eq_1": [
+      "theorem",
+      "3659081175",
+      "1183612566"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.A._proof_1": [
+      "theorem",
+      "2983472025",
+      "4158467669"
+    ],
+    "PaperII.TwoQuadraticCharts.gridEndpoints": [
+      "definition",
+      "207687679",
+      "409265421"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.e": [
+      "definition",
+      "333224625",
+      "3997804608"
+    ],
+    "PaperII.TwoQuadraticCharts.weightedEndpoints": [
+      "definition",
+      "207687679",
+      "1378353817"
+    ],
+    "PaperII.TwoQuadraticCharts.two_quadratic_charts": [
+      "theorem",
+      "2095903525",
+      "305988231"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.r": [
+      "definition",
+      "333224625",
+      "1768405589"
+    ],
+    "PaperII.TwoQuadraticCharts.weightedEndpoints.eq_1": [
+      "theorem",
+      "414611922",
+      "2407195074"
+    ],
+    "PaperII.TwoQuadraticCharts.gridEndpoints.eq_1": [
+      "theorem",
+      "3935369624",
+      "2175017390"
+    ],
+    "PaperII.TwoQuadraticCharts.two_quadratic_charts._proof_2": [
+      "theorem",
+      "3477561553",
+      "428590648"
+    ],
+    "_private.PaperILean.PaperIITwoQuadraticCharts.0.PaperII.TwoQuadraticCharts.product_bound": [
+      "theorem",
+      "143786657",
+      "3464820095"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint": [
+      "definition",
+      "3931117990",
+      "985096349"
+    ],
+    "_private.PaperILean.PaperIITwoQuadraticCharts.0.PaperII.TwoQuadraticCharts.quadratic_discriminant": [
+      "theorem",
+      "2633918367",
+      "1508302537"
+    ],
+    "PaperII.TwoQuadraticCharts.Endpoint.B": [
+      "definition",
+      "333224625",
+      "699451559"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.partial_add": [
+      "theorem",
+      "3160271331",
+      "3025003352"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.pull_smooth": [
+      "theorem",
+      "4202115129",
+      "1531008941"
+    ],
+    "PaperII.PreparedCurvedSeed.curvedRateAtlas": [
+      "definition",
+      "2572452021",
+      "111455810"
+    ],
+    "PaperII.PreparedCurvedSeed.SeedRows": [
+      "definition",
+      "1219222929",
+      "3413010521"
+    ],
+    "PaperII.PreparedCurvedSeed.S": [
+      "definition",
+      "4006346231",
+      "3164435628"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.seedSlope_smooth": [
+      "theorem",
+      "784555729",
+      "1369207319"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.det_row_replacement_sum": [
+      "theorem",
+      "1116182669",
+      "3055872737"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.pull_T": [
+      "theorem",
+      "3997618072",
+      "2694046963"
+    ],
+    "PaperII.PreparedCurvedSeed.seedSlope": [
+      "definition",
+      "3538741065",
+      "1277452837"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.near_pull_SS": [
+      "theorem",
+      "2226586318",
+      "507246065"
+    ],
+    "PaperII.PreparedCurvedSeed.seedPoint.eq_1": [
+      "theorem",
+      "3853727295",
+      "4017791624"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.det_curved_restore": [
+      "theorem",
+      "795996006",
+      "4272562935"
+    ],
+    "PaperII.PreparedCurvedSeed.normalized_seed_rows": [
+      "theorem",
+      "92880299",
+      "1041064106"
+    ],
+    "PaperII.PreparedCurvedSeed.retainedMixed": [
+      "definition",
+      "1106381218",
+      "3603509095"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.mixed_comm": [
+      "theorem",
+      "2039142018",
+      "1618706892"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.third_rows": [
+      "theorem",
+      "1813606984",
+      "2956575966"
+    ],
+    "PaperII.PreparedCurvedSeed.curved_seed_atlas": [
+      "theorem",
+      "3859047428",
+      "554880965"
+    ],
+    "PaperII.PreparedCurvedSeed.T": [
+      "definition",
+      "4006346231",
+      "4176949397"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.seedCurvature_diff": [
+      "theorem",
+      "876954013",
+      "2086240119"
+    ],
+    "PaperII.PreparedCurvedSeed.seedSlope.eq_1": [
+      "theorem",
+      "2699289141",
+      "2596276497"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.near_pull_T": [
+      "theorem",
+      "1336147271",
+      "3237893931"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.partial_smooth": [
+      "theorem",
+      "1316320489",
+      "253889623"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.partial_congr": [
+      "theorem",
+      "1831884336",
+      "3288426432"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.partial_mul": [
+      "theorem",
+      "2634280276",
+      "3760964563"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.pull_S": [
+      "theorem",
+      "2355127545",
+      "635212355"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.seedPoint_smooth": [
+      "theorem",
+      "3915126044",
+      "1588197143"
+    ],
+    "PaperII.PreparedCurvedSeed.curvedRateAtlas.eq_1": [
+      "theorem",
+      "4262546957",
+      "3314726650"
+    ],
+    "PaperII.VOutputBand.ordinaryJacobian.eq_1": [
+      "theorem",
+      "1867166220",
+      "865728266"
+    ],
+    "PaperII.PreparedCurvedSeed.seedPullback.eq_1": [
+      "theorem",
+      "3787702098",
+      "4000689974"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.near_pull_S": [
+      "theorem",
+      "2228808826",
+      "1558353258"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.slope_S": [
+      "theorem",
+      "2522460240",
+      "3298553887"
+    ],
+    "PaperII.PreparedCurvedSeed.det_curved_restore._proof_2": [
+      "theorem",
+      "3858495123",
+      "3167097793"
+    ],
+    "PaperII.PreparedCurvedSeed.SeedRows.stt": [
+      "definition",
+      "2325150667",
+      "2844252970"
+    ],
+    "PaperII.PreparedCurvedSeed.retainedThird.eq_1": [
+      "theorem",
+      "200127664",
+      "2546803173"
+    ],
+    "PaperII.PreparedCurvedSeed.retainedThird": [
+      "definition",
+      "3667554251",
+      "414879475"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.pull_deriv": [
+      "theorem",
+      "3028240847",
+      "2107762914"
+    ],
+    "PaperII.PreparedCurvedSeed.retainedThird._proof_1": [
+      "theorem",
+      "1181287418",
+      "1270239020"
+    ],
+    "PaperII.PreparedCurvedSeed.seedCurvature": [
+      "definition",
+      "3538741065",
+      "3854935854"
+    ],
+    "PaperII.PreparedCurvedSeed.SeedRows.ttt": [
+      "definition",
+      "2325150667",
+      "1900103121"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.near_STT": [
+      "theorem",
+      "817285662",
+      "1135454847"
+    ],
+    "PaperII.PreparedCurvedSeed.retainedMixed.eq_1": [
+      "theorem",
+      "3543845010",
+      "3728025662"
+    ],
+    "PaperII.PreparedCurvedSeed.curved_seed_inverse_densities": [
+      "theorem",
+      "357453355",
+      "1440809448"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.atlas_row": [
+      "theorem",
+      "1765799746",
+      "3575229438"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.seed_mixed": [
+      "theorem",
+      "139530407",
+      "3257265682"
+    ],
+    "PaperII.PreparedCurvedSeed.curved_seed_chain_rule": [
+      "theorem",
+      "3634322814",
+      "3821431543"
+    ],
+    "PaperII.PreparedCurvedSeed.SeedRows.sst": [
+      "definition",
+      "2325150667",
+      "1966388854"
+    ],
+    "PaperII.PreparedCurvedSeed.seedPoint": [
+      "definition",
+      "4238193407",
+      "1122844092"
+    ],
+    "PaperII.PreparedCurvedSeed.SeedRows.tt": [
+      "definition",
+      "2325150667",
+      "129984957"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.no_pure_row": [
+      "theorem",
+      "1928636267",
+      "1404971470"
+    ],
+    "PaperII.PreparedCurvedSeed.seedPullback": [
+      "definition",
+      "374664145",
+      "759185570"
+    ],
+    "PaperII.PreparedCurvedSeed.SeedRows.st": [
+      "definition",
+      "2325150667",
+      "2502906281"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.pull_SS": [
+      "theorem",
+      "2138375888",
+      "3827742230"
+    ],
+    "_private.PaperILean.PaperIIPreparedCurvedSeed.0.PaperII.PreparedCurvedSeed.slope_T": [
+      "theorem",
+      "1388710162",
+      "4036823055"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.shearLinear._proof_6": [
+      "theorem",
+      "1544768958",
+      "781121519"
+    ],
+    "PaperII.QuarticConnection.coeffAt_genA₁._proof_4": [
+      "theorem",
+      "2011906399",
+      "3856069069"
+    ],
+    "PaperII.QuarticConnection.graphY": [
+      "definition",
+      "571468716",
+      "4032895152"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_genTz₂": [
+      "theorem",
+      "2778964224",
+      "3390681789"
+    ],
+    "PaperII.QuarticConnection.normalizedQuartic_coefficient_hasDerivAt._proof_6": [
+      "theorem",
+      "1946326829",
+      "2613279847"
+    ],
+    "PaperII.QuarticConnection.connectionPivot": [
+      "definition",
+      "707622839",
+      "3899208495"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.shearLinear_apply": [
+      "theorem",
+      "3568164799",
+      "2005326729"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.eval_dx_normalized": [
+      "theorem",
+      "3916885286",
+      "69130725"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperOrbit_hasDerivAt": [
+      "theorem",
+      "4153779640",
+      "2589682549"
+    ],
+    "PaperII.QuarticConnection.graphZ": [
+      "definition",
+      "571468716",
+      "1578081923"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.tangentBase.eq_1": [
+      "theorem",
+      "301874928",
+      "3543825956"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_add_x": [
+      "theorem",
+      "2712627222",
+      "1705397736"
+    ],
+    "PaperII.QuarticConnection.mixedCurvature": [
+      "definition",
+      "3871058876",
+      "462620211"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.tangentOffset.eq_1": [
+      "theorem",
+      "3831597271",
+      "4069520584"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent": [
+      "definition",
+      "1023468113",
+      "2020614614"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear.eq_1": [
+      "theorem",
+      "1949984278",
+      "2598346132"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_add_z": [
+      "theorem",
+      "1467187602",
+      "3742898484"
+    ],
+    "PaperII.QuarticConnection.coeffAt_genD₁._proof_4": [
+      "theorem",
+      "2011906399",
+      "3856069069"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_genTz₁": [
+      "theorem",
+      "1034982161",
+      "2164987961"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_genA₁": [
+      "theorem",
+      "868912512",
+      "3947133861"
+    ],
+    "PaperII.QuarticConnection.coeffAt.eq_1": [
+      "theorem",
+      "1353031552",
+      "4074172411"
+    ],
+    "PaperII.QuarticConnection.connectionRow.eq_1": [
+      "theorem",
+      "2007875151",
+      "1340318899"
+    ],
+    "PaperII.QuarticConnection.normalizedGraph.eq_1": [
+      "theorem",
+      "177700775",
+      "3056498547"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_coeffSpace": [
+      "theorem",
+      "1371750559",
+      "3901800596"
+    ],
+    "PaperII.QuarticConnection.connectionRow": [
+      "definition",
+      "707622839",
+      "732479077"
+    ],
+    "PaperII.QuarticConnection.normalizedGraph": [
+      "definition",
+      "2004193402",
+      "4294784617"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_genD₂": [
+      "theorem",
+      "1277450909",
+      "837452225"
+    ],
+    "PaperII.QuarticConnection.normalizedGraph_mixed_curvature._proof_6": [
+      "theorem",
+      "3618110386",
+      "2717375083"
+    ],
+    "PaperII.QuarticConnection.coeffAt": [
+      "definition",
+      "2422715546",
+      "1363939875"
+    ],
+    "PaperII.QuarticConnection.graphY.eq_1": [
+      "theorem",
+      "2831208553",
+      "4249417341"
+    ],
+    "PaperII.QuarticConnection.graphZZ": [
+      "definition",
+      "571468716",
+      "981412096"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_injective": [
+      "theorem",
+      "3597696791",
+      "3481101540"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.tangentBase_hasFDerivAt": [
+      "theorem",
+      "3576676357",
+      "877398490"
+    ],
+    "PaperII.QuarticConnection.nullGenerator.eq_1": [
+      "theorem",
+      "2869956935",
+      "3735633163"
+    ],
+    "PaperII.QuarticConnection.graphLift.eq_1": [
+      "theorem",
+      "3855554585",
+      "3865482317"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.shearLinear": [
+      "definition",
+      "2482701432",
+      "1394288345"
+    ],
+    "PaperII.QuarticConnection.graphPartial": [
+      "definition",
+      "3954941651",
+      "3881901725"
+    ],
+    "PaperII.QuarticConnection.connectionPivot._proof_3": [
+      "theorem",
+      "2983472025",
+      "4158467669"
+    ],
+    "PaperII.QuarticConnection.characteristicPoint": [
+      "definition",
+      "2431194517",
+      "3629751599"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.graph_mixed_symmetric": [
+      "theorem",
+      "560069502",
+      "3629612585"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.normalizedGraph_smooth_flat": [
+      "theorem",
+      "258786466",
+      "1690358157"
+    ],
+    "PaperII.QuarticConnection.quartic_operator_rows": [
+      "theorem",
+      "3220974428",
+      "1971326699"
+    ],
+    "PaperII.QuarticConnection.nullModel.eq_1": [
+      "theorem",
+      "2924535329",
+      "2381280877"
+    ],
+    "PaperII.QuarticConnection.normalizedQuartic": [
+      "definition",
+      "2415905414",
+      "2347880480"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.nullGenerator_eq_affineFieldPolynomialMap": [
+      "theorem",
+      "4053278357",
+      "3047371506"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperCenter": [
+      "definition",
+      "418738112",
+      "1315429771"
+    ],
+    "PaperII.QuarticConnection.tangentFrame_hasDerivAt": [
+      "theorem",
+      "615498945",
+      "699145437"
+    ],
+    "PaperII.QuarticConnection.nearby_normalizedGraph_connectionPivot": [
+      "theorem",
+      "988140113",
+      "2488475712"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.tangentOffset": [
+      "definition",
+      "133845281",
+      "2730550803"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear": [
+      "definition",
+      "2643678333",
+      "847592297"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.tangentBase": [
+      "definition",
+      "1790197013",
+      "4267678957"
+    ],
+    "PaperII.QuarticConnection.graphPartial.eq_1": [
+      "theorem",
+      "3310194352",
+      "2234844269"
+    ],
+    "PaperII.QuarticConnection.normalizedQuartic_uniform_connectionPivot": [
+      "theorem",
+      "3845071603",
+      "1590387296"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent._proof_1": [
+      "theorem",
+      "518125532",
+      "3924712799"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_degree": [
+      "theorem",
+      "1830305093",
+      "2174107114"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_add": [
+      "theorem",
+      "2594280928",
+      "3669437478"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.graph_partial_derivative": [
+      "theorem",
+      "2783676556",
+      "3047912961"
+    ],
+    "PaperII.QuarticConnection.genD": [
+      "definition",
+      "3575168122",
+      "421170949"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent.eq_1": [
+      "theorem",
+      "827397533",
+      "2342015753"
+    ],
+    "PaperII.QuarticConnection.tangentFrame": [
+      "definition",
+      "451094209",
+      "1681308858"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.uniform_rationalPivot": [
+      "theorem",
+      "4125078049",
+      "1906396856"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.nullModel_rows": [
+      "theorem",
+      "822527023",
+      "535416577"
+    ],
+    "PaperII.QuarticConnection.connectionPivot.eq_1": [
+      "theorem",
+      "2240669724",
+      "3989428883"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.nullModel_square": [
+      "theorem",
+      "3681936420",
+      "2100750971"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.normalizedGraph_curvature": [
+      "theorem",
+      "3371667175",
+      "2469879533"
+    ],
+    "PaperII.QuarticConnection.graphZ.eq_1": [
+      "theorem",
+      "956209683",
+      "1338513529"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.graphLift_hasFDerivAt": [
+      "theorem",
+      "21032486",
+      "3693243105"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_vanish": [
+      "theorem",
+      "2337718277",
+      "90646537"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.eval_graph_zpartial": [
+      "theorem",
+      "1593189716",
+      "3144187704"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_add_y": [
+      "theorem",
+      "444133381",
+      "4283816335"
+    ],
+    "PaperII.QuarticConnection.nullModel_connectionPivot": [
+      "theorem",
+      "495186069",
+      "1096881441"
+    ],
+    "PaperII.QuarticConnection.nullModel_connectionPivot._proof_4": [
+      "theorem",
+      "1383925970",
+      "3999168111"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_genD₁": [
+      "theorem",
+      "408326559",
+      "3798750577"
+    ],
+    "PaperII.QuarticConnection.nullModel_rows._proof_6": [
+      "theorem",
+      "1383925970",
+      "3999168111"
+    ],
+    "PaperII.QuarticConnection.nullModel": [
+      "definition",
+      "3616090334",
+      "2990243848"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_sub_z": [
+      "theorem",
+      "122695024",
+      "3372622641"
+    ],
+    "PaperII.QuarticConnection.tangentVelocity.eq_1": [
+      "theorem",
+      "2763147147",
+      "2167200088"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_eq_iff": [
+      "theorem",
+      "1982075318",
+      "2347477619"
+    ],
+    "PaperII.QuarticConnection.tangentFrame.eq_1": [
+      "theorem",
+      "3765714523",
+      "1882157318"
+    ],
+    "PaperII.QuarticConnection.coeffAt_genD₂._proof_4": [
+      "theorem",
+      "2011906399",
+      "3856069069"
+    ],
+    "PaperII.QuarticConnection.tangentVelocity": [
+      "definition",
+      "2034758976",
+      "2263740271"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.shearLinear._proof_7": [
+      "theorem",
+      "69808743",
+      "952842674"
+    ],
+    "PaperII.QuarticConnection.normalizedGraph_mixed_curvature": [
+      "theorem",
+      "625907106",
+      "2517825686"
+    ],
+    "PaperII.QuarticConnection.genD.eq_1": [
+      "theorem",
+      "1980772946",
+      "167159184"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperCenter._proof_4": [
+      "theorem",
+      "3881918193",
+      "2084814503"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.tangentOffset_eq": [
+      "theorem",
+      "905697748",
+      "11685128"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperCenter.eq_1": [
+      "theorem",
+      "1849850802",
+      "4217025205"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear": [
+      "definition",
+      "4062599751",
+      "1111667222"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.shearLinear._proof_8": [
+      "theorem",
+      "517042348",
+      "4074722198"
+    ],
+    "PaperII.QuarticConnection.genTz": [
+      "definition",
+      "3575168122",
+      "1664004351"
+    ],
+    "PaperII.QuarticConnection.coeffAt_genA₂._proof_4": [
+      "theorem",
+      "2011906399",
+      "3856069069"
+    ],
+    "PaperII.QuarticConnection.genA": [
+      "definition",
+      "3575168122",
+      "3179052630"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.nullGenerator_coeff": [
+      "theorem",
+      "3833410571",
+      "1104815435"
+    ],
+    "PaperII.QuarticConnection.nullRate": [
+      "definition",
+      "571468716",
+      "1728992587"
+    ],
+    "PaperII.QuarticConnection.Plane": [
+      "definition",
+      "3931117990",
+      "2111132404"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperOrbit_contDiff": [
+      "theorem",
+      "3758919735",
+      "2469806689"
+    ],
+    "PaperII.QuarticConnection.graphYY": [
+      "definition",
+      "571468716",
+      "90620402"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperPoint_hasDerivAt": [
+      "theorem",
+      "182667264",
+      "232133924"
+    ],
+    "PaperII.QuarticConnection.normalizedQuartic_coefficient_hasDerivAt": [
+      "theorem",
+      "2845788414",
+      "1405413530"
+    ],
+    "PaperII.QuarticConnection.graphLift": [
+      "definition",
+      "2219608387",
+      "1649507888"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.direction_decomposition": [
+      "theorem",
+      "576745075",
+      "2393716146"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.index4": [
+      "definition",
+      "2008562287",
+      "3202904229"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.exponent_sub_y": [
+      "theorem",
+      "730415672",
+      "128559400"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.rationalPivot_stability": [
+      "theorem",
+      "3011933548",
+      "3010138191"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.coeffAt_genA₂": [
+      "theorem",
+      "4086725958",
+      "1429689626"
+    ],
+    "PaperII.QuarticConnection.graphYZ": [
+      "definition",
+      "571468716",
+      "1566200130"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionTranslation.eq_1": [
+      "theorem",
+      "1110545651",
+      "1749781651"
+    ],
+    "PaperII.QuarticConnection.connectionRow._proof_2": [
+      "theorem",
+      "1181287418",
+      "1270239020"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.index4_exponent": [
+      "theorem",
+      "3043861332",
+      "1969220015"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.index4._proof_5": [
+      "theorem",
+      "4244330423",
+      "3547039360"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.normalizedGraph_isRoot": [
+      "theorem",
+      "1244219500",
+      "4194451515"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionTranslation": [
+      "definition",
+      "201338335",
+      "3715553010"
+    ],
+    "PaperII.QuarticConnection.genA.eq_1": [
+      "theorem",
+      "2570123623",
+      "2759311637"
+    ],
+    "PaperII.QuarticConnection.normalizedQuartic_hasDerivAt": [
+      "theorem",
+      "3135027315",
+      "1885897250"
+    ],
+    "PaperII.QuarticConnection.genTz.eq_1": [
+      "theorem",
+      "1322254009",
+      "1731459455"
+    ],
+    "PaperII.QuarticConnection.Poly": [
+      "definition",
+      "3931117990",
+      "3961546744"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear.eq_1": [
+      "theorem",
+      "2633533419",
+      "2751784209"
+    ],
+    "PaperII.QuarticConnection.nullGenerator": [
+      "definition",
+      "4092682667",
+      "1889825382"
+    ],
+    "PaperII.QuarticConnection.quartic_connection_on_characteristic": [
+      "theorem",
+      "3263263168",
+      "2176846828"
+    ],
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.graphLift_normalizedFrame": [
+      "theorem",
+      "222948222",
+      "684336312"
+    ]
+  },
+  "reviewed_runtime": {
+    "PaperII.DegreeLift.oldColumn._elambda_1._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2026169674",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "Fin",
+          "Nat.add",
+          "PaperI.AllDim.BoundedExponent",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "Fin.mk",
+          "lcProof",
+          "Nat.le",
+          "Nat.succ",
+          "Fin.val"
+        ],
+        "name": "PaperII.DegreeLift.oldColumn._elambda_1._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "922287201"
+      },
+      "payload_sha256": "282b2802c101e338801f76419db4c36f1a6d41a2da601dc2cbde27b43a30c409"
+    },
+    "PaperII.DegreeLift.combinedColumns._elambda_1._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2759277906",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "Sum",
+          "PaperII.DegreeLift.TopIndex",
+          "Nat.add",
+          "PaperI.AllDim.BoundedExponent",
+          "PaperI.AllDim.totalDegree",
+          "Decidable",
+          "LE.le",
+          "instLENat",
+          "Nat.decLe",
+          "Decidable.casesOn",
+          "Subtype.val",
+          "And",
+          "Not",
+          "Subtype",
+          "Eq",
+          "Subtype.mk",
+          "lcProof",
+          "Sum.inr",
+          "Fin",
+          "Fin.mk",
+          "Nat.le",
+          "Nat.succ",
+          "Fin.val",
+          "PaperII.DegreeLift.combinedColumns._proof_5",
+          "Sum.inl"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._elambda_1._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3616960117"
+      },
+      "payload_sha256": "ec8c2ae76aa05dd8437095cd39be60286fc1cce611d07056573453448cebdf3e"
+    },
+    "PaperII.DegreeLift.combinedRows._elambda_1._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "673342319",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "Prod",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "PaperII.DegreeLift.TopIndex",
+          "Sum",
+          "Sum.elim"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._elambda_1._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3434404600"
+      },
+      "payload_sha256": "85f3b52de26e50a0f97038e0e5cb1377cb5b5683b64bd37ef19b4584ad6e9175"
+    },
+    "PaperII.DegreeLift.combinedColumns._elambda_2._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4096840296",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "Subtype",
+          "Eq",
+          "PaperI.AllDim.totalDegree",
+          "Subtype.val",
+          "PaperI.AllDim.BoundedExponent",
+          "And",
+          "LE.le",
+          "instLENat",
+          "Sum",
+          "PaperII.DegreeLift.TopIndex",
+          "Sum.elim"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._elambda_2._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2710562885"
+      },
+      "payload_sha256": "9ce8ede5166716fab92f82f0b22dfb4a74a302b23156cfd1ab7448ff2885cf48"
+    },
+    "PaperII.DegreeLift.combinedColumns._cstage2": {
+      "inventory": {
+        "unsafe_references": [
+          "PaperII.DegreeLift.combinedColumns._elambda_2",
+          "PaperII.DegreeLift.combinedColumns._elambda_1"
+        ],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "PaperII.DegreeLift.oldColumn",
+          "PaperII.DegreeLift.combinedColumns._elambda_2",
+          "PaperII.DegreeLift.combinedColumns._lambda_1",
+          "PaperII.DegreeLift.combinedColumns._elambda_1",
+          "Equiv.mk",
+          "_neutral"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1324445435"
+      },
+      "payload_sha256": "577b8c259b66f4a96a1e5bded55f8208064d9ca275a1bfa9c38e92c189de35f3"
+    },
+    "PaperII.DegreeLift.oldColumn._cstage2": {
+      "inventory": {
+        "unsafe_references": [
+          "PaperII.DegreeLift.oldColumn._elambda_1"
+        ],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "PaperII.DegreeLift.oldColumn._elambda_1"
+        ],
+        "name": "PaperII.DegreeLift.oldColumn._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "149536595"
+      },
+      "payload_sha256": "a37d5545f7e4925665f3852d02800db632d6343469ec1ffb76f355ff3ab10c70"
+    },
+    "PaperII.DegreeLift.instFintypeTopIndex._lambda_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3657675844",
+        "payload_references": [
+          "_obj",
+          "UInt8",
+          "Nat.add",
+          "PaperI.AllDim.totalDegree",
+          "Nat.decEq"
+        ],
+        "name": "PaperII.DegreeLift.instFintypeTopIndex._lambda_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2955734153"
+      },
+      "payload_sha256": "5040e819964946a6dfb01f82f14a838b11bcc022a2d0b36b5862312518593ccf"
+    },
+    "PaperII.DegreeLift.combinedRows._cstage2": {
+      "inventory": {
+        "unsafe_references": [
+          "PaperII.DegreeLift.combinedRows._elambda_1"
+        ],
+        "type_hash": "3171205806",
+        "payload_references": [
+          "_obj",
+          "_neutral",
+          "PaperII.DegreeLift.combinedRows._lambda_1",
+          "PaperII.DegreeLift.combinedRows._lambda_2",
+          "PaperII.DegreeLift.combinedRows._elambda_1"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "4171853398"
+      },
+      "payload_sha256": "b652bad32a88fa86d8427276d98535a7ca2d82392cf0833e2bf98e47fad61d25"
+    },
+    "PaperII.DegreeLift.combinedRows._lambda_2._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Prod.casesOn",
+          "Prod.mk",
+          "_neutral"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._lambda_2._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1809586921"
+      },
+      "payload_sha256": "c7795b75b9ec9edb6ff4adf9d2219fddcb3e7aa4d38e3549b6fa6c6ec1ef1e91"
+    },
+    "PaperII.DegreeLift.combinedColumns._elambda_2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4096840296",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "Subtype",
+          "Eq",
+          "PaperI.AllDim.totalDegree",
+          "Subtype.val",
+          "PaperI.AllDim.BoundedExponent",
+          "And",
+          "LE.le",
+          "instLENat",
+          "Sum",
+          "PaperII.DegreeLift.TopIndex"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._elambda_2",
+        "kind": "axiom",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": null
+      },
+      "payload_sha256": "ef3b7cc313f3888bdecc983cb30c38f0abd222f7998442eb588b044bf59421ef"
+    },
+    "PaperII.DegreeLift.combinedRows._elambda_1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "673342319",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "Prod",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "PaperII.DegreeLift.TopIndex",
+          "Sum"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._elambda_1",
+        "kind": "axiom",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": null
+      },
+      "payload_sha256": "5ab20237c5dce676f4933c16bc72c1aff680a959e9df45f5d86bc81735978fad"
+    },
+    "PaperII.DegreeLift.combinedRows._lambda_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Prod.casesOn",
+          "PaperII.DegreeLift.oldColumn._elambda_1._rarg",
+          "Prod.mk",
+          "_neutral"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._lambda_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2534844635"
+      },
+      "payload_sha256": "95965fade96eea89628d25a42432e7046de6b139a7c54bc0ec0eb1d89f04fbfa"
+    },
+    "PaperII.DegreeLift.combinedColumns._lambda_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._lambda_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2699099967"
+      },
+      "payload_sha256": "2882e74583a7c97e300226929cea13d1083059dd2c02d2c4ec3d8a5d04f47c30"
+    },
+    "PaperII.DegreeLift.instFintypeTopIndex._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "62354548",
+        "payload_references": [
+          "Nat",
+          "Fintype",
+          "PaperII.DegreeLift.TopIndex",
+          "PaperI.AllDim.MonomialIndex",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "HAdd",
+          "OfNat",
+          "PaperI.AllDim.BoundedExponent",
+          "PaperI.AllDim.totalDegree",
+          "Decidable",
+          "Eq",
+          "Nat.add",
+          "Nat.decEq",
+          "PaperI.AllDim.monomialIndexFintype",
+          "Subtype.fintype",
+          "Subtype.val",
+          "And",
+          "LE.le",
+          "instLENat"
+        ],
+        "name": "PaperII.DegreeLift.instFintypeTopIndex._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "493204668"
+      },
+      "payload_sha256": "c37764268e12e7141ffa26ad521990c0744eba6b07ba9a9f7941499ac83848f2"
+    },
+    "PaperII.DegreeLift.oldColumn._elambda_1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2026169674",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "Fin",
+          "Nat.add"
+        ],
+        "name": "PaperII.DegreeLift.oldColumn._elambda_1",
+        "kind": "axiom",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": null
+      },
+      "payload_sha256": "c58e027cf7107d6741f670cddb6156c29ab1a482553ae43b7b56755c1b582482"
+    },
+    "PaperII.DegreeLift.combinedColumns._elambda_1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2759277906",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "Sum",
+          "PaperII.DegreeLift.TopIndex"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._elambda_1",
+        "kind": "axiom",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": null
+      },
+      "payload_sha256": "e245a7d6c007facc960ac36e7f560bc710dbf25314470c0de48ec663ea51f43a"
+    },
+    "PaperII.DegreeLift.oldColumn._elambda_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "PaperII.DegreeLift.oldColumn._elambda_1._rarg"
+        ],
+        "name": "PaperII.DegreeLift.oldColumn._elambda_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3198305822"
+      },
+      "payload_sha256": "b88c8c14c5f16820ef34943ca90eac1f61d54f2a15fc142ddba67d7e136a4778"
+    },
+    "PaperII.DegreeLift.combinedColumns._elambda_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "Nat.add",
+          "PaperI.AllDim.totalDegree",
+          "UInt8",
+          "Nat.decLe",
+          "Bool.casesOn",
+          "Sum.inr",
+          "_neutral",
+          "Sum.inl"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._elambda_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "843220147"
+      },
+      "payload_sha256": "5c90221912def931ad5e428d0a5457e115ac5bba88fdcd31a33e8e47a4604120"
+    },
+    "PaperII.DegreeLift.combinedColumns._cstage1": {
+      "inventory": {
+        "unsafe_references": [
+          "PaperII.DegreeLift.combinedColumns._elambda_2",
+          "PaperII.DegreeLift.combinedColumns._elambda_1"
+        ],
+        "type_hash": "183235390",
+        "payload_references": [
+          "Nat",
+          "Equiv",
+          "Sum",
+          "PaperI.AllDim.MonomialIndex",
+          "PaperII.DegreeLift.TopIndex",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "PaperII.DegreeLift.oldColumn",
+          "Subtype",
+          "Eq",
+          "PaperI.AllDim.totalDegree",
+          "Subtype.val",
+          "PaperI.AllDim.BoundedExponent",
+          "And",
+          "LE.le",
+          "instLENat",
+          "PaperII.DegreeLift.combinedColumns._elambda_2",
+          "PaperII.DegreeLift.combinedColumns._elambda_1",
+          "Equiv.mk",
+          "lcProof",
+          "dite",
+          "Sum.elim",
+          "Nat.decLe",
+          "Sum.inl",
+          "Subtype.mk",
+          "Fin",
+          "Fin.mk",
+          "Fin.val",
+          "PaperII.DegreeLift.combinedColumns._proof_8",
+          "PaperII.DegreeLift.combinedColumns._proof_9",
+          "Not",
+          "Sum.inr",
+          "PaperII.DegreeLift.combinedColumns._proof_10",
+          "PaperII.DegreeLift.combinedColumns._proof_5",
+          "PaperII.DegreeLift.combinedColumns._proof_6",
+          "PaperII.DegreeLift.combinedColumns._proof_7"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2622453453"
+      },
+      "payload_sha256": "08a1f98d15d7cfb61daf7df26fdba0632025a2bae23fcb05f796dbed81a8d406"
+    },
+    "PaperII.DegreeLift.combinedColumns._elambda_2._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "PaperII.DegreeLift.combinedColumns._elambda_2._rarg"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._elambda_2._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3315007042"
+      },
+      "payload_sha256": "1ab92187ba1d900cc83f7472723659c66767c740faafb38481283903510a001e"
+    },
+    "PaperII.DegreeLift.oldColumn._cstage1": {
+      "inventory": {
+        "unsafe_references": [
+          "PaperII.DegreeLift.oldColumn._elambda_1"
+        ],
+        "type_hash": "388644584",
+        "payload_references": [
+          "Nat",
+          "PaperI.AllDim.MonomialIndex",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "Fin",
+          "HAdd",
+          "OfNat",
+          "PaperII.DegreeLift.oldColumn._elambda_1",
+          "Subtype.mk",
+          "PaperI.AllDim.BoundedExponent",
+          "And",
+          "LE.le",
+          "instLENat",
+          "PaperI.AllDim.totalDegree",
+          "lcProof",
+          "Fin.castLE",
+          "PaperII.DegreeLift.oldColumn._proof_1",
+          "Subtype.val"
+        ],
+        "name": "PaperII.DegreeLift.oldColumn._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2960137700"
+      },
+      "payload_sha256": "f681d8978f12c4b7ff6462df3421c40fbea00f028f61e620d09b61381915755d"
+    },
+    "PaperII.DegreeLift.combinedRows._elambda_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "153769141",
+        "payload_references": [
+          "_obj",
+          "_neutral",
+          "PaperII.DegreeLift.combinedRows._elambda_1._rarg"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._elambda_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "814330263"
+      },
+      "payload_sha256": "d547da3e798cb5634d31586431c865f09d65f407ae0a5f17bb381f15c4667864"
+    },
+    "PaperII.DegreeLift.combinedColumns._elambda_2._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "Sum.elim._rarg"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._elambda_2._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3477106629"
+      },
+      "payload_sha256": "0fe718608e57c4e62feaffc8acc5198c8c837ccf1738b3d3cf43a1aed55848c4"
+    },
+    "PaperII.DegreeLift.combinedColumns._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "PaperII.DegreeLift.combinedColumns._lambda_1"
+        ],
+        "name": "PaperII.DegreeLift.combinedColumns._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "946002570"
+      },
+      "payload_sha256": "db835ac12c76f344de700a0187a0b73e18eb0537b07bae05ef31ab4202a6d476"
+    },
+    "PaperII.DegreeLift.combinedRows._elambda_1._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "Sum.elim._rarg"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._elambda_1._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3477106629"
+      },
+      "payload_sha256": "81d8a7953e0c6d84c6816970244556a768e4f771e9db8fdf5920c50397a6f545"
+    },
+    "PaperII.DegreeLift.combinedRows._cstage1": {
+      "inventory": {
+        "unsafe_references": [
+          "PaperII.DegreeLift.combinedRows._elambda_1"
+        ],
+        "type_hash": "507242275",
+        "payload_references": [
+          "Nat",
+          "Function.Embedding",
+          "PaperI.AllDim.MonomialIndex",
+          "Prod",
+          "PaperII.DegreeLift.TopIndex",
+          "Sum",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "OfNat.ofNat",
+          "instOfNatNat",
+          "PaperII.DegreeLift.oldColumn",
+          "Prod.mk",
+          "PaperII.DegreeLift.combinedRows._elambda_1",
+          "Function.Embedding.mk",
+          "lcProof",
+          "Eq",
+          "Sum.elim",
+          "Prod.fst",
+          "DFunLike.coe",
+          "Function.instFunLikeEmbedding",
+          "Prod.snd",
+          "Subtype.val",
+          "PaperI.AllDim.totalDegree",
+          "PaperI.AllDim.BoundedExponent",
+          "And",
+          "LE.le",
+          "instLENat"
+        ],
+        "name": "PaperII.DegreeLift.combinedRows._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2330499094"
+      },
+      "payload_sha256": "e96926f270875f707c5777d57a4baf47ac3e5296fbf5c8590abddebdf2a9640a"
+    },
+    "PaperII.DegreeLift.oldColumn._elambda_1._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.DegreeLift.oldColumn._elambda_1._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3170650835"
+      },
+      "payload_sha256": "d2d4778f8043fe426921049a8efde2d02323069bb596911b191ca5290d81558f"
+    },
+    "PaperII.DegreeLift.instFintypeTopIndex._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "PaperII.DegreeLift.instFintypeTopIndex._lambda_1",
+          "Nat.add",
+          "PaperI.AllDim.monomialIndexFintype",
+          "Subtype.fintype._rarg"
+        ],
+        "name": "PaperII.DegreeLift.instFintypeTopIndex._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2570786131"
+      },
+      "payload_sha256": "10101d65e5637a179e95718ec0b5fb685fc216669361c697f092d8c45c50a621"
+    },
+    "PaperII.VOutputBand.restoreCubic._rarg._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Nat.cast._at.Real.instNatCast._spec_2"
+        ],
+        "name": "PaperII.VOutputBand.restoreCubic._rarg._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3307923971"
+      },
+      "payload_sha256": "c2fa0028f5decb87ef77a7a095e81eff7ad0beac8d9c112df10a8dd8f5194663"
+    },
+    "PaperII.VOutputBand.restoreCubic._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "947993748",
+        "payload_references": [
+          "_obj",
+          "Nat.cast._at.Real.instNatCast._spec_2",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.579",
+          "Function.update._rarg"
+        ],
+        "name": "PaperII.VOutputBand.restoreCubic._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2938746764"
+      },
+      "payload_sha256": "5f46f09c20ef19649b854e46d87e436876c2895cbb2794d1b4208473d2759fa5"
+    },
+    "PaperII.VOutputBand.restoreCubic._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.VOutputBand.restoreCubic._rarg"
+        ],
+        "name": "PaperII.VOutputBand.restoreCubic._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "863400239"
+      },
+      "payload_sha256": "014d0c54bd68b0dc66b5e786756bf88811796d3700652a2dac5819124ff67f36"
+    },
+    "PaperII.VOutputBand.restoreCubic._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "403349779",
+        "payload_references": [
+          "DecidableEq",
+          "Real",
+          "Nat.cast",
+          "Real.instNatCast",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.579",
+          "Function.update"
+        ],
+        "name": "PaperII.VOutputBand.restoreCubic._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "228724032"
+      },
+      "payload_sha256": "d7a811b9d4f42fb4c7b2b4b3a636486c098e16e8672f483eb36d629b2c3b8de2"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.b._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "333224625",
+        "payload_references": [
+          "PaperII.TwoQuadraticCharts.Endpoint",
+          "Real",
+          "Prod",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.b._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "220229364"
+      },
+      "payload_sha256": "6e04fb5935cb068caf38050b1e9f47a3e6ce3c7f80c37688f8ce5a7b2752d34d"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.B._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "333224625",
+        "payload_references": [
+          "PaperII.TwoQuadraticCharts.Endpoint",
+          "Real",
+          "Prod"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.B._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2061588133"
+      },
+      "payload_sha256": "015f722a056bb17c001d633b56de6dba98e4fec3e66a10c34b3ed4615b195415"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.e._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.e._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3800088711"
+      },
+      "payload_sha256": "b67ef029911eb7c55d2686cd2d0dba2e348cd82cea44ea42619ddf1cfd5c9689"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.r._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "333224625",
+        "payload_references": [
+          "PaperII.TwoQuadraticCharts.Endpoint",
+          "Real"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.r._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1494197216"
+      },
+      "payload_sha256": "0a3169af76bdf2bfb640241057520c5358f2fd28c5298d28ffe039dee1338514"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.b._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.b._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3671317988"
+      },
+      "payload_sha256": "6a30993292a00ec040a88fa16a4b1af0e0a32f168506285d3a29e9a25afb218d"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.e._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "333224625",
+        "payload_references": [
+          "PaperII.TwoQuadraticCharts.Endpoint",
+          "Real",
+          "Prod"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.e._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3542640534"
+      },
+      "payload_sha256": "3b21f82e1aa12e7835e35f4368e2480292ffe00632d10d0bd0684d1cdfaff067"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.B._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.B._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "88542195"
+      },
+      "payload_sha256": "94434bfce071ed3ba9dcf5651ee2a12694d7652a11ec84b51b1e44bc23ac076c"
+    },
+    "PaperII.TwoQuadraticCharts.Endpoint.r._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.TwoQuadraticCharts.Endpoint.r._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2336972230"
+      },
+      "payload_sha256": "a55a7fe1528602d094c58001de8c010d4b72a9b236c5580b0cebe9293ab9f7f8"
+    },
+    "PaperII.PreparedCurvedSeed.retainedThird._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.PreparedCurvedSeed.retainedThird._rarg"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.retainedThird._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1214154760"
+      },
+      "payload_sha256": "1768baf4b939e12b28d05707af087ad1d26f917bf3d72616487eb1083f9f1d93"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.st._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.st._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2336972230"
+      },
+      "payload_sha256": "beeb2204aafe8ace15be8b6d5074e813cf9e3c73be930b4b77834403c6bf48ba"
+    },
+    "PaperII.PreparedCurvedSeed.retainedThird._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "492379375",
+        "payload_references": [
+          "_obj",
+          "Nat.cast._at.Real.instNatCast._spec_2",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "PaperII.PreparedCurvedSeed.retainedMixed._rarg",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471",
+          "npowRec._at.Real.commRing._spec_2",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.579"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.retainedThird._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1556666197"
+      },
+      "payload_sha256": "0e4d06e80bf89fcda72adeda4e543fa72debd54a7fd890ac4695583d85ab595e"
+    },
+    "PaperII.PreparedCurvedSeed.retainedMixed._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.579",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.retainedMixed._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2546583322"
+      },
+      "payload_sha256": "3d72241faab414e6c97815e304c46f2f55169b69938e8b708ba7fb68e6e3e5be"
+    },
+    "PaperII.PreparedCurvedSeed.seedPoint._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4238193407",
+        "payload_references": [
+          "Real",
+          "PaperII.VOutputBand.GraphPlane",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471",
+          "Prod.mk"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.seedPoint._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "514080796"
+      },
+      "payload_sha256": "d878a1207ad62a9ad8ac679f63cf94b1661057eda8e2d9b6ec82ccd3b45f8a17"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.tt._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2325150667",
+        "payload_references": [
+          "PaperII.PreparedCurvedSeed.SeedRows",
+          "Prod"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.tt._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2201702843"
+      },
+      "payload_sha256": "bb14eb9d08f755850486877a8b41bbc7c71e30e39188ce1bfc5da784910ab440"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.sst._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2325150667",
+        "payload_references": [
+          "PaperII.PreparedCurvedSeed.SeedRows",
+          "Prod"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.sst._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3840950922"
+      },
+      "payload_sha256": "9913ca53929678fd81063e45af7c43723f4ede8d29ec45773a1240817ed1820b"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.stt._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.stt._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "4096268051"
+      },
+      "payload_sha256": "0f6e77d86cb085c6b8ca010818c2f05cec17d6d98b79ab0338c468e1fe380dd2"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.stt._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2325150667",
+        "payload_references": [
+          "PaperII.PreparedCurvedSeed.SeedRows",
+          "Prod"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.stt._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1487625443"
+      },
+      "payload_sha256": "fca7522a32f739bc4a34041a348d97a9359f09b5ec8c3cef4a375efdc3b6b8b8"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.ttt._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.PreparedCurvedSeed.SeedRows.ttt._rarg"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.ttt._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "4203472582"
+      },
+      "payload_sha256": "95011aab676183e380ec68b8e7b7190aadac7a698ee5f3c5a0b19864f4205ad2"
+    },
+    "PaperII.PreparedCurvedSeed.retainedMixed._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.PreparedCurvedSeed.retainedMixed._rarg"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.retainedMixed._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2867018558"
+      },
+      "payload_sha256": "b9a8c760f169eb796e493593b958a495deebc47826f2d0fbc81d2a609e7f5faa"
+    },
+    "PaperII.PreparedCurvedSeed.retainedThird._rarg._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Nat.cast._at.Real.instNatCast._spec_2"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.retainedThird._rarg._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "443857358"
+      },
+      "payload_sha256": "3908e79a82e5e783941d0ef5b2b88d2bc427c8dc5a4c9cdb02cbc7623ba30d79"
+    },
+    "PaperII.PreparedCurvedSeed.seedPullback._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "374664145",
+        "payload_references": [
+          "Real",
+          "PaperII.VOutputBand.GraphPlane",
+          "PaperII.PreparedCurvedSeed.seedPoint"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.seedPullback._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "664723004"
+      },
+      "payload_sha256": "f98e51b030dd04f6cb269204baf3b1235f41217ed07185e92f0b6c986a84fc42"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.st._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2325150667",
+        "payload_references": [
+          "PaperII.PreparedCurvedSeed.SeedRows"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.st._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3126294754"
+      },
+      "payload_sha256": "d69cfab1d0c0a7dadb5d8be9adea482f45ac7366e71559d59875625c8defadcd"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.ttt._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.ttt._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2459373719"
+      },
+      "payload_sha256": "2eccfeb6a2039a368aa7b522f252cd40c00d2ef5f3ec2e1258131f7f1e20d1c8"
+    },
+    "PaperII.PreparedCurvedSeed.retainedThird._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3667554251",
+        "payload_references": [
+          "PaperII.PreparedCurvedSeed.SeedRows",
+          "Real",
+          "Nat.cast",
+          "Real.instNatCast",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "PaperII.PreparedCurvedSeed.retainedMixed",
+          "Prod",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471",
+          "Mul",
+          "Mul.mk",
+          "One",
+          "One.mk",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "npowRec",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.579"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.retainedThird._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "4141340945"
+      },
+      "payload_sha256": "0f8b6527f15dd845073a6458223c4c0b4c93f5e2f72a216eb9b85433826bf8eb"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.stt._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.PreparedCurvedSeed.SeedRows.stt._rarg"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.stt._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1455779182"
+      },
+      "payload_sha256": "cc441c881dae613f390126bfadbe589fc47acdf9a3559106e076078a4f656a11"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.sst._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.sst._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "904100612"
+      },
+      "payload_sha256": "a8892819ca2685ad022d35392b3d9b6217ff74368b1ca292277147d6367be880"
+    },
+    "PaperII.PreparedCurvedSeed.retainedMixed._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1106381218",
+        "payload_references": [
+          "PaperII.PreparedCurvedSeed.SeedRows",
+          "Real",
+          "Prod",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.579",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.retainedMixed._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1349407875"
+      },
+      "payload_sha256": "192598ad6fae93e15d2e5629ef34ad9171adfaa7970ce9ac6dcd385a800423b4"
+    },
+    "PaperII.PreparedCurvedSeed.seedPoint._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471",
+          "Prod.mk",
+          "_neutral"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.seedPoint._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3377405541"
+      },
+      "payload_sha256": "c235473529cf1001d37855350e420c4c303d1820484ca48853c490b079cc153a"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.tt._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.PreparedCurvedSeed.SeedRows.tt._rarg"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.tt._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "661416512"
+      },
+      "payload_sha256": "0e69b2a2ac2008055ada8aba9f1d1a2cda6213f44f3b372df544506ee35b0496"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.sst._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.PreparedCurvedSeed.SeedRows.sst._rarg"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.sst._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "809509048"
+      },
+      "payload_sha256": "2b4ee8b8e14914437c92b7f1cd74536d8339bf01099d36dd8dd7450539a47019"
+    },
+    "PaperII.PreparedCurvedSeed.seedPullback._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "PaperII.PreparedCurvedSeed.seedPoint"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.seedPullback._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "677435568"
+      },
+      "payload_sha256": "4fd8bffad1904bc5b9e72839f590cca6195c6669e33ed9af439cd7ef184fe1d6"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.st._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4014467136",
+        "payload_references": [
+          "_neutral",
+          "_obj",
+          "PaperII.PreparedCurvedSeed.SeedRows.st._rarg"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.st._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2251531056"
+      },
+      "payload_sha256": "aa78e9c47b4a7337b22d41702636b7352c1d3a69a69860c7fe7a0a865da582f6"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.tt._rarg._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.tt._rarg._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "88542195"
+      },
+      "payload_sha256": "ff02b7165e6f49301a98910e8e301d3c46d6c8ca3e750ee78aa1df2f71df86cc"
+    },
+    "PaperII.PreparedCurvedSeed.SeedRows.ttt._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2325150667",
+        "payload_references": [
+          "PaperII.PreparedCurvedSeed.SeedRows",
+          "Prod"
+        ],
+        "name": "PaperII.PreparedCurvedSeed.SeedRows.ttt._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3895027200"
+      },
+      "payload_sha256": "43b6654fbaac839e6776a477784a6799d430f1e612695238183cd598ce15d300"
+    },
+    "PaperII.QuarticConnection.tangentVelocity._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "703775385",
+        "payload_references": [
+          "_obj",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Matrix.vecEmpty",
+          "_neutral",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "Fin.cases"
+        ],
+        "name": "PaperII.QuarticConnection.tangentVelocity._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1220848886"
+      },
+      "payload_sha256": "8f60b5509c97bbd20cb45b4f3fc3c7918f662f5d9cf507b6ce29c6d7d72e4d4d"
+    },
+    "PaperII.QuarticConnection.characteristicPoint._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Prod.mk",
+          "_neutral"
+        ],
+        "name": "PaperII.QuarticConnection.characteristicPoint._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2102010947"
+      },
+      "payload_sha256": "69edb03e2a127db4ac1003eb098a1be3e54623285e4f74e28326658c21aea9a6"
+    },
+    "PaperII.QuarticConnection.graphPartial._cstage2": {
+      "inventory": {
+        "unsafe_references": [
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1"
+        ],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1",
+          "_neutral"
+        ],
+        "name": "PaperII.QuarticConnection.graphPartial._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2348102478"
+      },
+      "payload_sha256": "4fd6911e645c46b5045251cd8e9abfd3dbc3d8335523d811e48b2b79382cfce6"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2643678333",
+        "payload_references": [
+          "Fin",
+          "OfNat.ofNat",
+          "Nat",
+          "instOfNatNat",
+          "Real",
+          "Matrix",
+          "Fin.ofNat'",
+          "lcProof",
+          "NeZero",
+          "Zero.ofOfNat0",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "Matrix.vecEmpty",
+          "Nat.succ",
+          "Matrix.vecCons",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "Fin.cases"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2998330052"
+      },
+      "payload_sha256": "f24097ee19ac8c1d8f57f68ac5cd8944b696ea9869f474f4af40d41f84866109"
+    },
+    "PaperII.QuarticConnection.graphZZ._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "571468716",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "PaperII.QuarticConnection.graphZ"
+        ],
+        "name": "PaperII.QuarticConnection.graphZZ._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "586610286"
+      },
+      "payload_sha256": "3170b15ae1c36b2a21bcb2745a59aa42ff4086543131fdefeb042510eac971db"
+    },
+    "PaperII.QuarticConnection.mixedCurvature._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "PaperII.QuarticConnection.graphYZ",
+          "PaperII.QuarticConnection.graphYY",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471"
+        ],
+        "name": "PaperII.QuarticConnection.mixedCurvature._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1528252525"
+      },
+      "payload_sha256": "92fe4b9f74e931ae22eb9affafd492fbced1e9a80eeeafa9d7c0a673db321b88"
+    },
+    "PaperII.QuarticConnection.graphZ._cstage2": {
+      "inventory": {
+        "unsafe_references": [
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1"
+        ],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Prod.mk",
+          "_neutral",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1"
+        ],
+        "name": "PaperII.QuarticConnection.graphZ._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1594404156"
+      },
+      "payload_sha256": "d4fa2a6ea44dc8831f5dab2fb8ca0e4017e28367c4a26b5e1d24c6e51c84e58e"
+    },
+    "PaperII.QuarticConnection.graphY._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "571468716",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "Prod",
+          "Prod.mk",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "PaperII.QuarticConnection.graphPartial"
+        ],
+        "name": "PaperII.QuarticConnection.graphY._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3394459219"
+      },
+      "payload_sha256": "c0284b3695d2759b5abbcefc545efa1042aef463a594acf1488ccc3e9913f423"
+    },
+    "PaperII.QuarticConnection.graphLift._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2219608387",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "PaperI.PhysicalSpace",
+          "Fin",
+          "Nat.succ",
+          "OfNat.ofNat",
+          "Nat",
+          "instOfNatNat",
+          "Matrix.vecEmpty",
+          "Matrix.vecCons",
+          "Fin.cases",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat"
+        ],
+        "name": "PaperII.QuarticConnection.graphLift._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "976812663"
+      },
+      "payload_sha256": "f0b3d9d3d08a678ee86a11059324f70991360d909c318a7197c47a12b5f7acd8"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionTranslation._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3591402964",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecEmpty",
+          "_neutral",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "Fin.cases"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionTranslation._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2582658996"
+      },
+      "payload_sha256": "2bf5ea38ef45a2c9edb6e6962ddcfce7101f7241f1dbecebe458ea1758047d57"
+    },
+    "PaperII.QuarticConnection.tangentFrame._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecEmpty",
+          "_neutral"
+        ],
+        "name": "PaperII.QuarticConnection.tangentFrame._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2472970290"
+      },
+      "payload_sha256": "bdc4a6430901fe3e4a2202a0533b6d89844bb5d961bfe9513a5316f7850065db"
+    },
+    "PaperII.QuarticConnection.graphYY._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "571468716",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "PaperII.QuarticConnection.graphY"
+        ],
+        "name": "PaperII.QuarticConnection.graphYY._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3542333370"
+      },
+      "payload_sha256": "cca850a2a2de29461665fb811c71ef2c7e15a3f57a04e44daf5343a853a2bb06"
+    },
+    "PaperII.QuarticConnection.tangentFrame._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "492379375",
+        "payload_references": [
+          "_obj",
+          "PaperII.QuarticConnection.graphY",
+          "PaperII.QuarticConnection.graphZ",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471",
+          "Matrix.vecEmpty",
+          "_neutral",
+          "Matrix.vecCons._rarg",
+          "Fin.cases"
+        ],
+        "name": "PaperII.QuarticConnection.tangentFrame._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3844385912"
+      },
+      "payload_sha256": "a7a4fb990997fc03ba92d83c560c8437c22dc496a5748e7113f69b313d418031"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_3._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_2",
+          "PaperII.QuarticConnection.tangentFrame._closed_1"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_3._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3524779522"
+      },
+      "payload_sha256": "4c9c5a9f637a3472a2bacd0dd0b5991ed202d78ccacce3cb7d70ad477716291a"
+    },
+    "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1._lambda_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj"
+        ],
+        "name": "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1._lambda_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2989272831"
+      },
+      "payload_sha256": "b1abac84b9505adfea5b40fdf5595f0ad9dfcd156fbf0df96d470bcc0784adcf"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "492379375",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecEmpty",
+          "_neutral",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "Fin.cases"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3775295086"
+      },
+      "payload_sha256": "7062d92400cbe91161472a204d7563e75b1e5559561d965c0bec1241f2043d35"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperCenter._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecEmpty",
+          "_neutral",
+          "Matrix.vecCons._rarg",
+          "Fin.cases"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperCenter._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1064937787"
+      },
+      "payload_sha256": "9b7bd4f4d71cafd306ffe4da900c8a403bde7731ac31812fec978242ad37f8aa"
+    },
+    "PaperII.QuarticConnection.characteristicPoint._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2431194517",
+        "payload_references": [
+          "Real",
+          "PaperII.QuarticConnection.Plane",
+          "Prod.mk"
+        ],
+        "name": "PaperII.QuarticConnection.characteristicPoint._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2850908011"
+      },
+      "payload_sha256": "96fbd46d21fdbf971e0926b3868d7eb03aab9559b77277c8651e6b26ed86b332"
+    },
+    "PaperII.QuarticConnection.graphPartial._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3954941651",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "NontriviallyNormedField",
+          "DenselyNormedField.toNontriviallyNormedField",
+          "Real.denselyNormedField",
+          "NormedField",
+          "Field",
+          "Semifield",
+          "Field.toSemifield",
+          "DivisionSemiring",
+          "Semifield.toDivisionSemiring",
+          "Semiring",
+          "NonAssocSemiring",
+          "Semiring.toNonAssocSemiring",
+          "RingHom",
+          "RingHom.id",
+          "UniformSpace",
+          "Real.pseudoMetricSpace",
+          "TopologicalSpace",
+          "Prod",
+          "instTopologicalSpaceProd",
+          "AddCommGroup",
+          "Prod.instAddCommGroup",
+          "Real.instAddCommGroup",
+          "AddCommMonoid",
+          "AddCommGroup.toAddCommMonoid",
+          "InnerProductSpace",
+          "Real.instRCLike",
+          "NonUnitalSeminormedRing.toSeminormedAddCommGroup",
+          "NonUnitalSeminormedCommRing.toNonUnitalSeminormedRing",
+          "SeminormedCommRing.toNonUnitalSeminormedCommRing",
+          "NormedCommRing.toSeminormedCommRing",
+          "NormedField.toNormedCommRing",
+          "DenselyNormedField.toNormedField",
+          "RCLike.toDenselyNormedField",
+          "RCLike.toInnerProductSpaceReal",
+          "NormedSpace",
+          "Module",
+          "DivisionSemiring.toSemiring",
+          "NormedField.toField",
+          "SeminormedAddCommGroup.toAddCommGroup",
+          "Prod.instAddCommMonoid",
+          "Real.instAddCommMonoid",
+          "Prod.instModule",
+          "ContinuousLinearMap",
+          "NontriviallyNormedField.toNormedField",
+          "definition._@.Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578",
+          "Set.univ",
+          "LinearMap",
+          "AddHom",
+          "AddCommMagma.toAdd",
+          "AddCommSemigroup.toAddCommMagma",
+          "AddCommMonoid.toAddCommSemigroup"
+        ],
+        "name": "PaperII.QuarticConnection.graphPartial._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "490817411"
+      },
+      "payload_sha256": "138b9c0b434d01751986d742642595de69c23f91d62c10a578754c17e3e9392f"
+    },
+    "PaperII.QuarticConnection.graphZZ._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "PaperII.QuarticConnection.graphZ"
+        ],
+        "name": "PaperII.QuarticConnection.graphZZ._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1074110533"
+      },
+      "payload_sha256": "961ebea300bac03b180d03077b4a42ccc6a80ee7959fe91474e0913939a0b7c2"
+    },
+    "PaperII.QuarticConnection.mixedCurvature._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "3871058876",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "PaperII.QuarticConnection.graphYZ",
+          "PaperII.QuarticConnection.graphYY",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471"
+        ],
+        "name": "PaperII.QuarticConnection.mixedCurvature._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "439747945"
+      },
+      "payload_sha256": "47ed4b8a75304f9c9e833216626204b8e7e3399460473b1c7ce548d8b7b0d212"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "PaperII.QuarticConnection.tangentFrame._closed_1"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2459074717"
+      },
+      "payload_sha256": "f3148aec29b42317f29a30068ad1afaca1f87fede421005d869ec66b929a4db0"
+    },
+    "PaperII.QuarticConnection.graphZ._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "571468716",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "Prod",
+          "Prod.mk",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "PaperII.QuarticConnection.graphPartial"
+        ],
+        "name": "PaperII.QuarticConnection.graphZ._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1891249490"
+      },
+      "payload_sha256": "8345144be6c5e778ed65b602e205273ad11161b7b72045bed367976ee695b528"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_2._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_1"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_2._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "4044710495"
+      },
+      "payload_sha256": "fe5c267b959b81c0634df581c6b0ca23de34a520af7f8692a3a4f8956a0ed495"
+    },
+    "PaperII.QuarticConnection.graphYZ._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "571468716",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "PaperII.QuarticConnection.graphY",
+          "PaperII.QuarticConnection.graphZ"
+        ],
+        "name": "PaperII.QuarticConnection.graphYZ._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2449697916"
+      },
+      "payload_sha256": "45a25fe6fd3468daebab85f2dcc3da484e626d4460242531e5e6952f49ff52b5"
+    },
+    "PaperII.QuarticConnection.nullRate._cstage2": {
+      "inventory": {
+        "unsafe_references": [
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1"
+        ],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Prod.mk",
+          "_neutral",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1"
+        ],
+        "name": "PaperII.QuarticConnection.nullRate._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2225968340"
+      },
+      "payload_sha256": "3b42abcfa151d9157d7b5c25fc14767e7e08a0484e4c8ad45d68692402beb701"
+    },
+    "PaperII.QuarticConnection.graphZ._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Prod.mk",
+          "_neutral",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one"
+        ],
+        "name": "PaperII.QuarticConnection.graphZ._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "165060811"
+      },
+      "payload_sha256": "0eaf6db7756a7fd90e84da5467759510f2febee43706415f7f99a34b5ffe59b7"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_2._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_1"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_2._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "510238169"
+      },
+      "payload_sha256": "6a63a9790d92199c0d628c28037562af4c441b4044e68724e0177aee8fdbe2a3"
+    },
+    "PaperII.QuarticConnection.tangentVelocity._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2034758976",
+        "payload_references": [
+          "Real",
+          "Fin",
+          "OfNat.ofNat",
+          "Nat",
+          "instOfNatNat",
+          "Nat.succ",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Matrix.vecEmpty",
+          "Matrix.vecCons",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "Fin.cases",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat"
+        ],
+        "name": "PaperII.QuarticConnection.tangentVelocity._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "4118709438"
+      },
+      "payload_sha256": "b0947751deb3cb6a1e14d43415ba7bfcb18e4b91ba2a37502b430279b6bd2947"
+    },
+    "PaperII.QuarticConnection.tangentFrame._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "451094209",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "Fin",
+          "OfNat.ofNat",
+          "Nat",
+          "instOfNatNat",
+          "Nat.succ",
+          "PaperII.QuarticConnection.graphY",
+          "PaperII.QuarticConnection.graphZ",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.664",
+          "Real.definition._@.Mathlib.Data.Real.Basic._hyg.471",
+          "Matrix.vecEmpty",
+          "Matrix.vecCons",
+          "Fin.cases",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat"
+        ],
+        "name": "PaperII.QuarticConnection.tangentFrame._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2759260298"
+      },
+      "payload_sha256": "a7cc6dbda747145ca439a0e3a37470c527e38913199f2e4cd38b7db75d1469d3"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecEmpty",
+          "_neutral",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "Fin.cases"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2453409856"
+      },
+      "payload_sha256": "64ba3dd6f53f378324bbe2a20bc1c1a66e441193fdd4740fbf2ee6b04c8be4ab"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperCenter._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "418738112",
+        "payload_references": [
+          "Fin",
+          "OfNat.ofNat",
+          "Nat",
+          "instOfNatNat",
+          "Real",
+          "PaperI.PhysicalSpace",
+          "Nat.succ",
+          "Fin.ofNat'",
+          "lcProof",
+          "NeZero",
+          "Zero.ofOfNat0",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat",
+          "Matrix.vecEmpty",
+          "Matrix.vecCons",
+          "Fin.cases"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperCenter._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "154250397"
+      },
+      "payload_sha256": "735e75a32215ab1f21400a614616109b086e980b08a35bc142b75106ed77b08c"
+    },
+    "PaperII.QuarticConnection.graphY._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Prod.mk",
+          "_neutral",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero"
+        ],
+        "name": "PaperII.QuarticConnection.graphY._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "262393843"
+      },
+      "payload_sha256": "47eb6788d34bc0817376ddbc95f1a78549935e9587f4f1a25a989d075997e0c4"
+    },
+    "PaperII.QuarticConnection.graphY._cstage2": {
+      "inventory": {
+        "unsafe_references": [
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1"
+        ],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "Prod.mk",
+          "_neutral",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1"
+        ],
+        "name": "PaperII.QuarticConnection.graphY._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1855049972"
+      },
+      "payload_sha256": "b0c4ca56b8b28f75d6eb6ca3ed50ebbda53f0e175edde2663e10bb1c8f26576f"
+    },
+    "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4043543056",
+        "payload_references": [
+          "NontriviallyNormedField",
+          "Real",
+          "DenselyNormedField.toNontriviallyNormedField",
+          "Real.denselyNormedField",
+          "NormedField",
+          "Field",
+          "Semifield",
+          "Field.toSemifield",
+          "DivisionSemiring",
+          "Semifield.toDivisionSemiring",
+          "Semiring",
+          "UniformSpace",
+          "Real.pseudoMetricSpace",
+          "TopologicalSpace",
+          "Prod",
+          "instTopologicalSpaceProd",
+          "AddCommGroup",
+          "Prod.instAddCommGroup",
+          "Real.instAddCommGroup",
+          "InnerProductSpace",
+          "Real.instRCLike",
+          "NonUnitalSeminormedRing.toSeminormedAddCommGroup",
+          "NonUnitalSeminormedCommRing.toNonUnitalSeminormedRing",
+          "SeminormedCommRing.toNonUnitalSeminormedCommRing",
+          "NormedCommRing.toSeminormedCommRing",
+          "NormedField.toNormedCommRing",
+          "DenselyNormedField.toNormedField",
+          "RCLike.toDenselyNormedField",
+          "RCLike.toInnerProductSpaceReal",
+          "NormedSpace",
+          "Module",
+          "DivisionSemiring.toSemiring",
+          "NormedField.toField",
+          "AddCommGroup.toAddCommMonoid",
+          "SeminormedAddCommGroup.toAddCommGroup",
+          "Prod.instAddCommMonoid",
+          "Real.instAddCommMonoid",
+          "Prod.instModule",
+          "PaperII.QuarticConnection.Plane",
+          "Set",
+          "ContinuousLinearMap",
+          "NontriviallyNormedField.toNormedField",
+          "RingHom.id",
+          "Semiring.toNonAssocSemiring"
+        ],
+        "name": "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1",
+        "kind": "axiom",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": null
+      },
+      "payload_sha256": "5ccc91c15997d76f49bba6fdc6f96d11bd9ae281763f63a7f72e907a16c22b2b"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_4._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_3",
+          "PaperII.QuarticConnection.tangentFrame._closed_1"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_4._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2275420647"
+      },
+      "payload_sha256": "082f0a939630c6a7744a329b01526d4a040d5c3d978773135b9f6cbd8be01ce7"
+    },
+    "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "2254920254",
+        "payload_references": [
+          "_obj",
+          "_neutral",
+          "Real.instAddCommGroup",
+          "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1._lambda_1",
+          "Pi.instZero._elambda_1._rarg"
+        ],
+        "name": "definition.«_@».Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578._at.PaperII.QuarticConnection.graphPartial._spec_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3524042611"
+      },
+      "payload_sha256": "c336c2f6b8dc8706e93055498135ca4cbdf785a23e0aa02327f8a5c9ff89bd0d"
+    },
+    "PaperII.QuarticConnection.graphLift._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1650741929",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecEmpty",
+          "_neutral",
+          "Matrix.vecCons._rarg",
+          "Fin.cases"
+        ],
+        "name": "PaperII.QuarticConnection.graphLift._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1332952487"
+      },
+      "payload_sha256": "b65b2ae49c64fc1e826c1d536a4fc6ea4a5598e080451bf3e3e9aac63e53f1df"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "PaperII.QuarticConnection.tangentVelocity._closed_1"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.upperLinear._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2169584426"
+      },
+      "payload_sha256": "eeb39e4770b10a543c1286a19ca75aa9be960fe5ec3cf06b2e4e388dd7cb8b11"
+    },
+    "PaperII.QuarticConnection.graphYY._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "PaperII.QuarticConnection.graphY"
+        ],
+        "name": "PaperII.QuarticConnection.graphYY._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2635456670"
+      },
+      "payload_sha256": "b84613bb48982785f436642515c9902f1c2875b30207ccdd1c2c2444ad2fece0"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionTranslation._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "201338335",
+        "payload_references": [
+          "PaperI.PhysicalSpace",
+          "Fin",
+          "Nat.succ",
+          "OfNat.ofNat",
+          "Nat",
+          "instOfNatNat",
+          "Real",
+          "Matrix.vecEmpty",
+          "Matrix.vecCons",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "Fin.cases",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionTranslation._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1013714296"
+      },
+      "payload_sha256": "18a05b408082b759c8b33af6dcff476c29352b47d8323fc2b17b7edcb3474619"
+    },
+    "PaperII.QuarticConnection.graphYZ._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "1935190662",
+        "payload_references": [
+          "_obj",
+          "PaperII.QuarticConnection.graphY",
+          "PaperII.QuarticConnection.graphZ"
+        ],
+        "name": "PaperII.QuarticConnection.graphYZ._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "1529680018"
+      },
+      "payload_sha256": "55466ecd8a3fc2f2f2b091625a805106943478a653ebec75bb696ccd9bf6a48a"
+    },
+    "PaperII.QuarticConnection.nullRate._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "571468716",
+        "payload_references": [
+          "PaperII.QuarticConnection.Plane",
+          "Real",
+          "NontriviallyNormedField",
+          "DenselyNormedField.toNontriviallyNormedField",
+          "Real.denselyNormedField",
+          "NormedField",
+          "Field",
+          "Semifield",
+          "Field.toSemifield",
+          "DivisionSemiring",
+          "Semifield.toDivisionSemiring",
+          "Semiring",
+          "NonAssocSemiring",
+          "Semiring.toNonAssocSemiring",
+          "RingHom",
+          "RingHom.id",
+          "UniformSpace",
+          "Real.pseudoMetricSpace",
+          "TopologicalSpace",
+          "Prod",
+          "instTopologicalSpaceProd",
+          "AddCommGroup",
+          "Prod.instAddCommGroup",
+          "Real.instAddCommGroup",
+          "AddCommMonoid",
+          "AddCommGroup.toAddCommMonoid",
+          "InnerProductSpace",
+          "Real.instRCLike",
+          "NonUnitalSeminormedRing.toSeminormedAddCommGroup",
+          "NonUnitalSeminormedCommRing.toNonUnitalSeminormedRing",
+          "SeminormedCommRing.toNonUnitalSeminormedCommRing",
+          "NormedCommRing.toSeminormedCommRing",
+          "NormedField.toNormedCommRing",
+          "DenselyNormedField.toNormedField",
+          "RCLike.toDenselyNormedField",
+          "RCLike.toInnerProductSpaceReal",
+          "NormedSpace",
+          "Module",
+          "DivisionSemiring.toSemiring",
+          "NormedField.toField",
+          "SeminormedAddCommGroup.toAddCommGroup",
+          "Prod.instAddCommMonoid",
+          "Real.instAddCommMonoid",
+          "Prod.instModule",
+          "ContinuousLinearMap",
+          "NontriviallyNormedField.toNormedField",
+          "definition._@.Mathlib.Analysis.Calculus.FDeriv.Basic._hyg.578",
+          "Set.univ",
+          "Prod.mk",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "LinearMap",
+          "AddHom",
+          "AddCommMagma.toAdd",
+          "AddCommSemigroup.toAddCommMagma",
+          "AddCommMonoid.toAddCommSemigroup"
+        ],
+        "name": "PaperII.QuarticConnection.nullRate._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "792132083"
+      },
+      "payload_sha256": "578ae9da8880143ae62a452a854f67d9a327996e35bf11701bc0ad17e22cd15a"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_3._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_2"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._closed_3._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "3734421501"
+      },
+      "payload_sha256": "7cd9f7a1aff1a70a5caa0d1cc6bd3f449ba53fed6bd5b7f6a026f62efd914433"
+    },
+    "PaperII.QuarticConnection.tangentVelocity._closed_1._cstage2": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4092615322",
+        "payload_references": [
+          "_obj",
+          "Matrix.vecCons._rarg",
+          "_private.Mathlib.Data.Real.Basic.0.Real.one",
+          "PaperII.QuarticConnection.tangentFrame._closed_1"
+        ],
+        "name": "PaperII.QuarticConnection.tangentVelocity._closed_1._cstage2",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2204917823"
+      },
+      "payload_sha256": "cf45548eaea8d2b3fcfe88b1322f23cfd3d165fbc5e7a9734d6d1fa68e8b1ec5"
+    },
+    "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._cstage1": {
+      "inventory": {
+        "unsafe_references": [],
+        "type_hash": "4062599751",
+        "payload_references": [
+          "Real",
+          "Matrix",
+          "Fin",
+          "OfNat.ofNat",
+          "Nat",
+          "instOfNatNat",
+          "Matrix.vecEmpty",
+          "Nat.succ",
+          "Matrix.vecCons",
+          "_private.Mathlib.Data.Real.Basic.0.Real.zero",
+          "Fin.cases",
+          "HAdd.hAdd",
+          "instHAdd",
+          "instAddNat"
+        ],
+        "name": "_private.PaperILean.PaperIIQuarticConnection.0.PaperII.QuarticConnection.connectionLinear._cstage1",
+        "kind": "definition",
+        "isUnsafe": true,
+        "isPartial": false,
+        "body_hash": "2867488513"
+      },
+      "payload_sha256": "446657ec4dd4d0077bbeb8e31704c2556f31c501474e1888eaec3810ab3ba8e3"
+    }
+  },
+  "reference_sources": {
+    "PaperILean.PaperIIDegreeLift": "a03e88faf0b42393b1b4315d41d361652c7d797c0991af065830396db2dd505b",
+    "PaperILean.PaperIIVOutputBand": "49eb9e22685b0e49bd24b2144f31be02c16d23866ec11eb50e35c2fda28e3fb5",
+    "PaperILean.PaperIITwoQuadraticCharts": "906b0071f43326fd573bfd04b2e85926cd4ab195cc6e3c27d23284a94a7723da",
+    "PaperILean.PaperIIPreparedCurvedSeed": "6a141ff3dad3ca0774412642d918eacd4061d308152ffedc6a7e83d9b9102d88",
+    "PaperILean.PaperIIQuarticConnection": "96a75a626c5cd46bb140fd100de9ab830abfb6b43825d9064b2e56e7d68095f5"
+  }
+}
