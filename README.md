@@ -12,6 +12,7 @@
 
 This repository was made public on November 5, 2026. The following archives preserve original Lean sources, historical verification reports, and source provenance. They are research records, not a claim that the manuscript's main theorem has been formally verified.
 
+- [Paper II verification checkpoint, November 13, 2026](verification-20261113-paper-ii-portfolio/): five verified lemmas, with Lean sources, compiled products, and audit evidence.
 - [Paper I verification checkpoint, November 13, 2026](verification-20261113-second-portfolio/): three complete statements, with Lean sources, compiled products, and the verification report.
 - [Current Lean source snapshot](formalization/): 557 modules with a source provenance index.
 - [Historical sources and verification reports](formalization-archive-20261105/): 3,898 distinct historical source texts and 207 PDF reports, with a documented reconstruction procedure and SHA-256 checks for the distributed archive.
