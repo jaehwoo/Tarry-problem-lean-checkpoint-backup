@@ -327,7 +327,7 @@ class RemoteTests(BackupTests):
     def test_public_or_unavailable_privacy_never_attempts_git_transfer(self):
         self.snap()
         self.remote_config()
-        with patch.object(b, "private_remote", side_effect=b.BackupError("Remote must be PRIVATE")), patch.object(b, "remote_refs") as refs:
+        with patch.object(b, "check_remote_identity", side_effect=b.BackupError("Remote must be PRIVATE")), patch.object(b, "remote_refs") as refs:
             result = b.sync(self.vault)
         refs.assert_not_called()
         self.assertFalse(result["remote_verified"])
@@ -349,10 +349,206 @@ class RemoteTests(BackupTests):
             with self.assertRaises(b.BackupError):
                 b.github_identity("fixture/private")
 
+    @contextlib.contextmanager
+    def github_api(self, *responses):
+        # Mock gh only. Keep subprocess-backed Git and the real identity checks.
+        real_run = subprocess.run
+        pending = iter(responses)
+
+        def run(cmd, *args, **kwargs):
+            if cmd[:2] == ["gh", "api"]:
+                return subprocess.CompletedProcess(cmd, 0, json.dumps(next(pending)).encode(), b"")
+            return real_run(cmd, *args, **kwargs)
+
+        with patch.object(b.subprocess, "run", side_effect=run):
+            yield
+
+    def test_public_cli_opt_in_sync_and_recovery(self):
+        remote = self.local_remote()
+        repository = "fixture/public"
+        public = {"full_name": repository, "id": 123, "private": False, "visibility": "public"}
+        setup = ["remote-set", "--github", repository, "--vault", str(self.vault)]
+        recovered = self.base / "public-recovered.git"
+        recovery = ["recover", "--github", repository, "--vault", str(recovered)]
+        with (patch.object(b, "remote_url", return_value=str(remote)),
+              contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO())):
+            with self.github_api(public), patch.object(b, "remote_refs") as refs:
+                self.assertEqual(b.main(setup), 2)
+                self.assertIsNone(b.control(self.vault)["remote"])
+                refs.assert_not_called()
+            with self.github_api(public):
+                self.assertEqual(b.main([*setup, "--public"]), 0)
+            with self.github_api(public, public, public):
+                result = self.snap()
+            self.assertEqual(result["status"], "REMOTE_VERIFIED")
+            self.assertTrue(result["remote"]["fresh_restore_verified"])
+            for key in ("before_privacy", "after_privacy"):
+                self.assertEqual(result["remote"][key]["visibility"], "public")
+                self.assertEqual(result["remote"][key]["repository_id"], 123)
+            with self.github_api(public), patch.object(b, "remote_refs") as refs:
+                self.assertEqual(b.main(recovery), 2)
+                self.assertFalse(recovered.exists())
+                refs.assert_not_called()
+            with self.github_api(public, public):
+                self.assertEqual(b.main([*recovery, "--public", "--expect-commit", result["commit"]]), 0)
+        self.assertEqual(b.Git(recovered).refs(), b.Git(self.vault).refs())
+        self.assertFalse((recovered / "objects/info/alternates").exists())
+        recovered_remote = b.control(recovered)["remote"]
+        self.assertEqual((recovered_remote["repository_id"], recovered_remote["visibility"]), (123, "public"))
+
+    def test_public_remote_rejects_nonempty_repository(self):
+        self.snap()
+        remote = self.local_remote()
+        git = b.Git(remote)
+        git.run("fetch", str(self.vault), f"{b.TIP}:refs/heads/main")
+        before = git.refs()
+        repository = "fixture/public"
+        public = {"full_name": repository, "id": 123, "private": False, "visibility": "public"}
+        with self.github_api(public), patch.object(b, "remote_url", return_value=str(remote)):
+            with self.assertRaisesRegex(b.BackupError, "Initial remote must be empty"):
+                b.remote_set(self.vault, repository, public=True)
+        self.assertIsNone(b.control(self.vault)["remote"])
+        self.assertEqual(git.refs(), before)
+
+    def test_shared_public_remote_sync_and_recovery_preserve_unrelated_history(self):
+        remote = self.local_remote()
+        git = b.Git(remote)
+        tree = b.make_tree(git, {"README.md": ("100644", git.blob(b"Existing research repository\n"))})
+        unrelated = git.text("commit-tree", tree, data=b"Existing main history\n")
+        git.run("symbolic-ref", "HEAD", "refs/heads/main")
+        for ref in ("refs/heads/main", "refs/tags/v1", "refs/heads/lean-backup/paper-ii/checkpoints",
+                    "refs/tags/lean-backup/paper-ii/checkpoint-000000001", b.tag(1)):
+            git.run("update-ref", ref, unrelated)
+        before = git.refs()
+        repository = "fixture/public"
+        public = {"full_name": repository, "id": 123, "private": False, "visibility": "public"}
+        mode = ["--github", repository, "--public", "--namespace", "paper-i"]
+        recovered = self.base / "shared-recovered.git"
+        with (patch.object(b, "remote_url", return_value=str(remote)),
+              contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO())):
+            with self.github_api(public):
+                self.assertEqual(b.main(["remote-set", "--vault", str(self.vault), *mode]), 0)
+            with self.github_api(public, public, public):
+                first = self.snap()
+            with self.github_api(public, public, public):
+                second = self.snap(2)
+            self.assertEqual(first["status"], "REMOTE_VERIFIED")
+            self.assertEqual(second["status"], "REMOTE_VERIFIED")
+            self.assertEqual(second["remote"]["namespace"], "paper-i")
+            self.assertTrue(second["remote"]["fresh_restore_verified"])
+            after = {
+                **before,
+                "refs/heads/lean-backup/paper-i/checkpoints": second["commit"],
+                "refs/tags/lean-backup/paper-i/checkpoint-000000001": first["commit"],
+                "refs/tags/lean-backup/paper-i/checkpoint-000000002": second["commit"],
+            }
+            self.assertEqual(git.refs(), after)
+            self.assertEqual(git.text("symbolic-ref", "HEAD"), "refs/heads/main")
+            with self.github_api(public):
+                self.assertEqual(b.main(["recover", "--vault", str(recovered), "--github", repository,
+                                         "--public", "--namespace", "unknown-paper"]), 2)
+                self.assertFalse(recovered.exists())
+            with self.github_api(public):
+                self.assertEqual(b.main(["recover", "--vault", str(recovered), *mode,
+                                         "--expect-commit", first["commit"]]), 2)
+                self.assertFalse(recovered.exists())
+            with self.github_api(public, public):
+                self.assertEqual(b.main(["recover", "--vault", str(recovered), *mode,
+                                         "--expect-commit", second["commit"]]), 0)
+            self.assertEqual(b.Git(recovered).refs(), b.Git(self.vault).refs())
+            unrelated_object = b.Git(recovered).run("cat-file", "-e", unrelated, check=False)
+            self.assertNotEqual(unrelated_object.returncode, 0)
+            self.assertEqual(b.control(recovered)["remote"]["namespace"], "paper-i")
+            with self.github_api(public, public, public):
+                third = b.checkpoint(recovered, 3)
+            self.assertEqual(third["status"], "REMOTE_VERIFIED")
+            after["refs/heads/lean-backup/paper-i/checkpoints"] = third["commit"]
+            after["refs/tags/lean-backup/paper-i/checkpoint-000000003"] = third["commit"]
+            self.assertEqual(git.refs(), after)
+
+    def test_shared_registration_rejects_occupied_or_conflicting_namespace(self):
+        first = self.snap()
+        remote = self.local_remote()
+        git = b.Git(remote)
+        git.run("fetch", "--no-tags", str(self.vault), f"{b.TIP}:refs/heads/main")
+        repository = "fixture/public"
+        public = {"full_name": repository, "id": 123, "private": False, "visibility": "public"}
+        cases = [
+            ("refs/heads/lean-backup/paper-i/checkpoints", "Initial backup namespace must be empty"),
+            ("refs/tags/lean-backup/paper-i/checkpoint-000000001", "Initial backup namespace must be empty"),
+            ("refs/heads/lean-backup", "Unexpected or conflicting ref"),
+            ("refs/tags/lean-backup/paper-i", "Unexpected or conflicting ref"),
+            ("refs/tags/lean-backup/paper-i/checkpoint-typo", "Unexpected or conflicting ref"),
+            ("refs/heads/lean-backup/paper-i/checkpoints/child", "Unexpected or conflicting ref"),
+        ]
+        with patch.object(b, "remote_url", return_value=str(remote)):
+            for ref, message in cases:
+                with self.subTest(ref=ref), self.github_api(public):
+                    git.run("update-ref", ref, first["commit"])
+                    with self.assertRaisesRegex(b.BackupError, message):
+                        b.remote_set(self.vault, repository, public=True, namespace="paper-i")
+                    self.assertIsNone(b.control(self.vault)["remote"])
+                    git.run("update-ref", "-d", ref, first["commit"])
+            with patch.object(b, "github_identity") as identity:
+                with self.assertRaisesRegex(b.BackupError, "Backup namespace"):
+                    b.remote_set(self.vault, repository, public=True, namespace="../main")
+                identity.assert_not_called()
+
+    def test_shared_sync_and_recovery_reject_tampered_managed_refs(self):
+        self.snap()
+        remote = self.local_remote()
+        git = b.Git(remote)
+        repository = "fixture/public"
+        public = {"full_name": repository, "id": 123, "private": False, "visibility": "public"}
+        mode = {"public": True, "namespace": "paper-i"}
+        recovered = self.base / "recovered.git"
+        with patch.object(b, "remote_url", return_value=str(remote)):
+            with self.github_api(public):
+                b.remote_set(self.vault, repository, **mode)
+            with self.github_api(public, public, public):
+                second = self.snap(2)
+            tag = "refs/tags/lean-backup/paper-i/checkpoint-000000001"
+            git.run("update-ref", tag, second["commit"])
+            before = git.refs()
+            with self.github_api(public):
+                result = b.sync(self.vault)
+            self.assertFalse(result["remote_verified"])
+            self.assertIn("Remote checkpoint tag differs", result["error"])
+            self.assertEqual(git.refs(), before)
+            with self.github_api(public):
+                with self.assertRaisesRegex(b.BackupError, "Checkpoint ref missing or changed"):
+                    b.recover(repository, recovered, **mode)
+            self.assertFalse(recovered.exists())
+
+    def test_public_sync_rechecks_visibility_and_pinned_id_before_push(self):
+        remote = self.local_remote()
+        repository = "fixture/public"
+        public = {"full_name": repository, "id": 123, "private": False, "visibility": "public"}
+        self.snap()
+        with patch.object(b, "remote_url", return_value=str(remote)):
+            with self.github_api(public):
+                b.remote_set(self.vault, repository, public=True)
+            samples = [
+                ({**public, "private": True, "visibility": "private"}, "Remote must be PUBLIC"),
+                ({**public, "private": True}, "Remote must be PUBLIC"),
+                ({**public, "id": 999}, "repository was replaced"),
+            ]
+            for sample, message in samples:
+                with self.subTest(sample=sample), self.github_api(public, sample):
+                    result = b.sync(self.vault)
+                    self.assertFalse(result["remote_verified"])
+                    self.assertIn(message, result["error"])
+                    self.assertEqual(b.Git(remote).refs(), {})
+            with self.github_api(public, public, {**public, "private": True, "visibility": "private"}):
+                result = b.sync(self.vault)
+            self.assertFalse(result["remote_verified"])
+            self.assertIn("Remote must be PUBLIC", result["error"])
+            self.assertEqual(b.Git(remote).refs(), self.verified()["refs"])
+
     def test_push_failure_preserves_local_checkpoint_and_exit_three(self):
         self.remote_config()
         identity = {"private": True}
-        with patch.object(b, "private_remote", return_value=identity), patch.object(b, "remote_url", return_value=str(self.base / "absent.git")):
+        with patch.object(b, "check_remote_identity", return_value=identity), patch.object(b, "remote_url", return_value=str(self.base / "absent.git")):
             output = io.StringIO()
             with contextlib.redirect_stdout(output):
                 code = b.main(["checkpoint", "--vault", str(self.vault), "--id", "1"])
@@ -367,7 +563,7 @@ class RemoteTests(BackupTests):
         subprocess.run(["git", "init", "--template=", "-b", "checkpoints", str(remote)],
                        check=True, capture_output=True)
         self.remote_config()
-        with patch.object(b, "private_remote", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)):
+        with patch.object(b, "check_remote_identity", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)):
             result = self.snap()
         self.assertEqual(result["status"], "LOCAL_VERIFIED_REMOTE_UNCONFIRMED")
         self.assertIn("Git push failed", result["error"])
@@ -383,7 +579,7 @@ class RemoteTests(BackupTests):
             if args[0] == "push":
                 return subprocess.CompletedProcess([], 0, b"Everything up-to-date\n", b"")
             return original(git, *args, **kwargs)
-        with patch.object(b, "private_remote", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)), patch.object(b.Git, "run", fake_push):
+        with patch.object(b, "check_remote_identity", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)), patch.object(b.Git, "run", fake_push):
             result = b.sync(self.vault)
         self.assertFalse(result["remote_verified"])
         self.assertIn("refs were not confirmed", result["error"])
@@ -393,7 +589,7 @@ class RemoteTests(BackupTests):
         self.snap(2)
         remote = self.local_remote()
         self.remote_config()
-        with patch.object(b, "private_remote", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)):
+        with patch.object(b, "check_remote_identity", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)):
             self.assertEqual(b.sync(self.vault)["status"], "REMOTE_VERIFIED")
             rg = b.Git(remote)
             rg.run("update-ref", b.tag(1), rg.oid(b.tag(2)))
@@ -406,11 +602,11 @@ class RemoteTests(BackupTests):
         self.snap()
         remote = self.local_remote()
         self.remote_config()
-        with patch.object(b, "private_remote", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)), patch.object(b, "fetch_fresh", side_effect=b.BackupError("readback failed")):
+        with patch.object(b, "check_remote_identity", return_value={"private": True}), patch.object(b, "remote_url", return_value=str(remote)), patch.object(b, "fetch_fresh", side_effect=b.BackupError("readback failed")):
             first = b.sync(self.vault)
         self.assertFalse(first["remote_verified"])
         self.assertIn("readback failed", first["error"])
-        with patch.object(b, "private_remote", side_effect=[{"private": True}, b.BackupError("now public")]), patch.object(b, "remote_url", return_value=str(remote)):
+        with patch.object(b, "check_remote_identity", side_effect=[{"private": True}, {"private": True}, b.BackupError("now public")]), patch.object(b, "remote_url", return_value=str(remote)):
             second = b.sync(self.vault)
         self.assertFalse(second["remote_verified"])
         self.assertIn("now public", second["error"])

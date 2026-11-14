@@ -6,7 +6,7 @@
 
 원본을 읽기만 하고, 별도 bare Git 저장소에 체크포인트를 남기는 Python 도구입니다. 프로젝트, 고정 원고, 원고–Lean 대응 보고서·의존성 체인, 검증 로그, 지속 체크리스트를 함께 보존합니다. Git 커밋 생성만으로 성공을 판정하지 않습니다.
 
-도구 패키지에는 설정 예시, 33개 자동 테스트, 합성 프로젝트 두 버전과 복원 결과가 들어 있습니다. `RECOVERY_STATUS.md`, `IMPLEMENTATION_REPORT.md`는 실제 자료 업로드 이전의 초기 시험 기록입니다. 이후 보존한 실제 원고·프로젝트의 범위와 원격 확인 결과는 [checkpoint-import/README.md](checkpoint-import/README.md)를 보십시오.
+도구 패키지에는 설정 예시, 자동 테스트, 합성 프로젝트 두 버전과 복원 결과가 들어 있습니다. `RECOVERY_STATUS.md`, `IMPLEMENTATION_REPORT.md`는 실제 자료 업로드 이전의 초기 시험 기록입니다. 이후 보존한 실제 원고·프로젝트의 범위와 원격 확인 결과는 [checkpoint-import/README.md](checkpoint-import/README.md)를 보십시오.
 
 ## Public formalization archives — November 5, 2026
 
@@ -20,8 +20,6 @@ This repository was made public on November 5, 2026. The following archives pres
 - [Recovered checkpoint sources](original-checkpoint-sources-20261105/): 112 distinct historical source texts with provenance records.
 
 Historical sources may include incomplete attempts. The main theorem remains incomplete; consult the saved verification reports for the documented scope, retained assumptions, and unresolved obligations of individual results.
-
-The backup utility documented below currently supports private-repository synchronization only.
 
 ## 실행 환경과 빠른 시험
 
@@ -75,7 +73,7 @@ python3 lean_backup.py restore --vault /backup/paper-I.git --id 93 --destination
 
 입력 경로와 포함 정책은 이 버전에서 저장소별로 고정됩니다. 다른 컴퓨터로 옮겨 같은 저장소에 계속 저장하려면 원래 입력 경로를 별도로 준비해야 합니다. 새 경로에 복원하는 기능과 입력 경로 재설정 기능은 구분되며, 후자는 제공하지 않습니다.
 
-## 비공개 GitHub 백업
+## GitHub 원격 백업
 
 **이미 존재하는 빈 비공개 저장소**와 GitHub CLI 인증을 준비한 다음 실행합니다. 이 도구는 저장소를 생성하거나 공개 범위를 변경하지 않습니다. 개인 홈페이지나 프로필 저장소를 대상에 사용하지 않습니다.
 
@@ -84,21 +82,37 @@ python3 lean_backup.py remote-set --vault /backup/paper-I.git --github jaehwoo/l
 python3 lean_backup.py sync --vault /backup/paper-I.git
 ```
 
-`remote-set`은 설정만 저장하며 업로드 성공을 뜻하지 않습니다. GitHub REST 응답의 `private=true`, `visibility=private`, 전체 저장소 이름과 숫자 ID를 확인합니다. 그 ID를 고정하여 동일 이름으로 대체된 다른 저장소도 거부합니다. URL은 확인한 GitHub 신원으로부터 만들며 임의 remote alias를 받지 않습니다. 인증 정보는 설정·manifest·영수증에 넣지 않습니다. 전역 Git URL 재작성 설정을 사용하지 않으며, 도구 저장소에 추가된 로컬 재작성 설정도 거부합니다.
+`remote-set`은 설정만 저장하며 업로드 성공을 뜻하지 않습니다. 기본 설정은 GitHub REST 응답의 `private=true`와 `visibility=private`를 요구합니다. 전체 저장소 이름, 숫자 ID, 기대 공개 범위를 고정하여 저장소 교체나 공개 범위 변경을 감지합니다. 기존 설정에 공개 범위 필드가 없으면 비공개로 취급합니다. URL은 확인한 GitHub 신원으로부터 만들며 임의 remote alias를 받지 않습니다. 인증 정보는 설정·manifest·영수증에 넣지 않습니다. 전역 Git URL 재작성 설정을 사용하지 않으며, 도구 저장소에 추가된 로컬 재작성 설정도 거부합니다.
+
+공개 모드는 `remote-set --public`으로 활성화합니다. 이 모드는 `private=false`와 `visibility=public`을 모두 요구합니다. 이후 `sync`나 `checkpoint`가 체크포인트 이력 전체를 전송할 수 있으므로, 포함된 파일, 보고서, manifest에 기록된 원본 경로까지 공개 가능한지 먼저 확인하십시오.
+
+```bash
+python3 lean_backup.py remote-set --vault /backup/public-vault.git --github jaehwoo/lean-checkpoints-public --public
+python3 lean_backup.py sync --vault /backup/public-vault.git
+```
+
+`--namespace`를 생략하면 최초 등록에 빈 전용 저장소가 필요합니다. 기존 브랜치나 태그가 있는 저장소를 대상으로 쓸 때는 vault마다 비어 있는 백업 네임스페이스를 지정합니다.
+
+```bash
+python3 lean_backup.py remote-set --vault /backup/public-vault.git --github jaehwoo/Tarry-problem-lean-checkpoint-backup --public --namespace paper-i
+python3 lean_backup.py sync --vault /backup/public-vault.git
+```
+
+예시에서 관리하는 원격 참조는 `refs/heads/lean-backup/paper-i/checkpoints`와 `refs/tags/lean-backup/paper-i/checkpoint-*`입니다. 해당 범위에 기존 참조가 있거나 새 참조와 상위·하위 경로가 충돌하면 최초 등록을 거부합니다. 백업 전송은 이 범위의 브랜치와 체크포인트 태그만 갱신합니다. 이미 원격이 설정된 vault는 재등록할 수 없습니다.
 
 원격을 설정한 뒤에는 매 `checkpoint`가 자동으로 원격 검증까지 시도합니다. 실패하면 로컬 커밋은 남겨 두고 종료 코드 3을 반환합니다. 원인을 해결한 뒤 새 번호를 만들지 말고 같은 저장소에 `sync`를 실행하십시오. 자동 반복 재시도나 무한 대기는 없습니다. 외부 명령별 제한 시간은 구현에 명시되어 있습니다.
 
 원격 검증 절차는 다음과 같습니다.
 
-1. GitHub 비공개 여부와 고정 ID를 확인합니다.
+1. GitHub 저장소 이름, 고정 ID, 기대 공개 범위를 확인합니다.
 2. 기존 원격 참조가 로컬 이력과 충돌하지 않는지 검사합니다.
-3. 브랜치와 모든 체크포인트 태그를 `git push --atomic`으로 전송합니다. 강제 갱신이나 삭제를 하지 않습니다.
-4. `git ls-remote` 결과의 참조 이름과 커밋 ID 전체를 비교합니다.
+3. 저장소 신원과 공개 범위를 다시 확인한 뒤 브랜치와 모든 체크포인트 태그를 `git push --atomic`으로 전송합니다. 강제 갱신이나 삭제를 하지 않습니다.
+4. `git ls-remote` 결과에서 백업 범위의 모든 참조 이름과 커밋 ID를 비교합니다. 별도 네임스페이스가 없는 전용 저장소에서는 전체 참조를 비교합니다.
 5. 새 빈 저장소에 다시 fetch하고, 모든 이력의 `git fsck`, manifest, SHA-256, catalog를 검증합니다. 기존 로컬 객체나 alternates를 재사용하지 않습니다.
 6. 내려받은 최신 체크포인트를 새 디렉터리에 시험 복원하여 디스크에 쓴 바이트까지 확인합니다.
-7. 원격 참조와 비공개 여부를 다시 확인한 뒤에만 `REMOTE_VERIFIED`를 기록합니다.
+7. 원격 참조, 저장소 신원, 공개 범위를 다시 확인한 뒤에만 `REMOTE_VERIFIED`를 기록합니다.
 
-공개 전환을 막는 GitHub 관리 잠금을 설정하는 도구는 아닙니다. 외부 관리자가 확인 사이 또는 확인 후 공개 범위를 바꾸는 일까지 막지는 못합니다. 비공개 상태는 기록된 확인 시점의 사실입니다.
+GitHub의 공개 범위는 각 API 확인 시점의 상태입니다. 관리자가 확인 직후 공개 범위를 바꾸면 전송 후 검사에서 불일치를 감지할 수 있으며, 이 경우 이미 전송된 내용을 되돌리지는 않습니다.
 
 ## 결과와 종료 코드
 
@@ -106,7 +120,7 @@ python3 lean_backup.py sync --vault /backup/paper-I.git
 | --- | --- | --- |
 | `INITIALIZED_NO_CHECKPOINT`, `EMPTY_NO_CHECKPOINT` | 0 | 저장소 준비/검사만 완료. 보존된 체크포인트 없음 |
 | `LOCAL_VERIFIED` | 0 | 로컬 커밋·객체·파일 해시·참조·체크포인트 목록 검증 완료. `remote_verified=false` |
-| `REMOTE_CONFIGURED_NOT_UPLOADED` | 0 | 비공개 대상 설정 완료. 아직 업로드 확인 안 됨 |
+| `REMOTE_CONFIGURED_NOT_UPLOADED` | 0 | 원격 대상 설정 완료. 아직 업로드 확인 안 됨 |
 | `LOCAL_VERIFIED_REMOTE_UNCONFIRMED` | 3 | 로컬은 검증했으나 원격 저장 성공을 확인하지 못함 |
 | `REMOTE_VERIFIED` | 0 | 실제 설정된 GitHub 대상에 대해 위 7단계를 통과 |
 | `RESTORE_VERIFIED` | 0 | 지정 버전의 파일 복원과 바이트 비교 통과 |
@@ -124,6 +138,8 @@ python3 lean_backup.py recover --github jaehwoo/lean-checkpoints-private --vault
 python3 lean_backup.py list --vault /backup/recovered.git
 python3 lean_backup.py restore --vault /backup/recovered.git --id 93 --destination /backup/recovered-files-93
 ```
+
+공개 백업에서 복구하려면 `recover --public`을 지정하십시오. 네임스페이스를 사용한 경우 최초 등록 때와 같은 값(예시에서는 `--namespace paper-i`)을 전달합니다. 복구는 해당 백업 브랜치와 태그를 로컬의 표준 체크포인트 참조로 내려받습니다. 복구된 vault는 원격 설정을 저장하므로 이후 `checkpoint`에서도 같은 대상으로 자동 동기화를 시도합니다.
 
 `--expect-commit`은 사용자의 실제 영수증 값으로 바꾸십시오. 이를 생략하면 현재 원격에서 받은 이력의 내부 무결성만 검사하며, 과거에 마지막으로 저장한 상태와 일치하는지까지 확인할 수 없습니다. SHA-256과 Git 해시는 전자서명이 아니며, 이력·manifest·영수증을 모두 함께 바꾸는 행위까지 식별하지는 못합니다.
 

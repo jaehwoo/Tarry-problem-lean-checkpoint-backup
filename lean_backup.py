@@ -595,9 +595,10 @@ def restore_from(git, verified, number, destination):
     return result
 
 
-def github_identity(repository, expected_id=None):
+def github_identity(repository, expected_id=None, *, expected_visibility="private"):
     require(isinstance(repository, str) and re.fullmatch(r"[A-Za-z0-9_-]+/[A-Za-z0-9_.-]+", repository),
             "Use a GitHub OWNER/REPOSITORY name, not a URL or remote alias")
+    require(expected_visibility in ("private", "public"), "Invalid expected GitHub visibility")
     try:
         r = subprocess.run(["gh", "api", "--hostname", "github.com", f"repos/{repository}"],
                            stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=60, env=environment())
@@ -605,12 +606,14 @@ def github_identity(repository, expected_id=None):
         raise BackupError("Cannot check GitHub privacy; no transfer is permitted") from exc
     require(r.returncode == 0, "GitHub repository lookup failed; no transfer is permitted")
     obj = json.loads(r.stdout)
-    require(obj.get("private") is True and obj.get("visibility") == "private", "Remote must be PRIVATE")
+    is_private = expected_visibility == "private"
+    require(obj.get("private") is is_private and obj.get("visibility") == expected_visibility,
+            f"Remote must be {expected_visibility.upper()}")
     require(str(obj.get("full_name", "")).lower() == repository.lower(), "GitHub identity mismatch")
-    require(type(obj.get("id")) is int, "GitHub repository ID missing")
+    require(type(obj.get("id")) is int and obj["id"] > 0, "Invalid GitHub repository ID")
     require(expected_id is None or obj["id"] == expected_id, "GitHub repository was replaced or redirected")
     return {"github_repository": obj["full_name"], "repository_id": obj["id"],
-            "privacy_checked_at": now(), "private": True}
+            "privacy_checked_at": now(), "private": is_private, "visibility": expected_visibility}
 
 
 def remote_url(remote):
@@ -620,8 +623,12 @@ def remote_url(remote):
     return f"https://github.com/{name}.git"
 
 
-def private_remote(remote):
-    return github_identity(remote["github_repository"], remote["repository_id"])
+def check_remote_identity(remote):
+    # Vaults created before visibility was stored can only target private repositories.
+    visibility = remote.get("visibility", "private")
+    repository_id = remote["repository_id"]
+    require(type(repository_id) is int and repository_id > 0, "Invalid pinned GitHub repository ID")
+    return github_identity(remote["github_repository"], repository_id, expected_visibility=visibility)
 
 
 def remote_refs(git, url):
@@ -633,10 +640,38 @@ def remote_refs(git, url):
     return result
 
 
-def fetch_fresh(git, url, expected, where):
+def remote_layout(remote):
+    namespace = remote.get("namespace")
+    if namespace is None:
+        return TIP, TAG_PREFIX
+    require(isinstance(namespace, str) and re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", namespace),
+            "Backup namespace must use lowercase letters and digits separated by single hyphens")
+    return (f"refs/heads/lean-backup/{namespace}/checkpoints",
+            f"refs/tags/lean-backup/{namespace}/checkpoint-")
+
+
+def backup_remote_refs(git, url, layout):
+    refs = remote_refs(git, url)
+    if layout == (TIP, TAG_PREFIX):
+        return refs
+    tip, tag_prefix = layout
+    roots = (tip.rsplit("/", 1)[0], tag_prefix.rsplit("/", 1)[0])
+    managed = {}
+    for ref, oid in refs.items():
+        if ref == tip:
+            managed[TIP] = oid
+        elif ref.startswith(tag_prefix) and re.fullmatch(r"[0-9]{9}", ref[len(tag_prefix):]):
+            managed[TAG_PREFIX + ref[len(tag_prefix):]] = oid
+        elif any(ref == root or ref.startswith(root + "/") or root.startswith(ref + "/") for root in roots):
+            raise BackupError(f"Unexpected or conflicting ref in backup namespace: {ref}")
+    return managed
+
+
+def fetch_fresh(git, url, expected, where, layout=(TIP, TAG_PREFIX)):
+    tip, tag_prefix = layout
     fresh = new_git(where)
-    fresh.run("fetch", "--atomic", "--no-tags", url, f"{TIP}:{TIP}",
-              f"{TAG_PREFIX}*:{TAG_PREFIX}*", timeout=600)
+    fresh.run("fetch", "--atomic", "--no-tags", url, f"{tip}:{TIP}",
+              f"{tag_prefix}*:{TAG_PREFIX}*", timeout=600)
     checked = verify_all(fresh)
     require(checked["refs"] == expected, "Freshly fetched refs do not match the expected remote snapshot")
     return fresh, checked
@@ -644,41 +679,52 @@ def fetch_fresh(git, url, expected, where):
 
 def sync_core(git, remote, verified):
     require(bool(verified["records"]), "Nothing to sync")
-    before_privacy = private_remote(remote)
+    layout = remote_layout(remote)
+    check_remote_identity(remote)
     url, expected = remote_url(remote), verified["refs"]
-    before = remote_refs(git, url)
-    require(set(before) <= set(expected), "Remote has unrelated refs; use a dedicated empty backup repository")
+    before = backup_remote_refs(git, url, layout)
+    require(set(before) <= set(expected), "Remote backup refs include refs absent from the local vault")
     for ref, oid in before.items():
         if ref == TIP:
             require(oid in {v[0] for v in verified["manifests"].values()}, "Remote has diverged; refusing overwrite")
         else:
             require(expected[ref] == oid, "Remote checkpoint tag differs; refusing overwrite")
+    tip, tag_prefix = layout
+    refspecs = [f"{TIP}:{tip}", *(
+        f"{ref}:{tag_prefix}{ref[len(TAG_PREFIX):]}" for ref in sorted(expected) if ref != TIP)]
     # Plain, atomic push: no force, no mirror, no deletion and no lease override.
-    git.run("push", "--atomic", "--porcelain", url, *[f"{r}:{r}" for r in sorted(expected)], timeout=600)
-    require(remote_refs(git, url) == expected, "Push returned but remote refs were not confirmed")
+    before_privacy = check_remote_identity(remote)
+    git.run("push", "--atomic", "--porcelain", url, *refspecs, timeout=600)
+    require(backup_remote_refs(git, url, layout) == expected, "Push returned but remote refs were not confirmed")
     with tempfile.TemporaryDirectory(prefix=".remote-readback-", dir=git.path.parent) as td:
-        fresh, received = fetch_fresh(git, url, expected, Path(td) / "received.git")
+        fresh, received = fetch_fresh(git, url, expected, Path(td) / "received.git", layout)
         latest = verified["records"][-1]["checkpoint"]
         restore_result = restore_from(fresh, received, latest, Path(td) / "restored")
         # Includes the actual restore read commands, not only fetch verification.
         git.commands.extend(fresh.commands)
         require(restore_result["commit"] == verified["tip"], "Remote restore returned the wrong commit")
-    require(remote_refs(git, url) == expected, "Remote changed during readback verification")
-    after_privacy = private_remote(remote)
+    require(backup_remote_refs(git, url, layout) == expected, "Remote backup refs changed during readback verification")
+    after_privacy = check_remote_identity(remote)
     return {"github_repository": remote["github_repository"], "repository_id": remote["repository_id"],
+            "namespace": remote.get("namespace"),
             "before_privacy": before_privacy, "after_privacy": after_privacy,
             "verified_at": now(), "commit": verified["tip"], "fresh_restore_verified": True}
 
 
-def remote_set(vault, repository):
-    c = control(vault)
+def remote_set(vault, repository, *, public=False, namespace=None):
+    control(vault)
+    layout = remote_layout({"namespace": namespace})
     with lock(vault):
         c = control(vault)
         require(c["remote"] is None, "Remote already set; it cannot be silently repointed")
-        identity = github_identity(repository)
+        identity = github_identity(repository, expected_visibility="public" if public else "private")
         git = Git(vault)
         check_repo(git)
-        require(not remote_refs(git, remote_url(identity)), "Initial remote must be empty and dedicated to this vault")
+        empty_message = ("Initial backup namespace must be empty" if namespace is not None
+                         else "Initial remote must be empty and dedicated to this vault")
+        require(not backup_remote_refs(git, remote_url(identity), layout), empty_message)
+        if namespace is not None:
+            identity["namespace"] = namespace
         c["remote"] = identity
         atomic_json(vault / "backup-control.json", c)
         return {"status": "REMOTE_CONFIGURED_NOT_UPLOADED", "remote_verified": False, "remote": identity}
@@ -686,10 +732,10 @@ def remote_set(vault, repository):
 
 def sync(vault):
     c = control(vault)
-    require(c["remote"] is not None, "No private GitHub repository configured")
+    require(c["remote"] is not None, "No GitHub repository configured")
     with lock(vault):
         c = control(vault)
-        require(c["remote"] is not None, "No private GitHub repository configured")
+        require(c["remote"] is not None, "No GitHub repository configured")
         git = Git(vault)
         checked = verify_vault(git, c)
         result = {"status": "LOCAL_VERIFIED_REMOTE_UNCONFIRMED", "commit": checked["tip"], "remote_verified": False}
@@ -701,23 +747,26 @@ def sync(vault):
         return receipt(git, result)
 
 
-def recover(repository, vault, expected_commit=None):
+def recover(repository, vault, expected_commit=None, *, public=False, namespace=None):
     vault = no_symlinks(vault)
     require(not vault.exists() and vault.parent.is_dir(), "Recovery requires a new vault path")
-    identity = github_identity(repository)
+    layout = remote_layout({"namespace": namespace})
+    identity = github_identity(repository, expected_visibility="public" if public else "private")
+    if namespace is not None:
+        identity["namespace"] = namespace
     url = remote_url(identity)
     with tempfile.TemporaryDirectory(prefix=".recover-", dir=vault.parent) as td:
         scratch = new_git(Path(td) / "query.git")
-        refs = remote_refs(scratch, url)
+        refs = backup_remote_refs(scratch, url, layout)
         require(TIP in refs, "Remote has no backup branch")
         require(expected_commit is None or refs[TIP] == expected_commit, "Trusted receipt commit mismatch")
-        fresh, checked = fetch_fresh(scratch, url, refs, Path(td) / "vault.git")
+        fresh, checked = fetch_fresh(scratch, url, refs, Path(td) / "vault.git", layout)
         last = checked["records"][-1]["checkpoint"]
         policy = checked["manifests"][last][1]["policy"]
         detached(vault, policy)
         restore_from(fresh, checked, last, Path(td) / "trial-restore")
-        require(remote_refs(scratch, url) == refs, "Remote changed during recovery")
-        private_remote(identity)
+        require(backup_remote_refs(scratch, url, layout) == refs, "Remote backup refs changed during recovery")
+        check_remote_identity(identity)
         atomic_json(fresh.path / "backup-control.json", {"schema": SCHEMA, "policy": policy, "remote": identity,
                                                         "last_verified_commit": refs[TIP]})
         # Reserve a new destination; no original source or existing vault can be replaced.
@@ -750,7 +799,11 @@ def main(argv=None):
         sub.add_parser(name).add_argument("--vault", type=Path, required=True)
     p = sub.add_parser("restore"); p.add_argument("--vault", type=Path, required=True); p.add_argument("--id", type=int, required=True); p.add_argument("--destination", type=Path, required=True)
     p = sub.add_parser("remote-set"); p.add_argument("--vault", type=Path, required=True); p.add_argument("--github", required=True)
+    p.add_argument("--public", action="store_true", help="require a public remote and allow its future automatic syncs")
+    p.add_argument("--namespace", help="use a dedicated backup namespace inside the remote repository")
     p = sub.add_parser("recover"); p.add_argument("--vault", type=Path, required=True); p.add_argument("--github", required=True); p.add_argument("--expect-commit")
+    p.add_argument("--public", action="store_true", help="recover from a public remote and retain it for future syncs")
+    p.add_argument("--namespace", help="recover the backup in this remote namespace")
     args = parser.parse_args(argv)
     try:
         if args.command == "init":
@@ -758,11 +811,12 @@ def main(argv=None):
         elif args.command == "checkpoint":
             result = checkpoint(args.vault, args.id, args.allow_gap)
         elif args.command == "remote-set":
-            result = remote_set(absolute(args.vault), args.github)
+            result = remote_set(absolute(args.vault), args.github, public=args.public, namespace=args.namespace)
         elif args.command == "sync":
             result = sync(absolute(args.vault))
         elif args.command == "recover":
-            result = recover(args.github, absolute(args.vault), args.expect_commit)
+            result = recover(args.github, absolute(args.vault), args.expect_commit,
+                             public=args.public, namespace=args.namespace)
         else:
             vault = absolute(args.vault)
             c = control(vault)
