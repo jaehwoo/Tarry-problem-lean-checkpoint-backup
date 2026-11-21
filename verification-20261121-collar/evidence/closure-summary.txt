@@ -1,0 +1,4 @@
+public entries = 34
+rechecked revision bodies = 92
+transitive declarations scanned = 57733
+allowed axioms encountered = #[propext, Quot.sound, Classical.choice]

@@ -1,0 +1,10 @@
+PASS 12 fixed-scale losses, including 10^30; each gives B''>loss/L everywhere.
+PASS 36 interior flux clock checks, zero defect model, transverse parameter arbitrary.
+PASS horizontal cap B''=0 and original determinant=1.
+Exact identities: null slope, pivot, residual, collar map and Jacobians pass.
+ell=2^-4, raw area=1/8, candidate/whole-raw-area >= 1/8
+ell=2^-8, raw area=1/128, candidate/whole-raw-area >= 2
+ell=2^-16, raw area=1/32768, candidate/whole-raw-area >= 512
+ell=2^-32, raw area=1/2147483648, candidate/whole-raw-area >= 33554432
+PASS closed-endpoint coverage for singleton, shorter, equal and longer spans.
+PASS both signs immediately below, at and above the height cutoff.

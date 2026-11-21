@@ -1,0 +1,110 @@
+{
+  "revision": "f960e06346bb04825ba7096e0596f3cf5cef863d",
+  "repository": "https://github.com/jaehwoo/3-dimensional-Tarry-s-problem",
+  "manuscript": "manuscript/Complete_Affine_Jets_I.tex",
+  "tex_sha256": "e0516374dcb612a5eaa1cf39ca44fdefbb68083b3757c511a620b57d99e8764b",
+  "published_pdf_sha256": "58bee8f05187d81bd4295378492c8cd3770b7111864e3e40e6bbfe7665adb5e9",
+  "changed_lines": [
+    1046,
+    1048,
+    1057,
+    1062,
+    1063,
+    1065,
+    1070,
+    1075,
+    1077,
+    1082,
+    1106,
+    1110,
+    1210,
+    1223,
+    1225,
+    2657
+  ],
+  "correspondence": [
+    {
+      "heading": "Lemma 3.16",
+      "source_lines_inclusive": [
+        [
+          1045,
+          1060
+        ]
+      ],
+      "checked_content": "exact projected length, geometry, Borel data and original labels",
+      "declarations": [
+        "PaperI.CollarRevision.exact_geometric_cap",
+        "PaperI.CollarRevision.exact_seed_reaches",
+        "PaperI.CollarRevision.measurable_exact_short_family",
+        "PaperI.CommonNullAssignment.exact_cap_kernel"
+      ]
+    },
+    {
+      "heading": "Lemma 3.17",
+      "source_lines_inclusive": [
+        [
+          1062,
+          1078
+        ]
+      ],
+      "checked_content": "two width alternatives, original-frame ranges and physical point and shear factors",
+      "declarations": [
+        "PaperI.CollarRevision.signed_long_width",
+        "PaperI.CollarRevision.signed_width_inputs",
+        "PaperI.CommonNullAssignment.revised_centered_flux",
+        "PaperI.CollarRevision.positive_fraction_endpoint"
+      ]
+    },
+    {
+      "heading": "Lemma 3.18",
+      "source_lines_inclusive": [
+        [
+          1080,
+          1111
+        ]
+      ],
+      "checked_content": "one prepared set, original parent, scalar jets, raw centered derivatives and reciprocal Jacobian",
+      "declarations": [
+        "PaperI.CollarRevision.assemble_inner_cap",
+        "PaperI.CollarRevision.comparable_good",
+        "PaperI.CollarRevision.centered_first_jet",
+        "PaperI.CommonNullAssignment.exact_phase_centered_cap_with_budget",
+        "PaperI.CommonNullAssignment.revised_centered_flux"
+      ]
+    },
+    {
+      "heading": "Theorem 3.21, changed statement and Step 2",
+      "source_lines_inclusive": [
+        [
+          1210,
+          1210
+        ],
+        [
+          1223,
+          1225
+        ]
+      ],
+      "checked_content": "Borel partition, route for every active short component, actual projection and signed midpoint span, signed long branch",
+      "declarations": [
+        "PaperI.CollarRevision.cap_projection_derivative",
+        "PaperI.CollarRevision.short_corridor_span",
+        "PaperI.CommonNullAssignment.RevisedAssignmentReadout",
+        "PaperI.CommonNullAssignment.revised_common_null_assignment",
+        "PaperI.CommonNullAssignment.revised_assignment_from_rq"
+      ]
+    },
+    {
+      "heading": "Proposition 6.4, revised certificate input",
+      "source_lines_inclusive": [
+        [
+          2656,
+          2661
+        ]
+      ],
+      "checked_content": "original-label and original-window volume estimate for all stated normal orders",
+      "declarations": [
+        "PaperI.CollarVolume.revised_assigned_volume"
+      ]
+    }
+  ]
+}
