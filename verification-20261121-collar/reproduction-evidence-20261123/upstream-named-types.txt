@@ -1,0 +1,1792 @@
+Besicovitch.TauPackage.lastStep_nonempty	Lean.Expr.forallE
+  `α
+  (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_1)))
+  (Lean.Expr.forallE
+    (Lean.Name.mkNum `inst._@.Mathlib.MeasureTheory.Covering.Besicovitch._hyg 1541)
+    (Lean.Expr.app (Lean.Expr.const `MetricSpace [Lean.Level.param `u_1]) (Lean.Expr.bvar 0))
+    (Lean.Expr.forallE
+      `β
+      (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u)))
+      (Lean.Expr.forallE
+        (Lean.Name.mkNum `inst._@.Mathlib.MeasureTheory.Covering.Besicovitch._hyg 1545)
+        (Lean.Expr.app (Lean.Expr.const `Nonempty [Lean.Level.succ (Lean.Level.param `u)]) (Lean.Expr.bvar 0))
+        (Lean.Expr.forallE
+          `p
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.const `Besicovitch.TauPackage [Lean.Level.param `u, Lean.Level.param `u_1])
+              (Lean.Expr.bvar 1))
+            (Lean.Expr.bvar 3))
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.const `Set.Nonempty [Lean.Level.succ (Lean.Level.param `u)])
+              (Lean.Expr.const `Ordinal [Lean.Level.param `u]))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `setOf [Lean.Level.succ (Lean.Level.param `u)])
+                (Lean.Expr.const `Ordinal [Lean.Level.param `u]))
+              (Lean.Expr.lam
+                `i
+                (Lean.Expr.const `Ordinal [Lean.Level.param `u])
+                (Lean.Expr.app
+                  (Lean.Expr.const `Not [])
+                  (Lean.Expr.app
+                    (Lean.Expr.app (Lean.Expr.const `Exists [Lean.Level.succ (Lean.Level.param `u)]) (Lean.Expr.bvar 3))
+                    (Lean.Expr.lam
+                      `b
+                      (Lean.Expr.bvar 3)
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `And [])
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Not [])
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `Membership.mem [Lean.Level.param `u_1, Lean.Level.param `u_1])
+                                      (Lean.Expr.bvar 6))
+                                    (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_1]) (Lean.Expr.bvar 6)))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `Set.instMembership [Lean.Level.param `u_1])
+                                    (Lean.Expr.bvar 6)))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `Besicovitch.TauPackage.iUnionUpTo
+                                              [Lean.Level.param `u, Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 6))
+                                          (Lean.Expr.bvar 5))
+                                        (Lean.Expr.bvar 4))
+                                      (Lean.Expr.bvar 3))
+                                    (Lean.Expr.bvar 2))
+                                  (Lean.Expr.bvar 1)))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `Besicovitch.BallPackage.c
+                                        [Lean.Level.param `u, Lean.Level.param `u_1])
+                                      (Lean.Expr.bvar 4))
+                                    (Lean.Expr.bvar 6))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const
+                                          `Besicovitch.TauPackage.toBallPackage
+                                          [Lean.Level.param `u, Lean.Level.param `u_1])
+                                        (Lean.Expr.bvar 4))
+                                      (Lean.Expr.bvar 6))
+                                    (Lean.Expr.bvar 2)))
+                                (Lean.Expr.bvar 0)))))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.app (Lean.Expr.const `LE.le [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                              (Lean.Expr.const `Real.instLE []))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const
+                                          `Besicovitch.TauPackage.R
+                                          [Lean.Level.param `u, Lean.Level.param `u_1])
+                                        (Lean.Expr.bvar 6))
+                                      (Lean.Expr.bvar 5))
+                                    (Lean.Expr.bvar 4))
+                                  (Lean.Expr.bvar 3))
+                                (Lean.Expr.bvar 2))
+                              (Lean.Expr.bvar 1)))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `HMul.hMul [Lean.Level.zero, Lean.Level.zero, Lean.Level.zero])
+                                      (Lean.Expr.const `Real []))
+                                    (Lean.Expr.const `Real []))
+                                  (Lean.Expr.const `Real []))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `instHMul [Lean.Level.zero])
+                                    (Lean.Expr.const `Real []))
+                                  (Lean.Expr.const `Real.instMul [])))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const
+                                      `Besicovitch.TauPackage.τ
+                                      [Lean.Level.param `u, Lean.Level.param `u_1])
+                                    (Lean.Expr.bvar 4))
+                                  (Lean.Expr.bvar 6))
+                                (Lean.Expr.bvar 2)))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const
+                                      `Besicovitch.BallPackage.r
+                                      [Lean.Level.param `u, Lean.Level.param `u_1])
+                                    (Lean.Expr.bvar 4))
+                                  (Lean.Expr.bvar 6))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `Besicovitch.TauPackage.toBallPackage
+                                        [Lean.Level.param `u, Lean.Level.param `u_1])
+                                      (Lean.Expr.bvar 4))
+                                    (Lean.Expr.bvar 6))
+                                  (Lean.Expr.bvar 2)))
+                              (Lean.Expr.bvar 0)))))
+                      (Lean.BinderInfo.default))))
+                (Lean.BinderInfo.default))))
+          (Lean.BinderInfo.default))
+        (Lean.BinderInfo.instImplicit))
+      (Lean.BinderInfo.implicit))
+    (Lean.BinderInfo.instImplicit))
+  (Lean.BinderInfo.implicit)
+Cardinal.le_range_of_union_finset_eq_top	Lean.Expr.forallE
+  `α
+  (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_1)))
+  (Lean.Expr.forallE
+    `β
+    (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_2)))
+    (Lean.Expr.forallE
+      (Lean.Name.mkNum `inst._@.Mathlib.SetTheory.Cardinal.Pigeonhole._hyg 318)
+      (Lean.Expr.app (Lean.Expr.const `Infinite [Lean.Level.succ (Lean.Level.param `u_2)]) (Lean.Expr.bvar 0))
+      (Lean.Expr.forallE
+        `f
+        (Lean.Expr.forallE
+          (Lean.Name.mkNum `a._@.Mathlib.SetTheory.Cardinal.Pigeonhole._hyg 321)
+          (Lean.Expr.bvar 2)
+          (Lean.Expr.app (Lean.Expr.const `Finset [Lean.Level.param `u_2]) (Lean.Expr.bvar 2))
+          (Lean.BinderInfo.default))
+        (Lean.Expr.forallE
+          `w
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `Eq [Lean.Level.succ (Lean.Level.param `u_2)])
+                (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_2]) (Lean.Expr.bvar 2)))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `Set.iUnion [Lean.Level.param `u_2, Lean.Level.succ (Lean.Level.param `u_1)])
+                    (Lean.Expr.bvar 2))
+                  (Lean.Expr.bvar 3))
+                (Lean.Expr.lam
+                  `a
+                  (Lean.Expr.bvar 3)
+                  (Lean.Expr.app
+                    (Lean.Expr.app (Lean.Expr.const `Finset.toSet [Lean.Level.param `u_2]) (Lean.Expr.bvar 3))
+                    (Lean.Expr.app (Lean.Expr.bvar 1) (Lean.Expr.bvar 0)))
+                  (Lean.BinderInfo.default))))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `Top.top [Lean.Level.param `u_2])
+                (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_2]) (Lean.Expr.bvar 2)))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `CompleteLattice.toTop [Lean.Level.param `u_2])
+                  (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_2]) (Lean.Expr.bvar 2)))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `CompleteAtomicBooleanAlgebra.toCompleteLattice [Lean.Level.param `u_2])
+                    (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_2]) (Lean.Expr.bvar 2)))
+                  (Lean.Expr.app
+                    (Lean.Expr.const `Set.instCompleteAtomicBooleanAlgebra [Lean.Level.param `u_2])
+                    (Lean.Expr.bvar 2))))))
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `LE.le [Lean.Level.succ (Lean.Level.param `u_2)])
+                  (Lean.Expr.const `Cardinal [Lean.Level.param `u_2]))
+                (Lean.Expr.const `Cardinal.instLE [Lean.Level.param `u_2]))
+              (Lean.Expr.app (Lean.Expr.const `Cardinal.mk [Lean.Level.param `u_2]) (Lean.Expr.bvar 3)))
+            (Lean.Expr.app
+              (Lean.Expr.const `Cardinal.mk [Lean.Level.param `u_2])
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `Set.Elem [Lean.Level.param `u_2])
+                  (Lean.Expr.app (Lean.Expr.const `Finset [Lean.Level.param `u_2]) (Lean.Expr.bvar 3)))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `Set.range [Lean.Level.param `u_2, Lean.Level.succ (Lean.Level.param `u_1)])
+                      (Lean.Expr.app (Lean.Expr.const `Finset [Lean.Level.param `u_2]) (Lean.Expr.bvar 3)))
+                    (Lean.Expr.bvar 4))
+                  (Lean.Expr.bvar 1)))))
+          (Lean.BinderInfo.default))
+        (Lean.BinderInfo.default))
+      (Lean.BinderInfo.instImplicit))
+    (Lean.BinderInfo.implicit))
+  (Lean.BinderInfo.implicit)
+CauSeq.abv_pos_of_not_limZero	Lean.Expr.forallE
+  `α
+  (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_1)))
+  (Lean.Expr.forallE
+    `β
+    (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_2)))
+    (Lean.Expr.forallE
+      (Lean.Name.mkNum `inst._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 5350)
+      (Lean.Expr.app (Lean.Expr.const `Field [Lean.Level.param `u_1]) (Lean.Expr.bvar 1))
+      (Lean.Expr.forallE
+        (Lean.Name.mkNum `inst._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 5353)
+        (Lean.Expr.app (Lean.Expr.const `LinearOrder [Lean.Level.param `u_1]) (Lean.Expr.bvar 2))
+        (Lean.Expr.forallE
+          (Lean.Name.mkNum `inst._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 5356)
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app (Lean.Expr.const `IsStrictOrderedRing [Lean.Level.param `u_1]) (Lean.Expr.bvar 3))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `DivisionSemiring.toSemiring [Lean.Level.param `u_1])
+                  (Lean.Expr.bvar 3))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `Semifield.toDivisionSemiring [Lean.Level.param `u_1])
+                    (Lean.Expr.bvar 3))
+                  (Lean.Expr.app
+                    (Lean.Expr.app (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_1]) (Lean.Expr.bvar 3))
+                    (Lean.Expr.bvar 1)))))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `SemilatticeInf.toPartialOrder [Lean.Level.param `u_1])
+                (Lean.Expr.bvar 3))
+              (Lean.Expr.app
+                (Lean.Expr.app (Lean.Expr.const `Lattice.toSemilatticeInf [Lean.Level.param `u_1]) (Lean.Expr.bvar 3))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `DistribLattice.toLattice [Lean.Level.param `u_1]) (Lean.Expr.bvar 3))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `instDistribLatticeOfLinearOrder [Lean.Level.param `u_1])
+                      (Lean.Expr.bvar 3))
+                    (Lean.Expr.bvar 0))))))
+          (Lean.Expr.forallE
+            (Lean.Name.mkNum `inst._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 5359)
+            (Lean.Expr.app (Lean.Expr.const `Ring [Lean.Level.param `u_2]) (Lean.Expr.bvar 3))
+            (Lean.Expr.forallE
+              `abv
+              (Lean.Expr.forallE
+                (Lean.Name.mkNum `a._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 5362)
+                (Lean.Expr.bvar 4)
+                (Lean.Expr.bvar 6)
+                (Lean.BinderInfo.default))
+              (Lean.Expr.forallE
+                (Lean.Name.mkNum `inst._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 5365)
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `IsAbsoluteValue [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 6))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `DivisionSemiring.toSemiring [Lean.Level.param `u_1])
+                              (Lean.Expr.bvar 6))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `Semifield.toDivisionSemiring [Lean.Level.param `u_1])
+                                (Lean.Expr.bvar 6))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_1])
+                                  (Lean.Expr.bvar 6))
+                                (Lean.Expr.bvar 4)))))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `SemilatticeInf.toPartialOrder [Lean.Level.param `u_1])
+                            (Lean.Expr.bvar 6))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `Lattice.toSemilatticeInf [Lean.Level.param `u_1])
+                              (Lean.Expr.bvar 6))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `DistribLattice.toLattice [Lean.Level.param `u_1])
+                                (Lean.Expr.bvar 6))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `instDistribLatticeOfLinearOrder [Lean.Level.param `u_1])
+                                  (Lean.Expr.bvar 6))
+                                (Lean.Expr.bvar 3))))))
+                      (Lean.Expr.bvar 5))
+                    (Lean.Expr.app
+                      (Lean.Expr.app (Lean.Expr.const `Ring.toSemiring [Lean.Level.param `u_2]) (Lean.Expr.bvar 5))
+                      (Lean.Expr.bvar 1)))
+                  (Lean.Expr.bvar 0))
+                (Lean.Expr.forallE
+                  `f
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `CauSeq [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 7))
+                              (Lean.Expr.bvar 5))
+                            (Lean.Expr.bvar 4))
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.bvar 6))
+                      (Lean.Expr.bvar 2))
+                    (Lean.Expr.bvar 1))
+                  (Lean.Expr.forallE
+                    `hf
+                    (Lean.Expr.app
+                      (Lean.Expr.const `Not [])
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `CauSeq.LimZero [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                      (Lean.Expr.bvar 8))
+                                    (Lean.Expr.bvar 7))
+                                  (Lean.Expr.bvar 6))
+                                (Lean.Expr.bvar 5))
+                              (Lean.Expr.bvar 4))
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.bvar 2))
+                        (Lean.Expr.bvar 0)))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `Exists [Lean.Level.succ (Lean.Level.param `u_1)])
+                        (Lean.Expr.bvar 9))
+                      (Lean.Expr.lam
+                        `K
+                        (Lean.Expr.bvar 9)
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `And [])
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app (Lean.Expr.const `GT.gt [Lean.Level.param `u_1]) (Lean.Expr.bvar 10))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `Preorder.toLT [Lean.Level.param `u_1])
+                                      (Lean.Expr.bvar 10))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `PartialOrder.toPreorder [Lean.Level.param `u_1])
+                                        (Lean.Expr.bvar 10))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `SemilatticeInf.toPartialOrder [Lean.Level.param `u_1])
+                                          (Lean.Expr.bvar 10))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Lattice.toSemilatticeInf [Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 10))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `DistribLattice.toLattice [Lean.Level.param `u_1])
+                                              (Lean.Expr.bvar 10))
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const
+                                                  `instDistribLatticeOfLinearOrder
+                                                  [Lean.Level.param `u_1])
+                                                (Lean.Expr.bvar 10))
+                                              (Lean.Expr.bvar 7))))))))
+                                (Lean.Expr.bvar 0))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `OfNat.ofNat [Lean.Level.param `u_1])
+                                    (Lean.Expr.bvar 10))
+                                  (Lean.Expr.lit (Lean.Literal.natVal 0)))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `Zero.toOfNat0 [Lean.Level.param `u_1])
+                                    (Lean.Expr.bvar 10))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `MulZeroClass.toZero [Lean.Level.param `u_1])
+                                      (Lean.Expr.bvar 10))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const
+                                          `NonUnitalNonAssocSemiring.toMulZeroClass
+                                          [Lean.Level.param `u_1])
+                                        (Lean.Expr.bvar 10))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const
+                                            `NonUnitalNonAssocCommSemiring.toNonUnitalNonAssocSemiring
+                                            [Lean.Level.param `u_1])
+                                          (Lean.Expr.bvar 10))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `NonUnitalNonAssocCommRing.toNonUnitalNonAssocCommSemiring
+                                              [Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 10))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const
+                                                `NonUnitalCommRing.toNonUnitalNonAssocCommRing
+                                                [Lean.Level.param `u_1])
+                                              (Lean.Expr.bvar 10))
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const `CommRing.toNonUnitalCommRing [Lean.Level.param `u_1])
+                                                (Lean.Expr.bvar 10))
+                                              (Lean.Expr.app
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const `Field.toCommRing [Lean.Level.param `u_1])
+                                                  (Lean.Expr.bvar 10))
+                                                (Lean.Expr.bvar 8))))))))))))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `Exists [Lean.Level.succ (Lean.Level.zero)])
+                              (Lean.Expr.const `Nat []))
+                            (Lean.Expr.lam
+                              `i
+                              (Lean.Expr.const `Nat [])
+                              (Lean.Expr.forallE
+                                `j
+                                (Lean.Expr.const `Nat [])
+                                (Lean.Expr.forallE
+                                  (Lean.Name.mkNum `a._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 5415)
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `GE.ge [Lean.Level.zero])
+                                          (Lean.Expr.const `Nat []))
+                                        (Lean.Expr.const `instLENat []))
+                                      (Lean.Expr.bvar 0))
+                                    (Lean.Expr.bvar 1))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `LE.le [Lean.Level.param `u_1])
+                                          (Lean.Expr.bvar 13))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Preorder.toLE [Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 13))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `PartialOrder.toPreorder [Lean.Level.param `u_1])
+                                              (Lean.Expr.bvar 13))
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const `SemilatticeInf.toPartialOrder [Lean.Level.param `u_1])
+                                                (Lean.Expr.bvar 13))
+                                              (Lean.Expr.app
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const `Lattice.toSemilatticeInf [Lean.Level.param `u_1])
+                                                  (Lean.Expr.bvar 13))
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.app
+                                                    (Lean.Expr.const `DistribLattice.toLattice [Lean.Level.param `u_1])
+                                                    (Lean.Expr.bvar 13))
+                                                  (Lean.Expr.app
+                                                    (Lean.Expr.app
+                                                      (Lean.Expr.const
+                                                        `instDistribLatticeOfLinearOrder
+                                                        [Lean.Level.param `u_1])
+                                                      (Lean.Expr.bvar 13))
+                                                    (Lean.Expr.bvar 10))))))))
+                                      (Lean.Expr.bvar 3))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.bvar 7)
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Subtype.val [Lean.Level.succ (Lean.Level.param `u_2)])
+                                              (Lean.Expr.forallE
+                                                (Lean.Name.mkNum `a._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 1074)
+                                                (Lean.Expr.const `Nat [])
+                                                (Lean.Expr.bvar 13)
+                                                (Lean.BinderInfo.default)))
+                                            (Lean.Expr.lam
+                                              `f
+                                              (Lean.Expr.forallE
+                                                (Lean.Name.mkNum `a._@.Mathlib.Algebra.Order.CauSeq.Basic._hyg 1074)
+                                                (Lean.Expr.const `Nat [])
+                                                (Lean.Expr.bvar 13)
+                                                (Lean.BinderInfo.default))
+                                              (Lean.Expr.app
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.app
+                                                    (Lean.Expr.app
+                                                      (Lean.Expr.app
+                                                        (Lean.Expr.app
+                                                          (Lean.Expr.app
+                                                            (Lean.Expr.app
+                                                              (Lean.Expr.const
+                                                                `IsCauSeq
+                                                                [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                                              (Lean.Expr.bvar 14))
+                                                            (Lean.Expr.bvar 12))
+                                                          (Lean.Expr.bvar 11))
+                                                        (Lean.Expr.bvar 10))
+                                                      (Lean.Expr.bvar 13))
+                                                    (Lean.Expr.bvar 9))
+                                                  (Lean.Expr.bvar 8))
+                                                (Lean.Expr.bvar 0))
+                                              (Lean.BinderInfo.default)))
+                                          (Lean.Expr.bvar 5))
+                                        (Lean.Expr.bvar 1))))
+                                  (Lean.BinderInfo.default))
+                                (Lean.BinderInfo.default))
+                              (Lean.BinderInfo.default))))
+                        (Lean.BinderInfo.default)))
+                    (Lean.BinderInfo.default))
+                  (Lean.BinderInfo.implicit))
+                (Lean.BinderInfo.instImplicit))
+              (Lean.BinderInfo.implicit))
+            (Lean.BinderInfo.instImplicit))
+          (Lean.BinderInfo.instImplicit))
+        (Lean.BinderInfo.instImplicit))
+      (Lean.BinderInfo.instImplicit))
+    (Lean.BinderInfo.implicit))
+  (Lean.BinderInfo.implicit)
+FirstOrder.Ring.mvPolynomial_zeroLocus_definable	Lean.Expr.forallE
+  `ι
+  (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_1)))
+  (Lean.Expr.forallE
+    `K
+    (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_2)))
+    (Lean.Expr.forallE
+      (Lean.Name.mkNum `inst._@.Mathlib.ModelTheory.Algebra.Ring.Definability._hyg 10)
+      (Lean.Expr.app (Lean.Expr.const `Field [Lean.Level.param `u_2]) (Lean.Expr.bvar 0))
+      (Lean.Expr.forallE
+        (Lean.Name.mkNum `inst._@.Mathlib.ModelTheory.Algebra.Ring.Definability._hyg 13)
+        (Lean.Expr.app
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `FirstOrder.Ring.CompatibleRing [Lean.Level.param `u_2])
+                    (Lean.Expr.bvar 1))
+                  (Lean.Expr.app
+                    (Lean.Expr.app (Lean.Expr.const `Distrib.toAdd [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `NonUnitalNonAssocSemiring.toDistrib [Lean.Level.param `u_2])
+                        (Lean.Expr.bvar 1))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const
+                            `NonUnitalNonAssocCommSemiring.toNonUnitalNonAssocSemiring
+                            [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 1))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const
+                              `NonUnitalNonAssocCommRing.toNonUnitalNonAssocCommSemiring
+                              [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 1))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `NonUnitalCommRing.toNonUnitalNonAssocCommRing [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 1))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `CommRing.toNonUnitalCommRing [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 1))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `EuclideanDomain.toCommRing [Lean.Level.param `u_2])
+                                  (Lean.Expr.bvar 1))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `Field.toEuclideanDomain [Lean.Level.param `u_2])
+                                    (Lean.Expr.bvar 1))
+                                  (Lean.Expr.bvar 0))))))))))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `Distrib.toMul [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `NonUnitalNonAssocSemiring.toDistrib [Lean.Level.param `u_2])
+                      (Lean.Expr.bvar 1))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const
+                          `NonUnitalNonAssocCommSemiring.toNonUnitalNonAssocSemiring
+                          [Lean.Level.param `u_2])
+                        (Lean.Expr.bvar 1))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const
+                            `NonUnitalNonAssocCommRing.toNonUnitalNonAssocCommSemiring
+                            [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 1))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `NonUnitalCommRing.toNonUnitalNonAssocCommRing [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 1))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `CommRing.toNonUnitalCommRing [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 1))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `EuclideanDomain.toCommRing [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 1))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `Field.toEuclideanDomain [Lean.Level.param `u_2])
+                                  (Lean.Expr.bvar 1))
+                                (Lean.Expr.bvar 0))))))))))
+              (Lean.Expr.app
+                (Lean.Expr.app (Lean.Expr.const `NegZeroClass.toNeg [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `SubNegZeroMonoid.toNegZeroClass [Lean.Level.param `u_2])
+                    (Lean.Expr.bvar 1))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `SubtractionMonoid.toSubNegZeroMonoid [Lean.Level.param `u_2])
+                      (Lean.Expr.bvar 1))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `SubtractionCommMonoid.toSubtractionMonoid [Lean.Level.param `u_2])
+                        (Lean.Expr.bvar 1))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `AddCommGroup.toDivisionAddCommMonoid [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 1))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Ring.toAddCommGroup [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 1))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `DivisionRing.toRing [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 1))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `Field.toDivisionRing [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 1))
+                              (Lean.Expr.bvar 0))))))))))
+            (Lean.Expr.app
+              (Lean.Expr.app (Lean.Expr.const `AddMonoidWithOne.toOne [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `AddGroupWithOne.toAddMonoidWithOne [Lean.Level.param `u_2])
+                  (Lean.Expr.bvar 1))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `Ring.toAddGroupWithOne [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+                  (Lean.Expr.app
+                    (Lean.Expr.app (Lean.Expr.const `DivisionRing.toRing [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+                    (Lean.Expr.app
+                      (Lean.Expr.app (Lean.Expr.const `Field.toDivisionRing [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+                      (Lean.Expr.bvar 0)))))))
+          (Lean.Expr.app
+            (Lean.Expr.app (Lean.Expr.const `MulZeroClass.toZero [Lean.Level.param `u_2]) (Lean.Expr.bvar 1))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `NonUnitalNonAssocSemiring.toMulZeroClass [Lean.Level.param `u_2])
+                (Lean.Expr.bvar 1))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `NonUnitalNonAssocCommSemiring.toNonUnitalNonAssocSemiring [Lean.Level.param `u_2])
+                  (Lean.Expr.bvar 1))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `NonUnitalNonAssocCommRing.toNonUnitalNonAssocCommSemiring [Lean.Level.param `u_2])
+                    (Lean.Expr.bvar 1))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `NonUnitalCommRing.toNonUnitalNonAssocCommRing [Lean.Level.param `u_2])
+                      (Lean.Expr.bvar 1))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `CommRing.toNonUnitalCommRing [Lean.Level.param `u_2])
+                        (Lean.Expr.bvar 1))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `EuclideanDomain.toCommRing [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 1))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Field.toEuclideanDomain [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 1))
+                          (Lean.Expr.bvar 0))))))))))
+        (Lean.Expr.forallE
+          `S
+          (Lean.Expr.app
+            (Lean.Expr.const `Finset [Lean.Level.max (Lean.Level.param `u_2) (Lean.Level.param `u_1)])
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                  (Lean.Expr.bvar 3))
+                (Lean.Expr.bvar 2))
+              (Lean.Expr.app
+                (Lean.Expr.app (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2]) (Lean.Expr.bvar 2))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2]) (Lean.Expr.bvar 2))
+                  (Lean.Expr.bvar 1)))))
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const
+                        `Set.Definable
+                        [Lean.Level.zero, Lean.Level.zero, Lean.Level.param `u_2, Lean.Level.param `u_1])
+                      (Lean.Expr.bvar 3))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const
+                            `Set.iUnion
+                            [Lean.Level.param `u_2,
+                             Lean.Level.succ (Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2))])
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 4))
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 3))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 3))
+                              (Lean.Expr.bvar 2)))))
+                      (Lean.Expr.lam
+                        `p
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 4))
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 3))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 3))
+                              (Lean.Expr.bvar 2))))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `Set.iUnion [Lean.Level.param `u_2, Lean.Level.zero])
+                              (Lean.Expr.bvar 4))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `Membership.mem
+                                        [Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2),
+                                         Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2)])
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `MvPolynomial
+                                              [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 5))
+                                          (Lean.Expr.bvar 4))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 4))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                              (Lean.Expr.bvar 4))
+                                            (Lean.Expr.bvar 3)))))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `Finset
+                                        [Lean.Level.max (Lean.Level.param `u_2) (Lean.Level.param `u_1)])
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `MvPolynomial
+                                              [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 5))
+                                          (Lean.Expr.bvar 4))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 4))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                              (Lean.Expr.bvar 4))
+                                            (Lean.Expr.bvar 3))))))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const
+                                      `Finset.instMembership
+                                      [Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2)])
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 5))
+                                        (Lean.Expr.bvar 4))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 4))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 4))
+                                          (Lean.Expr.bvar 3))))))
+                                (Lean.Expr.bvar 1))
+                              (Lean.Expr.bvar 0)))
+                          (Lean.Expr.lam
+                            (Lean.Name.mkNum `h._@.Mathlib.ModelTheory.Algebra.Ring.Definability._hyg 33)
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `Membership.mem
+                                        [Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2),
+                                         Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2)])
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `MvPolynomial
+                                              [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 5))
+                                          (Lean.Expr.bvar 4))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 4))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                              (Lean.Expr.bvar 4))
+                                            (Lean.Expr.bvar 3)))))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `Finset
+                                        [Lean.Level.max (Lean.Level.param `u_2) (Lean.Level.param `u_1)])
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `MvPolynomial
+                                              [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 5))
+                                          (Lean.Expr.bvar 4))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 4))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                              (Lean.Expr.bvar 4))
+                                            (Lean.Expr.bvar 3))))))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const
+                                      `Finset.instMembership
+                                      [Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2)])
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 5))
+                                        (Lean.Expr.bvar 4))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 4))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 4))
+                                          (Lean.Expr.bvar 3))))))
+                                (Lean.Expr.bvar 1))
+                              (Lean.Expr.bvar 0))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `Set.image [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `Finsupp [Lean.Level.param `u_1, Lean.Level.zero])
+                                          (Lean.Expr.bvar 6))
+                                        (Lean.Expr.const `Nat []))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `MulZeroClass.toZero [Lean.Level.zero])
+                                          (Lean.Expr.const `Nat []))
+                                        (Lean.Expr.const `Nat.instMulZeroClass []))))
+                                  (Lean.Expr.bvar 5))
+                                (Lean.Expr.lam
+                                  `m
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `Finsupp [Lean.Level.param `u_1, Lean.Level.zero])
+                                        (Lean.Expr.bvar 6))
+                                      (Lean.Expr.const `Nat []))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `MulZeroClass.toZero [Lean.Level.zero])
+                                        (Lean.Expr.const `Nat []))
+                                      (Lean.Expr.const `Nat.instMulZeroClass [])))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `MvPolynomial.coeff
+                                              [Lean.Level.param `u_2, Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 6))
+                                          (Lean.Expr.bvar 7))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 6))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                              (Lean.Expr.bvar 6))
+                                            (Lean.Expr.bvar 5))))
+                                      (Lean.Expr.bvar 0))
+                                    (Lean.Expr.bvar 2))
+                                  (Lean.BinderInfo.default)))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `Finset.toSet [Lean.Level.param `u_1])
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `Finsupp [Lean.Level.param `u_1, Lean.Level.zero])
+                                        (Lean.Expr.bvar 6))
+                                      (Lean.Expr.const `Nat []))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `MulZeroClass.toZero [Lean.Level.zero])
+                                        (Lean.Expr.const `Nat []))
+                                      (Lean.Expr.const `Nat.instMulZeroClass []))))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const
+                                          `MvPolynomial.support
+                                          [Lean.Level.param `u_2, Lean.Level.param `u_1])
+                                        (Lean.Expr.bvar 5))
+                                      (Lean.Expr.bvar 6))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                                        (Lean.Expr.bvar 5))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 5))
+                                        (Lean.Expr.bvar 4))))
+                                  (Lean.Expr.bvar 1))))
+                            (Lean.BinderInfo.default)))
+                        (Lean.BinderInfo.default))))
+                  (Lean.Expr.const `FirstOrder.Language.ring []))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `FirstOrder.Ring.CompatibleRing.toStructure [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 3))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `Distrib.toAdd [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 3))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `NonUnitalNonAssocSemiring.toDistrib [Lean.Level.param `u_2])
+                                  (Lean.Expr.bvar 3))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const
+                                      `NonUnitalNonAssocCommSemiring.toNonUnitalNonAssocSemiring
+                                      [Lean.Level.param `u_2])
+                                    (Lean.Expr.bvar 3))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `NonUnitalNonAssocCommRing.toNonUnitalNonAssocCommSemiring
+                                        [Lean.Level.param `u_2])
+                                      (Lean.Expr.bvar 3))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const
+                                          `NonUnitalCommRing.toNonUnitalNonAssocCommRing
+                                          [Lean.Level.param `u_2])
+                                        (Lean.Expr.bvar 3))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `CommRing.toNonUnitalCommRing [Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 3))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `EuclideanDomain.toCommRing [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 3))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Field.toEuclideanDomain [Lean.Level.param `u_2])
+                                              (Lean.Expr.bvar 3))
+                                            (Lean.Expr.bvar 2))))))))))
+                          (Lean.Expr.app
+                            (Lean.Expr.app (Lean.Expr.const `Distrib.toMul [Lean.Level.param `u_2]) (Lean.Expr.bvar 3))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `NonUnitalNonAssocSemiring.toDistrib [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 3))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const
+                                    `NonUnitalNonAssocCommSemiring.toNonUnitalNonAssocSemiring
+                                    [Lean.Level.param `u_2])
+                                  (Lean.Expr.bvar 3))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const
+                                      `NonUnitalNonAssocCommRing.toNonUnitalNonAssocCommSemiring
+                                      [Lean.Level.param `u_2])
+                                    (Lean.Expr.bvar 3))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const
+                                        `NonUnitalCommRing.toNonUnitalNonAssocCommRing
+                                        [Lean.Level.param `u_2])
+                                      (Lean.Expr.bvar 3))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `CommRing.toNonUnitalCommRing [Lean.Level.param `u_2])
+                                        (Lean.Expr.bvar 3))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `EuclideanDomain.toCommRing [Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 3))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Field.toEuclideanDomain [Lean.Level.param `u_2])
+                                            (Lean.Expr.bvar 3))
+                                          (Lean.Expr.bvar 2))))))))))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `NegZeroClass.toNeg [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `SubNegZeroMonoid.toNegZeroClass [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 3))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `SubtractionMonoid.toSubNegZeroMonoid [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 3))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `SubtractionCommMonoid.toSubtractionMonoid [Lean.Level.param `u_2])
+                                  (Lean.Expr.bvar 3))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `AddCommGroup.toDivisionAddCommMonoid [Lean.Level.param `u_2])
+                                    (Lean.Expr.bvar 3))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `Ring.toAddCommGroup [Lean.Level.param `u_2])
+                                      (Lean.Expr.bvar 3))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `DivisionRing.toRing [Lean.Level.param `u_2])
+                                        (Lean.Expr.bvar 3))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `Field.toDivisionRing [Lean.Level.param `u_2])
+                                          (Lean.Expr.bvar 3))
+                                        (Lean.Expr.bvar 2))))))))))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `AddMonoidWithOne.toOne [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `AddGroupWithOne.toAddMonoidWithOne [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `Ring.toAddGroupWithOne [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 3))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `DivisionRing.toRing [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 3))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `Field.toDivisionRing [Lean.Level.param `u_2])
+                                  (Lean.Expr.bvar 3))
+                                (Lean.Expr.bvar 2)))))))
+                    (Lean.Expr.app
+                      (Lean.Expr.app (Lean.Expr.const `MulZeroClass.toZero [Lean.Level.param `u_2]) (Lean.Expr.bvar 3))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `NonUnitalNonAssocSemiring.toMulZeroClass [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const
+                              `NonUnitalNonAssocCommSemiring.toNonUnitalNonAssocSemiring
+                              [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const
+                                `NonUnitalNonAssocCommRing.toNonUnitalNonAssocCommSemiring
+                                [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 3))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `NonUnitalCommRing.toNonUnitalNonAssocCommRing [Lean.Level.param `u_2])
+                                (Lean.Expr.bvar 3))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `CommRing.toNonUnitalCommRing [Lean.Level.param `u_2])
+                                  (Lean.Expr.bvar 3))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.const `EuclideanDomain.toCommRing [Lean.Level.param `u_2])
+                                    (Lean.Expr.bvar 3))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `Field.toEuclideanDomain [Lean.Level.param `u_2])
+                                      (Lean.Expr.bvar 3))
+                                    (Lean.Expr.bvar 2))))))))))
+                  (Lean.Expr.bvar 1)))
+              (Lean.Expr.bvar 4))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `MvPolynomial.zeroLocus [Lean.Level.param `u_2, Lean.Level.param `u_1])
+                    (Lean.Expr.bvar 3))
+                  (Lean.Expr.bvar 2))
+                (Lean.Expr.bvar 4))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `Ideal.span [Lean.Level.max (Lean.Level.param `u_2) (Lean.Level.param `u_1)])
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 4))
+                        (Lean.Expr.bvar 3))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.bvar 2)))))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const
+                        `CommSemiring.toSemiring
+                        [Lean.Level.max (Lean.Level.param `u_2) (Lean.Level.param `u_1)])
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 4))
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                              (Lean.Expr.bvar 3))
+                            (Lean.Expr.bvar 2)))))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `MvPolynomial.commSemiring [Lean.Level.param `u_2, Lean.Level.param `u_1])
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.bvar 4))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.bvar 2))))))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `Finset.toSet [Lean.Level.max (Lean.Level.param `u_1) (Lean.Level.param `u_2)])
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `MvPolynomial [Lean.Level.param `u_1, Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 4))
+                        (Lean.Expr.bvar 3))
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `Semifield.toCommSemiring [Lean.Level.param `u_2])
+                          (Lean.Expr.bvar 3))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Field.toSemifield [Lean.Level.param `u_2])
+                            (Lean.Expr.bvar 3))
+                          (Lean.Expr.bvar 2)))))
+                  (Lean.Expr.bvar 0)))))
+          (Lean.BinderInfo.default))
+        (Lean.BinderInfo.instImplicit))
+      (Lean.BinderInfo.instImplicit))
+    (Lean.BinderInfo.implicit))
+  (Lean.BinderInfo.implicit)
+List.revzip_sublists	Lean.Expr.forallE
+  `α
+  (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u)))
+  (Lean.Expr.forallE
+    `l
+    (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 0))
+    (Lean.Expr.forallE
+      `l₁
+      (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 1))
+      (Lean.Expr.forallE
+        `l₂
+        (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 2))
+        (Lean.Expr.forallE
+          (Lean.Name.mkNum `a._@.Mathlib.Data.List.Sublists._hyg 1576)
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `Membership.mem [Lean.Level.param `u, Lean.Level.param `u])
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `Prod [Lean.Level.param `u, Lean.Level.param `u])
+                        (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))
+                      (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3))))
+                  (Lean.Expr.app
+                    (Lean.Expr.const `List [Lean.Level.param `u])
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `Prod [Lean.Level.param `u, Lean.Level.param `u])
+                        (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))
+                      (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))))
+                (Lean.Expr.app
+                  (Lean.Expr.const `List.instMembership [Lean.Level.param `u])
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `Prod [Lean.Level.param `u, Lean.Level.param `u])
+                      (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))
+                    (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `List.revzip [Lean.Level.param `u])
+                  (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `List.sublists [Lean.Level.param `u]) (Lean.Expr.bvar 3))
+                  (Lean.Expr.bvar 2))))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `Prod.mk [Lean.Level.param `u, Lean.Level.param `u])
+                    (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))
+                  (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 3)))
+                (Lean.Expr.bvar 1))
+              (Lean.Expr.bvar 0)))
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app (Lean.Expr.const `List.Perm [Lean.Level.param `u]) (Lean.Expr.bvar 4))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const
+                            `HAppend.hAppend
+                            [Lean.Level.param `u, Lean.Level.param `u, Lean.Level.param `u])
+                          (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 4)))
+                        (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 4)))
+                      (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 4)))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `instHAppendOfAppend [Lean.Level.param `u])
+                        (Lean.Expr.app (Lean.Expr.const `List [Lean.Level.param `u]) (Lean.Expr.bvar 4)))
+                      (Lean.Expr.app (Lean.Expr.const `List.instAppend [Lean.Level.param `u]) (Lean.Expr.bvar 4))))
+                  (Lean.Expr.bvar 2))
+                (Lean.Expr.bvar 1)))
+            (Lean.Expr.bvar 3))
+          (Lean.BinderInfo.default))
+        (Lean.BinderInfo.default))
+      (Lean.BinderInfo.default))
+    (Lean.BinderInfo.default))
+  (Lean.BinderInfo.implicit)
+MeasureTheory.Measure.exists_positive_of_not_mutuallySingular	Lean.Expr.forallE
+  `α
+  (Lean.Expr.sort (Lean.Level.succ (Lean.Level.param `u_1)))
+  (Lean.Expr.forallE
+    `m
+    (Lean.Expr.app (Lean.Expr.const `MeasurableSpace [Lean.Level.param `u_1]) (Lean.Expr.bvar 0))
+    (Lean.Expr.forallE
+      `μ
+      (Lean.Expr.app
+        (Lean.Expr.app (Lean.Expr.const `MeasureTheory.Measure [Lean.Level.param `u_1]) (Lean.Expr.bvar 1))
+        (Lean.Expr.bvar 0))
+      (Lean.Expr.forallE
+        `ν
+        (Lean.Expr.app
+          (Lean.Expr.app (Lean.Expr.const `MeasureTheory.Measure [Lean.Level.param `u_1]) (Lean.Expr.bvar 2))
+          (Lean.Expr.bvar 1))
+        (Lean.Expr.forallE
+          (Lean.Name.mkNum `inst._@.Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue._hyg 3200)
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `MeasureTheory.IsFiniteMeasure [Lean.Level.param `u_1])
+                (Lean.Expr.bvar 3))
+              (Lean.Expr.bvar 2))
+            (Lean.Expr.bvar 1))
+          (Lean.Expr.forallE
+            (Lean.Name.mkNum `inst._@.Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue._hyg 3203)
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `MeasureTheory.IsFiniteMeasure [Lean.Level.param `u_1])
+                  (Lean.Expr.bvar 4))
+                (Lean.Expr.bvar 3))
+              (Lean.Expr.bvar 1))
+            (Lean.Expr.forallE
+              `h
+              (Lean.Expr.app
+                (Lean.Expr.const `Not [])
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `MeasureTheory.Measure.MutuallySingular [Lean.Level.param `u_1])
+                        (Lean.Expr.bvar 5))
+                      (Lean.Expr.bvar 4))
+                    (Lean.Expr.bvar 3))
+                  (Lean.Expr.bvar 2)))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `Exists [Lean.Level.succ (Lean.Level.zero)])
+                  (Lean.Expr.const `NNReal []))
+                (Lean.Expr.lam
+                  `ε
+                  (Lean.Expr.const `NNReal [])
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `And [])
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.app (Lean.Expr.const `LT.lt [Lean.Level.zero]) (Lean.Expr.const `NNReal []))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `Preorder.toLT [Lean.Level.zero])
+                                (Lean.Expr.const `NNReal []))
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `PartialOrder.toPreorder [Lean.Level.zero])
+                                  (Lean.Expr.const `NNReal []))
+                                (Lean.Expr.const `instNNRealPartialOrder []))))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero])
+                                (Lean.Expr.const `NNReal []))
+                              (Lean.Expr.lit (Lean.Literal.natVal 0)))
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.const `Zero.toOfNat0 [Lean.Level.zero])
+                                (Lean.Expr.const `NNReal []))
+                              (Lean.Expr.const `instNNRealZero []))))
+                        (Lean.Expr.bvar 0)))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `Exists [Lean.Level.succ (Lean.Level.param `u_1)])
+                        (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_1]) (Lean.Expr.bvar 7)))
+                      (Lean.Expr.lam
+                        `E
+                        (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_1]) (Lean.Expr.bvar 7))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `And [])
+                            (Lean.Expr.app
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.const `MeasurableSet [Lean.Level.param `u_1])
+                                  (Lean.Expr.bvar 8))
+                                (Lean.Expr.bvar 7))
+                              (Lean.Expr.bvar 0)))
+                          (Lean.Expr.app
+                            (Lean.Expr.app
+                              (Lean.Expr.const `And [])
+                              (Lean.Expr.app
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `LT.lt [Lean.Level.zero])
+                                      (Lean.Expr.const `ENNReal []))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `Preorder.toLT [Lean.Level.zero])
+                                        (Lean.Expr.const `ENNReal []))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `PartialOrder.toPreorder [Lean.Level.zero])
+                                          (Lean.Expr.const `ENNReal []))
+                                        (Lean.Expr.const `ENNReal.instPartialOrder []))))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero])
+                                        (Lean.Expr.const `ENNReal []))
+                                      (Lean.Expr.lit (Lean.Literal.natVal 0)))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `Zero.toOfNat0 [Lean.Level.zero])
+                                        (Lean.Expr.const `ENNReal []))
+                                      (Lean.Expr.const `instENNRealZero []))))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const
+                                              `DFunLike.coe
+                                              [Lean.Level.succ (Lean.Level.param `u_1),
+                                               Lean.Level.succ (Lean.Level.param `u_1),
+                                               Lean.Level.succ (Lean.Level.zero)])
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const `MeasureTheory.Measure [Lean.Level.param `u_1])
+                                                (Lean.Expr.bvar 8))
+                                              (Lean.Expr.bvar 7)))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 8)))
+                                        (Lean.Expr.lam
+                                          (Lean.Name.mkNum `x._@.Mathlib.Data.FunLike.Basic._hyg 40)
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 8))
+                                          (Lean.Expr.const `ENNReal [])
+                                          (Lean.BinderInfo.default)))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `MeasureTheory.Measure.instFunLike [Lean.Level.param `u_1])
+                                          (Lean.Expr.bvar 8))
+                                        (Lean.Expr.bvar 7)))
+                                    (Lean.Expr.bvar 5))
+                                  (Lean.Expr.bvar 0))))
+                            (Lean.Expr.forallE
+                              `A
+                              (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.param `u_1]) (Lean.Expr.bvar 8))
+                              (Lean.Expr.forallE
+                                (Lean.Name.mkNum `a._@.Mathlib.MeasureTheory.Measure.Decomposition.Lebesgue._hyg 3259)
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.const `MeasurableSet [Lean.Level.param `u_1])
+                                      (Lean.Expr.bvar 9))
+                                    (Lean.Expr.bvar 8))
+                                  (Lean.Expr.bvar 0))
+                                (Lean.Expr.app
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.const `LE.le [Lean.Level.zero])
+                                        (Lean.Expr.const `ENNReal []))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.const `Preorder.toLE [Lean.Level.zero])
+                                          (Lean.Expr.const `ENNReal []))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `PartialOrder.toPreorder [Lean.Level.zero])
+                                            (Lean.Expr.const `ENNReal []))
+                                          (Lean.Expr.const `ENNReal.instPartialOrder []))))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const
+                                                  `HMul.hMul
+                                                  [Lean.Level.zero, Lean.Level.zero, Lean.Level.zero])
+                                                (Lean.Expr.const `ENNReal []))
+                                              (Lean.Expr.const `ENNReal []))
+                                            (Lean.Expr.const `ENNReal []))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `instHMul [Lean.Level.zero])
+                                              (Lean.Expr.const `ENNReal []))
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const `Distrib.toMul [Lean.Level.zero])
+                                                (Lean.Expr.const `ENNReal []))
+                                              (Lean.Expr.app
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const
+                                                    `NonUnitalNonAssocSemiring.toDistrib
+                                                    [Lean.Level.zero])
+                                                  (Lean.Expr.const `ENNReal []))
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.app
+                                                    (Lean.Expr.const
+                                                      `NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                                      [Lean.Level.zero])
+                                                    (Lean.Expr.const `ENNReal []))
+                                                  (Lean.Expr.app
+                                                    (Lean.Expr.app
+                                                      (Lean.Expr.const `Semiring.toNonAssocSemiring [Lean.Level.zero])
+                                                      (Lean.Expr.const `ENNReal []))
+                                                    (Lean.Expr.app
+                                                      (Lean.Expr.app
+                                                        (Lean.Expr.const `CommSemiring.toSemiring [Lean.Level.zero])
+                                                        (Lean.Expr.const `ENNReal []))
+                                                      (Lean.Expr.const `ENNReal.instCommSemiring []))))))))
+                                        (Lean.Expr.app (Lean.Expr.const `ENNReal.ofNNReal []) (Lean.Expr.bvar 3)))
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const
+                                                    `DFunLike.coe
+                                                    [Lean.Level.succ (Lean.Level.param `u_1),
+                                                     Lean.Level.succ (Lean.Level.param `u_1),
+                                                     Lean.Level.succ (Lean.Level.zero)])
+                                                  (Lean.Expr.app
+                                                    (Lean.Expr.app
+                                                      (Lean.Expr.const `MeasureTheory.Measure [Lean.Level.param `u_1])
+                                                      (Lean.Expr.bvar 10))
+                                                    (Lean.Expr.bvar 9)))
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                                  (Lean.Expr.bvar 10)))
+                                              (Lean.Expr.lam
+                                                (Lean.Name.mkNum `x._@.Mathlib.Data.FunLike.Basic._hyg 40)
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                                  (Lean.Expr.bvar 10))
+                                                (Lean.Expr.const `ENNReal [])
+                                                (Lean.BinderInfo.default)))
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const
+                                                  `MeasureTheory.Measure.instFunLike
+                                                  [Lean.Level.param `u_1])
+                                                (Lean.Expr.bvar 10))
+                                              (Lean.Expr.bvar 9)))
+                                          (Lean.Expr.bvar 7))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const `Inter.inter [Lean.Level.param `u_1])
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                                  (Lean.Expr.bvar 10)))
+                                              (Lean.Expr.app
+                                                (Lean.Expr.const `Set.instInter [Lean.Level.param `u_1])
+                                                (Lean.Expr.bvar 10)))
+                                            (Lean.Expr.bvar 1))
+                                          (Lean.Expr.bvar 2)))))
+                                  (Lean.Expr.app
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const
+                                                `DFunLike.coe
+                                                [Lean.Level.succ (Lean.Level.param `u_1),
+                                                 Lean.Level.succ (Lean.Level.param `u_1),
+                                                 Lean.Level.succ (Lean.Level.zero)])
+                                              (Lean.Expr.app
+                                                (Lean.Expr.app
+                                                  (Lean.Expr.const `MeasureTheory.Measure [Lean.Level.param `u_1])
+                                                  (Lean.Expr.bvar 10))
+                                                (Lean.Expr.bvar 9)))
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                              (Lean.Expr.bvar 10)))
+                                          (Lean.Expr.lam
+                                            (Lean.Name.mkNum `x._@.Mathlib.Data.FunLike.Basic._hyg 40)
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                              (Lean.Expr.bvar 10))
+                                            (Lean.Expr.const `ENNReal [])
+                                            (Lean.BinderInfo.default)))
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `MeasureTheory.Measure.instFunLike [Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 10))
+                                          (Lean.Expr.bvar 9)))
+                                      (Lean.Expr.bvar 8))
+                                    (Lean.Expr.app
+                                      (Lean.Expr.app
+                                        (Lean.Expr.app
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Inter.inter [Lean.Level.param `u_1])
+                                            (Lean.Expr.app
+                                              (Lean.Expr.const `Set [Lean.Level.param `u_1])
+                                              (Lean.Expr.bvar 10)))
+                                          (Lean.Expr.app
+                                            (Lean.Expr.const `Set.instInter [Lean.Level.param `u_1])
+                                            (Lean.Expr.bvar 10)))
+                                        (Lean.Expr.bvar 1))
+                                      (Lean.Expr.bvar 2))))
+                                (Lean.BinderInfo.default))
+                              (Lean.BinderInfo.default))))
+                        (Lean.BinderInfo.default))))
+                  (Lean.BinderInfo.default)))
+              (Lean.BinderInfo.default))
+            (Lean.BinderInfo.instImplicit))
+          (Lean.BinderInfo.instImplicit))
+        (Lean.BinderInfo.default))
+      (Lean.BinderInfo.default))
+    (Lean.BinderInfo.implicit))
+  (Lean.BinderInfo.implicit)
+StieltjesFunction.measure_singleton	Lean.Expr.forallE
+  `f
+  (Lean.Expr.const `StieltjesFunction [])
+  (Lean.Expr.forallE
+    `a
+    (Lean.Expr.const `Real [])
+    (Lean.Expr.app
+      (Lean.Expr.app
+        (Lean.Expr.app (Lean.Expr.const `Eq [Lean.Level.succ (Lean.Level.zero)]) (Lean.Expr.const `ENNReal []))
+        (Lean.Expr.app
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const
+                      `DFunLike.coe
+                      [Lean.Level.succ (Lean.Level.zero),
+                       Lean.Level.succ (Lean.Level.zero),
+                       Lean.Level.succ (Lean.Level.zero)])
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.const `MeasureTheory.Measure [Lean.Level.zero])
+                        (Lean.Expr.const `Real []))
+                      (Lean.Expr.const `Real.measurableSpace [])))
+                  (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.zero]) (Lean.Expr.const `Real [])))
+                (Lean.Expr.lam
+                  (Lean.Name.mkNum `x._@.Mathlib.Data.FunLike.Basic._hyg 40)
+                  (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                  (Lean.Expr.const `ENNReal [])
+                  (Lean.BinderInfo.default)))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `MeasureTheory.Measure.instFunLike [Lean.Level.zero])
+                  (Lean.Expr.const `Real []))
+                (Lean.Expr.const `Real.measurableSpace [])))
+            (Lean.Expr.app (Lean.Expr.const `StieltjesFunction.measure []) (Lean.Expr.bvar 1)))
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `Singleton.singleton [Lean.Level.zero, Lean.Level.zero])
+                  (Lean.Expr.const `Real []))
+                (Lean.Expr.app (Lean.Expr.const `Set [Lean.Level.zero]) (Lean.Expr.const `Real [])))
+              (Lean.Expr.app (Lean.Expr.const `Set.instSingletonSet [Lean.Level.zero]) (Lean.Expr.const `Real [])))
+            (Lean.Expr.bvar 0))))
+      (Lean.Expr.app
+        (Lean.Expr.const `ENNReal.ofReal [])
+        (Lean.Expr.app
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `HSub.hSub [Lean.Level.zero, Lean.Level.zero, Lean.Level.zero])
+                    (Lean.Expr.const `Real []))
+                  (Lean.Expr.const `Real []))
+                (Lean.Expr.const `Real []))
+              (Lean.Expr.app
+                (Lean.Expr.app (Lean.Expr.const `instHSub [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                (Lean.Expr.const `Real.instSub [])))
+            (Lean.Expr.app
+              (Lean.Expr.app (Lean.Expr.const `StieltjesFunction.toFun []) (Lean.Expr.bvar 1))
+              (Lean.Expr.bvar 0)))
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `Function.leftLim [Lean.Level.zero, Lean.Level.zero])
+                      (Lean.Expr.const `Real []))
+                    (Lean.Expr.const `Real []))
+                  (Lean.Expr.const `Real.linearOrder []))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `UniformSpace.toTopologicalSpace [Lean.Level.zero])
+                    (Lean.Expr.const `Real []))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `PseudoMetricSpace.toUniformSpace [Lean.Level.zero])
+                      (Lean.Expr.const `Real []))
+                    (Lean.Expr.const `Real.pseudoMetricSpace []))))
+              (Lean.Expr.app (Lean.Expr.const `StieltjesFunction.toFun []) (Lean.Expr.bvar 1)))
+            (Lean.Expr.bvar 0)))))
+    (Lean.BinderInfo.default))
+  (Lean.BinderInfo.default)

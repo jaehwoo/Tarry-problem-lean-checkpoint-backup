@@ -1,0 +1,13 @@
+test_01_restore_all_objects (__main__.ReproductionChecks.test_01_restore_all_objects) ... ok
+test_02_repeated_verification (__main__.ReproductionChecks.test_02_repeated_verification) ... ok
+test_03_wrong_archive (__main__.ReproductionChecks.test_03_wrong_archive) ... ok
+test_04_changed_source (__main__.ReproductionChecks.test_04_changed_source) ... ok
+test_05_changed_manifest (__main__.ReproductionChecks.test_05_changed_manifest) ... ok
+test_06_conflicting_object (__main__.ReproductionChecks.test_06_conflicting_object) ... ok
+test_07_comparison_rejects_changed_audit (__main__.ReproductionChecks.test_07_comparison_rejects_changed_audit) ... ok
+test_08_comparison_records_upstream_scan_difference (__main__.ReproductionChecks.test_08_comparison_records_upstream_scan_difference) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 6.352s
+
+OK

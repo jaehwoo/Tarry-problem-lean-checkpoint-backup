@@ -1,0 +1,7 @@
+{
+  "yaml_parsed": true,
+  "only_workflow_dispatch": true,
+  "contents_permission": "read",
+  "bash_steps_syntax_checked": 5,
+  "public_ci_triggered": false
+}

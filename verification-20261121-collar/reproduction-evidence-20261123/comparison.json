@@ -1,0 +1,9 @@
+{
+  "public_entries": 34,
+  "revision_bodies": 92,
+  "revision_fingerprints_match": true,
+  "project_modules_match": true,
+  "per_entry_axiom_reports_match": true,
+  "historical_transitive_declarations": 57733,
+  "fresh_transitive_declarations": 57715
+}

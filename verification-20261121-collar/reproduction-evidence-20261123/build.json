@@ -1,0 +1,388 @@
+{
+  "compiler": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "baseline_count": 1879,
+  "baseline_manifest_sha256": "aa4f7a569cfb1e2e632b28734177a6cc8b14ede5e2120792b2fa0d4eeb567425",
+  "source_manifest_sha256": "0a7f6fd8296dd19fd7be8e2cc2faef7996ba684323251988c7711dfae885518c",
+  "elapsed_seconds": 168.604,
+  "builds": [
+    {
+      "module": "Revision.CapInterval",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/CapInterval.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/CapInterval.lean"
+      ],
+      "seconds": 9.322,
+      "object_sha256": "e51536785b9dd897b5e5ba6940b2c64c0fbccda779a3ae0096fe183a9a5a918b"
+    },
+    {
+      "module": "Revision.FirstJet",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/FirstJet.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/FirstJet.lean"
+      ],
+      "seconds": 9.788,
+      "object_sha256": "7a2f5fccf29ae42216768f97e611a5cff3c907ceb329cc8a54c029121a67efd2"
+    },
+    {
+      "module": "Revision.Borel",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/Borel.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/Borel.lean"
+      ],
+      "seconds": 2.785,
+      "object_sha256": "84c9f52ee86e1936db57027923e2eb2e482e1e8762a744cc15d60ad07658e3e2"
+    },
+    {
+      "module": "Revision.FreshPreparation",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/FreshPreparation.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/FreshPreparation.lean"
+      ],
+      "seconds": 3.632,
+      "object_sha256": "20c5d277a0cf1c338f5c2c16b4e556e3f5ab6b6c996b519d6746bce6c899ed1d"
+    },
+    {
+      "module": "Revision.Physical",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/Physical.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/Physical.lean"
+      ],
+      "seconds": 2.854,
+      "object_sha256": "33e79e41cb91d35a33b56ea99f9362d4c296648a1e06044faeb6482c4d728abb"
+    },
+    {
+      "module": "Revision.CapRoute",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/CapRoute.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/CapRoute.lean"
+      ],
+      "seconds": 4.318,
+      "object_sha256": "2deea213daa20e2dd46b5017abb1e91a9f7790720e7286b1d5e576141bfaa74b"
+    },
+    {
+      "module": "Revision.LongPreparation",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/LongPreparation.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/LongPreparation.lean"
+      ],
+      "seconds": 11.934,
+      "object_sha256": "7447f42271f0a72a58ac19d40542b834862beb26000e793b69f2c2931a6b108c"
+    },
+    {
+      "module": "Revision.CenteredCap",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/CenteredCap.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/CenteredCap.lean"
+      ],
+      "seconds": 7.039,
+      "object_sha256": "698bf0a27356badca7c9e1796c89ca71a44f4cbec0caa5f6a9c39f9724e4eeb5"
+    },
+    {
+      "module": "Revision.CapKernel",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/CapKernel.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/CapKernel.lean"
+      ],
+      "seconds": 2.848,
+      "object_sha256": "e007a21ee151d7ad2d56657f9dbf39d42e2d4757ef03fafffc8f16aa74cefe4f"
+    },
+    {
+      "module": "Revision.FluxRoute",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/FluxRoute.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/FluxRoute.lean"
+      ],
+      "seconds": 8.144,
+      "object_sha256": "98a6cd8bd76656fccd075120947a6f51a521f99f2168776f30115cb5f6133045"
+    },
+    {
+      "module": "Revision.Projection",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/Projection.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/Projection.lean"
+      ],
+      "seconds": 5.164,
+      "object_sha256": "8f369babb37a8ce2cdd2ad93ecd313895f5e27585da5221513683156166397a2"
+    },
+    {
+      "module": "Revision.CenteredFlux",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/CenteredFlux.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/CenteredFlux.lean"
+      ],
+      "seconds": 4.408,
+      "object_sha256": "de3218bd5a9a8b23696e78eb89230ff7274d122e0b73082488118903e55f4c84"
+    },
+    {
+      "module": "Revision.CapProjection",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/CapProjection.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/CapProjection.lean"
+      ],
+      "seconds": 2.54,
+      "object_sha256": "07ab704ec33b27672c1d8289684d0ad92851c5606d18c93707465324a3ed74ba"
+    },
+    {
+      "module": "Revision.ShortGeometry",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/ShortGeometry.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/ShortGeometry.lean"
+      ],
+      "seconds": 3.457,
+      "object_sha256": "0c05c7361086568513c6617542465b44019b48a05af49e8c6732ddeaf8656a45"
+    },
+    {
+      "module": "Revision.SignedKernel",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/SignedKernel.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/SignedKernel.lean"
+      ],
+      "seconds": 3.449,
+      "object_sha256": "f29b37e0143062d9e0cdca50f18f91c9e2f680252fbbf775f8170520c03b4070"
+    },
+    {
+      "module": "Revision.Span",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/Span.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/Span.lean"
+      ],
+      "seconds": 4.227,
+      "object_sha256": "95dc141bc1e5f2fdc4f58e1b6c235efc2c354af9f40322f16ddab45263a64b09"
+    },
+    {
+      "module": "Revision.Widths",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/Widths.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/Widths.lean"
+      ],
+      "seconds": 3.975,
+      "object_sha256": "eacc5eca73bafc96e4b46153070cbbdd41f3b899676e7170305c12a906b7fa01"
+    },
+    {
+      "module": "Revision.SignedInputs",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/SignedInputs.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/SignedInputs.lean"
+      ],
+      "seconds": 2.624,
+      "object_sha256": "f35f74621ff3a403d70262afb3929970120d0a4456354b41988f4b88e8cebab5"
+    },
+    {
+      "module": "Revision.Assignment",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/Assignment.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/Assignment.lean"
+      ],
+      "seconds": 12.284,
+      "object_sha256": "abdefb2a94ef104d3a45c2b0171a629f6d4ff99df56814dfb62dd258bf2b2bf8"
+    },
+    {
+      "module": "Revision.OriginalWindow",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/OriginalWindow.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/OriginalWindow.lean"
+      ],
+      "seconds": 1.999,
+      "object_sha256": "0022980706f6cfa282a01e4cf5c1e49416bb93a775323b9462db397fe03af224"
+    },
+    {
+      "module": "Revision.Volume",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision/Volume.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision/Volume.lean"
+      ],
+      "seconds": 2.393,
+      "object_sha256": "e536d81441d0e0bca63e265d0543625e0ccb73d40ce790b80d239e410330e9b6"
+    },
+    {
+      "module": "Revision",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "-o",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/run-results/replay/build/Revision.olean",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Revision.lean"
+      ],
+      "seconds": 2.096,
+      "object_sha256": "ce212a30edcc0b7a420a79156c31d65ad7adcfdf28626c48379094dd6b395182"
+    },
+    {
+      "module": "audit",
+      "command": [
+        "/workspace/scratch/2981cb276a0a/paper-i-toolchain/bin/lean",
+        "--root=/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar",
+        "-t0",
+        "-j1",
+        "-DmaxHeartbeats=200000",
+        "-DmaxRecDepth=512",
+        "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/Audit.lean"
+      ],
+      "seconds": 108.177,
+      "object_sha256": null
+    }
+  ],
+  "upstream_search_paths": [
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/Cli/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/batteries/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/Qq/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/aesop/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/plausible/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/pinned-upstream/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/workspace/scratch/2fefafbc16d8/proposed-repository/verification-20261121-collar/.lake/build/lib/lean",
+    "/workspace/scratch/2981cb276a0a/paper-i-toolchain/lib/lean"
+  ]
+}

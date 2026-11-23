@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-23",
+  "status": "LOCAL_REPLAY_PASS_PUBLIC_CI_NOT_RUN",
+  "base_commit": "8bc3781e18bc13ec128e829011d42923fabcd91c",
+  "manuscript_revision": "f960e06346bb04825ba7096e0596f3cf5cef863d",
+  "inherited_project_objects": 1879,
+  "inherited_object_source_rebuild": false,
+  "archive_sha256": "38986e227e918049298bb32b6090f6fccfcd3e9de1f47f10a3d48cc876fefe5c",
+  "public_entries": 34,
+  "revision_bodies_kernel_rechecked": 92,
+  "preserved_cache_transitive_declarations": 57733,
+  "refreshed_cache_transitive_declarations": 57715,
+  "all_92_revision_fingerprints_match": true,
+  "all_68_per_entry_axiom_reports_match": true,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "upstream_named_theorem_bodies_differ": 7,
+  "upstream_named_type_representations_identical": true,
+  "upstream_named_types_sha256": "0776a88a4f98e3a643f8a6db501a8db7f160221b5ee54cafc7f6f5797c45415a",
+  "explanation": "Nineteen generated upstream proof helpers leave the reachable closure; one enters. Full diagnostic closure comparison is in the review bundle.",
+  "dependency_pins_checked": 9,
+  "integration_tests_passed": 8,
+  "proof_sources_modified": false,
+  "manuscript_modified": false,
+  "historical_evidence_modified": false,
+  "commit_created": false,
+  "published": false,
+  "public_ci_triggered": false,
+  "remaining_publication_condition": "Upload the exact original replay ZIP to release tag collar-replay-20261121 before manually dispatching the proposed workflow."
+}

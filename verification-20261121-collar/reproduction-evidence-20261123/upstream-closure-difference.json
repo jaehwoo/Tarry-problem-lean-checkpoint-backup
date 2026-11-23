@@ -1,0 +1,169 @@
+{
+  "historical_count": 57733,
+  "refreshed_count": 57715,
+  "historical_only": [
+    "Besicovitch.TauPackage.lastStep_nonempty._proof_25",
+    "Cardinal.le_range_of_union_finset_eq_top._proof_2",
+    "Cardinal.le_range_of_union_finset_eq_top._proof_3",
+    "CauSeq.abv_pos_of_not_limZero._proof_38",
+    "CauSeq.abv_pos_of_not_limZero._proof_39",
+    "CauSeq.abv_pos_of_not_limZero._proof_40",
+    "CauSeq.abv_pos_of_not_limZero._proof_41",
+    "CauSeq.abv_pos_of_not_limZero._proof_43",
+    "FirstOrder.Ring.mvPolynomial_zeroLocus_definable._proof_2",
+    "FirstOrder.Ring.mvPolynomial_zeroLocus_definable._proof_3",
+    "FirstOrder.Ring.mvPolynomial_zeroLocus_definable._proof_4",
+    "FirstOrder.Ring.mvPolynomial_zeroLocus_definable._proof_5",
+    "List.revzip_sublists._proof_10",
+    "List.revzip_sublists._proof_11",
+    "MeasureTheory.Measure.exists_positive_of_not_mutuallySingular._proof_7",
+    "MeasureTheory.Measure.exists_positive_of_not_mutuallySingular._proof_8",
+    "MeasureTheory.Measure.exists_positive_of_not_mutuallySingular._proof_9",
+    "StieltjesFunction.measure_singleton._proof_26",
+    "StieltjesFunction.measure_singleton._proof_27"
+  ],
+  "refreshed_only": [
+    "_private.Mathlib.ModelTheory.Semantics.0._proof_53"
+  ],
+  "changed_fingerprints": [
+    {
+      "name": "Besicovitch.TauPackage.lastStep_nonempty",
+      "old": [
+        "2287365783",
+        "some 596029614"
+      ],
+      "new": [
+        "2287365783",
+        "some 2591194313"
+      ]
+    },
+    {
+      "name": "Cardinal.le_range_of_union_finset_eq_top",
+      "old": [
+        "3291200821",
+        "some 511971526"
+      ],
+      "new": [
+        "3291200821",
+        "some 3432646223"
+      ]
+    },
+    {
+      "name": "CauSeq.abv_pos_of_not_limZero",
+      "old": [
+        "2302321408",
+        "some 3258676572"
+      ],
+      "new": [
+        "2302321408",
+        "some 3425960720"
+      ]
+    },
+    {
+      "name": "CauSeq.abv_pos_of_not_limZero._proof_37",
+      "old": [
+        "3343318553",
+        "some 2394920968"
+      ],
+      "new": [
+        "563549242",
+        "some 4281581252"
+      ]
+    },
+    {
+      "name": "FirstOrder.Ring.mvPolynomial_zeroLocus_definable",
+      "old": [
+        "2466312679",
+        "some 2867270835"
+      ],
+      "new": [
+        "2466312679",
+        "some 245296428"
+      ]
+    },
+    {
+      "name": "List.revzip_sublists",
+      "old": [
+        "2362518379",
+        "some 949354658"
+      ],
+      "new": [
+        "2362518379",
+        "some 3338510798"
+      ]
+    },
+    {
+      "name": "List.revzip_sublists._proof_6",
+      "old": [
+        "997207568",
+        "some 473641260"
+      ],
+      "new": [
+        "2769348013",
+        "some 3625080631"
+      ]
+    },
+    {
+      "name": "List.revzip_sublists._proof_7",
+      "old": [
+        "2938267554",
+        "some 2354560008"
+      ],
+      "new": [
+        "1312591297",
+        "some 1690592057"
+      ]
+    },
+    {
+      "name": "List.revzip_sublists._proof_8",
+      "old": [
+        "2769348013",
+        "some 3625080631"
+      ],
+      "new": [
+        "2367678546",
+        "some 1504788726"
+      ]
+    },
+    {
+      "name": "List.revzip_sublists._proof_9",
+      "old": [
+        "1312591297",
+        "some 1690592057"
+      ],
+      "new": [
+        "432132252",
+        "some 2593926582"
+      ]
+    },
+    {
+      "name": "MeasureTheory.Measure.exists_positive_of_not_mutuallySingular",
+      "old": [
+        "499478976",
+        "some 596108788"
+      ],
+      "new": [
+        "499478976",
+        "some 4061548955"
+      ]
+    },
+    {
+      "name": "StieltjesFunction.measure_singleton",
+      "old": [
+        "555836304",
+        "some 4097841495"
+      ],
+      "new": [
+        "555836304",
+        "some 3524004855"
+      ]
+    }
+  ],
+  "changed_type_fingerprints": [
+    "CauSeq.abv_pos_of_not_limZero._proof_37",
+    "List.revzip_sublists._proof_6",
+    "List.revzip_sublists._proof_7",
+    "List.revzip_sublists._proof_8",
+    "List.revzip_sublists._proof_9"
+  ]
+}

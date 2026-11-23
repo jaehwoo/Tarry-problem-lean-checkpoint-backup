@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "38986e227e918049298bb32b6090f6fccfcd3e9de1f47f10a3d48cc876fefe5c",
+  "baseline_manifest_sha256": "aa4f7a569cfb1e2e632b28734177a6cc8b14ede5e2120792b2fa0d4eeb567425",
+  "source_manifest_sha256": "0a7f6fd8296dd19fd7be8e2cc2faef7996ba684323251988c7711dfae885518c",
+  "object_count": 1879,
+  "mode": "restored-from-original-archive",
+  "scope": "Retained inherited objects, not a source rebuild of inherited theorems"
+}

@@ -18,3 +18,5 @@ This package checks the revised parts of Lemmas 3.16–3.18 and Theorem 3.21 and
 The fresh Linux build checked 34 public entries. The kernel rechecked 92 revision bodies and the dependency audit traversed 57,733 declarations. The axiom output contains only `propext`, `Classical.choice`, and `Quot.sound`. [Axiom output](evidence/audit.log) · [Build commands and hashes](evidence/build.json)
 
 The public checkpoint contains the revised Lean sources, audit and dependency manifest. To replay, place the 1,879 matching inherited objects under `baseline/PaperILean/`, install the pinned mathlib dependencies with `lake exe cache get`, and run `python3 replay.py --out replay-run`. The accompanying full replay ZIP contains those inherited objects. Its SHA-256 is `38986e227e918049298bb32b6090f6fccfcd3e9de1f47f10a3d48cc876fefe5c`.
+
+See [REPRODUCE.md](REPRODUCE.md) for the archive download, checksum-checked restoration, manual GitHub Actions workflow, and the exact distinction between recompiling this revision and rebuilding inherited proofs.
